@@ -1,0 +1,162 @@
+\chapter{Machine Learning}
+\label{ch:machine_learning}
+%
+This chapter will provide background on the topic of machine learning, whose role in this thesis was outlined in the introduction chapter. Our preferred definition of ``machine learning research'' was also given in that chapter, but it is worth repeating here:
+%
+\begin{quote}
+Machine learning research seeks to develop computer systems that automatically improve their performance through experience (Mitchell et al., 1990).
+\end{quote}
+%	
+If we state this slightly differently, \emph{machine learning} is concerned with developing and analyzing algorithms used by computer systems that automatically improve their performance through experience. An earlier definition, widely attributed to Arthur Samuel, is that machine learning is ``the field of study that gives computers the ability to learn without being
+explicitly programmed''\footnote{We have been unable to recover the original source of this quote. Some references cite (Samuel, 1959), but the quote is not found in reprints of this article.}. This definition also implies \emph{automatic} learning, but it suffers from the problem that the meaning of ``learn'' is not precisely defined.
+
+As is the case in some fields, the discipline known as ``machine learning'' has drifted somewhat from its original defining aims. This will become more evident later on in this chapter when we describe the major types of machine learning problems that have developed over the past 30+ years.
+
+\section{Computer Chess: An Example Learning Task}
+\label{sec:chess}
+
+First, by way of example, we present a classic programming task that could possibly be achieved using machine learning. The task is to create a computer program that can play chess against a human\footnote{Some of the earliest works in machine learning and artificial intelligence involved computer-playing games, such as chess and checkers. See (Turing, ????, Shannon, 1950; Samuel, 1959)}. If the task requirement were only to ``play'' chess, then the programming task would be rather trivial and would definitely not require machine learning. The programmer would simply have to encode all the rules of chess (namely how the pieces move and what happens as a result of the moves, such as captures) and then implement a random move selection function that obeys these rules. This program, undoubtedly, would be a very terrible chess player, so we add the additional requirement that the program should try to \emph{beat} a human in chess. This is now a formidable programming task, and one that has been considered by computer scientists at least as far back as Claude Shannon's 1950 paper on the subject (Shannon, 1950). Perhaps the most famous chess-playing program was initiated at Carnegie Mellon University in 1985 and later transitioned to IBM, culminating in the computer Deep Blue\textsuperscript{\textregistered} beating the chess master Garry Kasparov in a six-game match-up in 1997\footnote{We note that Kasparov has accused IBM of cheating by letting human players intervene in one of the matches.}. Nowadays, similarly advanced chess programs can run on a personal computer or even a smartphone or tablet. A full literature review of computer chess is beyond the scope of this thesis, but we refer the interested reader to (Hsu, 2002), (Spicer and Tashev, 2006), and (Russell and Norwig, 2010) Our intention in this section is to use this chess example as a way to clarify our understanding of the aim of machine learning.
+
+\subsection{Rule-Based Methods}
+\label{sec:rule-based}
+
+Let us consider the ways in which we could go about this programming task. One way would be to extend the encoding of the rules of chess to encoding tactics and strategies of great chess masters, attempting to cover as many possible situations in chess, also known as \emph{chess positions}, as we can\footnote{We could have chosen the phrase ``contexts in chess'', rather than ``situations in chess'' but this seems a bit awkward.}. Basically these strategy rules would instruct the computer what a chess master would do in each of the possible situations. This is essentially the approach that Deep Blue programmers took. Combined with the ability to evaluate hundreds of millions of chess positions per second, these rules eventually succeeded in beating the best human chess players.
+
+This approach, however, hardly fits the above definition of machine learning. In fact, to create Deep Blue required many years of highly ``manual'' work of programmers refining the set of strategy rules, testing the program against human players, and repeating this process. Thus, it falls short of the aim of \emph{automatically} improving performance. It is not very different from a pure \emph{brute force} method, where a computer would pre-compute all of the possible chess positions and computationally ``play'' each possible game to its conclusion, keeping a dictionary consisting of all the pathways to an end of match.
+
+In a brute force dictionary approach, also known as \emph{rote learning}, the computer program would only select moves which belong to the set of ``winning'' entries in the dictionary (wins for the computer, that is)\footnote{Note that this method is not very different from the so-called ``dictionary attack'' against a log-in password.}. (Shannon, 1950) calculated that such a dictionary would require roughly 10\textsuperscript{43} entries. Clearly even a very efficient database containing this dictionary would require many Google-scale data warehouses, and performing look-ups in this database would be prohibitively expensive. Nonetheless, it is worth considering whether such an approach falls under the definition of machine learning. Our view is that a brute force method could be considered within the definition of machine learning, provided that it does not require a human programmer to update the program during or after the learning process.
+
+\subsection{A Trivial Chess Learning Program}
+\label{sec:trivial-learning}
+
+A trivial \emph{machine learning chess program} could work as follows: The program would simply play against itself and then at the end of the game record which side won (or whether there was a draw), as well as the set of moves in the game. Let us call one side \emph{ComputerWhite} and the other \emph{ComputerBlack}, according to the convention. As the games are played, \emph{ComputerWhite} would first look-up whether the current position matches any of the records in the database and if the record corresponds to a win for \emph{ComputerWhite}, then it would play the next move listed in the record.  Otherwise, it would choose a valid move at random. \emph{ComputerBlack} would do exactly the same, and the program would continue until the game's conclusion. Another very similar version of the program would operate in the same way but allow for the other side to be played by a human. This program would not be very good when the size of the database is small, and furthermore it would learn very slowly because the records in the database would be generated by random sampling (without replacement) from the set of all possible chess games. Nonetheless, it would fit our definition of machine learning.
+
+It is probably fair to say that for most computing tasks, writing a trivial machine learning algorithm is fairly easy, as in the example given above. Therefore, what the discipline of machine learning is mainly concerned about is improving the learning rate and performance rate beyond that of a trivial algorithm or ideally beyond any state-of-the-art algorithm. There are, of course, other important aspects as well, such as finding algorithms that use minimal amounts of memory or those that can produce simple/efficient models of the learned task. Learning rate and performance, however, are usually the most important aspects of a machine learning algorithm\footnote{Note that performance can be measured in different ways, a topic which we will return to in Section 3.X. In the chess example given above, a good performance metric might be the percentage of games that the computer wins against a randomly selected human player or perhaps the average Federation Internationale des Echecs (FIDE) rating of the human players it has beaten.}.
+
+\section{Modern Machine Learning}
+\label{sec:machine-learning-learning}
+
+In this section, we describe the modern notion of machine learning, which as we have already alluded to, has developed into something a bit different from what the early. That is, today there is today a well-established community of machine learning researchers and practitioners whose focus is not entirely the same as what Mitchell, Samuel, or machine learning pioneers had. Our intention is not to denigrate the discipline of machine learning as a whole but rather to emphasize those aspects of the discipline which fall short of the original goals of machine learning. 
+
+Let us first present a few other definitions of machine learning found in recent textbooks on the subject:
+
+Alpaydin: ``Machine learning is programming computers to optimize a performance criterion using example data or past experience.''
+Bishop: 
+
+
+This definition appears quite close to that of (Mitchell et al., 1990), if we assume that ``example data'' can be generated automatically. This may be true in some cases, but in most methods described in (Alpaydin, 2010) the example data are data that have been manually labelled with the ``correct'' value relative to the performance criterion that is to be optimized. Although programs using such methods can improve their performance by obtaining more example data, if the example data cannot be generated automatically, then the method would fall short of (Mitchell et al., 1990).
+
+Another recent definition is given by (Murphy, 2012):
+
+Murphy: ``a set of methods that can automatically detect patterns in data, and then use the uncovered patterns to predict future data, or to perform other kinds of decision making under uncertainty (such as planning how to collect more data!).''
+
+This definition includes the ``automatic'' aspect, similar to (Mitchell et al., 1990)
+
+This group of methods is known as \emph{supervised learning}, and it will be discussed further in Section~\ref{sec:supervised-learning}. Similarly, many of the other methods described in (Alpaydin, 2010) are focused on discovering structure in a set of data. The ``learning task'' is to find the structure in a given set of data, but this structure is inherently dependent on the dataset itself, so this task is not a machine learning task in the sense of (Mitchell et al., 1990). Such methods fall under the category known as \emph{unsupervised learning}, which will be discussed in greater detail in Section~\ref{sec:unsupervised-learning}.
+
+Mitchell also provides a precise definition of the concept of learning in the context of machine learning:
+%
+\begin{quote}
+A computer program is said to \emph{learn} from experience \emph{E} with respect to some class of tasks \emph{T} and performance measure \emph{P}, if its performance at tasks in \emph{T}, as measured by \emph{P}, improves with experience \emph{E}.
+\end{quote}
+%
+%
+%
+
+% adding economic aspects to this definition, i.e. cost of learning and value produced by tasks...?
+
+Many learning tasks can be expressed in terms of learning a mathematical function between the inputs to the task and the desired outputs. In other words, the learning task is to find some optimal mapping between the inputs and the possible outputs. This can be expressed as follows:
+%
+\begin{equation}
+f : \mathbf{x} \rightarrow y
+\end{equation}where $\mathbf{x}$ is either a vector of inputs of arbitrary dimension and $y \in Y=\{y_1, y_2,...y_m\}$, corresponding to the set of all possible outputs (which may or may not be finite). A simple physical example would be a spring scale that maps a displacement length to a weight. In this example, we know from Hooke's law that the function is linear and given by the spring constant $k$, but in many unsolved problems the form of the function is unknown, as well as its parameters. In some cases, the learning task may be framed in probabilistic terms, where the output expresses the conditional probability $p(y|\mathbf{x})$. This distribution, $p(y|\mathbf{x})$, may be intrinsically important to the application at hand, or it may be an intermediate step towards determining the most likely value of $y$ according to:
+%
+\begin{equation}
+y = \argmax_{y \in Y} p (y|\mathbf{x})
+\end{equation}
+%
+Machine learning techniques differ mainly in how they express and learn this unknown function $f(\mathbf{x})$ and also the form in which $y$ (and therefore the set $Y$) are expressed. For example, $Y$ may be a continuous range or a finite, discrete set. When the task involves a continuous-valued output value, it is called \emph{regression}. The spring example given above would be a regression problem. In some cases, the desired output may also be a vector of different values, representing different physical quantities (e.g. the height and weight of a person). When the output valuable is discrete, we call it \emph{classification}, since the possible values generally represent different \emph{classes} or categories. One example would be the problem of determining whether a person is male or female based on voice recordings. This example also highlights the fact that for some machine learning problems, it may be well accepted that the problem cannot be solved perfectly. Such problems may be best represented in probabilistic form.
+
+Apart from the distinction between regression and classification, there are two main categories of machine learning techniques, based on how the unknown function $f$ is learned or approximated. The first category is known as \emph{supervised learning}. In supervised learning, a ``trainer'' supervises the learning process. The goal is essentially then to transfer the knowledge of the supervisor in the form of a mathematical or computerized model. More details on supervised learning will be covered in Section \ref{sec:supervised-learning}. The other main category is known as \emph{unsupervised learning}. In unsupervised learning, the learning process is not guided by any significant way. The goal is essentially to uncover patterns that are implicit in the data but unobvious.   More details on unsupervised learning will be covered in Section~\ref{sec:unsupervised-learning}.
+
+From this point forward in this thesis, we will drop the distinction between the modern popular definition of machine learning and the earlier meaning of (Mitchell et al., 1990) and focus mainly on the mainstream meaning and the main techniques from machine learning. Whenever necessary, we will use the term \emph{automatic learning} to refer to the fact that improved performance takes place without requiring any human intervention. The remainder of the section is organized as follows. Section~\ref{sec:supervised-learning} describes supervised learning, Section~\ref{sec:unsupervised-learning} describes unsupervised learning, Section~\ref{sec:semi-supervised-learning} describes semi-supervised learning, and finally Section~\ref{sec:conclusions-ml} provides concluding remarks.
+%
+\section{Supervised Learning}
+\label{sec:supervised-learning}
+%
+As stated above, supervised learning uses a ``trainer'' to supervise the learning process. In most cases, the trainer has encoded his or her knowledge in the form of \emph{labelled data}, also known as \emph{training data} or a \emph{training set}. In terms of the function $f$ expressed above, the training consists of input-output pairs $\mathcal{D} = \{(\mathbf{x}_i, y_i)\}_{i=1}^N $, where $\mathbf{x}_i$ is an input of arbitrary dimension, $y_i$ is a ``labelled'' output, and $N$ is the number of training samples, such that $\mathcal{D}$ provides \emph{examples} of values of the function $y = f(\mathbf{x})$. In simple terms, the training data provide examples of input data that are \emph{labelled} with the correct or desired output.
+
+It is usually the case that the training data does not exhaustively define the unknown function $f$. If, however, certain assumptions can be made about the function, then the function might be fully specified by a finite set of training data. In the simplest case, where $f$ is linear and $\mathbf{x}$ is one-dimensional, then only two training samples are needed to specify the relationship between $\mathbf{x}$ and $y$\footnote{Remember that two points define a straight line.}. Most practical examples of machine learning algorithms are more complicated due to (1) higher dimensionality, (2) non-linearity, and (3) error present in the training data.
+
+Let us consider a simple example from the domain of context awareness. Suppose we have a smartphone application that needs to know whether the user is walking, running, or standing still (i.e. static). The smartphone has a GPS receiver that can record the user's position and speed, and it also has a three-axis accelerometer that can measure acceleration. In order to keep things simple, instead of using the raw accelerometer signal, we define a feature from the accelerometer data, known as \emph{dynamic acceleration}:
+%
+\begin{equation}
+a_d = var(\{\sqrt{a_{xi}^2 + a_{yi}^2 + a_{zi}^2}\}_{i=1}^N\,)
+\end{equation}
+%
+where $var(\cdot)$ is an operator that computes the variance over some time series of data (e.g. one second of acceleration data); $a_{xi}$, $a_{yi}$, $a_{zi}$ are the accelerations in the x, y, and z directions, respectively, for some given time epoch $i$; and $N$ is the number of samples in the time series.
+
+A user, Mary, has painstakingly collected the following set of data and labelled whether she was walking, running, or standing still. The data are shown in Table~\ref{table:data-from-phone} below, consisting of two dimensions of input data and the labelled output.
+
+\begin{table}
+\begin{tabular}{lcc}
+\hline\noalign{\smallskip}
+\textbf{Speed (m/s)} & \textbf{Dyn. accel. (m\textsuperscript{2}/s\textsuperscript{4})} & \textbf{Label}\\
+\hline\noalign{\smallskip}
+2.56 & 2 & walking\\
+0.94 & 2 & walking\\
+1.24 & 2 & walking\\
+2.99 & 2 & walking\\
+1.24 & 2 & walking\\
+0.64 & 2 & walking\\
+0.73 & 2 & walking\\
+1.68 & 2 & walking\\
+2.72 & 2 & walking\\
+1.82 & 2 & walking\\
+2.10 & 2 & walking\\
+2.80 & 2 & running\\
+4.01 & 2 & running\\
+3.10 & 2 & running\\
+1.98 & 2 & running\\
+2.33 & 2 & running\\
+5.48 & 2 & running\\
+4.14 & 2 & running\\
+2.69 & 2 & running\\
+4.73 & 2 & running\\
+1.22 & 2 & running\\
+4.88 & 2 & running\\
+0.40 & 2 & static\\
+0.92 & 2 & static\\
+0.36 & 2 & static\\
+1.16 & 2 & static\\
+0.00 & 2 & static\\
+0.28 & 2 & static\\
+0.60 & 2 & static\\
+0.45 & 2 & static\\
+1.44 & 2 & static\\
+0.11 & 2 & static\\
+1.36 & 2 & static\\
+1.06 & 2 & static\\
+0.81 & 2 & static\\
+
+\end{tabular}
+\caption{The caption of the table}\label{table:data-from-phone}
+\end{table}
+
+
+
+
+
+
+\section{Unsupervised Learning}
+\label{sec:unsupervised-learning}
+
+\section{Semi-supervised Learning}
+\label{sec:semi-supervised-learning}
+
+\section{Conclusions}
+\label{sec:conclusions-ml}
+
+%If the task is formulated in a slightly different way, however, it could be truly considered a machine learning task. We formulate this task as follows:
+%
+%Let P be a process whose state can be characterised by a value S, which is not directly measurable by any known means. Furthermore, let P produce a set of N-dimensional data X, which can %be measured (e.g. by a set of sensors). Lastly, to keep things simple, let there be a steady-state but unknown relationship F between S and X, such that F(X) = S. 

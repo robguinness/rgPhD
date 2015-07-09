@@ -1,0 +1,14 @@
+\select@language {finnish}
+\select@language {english}
+\select@language {finnish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline { 2.1}{\ignorespaces Diagrams should be edited before publication.}}{4}{figure.caption.1}
+\contentsline {figure}{\numberline { 2.2}{\ignorespaces Example of subfigures}}{5}{figure.caption.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Option \texttt {draft} helps to makes a placeholder box for figure. The file must exist.}}}{5}{figure.caption.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Another way ot make a placeholder box with the command \texttt {rule}.}}}{5}{figure.caption.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Actual figure included but scaled down.}}}{5}{figure.caption.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,167 @@
+\chapter{Context Awareness}
+\label{ch:context_awareness}
+
+As stated in the introduction, \emph{context awareness} is the term adopted by mobile computing researchers to describe a computer's ability to understand (i.e. be aware of) the situation or context in which it is operating. Of particular emphasis is the \emph{human} context (i.e. the computer \emph{user's} situation), but device-specific context can also be of importance to the extent that it can affect the user (e.g. low battery of the device may affect how the user uses the device and even cause him or her to alter plans based on this situation).
+
+Many definitions of context and context awareness have been proposed, usually reflecting different discipline-specific perspectives. The word context figures prominently in diverse fields including linguistics, psychology, neuroscience, law, and computer science. Due to the great number of definitions, some researchers have used techniques such as latent semantic analysis (LSA) and principal component analysis (PCA) to find the relationships between the many definitions of context (Foltz et al., 1998; Bazire and Brezillon, 2005). Others have attempted to formalize the concept mathematically, a topic to which we will turn in Section~\ref{sec:theory} (e.g. McCarthy, 1993).
+
+Following the approach in (Chen and Guinness, 2014), we first present a ``layman's'' definition, in order to provide a working, notional notion of context for our initial discussion. In later sections, we will define it more precisely. Let us start by seeing how context is defined in a dictionary. In the Merriam Webster Dictionary, the word context has two definitions (Merriam-Webster, 2014):
+
+\begin{enumerate}
+  \item the parts of a discourse that surround a word or passage and can throw light on its meaning
+  \item the interrelated conditions in which something exists or occurs : ENVIRONMENT, SETTING
+\end{enumerate}
+
+In this thesis, as in (Chen and Guinness, 2014), we adopt the second definition. This is because we are not directly concerned with human discourse but rather with conditions of an environment or setting that can be ``understood'' by computers. Clearly, these two definitions are interrelated---discourse is the way that humans articulate their understanding of an environment or setting. Put in another way, natural language is how humans encode contextual information. In this thesis, we will focus on techniques that computers can use to represent and process context without human intervention. When we refer to context, we refer directly to the conditions in the environment rather than representations of context, such as discourse. As noted in the introduction chapter, \emph{situation} can be used as a synonym for context. We see no reason to distinguish between the two terms, although we note that some formalisms make a distinction (see Akman and Surav, 1996).
+
+With this working definition of context established, we proceed to the remainder of the chapter, which is organized as follows. First, we provide a simple framework for specifying a context (i.e. the ``interrelated conditions'') in Section~\ref{sec:framework}. Then, in Section~\ref{sec:history} we present a historical overview of context awareness, which also serves as a brief review of the context awareness literature. Next, Section~\ref{sec:theory} presents context in a more formalized manner, using one of the dominant formalizations found in the literature, the Propositional Logic of Context (PLC). In this section, we also discuss the differences between PLC and the notion of context described above. Section~\ref{sec:how} describes the sources and methods of context awareness. Finally, Section~\ref{sec:conclusions} concludes the chapter with some summarizing remarks.
+
+\section{A Framework for Contextual Information}
+\label{sec:framework}
+
+Because context is such an abstract concept, it is useful to choose some techniques for describing a particular context. These techniques can be used to build a framework for expressing contextual information. The goal of this section is to describe one such technique. We make no claim that this technique or framework is a definitive one, nor that it is complete in the sense of exhaustively covering the concept of context.
+
+In our view, the goal of context-aware systems is essentially to mimic the way that humans understand and describe situations, contexts, conditions, or events (we use all these terms almost interchangeably, although they may emphasize different aspects, such as fixed versus dynamic elements). According to this goal, we might employ the classic technique of journalism (since journalism is an age-old craft for describing conditions and events), known as the Five Ws: Who, What, Where, When, and Why (Wikipedia, 2015). This technique can be traced back to the late 2nd century BC when Hermagoras of Temnos defined seven elements of circumstance, which includes (in addition to the Five Ws) ``in what manner'' and ``by what means'' (Bennett, 2005).
+
+Using these questions as a framework (with a slightly different order), the following provides an example of elements of a particular context:
+%
+\begin{bold_description}
+\item[What:]A small gathering of colleagues for lunch
+\item[Who:] Present are Mary, Philip, George, and Anita
+\item[Where:]60.1609\textdegree{}N, 24.5460\textdegree{}E (WGS84); inside the lunch-room of the Finnish Geospatial Research Institute in Masala, Finland
+\item[When:]Thursday, 12 March 2015 at 12:03PM
+\item[Why:]Because it is lunchtime, and it is the custom for this group of colleagues to eat lunch together.
+\item[In What Manner:] Mary's smartphone is experiencing small, sporadic movements but is mostly remains in a constant orientation. Mary's smartwatch is experiencing more dramatic but also sporadic movements. Both sources of motion data are consistent with a user who is sitting and having a casual conversation and/or eating lunch. Multiple human voices are engaged in conversation of an informal and lively manner.
+\item[By What Means:]All of the above information has been sensed or reasoned by the sensors and software existing in a smartphone and a smartwatch, plus some additional sensor data recorded by a networked node installed in the lunch-room. In this case, the smartphone is a Samsung Galaxy S5 with Android 4.4.2 OS, which includes a GPS receiver, Wifi-based positioning engine, Bluetooth connectivity, microphone and audio analyzer, ambient light sensor, accelerometers, gyroscopes, compass, and magnetometers. The smartwatch is an LG G Watch with accelerometers, gyroscopes, Bluetooth connectivity, microphone, and an audio analyzer. It runs Android Wear 5.0.1.
+\end{bold_description}
+
+This depiction of the situation is not likely to win a Pulitzer Prize in Journalism, probably because the situation is not particularly interesting. Also, note that it has not been formulated into prose but rather is more like a set of notes that a journalist might jot down for later use (except maybe for the latitude and longitude coordinates and the motion description). The ``By What Means'' section can also be thought of as notes as to the ``source'' that the journalist might record along with the other information (especially if the account is second-hand).
+
+Details of this framework for contextual information can be found in (Chen and Guinness, 2014). For the purposes of this thesis, we will note only some essential points:
+%
+\begin{itemize}
+\item ``What'' usually refers to the \emph{activity context}, that is, what is actually happening. In some contexts, there might be little actual ``action'' taking place, but it may also be of interest for some purposes that ``nothing is happening''.
+% 
+\item ``Who'' refers to the human characters in the context. When speaking about context-aware mobile devices, the user of the mobile device in question is usually the main character, whereas others in the environment can be thought of as supporting characters. The ``who'' portion can also be summarized as the \emph{user and social context}. 
+%
+\item ``Where'' refers to the \emph{location context}. The most important point to note is that location can be expressed in many different ways: geographic coordinates, an address, or some semantic representation such as ``the Finnish Geospatial Research Institute'' or perhaps more personalized, such as ``my workplace''.
+%
+\item ``When'' is the \emph{time} and \emph{date context}. We need only to be careful about specifying things like time zones. In addition, it may be important to have, in addition to the time and date, some common sense or semantic knowledge about meaningful aspects, such as ``this is after work hours'' or ``today is a holiday''. Time can be specified either as a specific moment, such as in the example above, or as a time or date segment (e.g. 12-15 March 2015).
+%
+\item ``Why'' can be thought of as the \emph{motivational context}, e.g. Why is the user doing that? Why is this event taking place?, etc. It could also be appropriate to encode information about whether the context is normal or unusual, as well as an explanation for the unusual events. For example, if a person normally commutes to work along $route A$, and in the present he or she is driving along $route B$, then ``why'' would be a good place to capture the fact that ``there was an accident along $route A$, so the alternate $route B$ was chosen''.
+%
+\item ``In What Manner'' is a bit of a ``catch all'' category. It is used to provide additional details that do not fit nicely into any of the other categories. This is less than ideal for any formal system of context, but rather than attempting to list out all the possible categories of context (which is probably impossible), we believe it is more practical to have an ``other'' category. One way that we use this category is to capture the \emph{motion context}. This is similar to the activity context, but it is more focused on detailed attributes of the motion. For example, if the current activity of a user is ``dancing'', then ``in what manner'' might be used to capture the type of dance and the tempo in which the user is dancing.
+%
+\item ``By What Means'', as mentioned above, is to capture the source of the contextual information. It includes information about the devices and sensors used in the context-aware system, as well as the reasoning methods employed.
+\end{itemize}
+
+The above framework is a work-in-progress. As context-aware systems develop, we suspect that the framework may change slightly. It is difficult to anticipate what types of contextual information will become important in the future, but this framework should be broad enough to encompass most types of contextual information. Also, our intention is not to have a rigid framework that constrains all future context-aware systems, but rather it is to provide a rough skeleton upon which to experiment and build more elaborate and detailed context ontologies.
+
+\section{History}
+\label{sec:history}
+
+According to our literature review, the first explicit reference to context awareness was in a 1994 paper by Schilit and Theimer, where they use the term \emph{context-aware computing} to describe software that can ``adapt according to its location of use, the collection of nearby people and objects, as well as the changes to those objects over time.'' (Schilit and Theimer, 1994). Earlier, however, we can find strong but implicit references to the concept of context awareness. For example, in the 1991 article, titled ``The Computer for the 21st Century,'' Weiser provides a fictional account of a number of different automated or computer-assisted functions made possible by ``ubiquitous computing''. Although not specifically highlighted by Weiser, the necessity of these computers to understand context is clearly evident. Another article published in 1991 by Want et al. may be the first implementation of a context-aware device described in the literature. By the mid-1990s, many different implementations of context-aware devices can be found, including the ParcTab, stick-e notes, CyberGuide, and CyberDesk. By 2001, the research field was active enough to support a special issue of the journal Human-Computer Interaction, which provides an excellent review of the state-of-the-art in context awareness for that time period (Moran and Dourish, 2001).
+
+Going further back, however, the concept of context has been studied in computer science research for many years. As early as 1963, John McCarthy, one of the ``fathers of AI'', began developing \emph{situation calculus} as a ``formal system in which facts about situations, goals and actions can be expressed'' (McCarthy, 1963). A situation is defined as ``the complete state of affairs at some instant of time'', thus, it is roughly equivalent to our definition of context. Beginning in 1987, McCarthy began to consider the concept of context explicitly and attempted to formalize it. This work on context and related theory will be presented in Section~\ref{sec:theory} below. Formalisms of context, however, do not appear to have led directly to the realization of any context-aware software or devices, except for perhaps one example, Cyc, which will discussed further in Section~\ref{sec:theory}. The context-aware devices and applications of the 1990s mostly consisted of location-aware devices, and in our opinion, they do not require an elaborate formalism of context. Nonetheless, the work of McCarthy and others pioneers who offered formalisms of context are worthy of mention in the history of context awareness. In particular, we refer the interested reader to (McCarthy, 1993), (Guha, 1991), McCarthy and Buva\v{c}, 1998), (Akman and Surav, 1996), and (Buva\v{c} and Mason, 1993). In addition, (Brezillon, 1999) and (Akman, 2002) provide excellent reviews of context in artificial intelligence.
+
+\section{Theory}
+\label{sec:theory}
+
+Some computer science researchers have attempted to formalize the concept of context in a mathematical sense, most notably John McCarthy. A formalization of context could be useful because computers are better at handling formal mathematical constructs compared to more loosely defined concepts. For example, a computer is quite capable of working with the set of integers \{1, 2 , 3,...\} or even the primary colors {red, blue, yellow} (e.g. defined by RGB values). On the other hand, an abstract concept like ``at the store'', while easily understood by a human, is not very useful on its own to a computer. This is not to say that it is \emph{not} useful at all, but considerable effort must be made to define what is meant by such a construct and how to distinguish it from, e.g. ``at the office'', so that this construct can be utilized in a consistent manner. One powerful way to formalize context would be in the language of logic, e.g. predicate logic or propositional logic. Because logic has formed the basis for various programming languages (e.g. SQL, Prolog, etc.) it is reasonable to assume that, if context can be formalized in the mathematical language of logic, then computers programs can be written to process and ``understand'' context.
+
+As mentioned above, computer scientist John McCarthy was one of the pioneers in developing a formalism of context. In a widely-cited paper published in 1987, McCarthy relates the concept of context to the problem of generality in artificial intelligence, which is to say that artificial intelligence programs suffer from a lack of generality. He notes that ``[w]henever we write an axiom, a critic can say the axiom is true only in a certain context.'' He gives the example of the sentence ``the book is on the table.'' and notes that a critic can ``haggle about the precise meaning of `on'\thinspace'' (e.g. if a paper sheet of paper is between the book and the table). 
+
+McCarthy proposes a formalization of context, combined with circumscription, where $holds(p, C)$ is an abbreviation for the sentence $p$ being true in the context $C$. For example, ``Watson is a doctor'' is true in the context of Sherlock Holmes stories, but ``Watson is computer'' is true in the context of IBM's artificial intelligence research. He incorporates generality through the relation $c1 \le c2$, meaning that context $c2$ is more general than context $c1$. Alternatively, this can be understood as $c1$ is a specialization of $c2$ (Akman and Surav, 1996). McCarthy points out that there is no such thing as a ``most general context''.
+
+In a paper published in 1993, McCarthy developed his formalization of context further. He changes the notation slightly (adopting the notation from [Guha, 1991]), where formulas are sentences of the form:
+\begin{equation}
+  \label{eq:ist1}
+ c': \quad	ist(c,p),
+\end{equation}
+which asserts that proposition $p$ is true in context $c$, which is itself asserted in the outer context $c'$. Thus, the above formula could be re-written as $ist(c', ist(c,p))$. 
+
+Continuing our example using this notation:
+\begin{equation}
+  \label{eq:context1}
+ \text{``Sherlock Holmes stories''}: \quad	ist(\text{``A Study in Scarlet''},\text{``Watson is a doctor''}),
+\end{equation}
+where ``Sherlock Holmes stories'' is the outer context and ``A Study in Scarlet'' (a specific novel) is the inner context.
+
+He also argues that some contexts are \emph{rich} objects, meaning that they can never be described completely but certain facts about them can be asserted, whereas others are \emph{poor} and can be completely described.
+
+McCarthy also introduces a term $value(c,term)$, where $term$ is a term\footnote{In formal logic, a \emph{term} is ``a variable, constant, or the result of acting on variables and constants by function symbols'' (Weisstein, 2014).}, for example, $value(c,time)$ which can be used to represent the time in context $c$. He also introduces a number of different relations among contexts and also functions that output a context as a value. For example, $specialize\textnormal{-}time(t, c)$ represents the context related to $c$ where the time ``is specialized to have the value $t$'' (McCarthy, 1993). Another way to understand this is $specialize\textnormal{-}time(t, c)$ contains all of the assumptions of $c$, plus the additional assumption that the time is $t$.
+
+Another given example is $at(jmc, Stanford)$, so that $ist(c1, at(jmc, Stanford))$ can be used as an assertion that John McCarthy  is at Stanford University, where $c1$ is a context in which $jmc$ stands for John McCarthy and $Stanford$ stands for Stanford University and $at$ is understood as ``being regularly at a place, rather than momentarily at a place'' (McCarthy, 1993). It is possible, however, that in another context $c2$ $at$ can take on another meaning (e.g. momentarily at a place).
+
+Combining the predicates $ist(c, p)$, $specialize\textnormal{-}time(t, c)$, and $at$, we can form relations such as:
+\begin{equation}
+\label{eq:lift1}
+\begin{aligned}
+c0: \quad ist(specialize\textnormal{-}time(t,c),\hbox{\it at}
+(\hbox{\it jmc},\hbox{\it Stanford}))
+\equiv \\
+ist(c,\hbox{\it at-time}(t,\hbox{\it at}(\hbox{\it jmc},
+\hbox{\it Stanford}))),
+\qquad
+\end{aligned}
+\end{equation}
+where the predicate $at\textnormal{-}time(t,p)$ represents the assertion that the proposition $p$ is true at time $t$. 
+
+An important concept emphasized by McCarthy, as well as others, [Guha] is that of \emph{lifting relations}, also known as \emph{lifting formulas} or \emph{lifting formulas}. These specify the relation between different propositions and terms in different contexts. In other words, they allow one to ``lift'' information stated in one context into another context. (McCarthy and Buva\v{c}, 1997) give more precise definitions:
+\begin{quote}
+Lifting axioms are axioms which relate the truth in one context
+to the truth in another context.
+Lifting is the process of inferring what is true in one context based
+on what is true in another context by the means of lifting axioms.
+\end{quote}
+Thus, Equation~\ref{eq:lift1} can be considered a lifting relation because it relates the specialized context $specialize\textnormal{-}time(t, c)$ to the more general context $c$. 
+
+McCarthy never formalizing lifting in terms of a lifting operator, but he does introduce a general relation \emph{specializes}, so that $specializes(c1,c2)$ when context $c2$ does not make any assumptions other than the ones made in context $c1$ and every meaningful proposition in context $c1$ can be translated. He also provides nonmonotonic relations to allow for inheritance of $ist$ between a subcontext and supercontext:
+
+\begin{equation}
+specializes(c1,c2) \land \lnot \hbox{\it ab}1(p,c1,c2) \land ist(c1,p)
+\supset ist(c2,p),\label{spec1}
+\end{equation}
+%
+and
+%
+\begin{equation}
+specializes(c1,c2) \land \lnot \hbox{\it ab}2(p,c1,c2) \land ist(c2,p)
+\supset ist(c1,p). 
+\end{equation}
+%
+The formalization of logic developed by McCarthy and others (including Guha, Buvac, and Mason) has come to be known as the Propositional Logic of Context (PLC). A full treatment of PLC, including its strengths and weaknesses, is beyond the scope of this thesis. The above is meant to serve as an introduction to familiarize the reader with PLC, as it is perhaps the most widely cited formalization of context available in the literature. Other formalizations exist, such as X, Y, and Z.
+
+We now discuss some similarities and differences between the notion of context formalized in PLC, versus the notion of context described in the introduction to this chapter and used in the remainder of this thesis. PLC's notion of context is essentially the setting in which a set of propositions is true. Compared to the dictionary definition given above (i.e. ``the interrelated conditions in which something exists or occurs''), there is clearly some overlap, however, there is, in our view, a clear difference. If one makes the proposition $COLOR(sky) = blue$, meaning ``the color of the sky is blue'', then this is true in the context of a cloud-free day in a particular location, which we might represent in PLC as $ist(c1, COLOR(sky) = blue)$, where $c1$ is a term representing the particular context specialized in time and place. In the notion of context given by the dictionary definition (and adopted in this thesis), however, the context \emph{is} the setting itself, i.e. the time, place, color or the sky, and any other true parameter of the setting or environment. In agreement with PLC, this notion of context is usually (if not absolutely) a rich object, but otherwise these two notions of context seem quite distinct and incompatible. For example, if $c2$ is defined as $specialize\textnormal{-}time(t, c1)$ in PLC, then it would seem in $c1$ no notion of time even exists. Therefore, it is problematic to think of $c1$ as a context in the sense of the dictionary definition because one can always describe a setting or environment in terms of time (whether it be a discrete time instance or a time interval).
+
+Furthermore, our criticism of PLC is that appears overly complex, at least if it were to be adopted for the purpose of making computers and devices ``context aware''. We can appreciate the motivation for PLC, that is, to achieving generality in representing knowledge, but this is not precisely the goal of a context aware program or application. Perhaps for these reasons, few practical implementations of PLC can be found in the literature. The one exception perhaps is Cyc, which is a knowledge database capable of ``common sense reasoning''. It is developed commercially by a company called Cycorp, but an open source version exists (OpenCyc) and a more complete version is available for research purposes (ResearchCyc). An evaluation of the suitability of Cyc for building context aware applications is, however, beyond the scope of this thesis.
+
+We are not alone in making these criticisms of PLC. For example, (Hirst, 1997) argued persuasively that context cannot be defined independently from its use. Also, (Wolf and Bileschi, 2006) showed experimentally that for one particular application area (computer vision), contextual features had only a marginal benefit, compared to ``appearance information''. It may simply be the case that for some application areas, context plays an important role, whereas for others it is less important or even superfluous. Furthermore, different notions of context may be useful in some applications but less useful or even incoherent in other applications\footnote{It is not only humorous but also true to say that context depends heavily on the context.}. In our view, the formalism found in PLC reflects the authors' original motivation for developing such a formalism, which was to create a database of ``common sense'' that could be used by many different types of artificial intelligence programs (see McCarthy, 1969, and McCarthy, 1984).
+
+%
+%One type of generality in AI, writes McCarthy, ''comprises methods for finding solutions that are independent of the problem domain.''
+%
+\section{How to Sense Context}
+\label{sec:how}
+So far we have (1) defined context and context awareness, (2) provided a working framework for contextual information, (3) discussed the history of this field, and (4) provided some theoretical background on the formalization of context. We have said very little so far about how computers actually sense context. Such is the intention of this section.
+
+It is difficult to speak in general about how computers can sense context because, in addition to the points already made above, the different methods and hardware associated with context awareness vary greatly depending on the application. We have so far given examples of smartphone-based context awareness, but as mentioned in the introduction, this thesis will also deal with another very different task, that of determining the optimal path of a ship travelling through ice-covered waters. Obviously the type of contextual information relevant for this task, as well as the systems involved, are very different from that of smartphone-based context awareness. In our opinion, it is not very beneficial to generalize in great detail about systems and methods without keeping the ultimate application in mind. This returns to the problem of generality in AI, which McCarthy wrote about in 1987, and we again emphasize that this thesis makes no attempt to conquer this problem.
+
+Nonetheless, there are a few general points that can be make about the systems and methods of context awareness from a general perspective. The first is that all types of information, regardless of the source, can be considered as input to a context awareness system. This can range from sensor data to data from an external database to an image acquired from a spacecraft hundreds of kilometers away from the target environment. Human input can also be considered as a source of contextual information, although in this thesis we mainly focus on contextual information that can be obtained without direct human involvement. For this reason, sensors will be one of the primary sources of input data, including both \emph{in-situ sensors} (such as smartphone sensors) and \emph{remote sensors}, such as an imaging sensor on an Earth Observation spacecraft. Databases will also be an important source of contextual information, especially with regards to translating ``raw data'' (such as geographic coordinates) into a more meaningful form (such as a semantically-defined location, e.g. ``at the supermarket'').
+%
+\begin{figure}[t]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth]{ContextPyramid4}
+  \end{center}
+  \caption[The Context Pyramid]{The ``context pyramid'' shows the different levels of processing to build context-aware systems, starting from raw sensor data at the bottom and working up to ``rich context'' at the highest level.}
+  % Optional shorter caption in brackets is used in Table of Figures
+  % (tof).
+  \label{fig:context_pyramid}
+\end{figure}
+%
+Lastly, we can make some general statements about how to process the input data to a context-sensing system. We conceptualize this process as a ``context pyramid'', which was first presented in (Pei et al., 2013) and later in (Chen and Guinness, 2014). This Context Pyramid is also shown in Figure~\ref{fig:context_pyramid} below. On the left side is an example of contextual information. At the bottom of the pyramid lies the raw input to the context-sensing system, such as sensor data. The difference between the first and second level in the pyramid is that in Level 2, some ``pre-processing'' of the data may have been performed, such as reference frame transformation or filtering out noise. In the next level of processing, statistical features are extracted from the data, such as mean values or frequency domain features computed from time series data. The distinction between ``pre-processing'' and statistical feature extraction can be a bit blurry in some cases, but generally speaking Level 2 data usually have a clear physical meaning, whereas Level 3 data might have only a mathematical or statistical meaning. Next, Level 4 is achieved after the Level 3 data is subjected to a function or algorithm that performs contextual classification or in some cases regression. This topic will be covered in greater detail in Chapter~\ref{ch:machine_learning}. Level 4 data is in the form of \emph{simple contextual descriptors}, which can be thought of as ``atomic'' elements of context. They each should belong to one of the seven categories described in Section~\ref{sec:framework} above. Then, Level 5 is achieved by combining multiple simple contextual descriptors into an activity-level description of the context, as well as the main pertinent contextual details. Finally, Level 6 combined all available contextual information into a \emph{rich context}. The aim at this level is to approach a description of the context that is indistinguishable from human-written prose. As was the case between Levels 2 and 3, the difference between Levels 5 and 6 can be sometimes blurry. In some context-aware systems there may be fewer processing steps or perhaps more, so even the number of levels should not be taken as dogma. We believe, however, that the general process will always follow the overall trend illustrated in the context pyramid.
+%
+\section{Conclusions}
+\label{sec:conclusions}
+%
+In this chapter we have defined the terms context and context awareness and provided a general introduction to the topic. We have attempted to discuss context awareness in an abstract and general way, but we have also pointed out the limitations of such a discussion. Our aim was to give a rough conceptual outline of this research topic, but our strong preference is that context should be discussed with some particular applications in mind, otherwise the subject is simply too broad to provide a general treatment. That being said, there are some general methods that can be employed towards many problems in context awareness, and such methods will be the focus of the next chapter.

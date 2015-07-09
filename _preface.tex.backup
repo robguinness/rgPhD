@@ -1,0 +1,40 @@
+\chapter*{Preface}
+
+The research work presented in this thesis was carried out between November 2011 and May 2014. I have chosen to complete a ``compendium-style'' dissertation, in part because I have already had the pleasure of preparing a monograph when co-authoring a book with Prof. Ruizhi Chen, published in July 2014. I have no great desire to repeat such an experience yet. As many who have published such monographs can attest, it takes a lot out of you!
+
+Due to other responsibilities, as well as a bad case of the ``it's-not-good-enough-yet'' syndrome, it took me more than one year to finalize and publish some of the results of my doctoral research in article format. With the aid of gentle nudging from my colleagues and superiors, I prepared the summary content for this compendium mostly between January and July 2015.
+
+There are two particular experiences I'd like to share that also motivated me for completing this dissertation. The first is when I was asked to be a reviewer for an article submitted to one highly-esteemed journal. When I realized that my work, in my own opinion, was superior to that which I was reviewing, I felt suddenly cured of the above-mentioned syndrome. The second was when I was participating in an interview of a beloved colleague (he got the job!). We asked him if he could describe one achievement of which he was most proud. Instead of pointing to one particular academic achievement, such as a highly cited paper, he pointed out another kind of achievement: the fact that he can look back at his publications and realize that some of the early ones were poor but that there has been a steady improvement in the quality over the years. Since hearing that, this is what I aim for: Not to publish the perfect gem some day but to continually put out my work-in-progress for others to see and hopefully benefit from.
+
+% The thesis text is written into file \texttt{d\_tyo.tex}, whereas
+% \texttt{tutthesis.cls} contains the formatting instructions. Both
+% files include lots of comments (start with \%) that should help in
+% using LaTeX. TUT specific formatting is done by additional settings on
+% top of the original \texttt{report.cls} class file. This example needs
+% few additional files: TUT logo, example figure, example code, as well
+% as example bibliography and its formatting (\texttt{.bst}) An example
+% makefile is provided for those preferring command line. You are
+% encouraged to comment your work and to keep the length of lines
+% moderate, e.g. <80 characters. In Emacs, you can use \texttt{Alt-Q} to
+% break long lines in a paragraph and \texttt{Tab} to indent commands
+% (e.g. inside figure and table environments). Moreover, tex files are
+% well suited for versioning systems, such as Subversion or Git.  
+% % \url{http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf}
+% 
+% 
+% Acknowledgements to those who contributed to the thesis are generally
+% presented in the preface. It is not appropriate to criticize anyone in
+% the preface, even though the preface will not affect your grade. The
+% preface must fit on one page. Add the date, after which you have not
+% made any revisions to the text, at the end of the preface.
+
+~ 
+% Tilde ~ makes an non-breakable spce in LaTeX. Here it is used to get
+% two consecutive paragraph breaks
+
+Kirkkonummi, X.Y.2015
+
+~
+
+
+Robert E. Guinness

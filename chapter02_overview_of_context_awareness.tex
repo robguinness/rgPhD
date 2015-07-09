@@ -1,0 +1,71 @@
+\chapter{Context Awareness}
+\label{ch:overview}
+
+As stated in the introduction, \emph{context awareness} is the term adopted by mobile computing researchers to describe a computer's ability to understand (i.e. be aware of) the situation or context in which it is operating. Of particular emphasis is the \emph{human} context (i.e. the computer \emph{user's} situation), but device-specific context can also be of importance to the extent that it can affect the user (e.g. low battery of the device may affect how the user uses the device and even cause him or her to alter plans based on this situation).
+
+Many definitions of context and context awareness have been proposed, usually reflecting different discipline-specific perspectives. For example, the word context figures prominently in diverse fields including linguistics, psychology, neuroscience, law, and computer science. Some researchers have studied the etymology of the word context and have even attempted to formalize and to build consensus concerning the definition [1-4].
+
+In any case, we require some working, notional definition of context for the purposes of this thesis. In the Merriam Webster Dictionary [5], we find two definitions of the word context:
+
+\begin{enumerate}
+  \item the parts of a discourse that surround a word or passage and can throw light on its meaning
+  \item the interrelated conditions in which something exists or occurs : ENVIRONMENT, SETTING
+\end{enumerate}
+
+In this thesis, we adopt the second definition because we are not directly concerned with human discourse but rather with conditions of an environment or setting (e.g. geospatial information) that can be sensed by sensors. Clearly, these two definitions are interrelated in the sense that discourse can be (and most usually is) used as a representation of an environment or setting. In other words, natural language is a common form in which contextual information is encoded. Our focus, however, will be on techniques to sense and represent context automatically using sensors. Hence, when we refer to context, we refer directly to the conditions in the environment.
+
+\section{A Framework for Contextual Information}
+
+Because context is such an abstract concept, it is useful to choose some techniques for describing a particular context. These techniques can be used to build a framework for expressing contextual information. If our goal is to explicate a particular context in natural language, then we might employ the classic technique of journalism (since journalism is an age-old craft for describing conditions and events), known as the Five Ws: Who, What, Where, When, and Why (). In fact, this technique dates back at least to the late 2nd  century BC when Hermagoras of Temnos defined seven elements of circumstance, which includes (in addition to the Five Ws) ``in what manner'' and ``by what means'' ().
+
+Using these questions as a starting point (with a slightly different order), we list possible elements of a particular context with a demonstrative example:
+
+\begin{bold_description}
+\item[What:]A small, impromptu gathering of colleagues
+\item[Who:]Mary, a smartphone user, as well as three of Mary's co-workers who are nearby
+\item[Where:]60.1609°N, 24.5460°E (WGS84); inside the main lobby of the Finnish Geodetic Institute, specifically inside Mary's pocket
+\item[When:]Friday, 20 April 2012 at 12:03PM
+\item[Why:]This gathering occurred because Mary and her colleagues are going out to lunch together. They are waiting for a fifth colleague, Steve, to arrive.
+\item[In What Manner:]The smartphone is experiencing small, sporadic movements, consistent with the phone being in the pocket of someone who is standing and having a casual conversation.
+\item[By What Means:]All of the above information has been sensed or reasoned by the sensors and software existing in a smartphone, or acquired via a networked resource. In this case, the smartphone is a Samsung Galaxy Nexus with Android 4.1 OS, which includes a GPS receiver, Wifi-based positioning engine, Bluetooth module, microphone and audio analyzer, ambient light sensor, accelerometers, gyroscopes, and magnetometers.
+\end{bold_description}
+
+
+\section{History of Context Awareness}
+
+\section{Theory of Context Awareness}
+
+Some computer science researchers have attempted to formalize the concept of context in a mathematical sense, most notably John McCarthy. A formalization of context is important because computers are better at handling formal mathematical constructs compared to more loosely defined concepts. For example, a computer is quite capable of working with the set of integers \{1, 2 , 3,...\} or even the primary colors {red, blue, yellow} (e.g. defined by RGB values). Whereas an abstract concept like ``at the store'' is easily understood by a human, it is not very useful on its own to a computer. This is not to say that it is \emph{not} useful at all, but considerable effort must be made to define what is meant by such a construct and how to distinguish it from, e.g. ``at the office'', so that this construct can be utilized in a consistent manner. One powerful way to formalize context would be in the language of logic, e.g. predicate logic or propositional logic. Because logic has formed the basis for various programming languages (e.g. SQL, Prolog, etc.) it is reasonable to assume that if context can be formalized in the mathematical language of logic, then computers programs can be written to process and ``understand'' context.
+
+In a widely-cited paper published in 1987, McCarthy relates the concept of context to the problem of generality in artificial intelligence, which is to say that artificial intelligence programs suffer from a lack of generality. He notes that ``[w]henever we write an axiom, a critic can say the axiom is true only in a certain context.'' He gives the example of the sentence ``the book is on the table.'' and notes that a critic can ``haggle about the precise meaning of '''on'' (e.g. if a paper sheet of paper is between the book and the table). He concludes that ``[t]here simply is not a most general context.'' He proposes a formalization of context, combined with circumscription, where $holds(p, C)$ is an abbreviation for the sentence $p$ being true in the context $C$, so that ``Watson is a doctor'' is true in the context of Sherlock Holmes stories but ``Watson is computer'' is true in the context of IBM's artificial intelligence research. He incorporates generality through the relation $c1 \le c2$, meaning that context $c2$ is more general than context $c1$.
+
+In a paper published in 1993, McCarthy developed his formalization of context further. He changes the notation slightly (adopting the notation from [Guha, 1991]), where formulas are sentences of the form:
+
+\begin{equation}
+  \label{eq:newton2}
+ c': 		ist(c,p),
+\end{equation}
+
+which asserts that proposition $p$ is true in context $c$, which is itself asserted in the outer context $c'$. Thus, the above formula could be re-written as $ist(c', ist(c,p))$. He argues that some contexts are \emph{rich} objects, meaning that they can never be described completely but certain facts about them can be asserted, whereas others are \emph{poor} and can be completely described.
+
+McCarthy also introduces a term $value(c,term)$, where $term$ is a term\footnote{In formal logic, a \emph{term} is ``a variable, constant, or the result of acting on variables and constants by function symbols'' (Weisstein, 2014).}, for example, $value(c,time)$ which can be used to represent the time in context $c$. He also introduces a number of different relations among contexts and also functions that output a context as a value. For example, $specialize\textnormal{-}time(t, c)$ represents the context related to $c$ where the time ``is specialized to have the value $t$'' (McCarthy, 1993).
+
+This formalization of logic developed by McCarthy and others (including Guha, Buvac, and Mason) has come to be known as the Propositional Logic of Context (PLC). Our criticism of PLC is that in pursuit of achieving generality, it became cumbersome, therefore very few practitioners (i.e. programmers) are motivated to fully learn it and make use of it. It also begs the question of whether generality is even needed in the vast majority of applications where PLC might be applied. If the choice is between a burdensome formalization that can handle 99.999 \% of circumstances and a much cleaner formalization that works in 99\% of circumstances, in most scenarios one would choose the latter.
+
+
+
+%One type of generality in AI, writes McCarthy, ''comprises methods for finding solutions that are independent of the problem domain.''
+
+\section{The Role of Sensors in Context Awareness}
+
+\section{Current State-of-the-Art in Context Awareness}
+
+
+\section{Potential Applications of Context Awareness}
+
+
+\section{Technologies Relevant to Context Awareness}
+
+\subsection{Other Technologies}
+
+\section{Ethical Issues Related to Context Awareness}

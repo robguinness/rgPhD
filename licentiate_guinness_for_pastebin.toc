@@ -1,0 +1,15 @@
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {1.}Machine Learning}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Computer Chess: An Example Learning Task}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Rule-Based Methods}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}A Trivial Chess Learning Program}{3}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Modern Machine Learning}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Supervised Learning}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Unsupervised Learning}{7}{section.1.4}
+\contentsline {section}{\numberline {1.5}Semi-supervised Learning}{7}{section.1.5}
+\contentsline {section}{\numberline {1.6}Conclusions}{7}{section.1.6}
+\contentsline {chapter}{Bibliography}{9}{section.1.6}
+\contentsline {chapter}{APPENDIX A. Something extra}{9}{section.1.6}
+\contentsline {chapter}{APPENDIX B. Something completely different}{10}{section.1.6}
