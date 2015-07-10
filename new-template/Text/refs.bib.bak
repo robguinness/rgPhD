@@ -1,0 +1,947 @@
+@article{Afzal11,
+       author = "MH. Afzal and V. Renaudin and G. Lachapelle",
+       title = "Multi-Magnetometer Based Perturbation Mitigation for Indoor Orientation Estimation",
+       year = "2011",
+       journal = "NAVIGATION",
+       volume = "58",
+       number = "4",
+       pages = "279 - 292" }
+
+@patent{usDOP,
+        author = "F. Alizahed-Shabdiz and M. Heidari",
+        title = "Method of determining position in a hybrid positioning system using a dilution of precision metric",
+        nationality = "United States",
+        number = "2011/0080317",
+        year = "2009",
+        note = "19 pages"}
+        
+@Phdthesis{AfzalPHD,
+        author = "MH. Afzal",
+        title = "Use of {Earth's} Magnetic Field for Pedestrian Navigation",
+        school = "the University of Calgary, Canada",
+        year = "2011"}
+        
+@article{Allan,
+       author = "DW Allan",
+       title = "Statistics of Atomic Frequency Standards",
+       year = "1966",
+       journal = "Proc. of the IEEE",
+       volume = "54",
+       number = "2",
+       pages = "221-230" }
+       
+@manual {ADIS,
+        organization = "Analog Devices",
+        title = "{ADIS16375 Data Sheet (Rev. A)}",
+        note = "pp. 28",
+        year =  "2010"}
+        
+@Electronic{Aviation,
+       author = "E. Williams",
+       title = "Aviation formulary V1.46",
+       note = "last accessed April 23, 2013",
+       url = "http://williams.best.vwh.net/avform.htm" }
+        
+@article{Bancroft11,
+       author = "J. Bancroft and G. Lachapelle",
+       title = "Data fusion algorithms for multiple inertial measurement units",
+       year = "2011",
+       journal = "Sensors",
+       volume = "11",
+       pages = "6771-6798" }
+       
+@inproceedings{Bancroft12,
+       author = "J. Bancroft and G. Lachapelle",
+       title = "Estimating {MEMS} gyroscope g-sensitivity errors in foot mounted navigation”",
+       year = "2012",
+       booktitle = "Proc. UPINLBS",
+       month = oct # " 3--4,",
+       address ="Helsinki, Finland",
+       pages="6"}
+
+@Phdthesis{BancroftPHD,
+        author = "J. Bancroft",
+        title = "Multiple Inertial Measurement Unit Fusion for Pedestrian Navigation",
+        school = "the University of Calgary, Canada",
+        year = "2010"}
+       
+@inproceedings{Borkowski10,
+       author = "J.M. Borkowski and M.J. Veth",
+       title = "Passive indoor image-aided inertial attitude estimation using a predictive Hough transformation",
+       booktitle = "Proc. IEEE/ION Position Location Navigation Symp.",
+       month=may # " 4--6,",
+       year="2010",
+       address="Indian Wells, CA, USA",
+       pages = "295-302"}
+       
+@Electronic{Bouguet,
+       author = "J-Y. Bouguet",
+       title = "Camera Calibration Toolbox for {Matlab}",
+       year = "2010",
+       note = "last accessed March 27, 2013",
+       url="http://www.vision.caltech.edu/bouguetj/calib\_doc/index.html" }
+
+@inproceedings{Campb05,
+       author = "J. Campbell and R. Sukthankar and I. Nourbakhsh and A. Pahwa",
+       title = "A robust visual odometry and precipice detection system using consumer-grade monocular vision",
+       year = "2005",
+       booktitle = "Proc. IEEE International Conference on Robotics and Automation",
+       month=apr # " 18--22,",
+       address = "Barcelona, Spain",
+       pages="3421-3427"}
+       
+@article{Canny,
+       author = "J. F. Canny",
+       title = "A computational approach to edge detection",
+       year = "1986",
+       journal = "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+       volume = "PAMI-8",
+       number = "6",
+       pages= "679-698"}
+       
+@article{Caruso97,
+       author = "M J. Caruso",
+       title = "Applications of magnetoresistive sensors in navigation systems",
+       year = "1997",
+       journal = "SAE Technical Paper 970602"}
+       
+@inproceedings{Chek07,
+       author = "D. Chekhlov and M. Pupilli and W. Mayol-Cuevas and A. Calway",
+       title = "Robust Real-Time Visual {SLAM} Using Scale Prediction and Exemplar Based Feature Description",
+       year = "2007",
+       booktitle = "Proc. IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+       month=jun # " 18--23,",
+       address="Minneapolis, MN, USA",
+       pages="1-7"}
+       
+@article{Chen12,
+       author = "L. Chen and H. Kuusniemi and Y. Chen and L. Pei and T. Kr{\"o}ger and R. Chen",
+       title = "Motion restricted information filter for indoor bluetooth positioning",
+       year = "2012",
+       journal = "Int. J. of Embedded and Real-Time Communication Systems",
+       volume = "3",
+       number = "3",
+       pages = "54-66" }
+             
+@article{RChen10,
+       author = "R. Chen and H. Kuusniemi and Y. Chen and L. Pei and W. Chen and J. Liu and H. Lepp{\"a}koski and J. Takala",
+       title = "Multi-sensor, Multi-Network Positioning",
+       year = "2010",
+       journal = "GPS World",
+       volume = "21",
+       number = "2",
+       pages = "18-28" }
+       
+@inproceedings{Wei10,
+       author = "W. Chen and R. Chen and Y. Chen and H. Kuusniemi and Z. Fu and J. Wang",
+       title = "An adaptive calibration approach for a 2-axis digital compass in a low-cost pedestrian navigation system",
+       year = "2010",
+       booktitle = "Proc. I2MTC IEEE",
+       month=may # " 3--6,",
+       address="Austin, TX, USA",
+       pages = "1392-1397"}
+
+@article{Chu12,
+       author = "T. Chu and N. Guo and S. Back\'{e}n and D. Akos",
+       title = "Monocular camera{/IMU/GNSS} integration for ground vehicle navigation in challenging {GNSS} environments",
+       year = "2012",
+       journal = "Sensors",
+       volume = "12",
+       pages = "3162-3185" }
+
+@Phdthesis{Collin06,
+        author = "J. Collin",
+        title = "Investigations of Self-Contained Sensors for Personal Navigation",
+        school = "Tampere University of Technology, Finland",
+        year = "2006"}
+
+@inproceedings{Coug99,
+       author = "J.M. Coughlan and A.L. Yuille",
+       title = "{Manhattan World}: Compass direction from a single image by {Bayesian} interference",
+       year = "1999",
+       booktitle = "Proc. 7th IEEE International Conference on Computer Vision",
+       month = sep # " 20--27,",
+       address = "Kerkyra, Greece",
+       pages="1-10"}
+
+@inproceedings{Dav03,
+       author = "A.J. Davison",
+       title = "Real-time simultaneous localisation and mapping with a single camera",
+       year = "2003",
+       booktitle = "Proc. IEEE International Conference on Computer Vision",
+       address= "Nice, France",
+       month=oct # " 13--16,",
+       pages = "1403-1410",
+       volume = "2"}
+
+@inproceedings{Diel05,
+       author = "D. Diel and P. DeBitetto and S. Teller",
+       title = "Epipolar constraints for vision-aided inertial navigation",
+       year = "2005",
+       booktitle = "Proc. 7th IEEE Workshop on Applications of Computer Vision",
+       address = "Breckenridge, CO, USA",
+       month=jan # " 5--7,",
+       pages = "221-228"}
+       
+@article{Djuric03,
+       author = "P.M. Djuric and J.H. Kotecha and J. Zhang and Y. Huang and T. Ghirmai and M.F Bugallo and J. Miguez",
+       title = "Particle filtering",
+       year = "2003",
+       journal = "IEEE Signal Processing Magazine",
+       volume = "20",
+       number = "5",
+       pages = "19-38" }
+       
+@article{Dudahart,
+       author = "R.O. Duda and P.E. Hart",
+       title = "Use of the {Hough} transformation to detect lines and curves in pictures",
+       year = "1972",
+       journal = "Communications of the ACM",
+       volume = "15",
+       number = "1",
+       pages = "11-15" }
+
+@article{Ransac,
+       author = "M.A. Fischler and R.C. Bolles",
+       title = "Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography",
+       year = "1981",
+       journal = "Communications of the ACM",
+       volume = "6",
+       number = "24",
+       pages = "381-395" }
+       
+@inproceedings{Fletcher07,
+       author = "J. Fletcher and M. Veth and J. Raquet",
+       title = "Real-time fusion of image and inertial sensors for navigation",
+       year = "2007",
+       booktitle = "Proc. 63rd Annual Meeting of The Institute of Navigation",
+       pages="534-544",
+       month = apr # " 23--25,",
+       address = "Cambridge, MA, US"}
+
+@book{ForsythPonce,
+       author = "D.A. Forsyth and J. Ponce",
+       title = "Computer Vision: A Modern approach",
+       publisher = "Prentice Hall",
+       address="Upper Saddle River, NJ, USA",
+       year = "2003"}
+ 
+@inproceedings{Gallagher,
+       author = "A.C. Gallagher",
+       title = "Using vanishing points to correct camera rotation in images",
+       year = "2005",
+       booktitle = "Proc. 2nd Canadian Conference on Computer and Robot Vision, IEEE",
+       month = may # " 9--11,",
+       address = "Victoria, BC, Canada",
+       pages = "460-467"}
+       
+@article{Ge07,
+       author = "M. Ge and G. Gendt and M. Rothacher and C. Shi and J. Liu",
+       title = "Resolution of {GPS} carrier-phase ambiguities in Precise Point Positioning {(PPP)} with daily observations",
+       year = "2007",
+       journal = "Journal of Geodesy",
+       volume = "82",
+       pages = "389-399" }
+
+@book{George09,
+       author = "C. George",
+       title = "The Book of Digital Photography",
+       publisher = "ILEX",
+       address="Cambridge, England",
+       year = "2009",
+       edition = "2nd"}
+   
+@Electronic{GoPro,
+       title = "{GoPro's} web pages",
+       url = "http://gopro.com/cameras/hd-helmet-hero-camera/",
+       note = "last accessed June 15, 2012"}
+      
+@article{Graas04,
+       author = "F. Van Graas and A. Soloviev",
+       title = "Precise velocity estimation using a stand-alone {GPS} receiver",
+       year = "2004",
+       journal = "Journal of the Institute of Navigation",
+       volume = "51",
+       number ="4",
+       pages = "283-292" }
+
+@book{Grewal,
+       author = "M.S. Grewal and A.P. Andrews",
+       title = "{Kalman} Filtering Theory and Practice using {Matlab}",
+       publisher = "Wiley",
+       address="New York, NY, USA",
+       year = "2008",
+       edition = "3rd"}
+       
+@inproceedings{Groves07,
+       author = "P.D. Groves and G.W. Pulford and C.A. Littlefield and D.L.J. Nash and C.J. Mather",
+       title = "Inertial navigation versus pedestrian dead reckoning: optimizing the integration",
+       year = "2007",
+       booktitle = "Proc. ION GNSS",
+       address="Fort Worth Convention Center, TX, USA",
+       month=sep # " 24--25,",
+       pages = "2043-2055"}
+     
+@article{Hart97,
+       author = "R. I. Hartley and P. Sturm",
+       title = "Triangulation",
+       year = "1997",
+       journal = "Computer Vision and Image Understanding",
+       volume = "68",
+       number = "2",
+       pages = "146-157" }
+           
+@book{HartZiss,
+       author = "R. Hartley and A. Zisserman",
+       title = "Multiple View Geometry in Computer Vision",
+       publisher = "Cambridge University Press",
+       address="Cambridge, UK",
+       year = "2003",
+       edition = "2nd"}
+       
+@article{Hein08,
+       author = "G. Hein and A. Teuber and H-J. Thierfelder and A. Wolfe",
+       title = "{GNSS} indoors fighting the fading, part 2",
+       year = "2008",
+       journal = "Inside GNSS",
+       volume = "3",
+       number = "4",
+       pages = "47-53" }
+
+@inproceedings{Hide11,
+       author = "C. Hide and T. Moore and T. Botterill",
+       title = "Low cost {IMU, GPS}, and camera integration for handheld indoor positioning",
+       year = "2011",
+       booktitle = "Proc. ION GNSS",
+       month=sep # " 19--23,",
+       address="Portland, OR, USA",
+       pages = "1378-1385"}
+       
+@inproceedings{Hide10,
+       author = "C. Hide and T. Botterill and M. Andreotti",
+       title = "Vision-aided {IMU} for handheld pedestrian navigation",
+       year = "2010",
+       booktitle = "Proc. ION GNSS",
+       month=sep # " 21--24,",
+       address="Portland, OR, USA",
+       pages = "534-541"}
+              
+@inproceedings{Hile07,
+       author = "H. Hile and G. Borriello",
+       title = "Information overlay for camera phones in indoor environments",
+       year = "2007",
+       booktitle = "LNCS 3rd International Symposium on Location- and Context Awareness",
+       month=sep # " 20--21,",
+       address="Oberpfaffenhofen, Germany",
+       pages = "68-84",
+       volume = "4718" }
+       
+@inproceedings{Hils12,
+       author = "S. Hilsenbeck and A. M{\"o}ller and R. Huitl and G. Schroth and M. Kranz and E. Steinbach",
+       title = "Scale-preserving long-term visual odometry for indoor navigation",
+       year = "2012",
+       month=nov # " 13--15,",
+       address="Sydney, Australia",
+       pages="10"
+       booktitle = "Proc. IPIN"}
+       
+@inproceedings{Holz12,
+       author = "C. Holzmann and M. Hochgatterer",
+       title = "Measuring distance with mobile phones using single-camera stereo vision",
+       year = "2012",
+       month=jun # " 18--21,",
+       address="Macau, China",
+       booktitle = "Proc. IEEE 32nd International Conference on Distributed Computing Systems Workshops",
+       pages = " 88-93"}
+       
+@patent{Hough,
+       author = "P.V.C. Hough",
+       title = "Method and means for recognizing complex patterns",
+       nationality = "United States",
+       number = "3069654",
+       year = "1962"}
+       
+@Techreport{Hut11,
+       author = "V. Huttunen and R. Pich\'{e}",
+       title = "A monocular camera gyroscope",
+       institution = "Department of Mathematics, Tampere University of Technology, Finland",
+       number = "98",
+       year = "2011"}
+
+@Standard{IOS75,
+        title = "Standard Atmosphere",
+        organization = "International Organization for Standardization",
+        number = "ISO 2533:1975",
+        year = "1975"}
+
+@inproceedings{Jiraw02,
+       author = "R. Jirawimut and S. Prakoonwit and F. Cecelja and W. Balachandran",
+       title = "Visual odometer for pedestrian navigation",
+       year = "2002",
+       booktitle = "Proc. IEEE Instrumentation and Measurement Technology Conference",
+       month = may # " 21--23,",
+       pages = " 43-48",
+       address = "Anchorage, AK, USA"}
+       
+@inproceedings{Julier97,
+       author = "S.J. Julier and J.K. Uhlmann",
+       title = "A new extension of the {Kalman} filter to nonlinear systems",
+       year = "1997",
+       month=apr # " 20--25,",
+       address="Orlando, FL, USA",
+       pages="182-192",
+       booktitle = "Proc. Aerosense: The 11th International Symposium Aerospace/Defense Sensing"}
+       
+@article{Kalman,
+       author = "R.E. Kalman",
+       title = "A new approach to linear filtering and prediction problems",
+       year = "1960",
+       journal = "Transactions of the ASME",
+       volume = "82",
+       pages = "35-45" }
+       
+@book{Kaplan,
+       editor = "E.D. Kaplan and D.H. Hegarty",
+       title = "Understanding GPS Principles and Applications",
+       publisher = "Artech House",
+       address="Norwood, MA, USA",
+       year = "2006"}
+          
+@inproceedings{Kess10,
+       author = "C. Kessler and C. Ascher and N. Frietsch and M. Weinmann G. Trommer",
+       title = "Vision-based attitude estimation for indoor navigation using vanishing points and lines",
+       month= may # " 4--6,",
+       year="2010",
+       address="Indian Wells, CA, USA",
+       booktitle = "Proc. IEEE/ION Position Location Navigation Symp.",
+       pages = "310-318"}
+       
+@article{KirkkoJaakkola12,
+       author = "M. Kirkko-Jaakkola and J. Collin and J. Takala",
+       title = "Bias Prediction for {MEMS} Gyroscopes",
+       year = "2012",
+       journal = "IEEE Sensors Journal",
+       volume = "12",
+       number = "6",
+       pages = "2157-–2163" }
+       
+@article{Kiriyati91,
+       author = "N. Kiriyati and Y. Eldar and AM. Bruckstein",
+       title = "A probabilistic {Hough Transform}",
+       year = "1991",
+       journal = "Pattern Recognition",
+       volume = "24",
+       number = "4",
+       pages = "303-316" }
+       
+@inproceedings{Kitt11,
+       author = "B. Kitt and J.Rehder and A. Chambers and M. Schönbein and H. Lategahn and S. Singh",
+       title = "Monocular visual odometry using a planar road model to solve scale ambiguity",
+       year = "2011",
+       month=sep # "7--9,",
+       address="{\"O}rebro, Sweden",
+       booktitle = "Proc. 5th European Conference on Mobile Robots",
+       pages = "43-48"}
+       
+@Incollection{Kocur09,
+       author = "D. Kocur and J. Rov\v{n}\'{a}kov\'{a} and M. \v{S}vecov\'{a}",
+       title = "Through Wall Tracking of Moving Targets by {M-sequence UWB} Radar",
+       year = "2009",
+       booktitle = "Towards Intelligent Engineering and Information Technology",
+       editor = "IJ. Rudas and J. Fodor and J. Kacprzyk",
+       series="Studies in Computational Intelligence",
+       publisher="Springer",
+       volume = "243",
+       pages = "349-364" }
+       
+@inproceedings{Kosecka02,
+       author = "J. Kosecka and W. Zhang",
+       title = "Video compass",
+       year = "2002",
+       month=may # " 28--31,",
+       address="Copenhagen, Denmark",
+       booktitle = "Proc. European Conference on Computer Vision",
+       pages = "657-673"}
+       
+@book{KuipersRot,
+       author = "J.B. Kuipers",
+       title = "Quaternions and Rotation Sequences",
+       publisher = "Princeton University Press",
+       address="Princeton, NJ, USA",
+       year = "1999"}
+       
+@Phdthesis{Kuusniemi05,
+        author = "H. Kuusniemi",
+        title = "User-level reliability and quality monitoring in satellite-based personal navigation",
+        school = "Tampere University of Technology, Finland",
+        year = "2005"}
+        
+@inproceedings{Kuusniemi11,
+       author = "H. Kuusniemi and L. Chen and L. Pei and J. Liu and Y. Chen and L. Ruotsalainen and R. Chen",
+       title = "Evaluation of {Bayesian} Approaches for Multi-sensor Multi-network Seamless Positioning",
+       year = "2011",
+       month = sep # " 19--23,",
+       address = "Portland, OR, USA",
+       pages="2137-2144",
+       booktitle = "Proc. ION GNSS"}
+
+@article{Kuusniemi12,
+       author = "H. Kuusniemi and J. Liu and L. Pei and Y. Chen and R. Chen",
+       title = "Reliability considerations of multi-sensor multi-network pedestrian navigation",
+       year = "2012",
+       journal = "IET Radar,Sonar and Navigation",
+       volume = "6",
+       number = "3",
+       pages = "157-164" }
+       
+@incollection{KuusniemiLBS,
+       author = "H. Kuusniemi and Y. Chen and L. Chen",
+       editor = "R. Chen",
+       title = "Multi-Sensor Multi-Network Positioning",
+       booktitle = "Ubiquitous positioning and mobile location-based services in smart phones",
+       publisher = "IGI Global",
+       address ="Hershey, MA, USA",
+       year = "2012",
+       chapter = "5"}
+       
+@inproceedings{P9,
+       author = "H. Kuusniemi and L. Chen and L. Ruotsalainen and L. Pei and Y. Chen  and R. Chen",
+       title = "Multi-sensor multi-network seamless positioning with visual aiding",
+       year = "2011",
+       month = jun # " 29--30,",
+       address = "Tampere, Finland",
+       pages="146-151",
+       booktitle = "Proc. ICL-GNSS "}
+       
+@article{Kalv95,
+       author = "H. K{\"a}lvi{\"a}inen and P. Hirvonen and L. Xu and E. Oja",
+       title = "Probabilistic and non-probabilistic {Hough} transforms: overview and comparisons",
+       year = "1995",
+       journal = "Image and Vision Computing",
+       volume = "13",
+       pages = "239-252"}
+
+@article{Lachapelle04,
+       author = "G. Lachapelle and H. Kuusniemi and D.T.H. Dao and G. Macgougan and ME. Cannon",
+       title = "{HSGPS} signal analysis and performance under various indoor conditions",
+       year = "2004",
+       journal = "Navigation",
+       publisher="The Institute of Navigation",
+       volume = "51",
+       number = "1",
+       pages = "29-43" }
+       
+@article{Lachapelle92,
+       author = "G. Lachapelle and ME. Cannon and G. Lu ",
+       title = "High precision {GPS} navigation with emphasis on carrier phase ambiguity resolution",
+       year = "1992",
+       journal = "Marine Geodesy",
+       volume = "15",
+       number = "4",
+       pages = "253-269" }
+     
+@article{Li11,
+       author = "X. Li and J. Wang and W. Ding ",
+       title = "Vision-based positioning with a single camera and {3D} maps: accuracy and reliability analysis",
+       year = "2011",
+       journal = "Journal of Global Positioning Systems",
+       volume = "10",
+       number = "1",
+       pages = "19-29" }
+       
+@article{Lowe2,
+       author = "D. Lowe",
+       title = "Distinctive image features from scale-invariant keypoints",
+       year = "2004",
+       journal = "International Journal of Computer Vision",
+       volume = "60",
+       number = "2",
+       pages = "91-110" }
+       
+@inproceedings{Sift,
+       author = "D. Lowe",
+       title = "Object recognition from local scale-invariant features",
+       year = "1999",
+       month=sep # " 20--25,",
+       address="Corfu, Greece",
+       booktitle = "Proc. International Conference on Computer Vision",
+       pages = "1150-1157"}
+
+@article{Ma06,
+       author = "L. Ma and Y.Q. Chen and K.L. Moore",
+       title = "Analytical piecewise radial distortion model for precision camera calibration",
+       year = "2006",
+       booktitle = "IEE Proc. Vision, Image and Signal Processing",
+       volume = "153",
+       number = "4",
+       pages = "468-474"}
+       
+@article{Matas00,
+       author = "J. Matas and C. Galambos and J.V. Kittler ",
+       title = "Robust detection of lines using progressive probabilistic {Hough Transform}",
+       year = "2000",
+       journal = "Computer Vision and Image Understanding",
+       volume = "78",
+       number = "1",
+       pages = "119-137" }
+       
+@Phdthesis{Mautz12,
+        author = "R. Mautz",
+        title = "Indoor Positioning Technologies",
+        school = "ETH Zurich",
+        year = "2012",
+        type = "Habilitation Thesis"}
+       
+@book{MisraEnge,
+       author = "P. Misra and P. Enge",
+       title = "Global Positioning System: Signals, Measurements, and Performance",
+       publisher = "Ganga-Jamuna Press",
+       address="Lincoln, MA, USA",
+       year = "2006"}
+
+@Electronic{NGDC,
+       title = "National Geophysical Data Center {(NGDC)}",
+       url = "http://www.ngdc.noaa.gov/geomag-web/\#igrfwmm",
+       note = "Last accessed April, 2013"}
+
+@inproceedings{Nister,
+       author = "D. Nist\'{e}r ",
+       title = "An efficient solution to the five-point relative pose problem",
+       year = "2003",
+       month=jun # " 18--20,",
+       booktitle = "Proc. IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+       volume ="2",
+       address="Madison, WI, USA",
+       pages = "195-202"}
+
+@Electronic{Nokia,
+       organization = "Nokia",
+       title = "Nokia {USA's} product web pages",
+       url = "http://www.nokia.com/us-en/products/phone/n8-00/",
+       note = "Last accessed April 15, 2012"}
+
+@inproceedings{Nour09,
+       author = "N. Nourani-Vatani and J. Roberts and M. Srinivasan",
+       title = "Practical visual odometry for car-like vehicles",
+       year = "2009",
+       month=may # " 12--17,",
+       pages="3551-3557"
+       address="Kobe, Japan",
+       booktitle = "Proc. IEEE International Conference on Robotics and Automation"}
+              
+@article{Quddus07,
+       author = "MA. Quddus and WY. Ochieng and RB. Noland",
+       title = "Current map-matching algortihms for transport applications: state-of-the art and future research directions",
+       year = "2007",
+       journal = "Transportation Research Part C",
+       volume = "15",
+       publisher = "Elsevier",
+       pages = "312-328" }
+       
+@Electronic{OpenCV,
+        title = "{OpenCV} open source visual library",
+        url = "http://opencv.org/",
+        note= "Last accessed March 2, 2013"}
+
+@inproceedings{Parviainen08,
+       author = "J. Parviainen and J. Kantola and J. Collin",
+       title = "Differential barometry in personal navigation",
+       year = "2008",
+       month=may # " 5--8,",
+       address="Monterey, CA, USA",
+       booktitle = "Proc. IEEE/ION Position Location Navigation Symp.",
+       pages = "148-152"}
+       
+@inproceedings{Prahl11,
+       author = "D.M. Prahl and M.J. Veth",
+       title = "Coupling Vanishing Point Tracking with Inertial Navigation to Produce Drift-Free Attitude Estimates in a Structured Environment",
+       year = "2010",
+       booktitle = "Proc. ION GNSS",
+       pages = "3571-3581",
+       month = sep # " 22--24,",
+       address = "Portland, OR, USA"}
+       
+@inproceedings{Pei11,
+       author = "L. Pei and R. Chen and J. Liu and H. Kuusniemi and Y. Chen and T. Tenhunen",
+       title = "Using Motion-Awareness for the {3D} Indoor Personal Navigation on a Smartphone",
+       year = "2011",
+       booktitle = "Proc. ION GNSS",
+       pages = "2906-2913",
+       month = sep # " 21--23,",
+       address = "Portland, OR, USA"}
+       
+@Electronic{QT,
+        organization = "Nokia",
+        title = "{QT} application framework",
+        url = "http://qt-project.org/",
+        note= "accessed 4.4.2013"}
+       
+@book{Ristic,
+       author = "B. Ristic and S. Arulampalm and N.J. Gordon",
+       title = "Beyond the Kalman Filter: Particle Filters for Tracking Applications",
+       publisher = "Artech House",
+       address="Norwood, MA, USA",
+       year = "2004"}
+       
+@inproceedings{Cip04,
+       author = "D. Robertson and R. Cipolla",
+       title = "An image-based system for urban navigation",
+       year = "2004",
+       month=sep # " 7--9,",
+       address="London, UK",
+       booktitle = "Proc. British Machine Vision Conference",
+       pages = "260-272" }
+       
+@article{Roos02,
+       author = "T. Roos and P. Myllym{\"a}ki and H. Tirri and P. Misikangas and J.A. Siev{\"a}nen",
+       title = "Probabilistic Approach to {WLAN} User Location Estimation",
+       year = "2002",
+       journal = "Int. J. Wirel. Inform. Netw.",
+       volume = "9",
+       pages = "155-164" }
+        
+%@article{P1,
+%       author = "L. Ruotsalainen and J. Bancroft and G. Lachapelle and H. Kuusniemi",
+%       title = "Enhanced pedestrian attitude estimation using vision aiding",
+%       year = "submitted for publication",
+%       journal = "Journal of Location Based Services " }
+        
+@article{P2,
+       author = "L. Ruotsalainen and H. Kuusniemi and MHZ. Bhuiyan and L. Chen and R. Chen",
+       title = "Two-dimensional Pedestrian Navigation Solution Aided with a Visual Gyroscope and a Visual Odometer",
+       year = "2012",
+       journal = "GPS Solutions",
+       url = "DOI: 10.1007/s10291-012-0302-8" }
+       
+@inproceedings{P3,
+       author = "L. Ruotsalainen and J. Bancroft and G. Lachapelle",
+       title = "Mitigation of Attitude and Gyro Errors through Vision Aiding",
+       year = "2012",
+       month=nov # " 13--15,",
+       address="Sydney, Australia",
+       pages="9",
+       booktitle = "Proc. IPIN"}
+
+@inproceedings{P4,
+       author = "L. Ruotsalainen",
+       title = "Visual Gyroscope and Odometer for Pedestrian Indoor Navigation with a Smartphone",
+       year = "2012",
+       month= sep # " 19--21,",
+       address="Nashville, TN, USA",
+       pages="2422-2431",
+       booktitle = "Proc. ION GNSS"}
+
+@inproceedings{P5,
+       author = "L. Ruotsalainen and J. Bancroft and H. Kuusniemi and G. Lachapelle and R. Chen",
+       title = "Utilizing Visual Measurements for Obtaining Robust Attitude and Positioning for Pedestrians",
+       year = "2012",
+       month= sep # " 19--21,",
+       address="Nashville, TN, USA",
+       pages="2454-2461",
+       booktitle = "Proc. ION GNSS"}
+       
+@inproceedings{P6,
+       author = "L. Ruotsalainen and J. Bancroft and G. Lachapelle and H. Kuusniemi and R. Chen",
+       title = "Effect of Camera Characteristics on the Accuracy of a Visual Gyroscope for Indoor Pedestrian Navigation",
+       year = "2012",
+       month=oct # " 2--4,",
+       address="Helsinki, Finland",
+       pages="8",
+       booktitle = "Proc. UPINLBS"}
+        
+@article{P7,
+       author = "L. Ruotsalainen and H. Kuusniemi and R. Chen",
+       title = "Visual-aided two-dimensional pedestrian indoor navigation in a Smartphone",
+       year = "2011",
+       journal = "The Journal of Global Positioning Systems",
+       volume = "10",
+       number = "1",
+       pages = "11-18" }
+       
+@inproceedings{P8,
+       author = "L. Ruotsalainen and H. Kuusniemi and R. Chen",
+       title = "Heading change detection for indoor navigation with a Smartphone camera",
+       year = "2011",
+       month=sep # " 21--23,",
+       address="Guimaraes, Portugal",
+       pages="7",
+       booktitle = "Proc. IPIN"}
+
+@Phdthesis{Saar09,
+        author = "J. Saarinen",
+        title = "A sensor-based personal navigation system and its application for incorporating humans into a human-robot team",
+        school = "Helsinki University of Technology, Finland",
+        year = "2009"}
+        
+@article{Sagias05,
+       author = "NC. Sagias and GK.  Karagiannidis",
+       title = "Gaussian class multivariate {Weibull} distributions: {Theory} and applications in fading channels",
+       year = "2005",
+       journal = "IEEE Trans. Inf. Theory",
+       volume = "51",
+       number = "10"
+       pages = "3608–3619" }
+
+@incollection{Santos09,
+        year={2009},
+        booktitle={MobileWireless Middleware, Operating Systems, and Applications},
+        volume={7},
+        series={LNICST},
+        title={An Analysis of Navigation Algorithms for Smartphones Using {J2ME}},
+        publisher={Springer Berlin Heidelberg},
+        author={A. Santos and L. Tarrataca and J.M.P. Cardoso},
+        pages={266-279}
+        }
+        
+@article{Shin11,
+       author = "H. Shin and Y. Chon and H. Cha",
+       title = "Unsupervised Construction of an Indoor Floor Plan Using a Smartphone ",
+       year = "2011",
+       journal = "IEEE Transactions on Systems, Man, and Cybernetics, Part C: Applications and Reviews",
+       volume = "42",
+       number = "6",
+       pages = "889-898" }
+           
+@article{Shriva12,
+       author = "GT Shrivakshan and C. Chandrasekar",
+       title = "A comparison of various edge detection techniques used in image processing",
+       year = "2012",
+       journal = "IJCSI International Journal os Computer Science Issues",
+       volume = "9",
+       issue = "5",
+       number = "1",
+       pages = "269-276" }
+       
+@Electronic{SIFTalg,
+       title = "Demo Software: SIFT Keypoint Detector",
+       url = "http://www.cs.ubc.ca/\~lowe/keypoints",
+       organization = "University of British Columbia",
+       note = "last accessed April 17, 2013"}
+
+@article{Solov10,
+       author = "A. Soloviev and D. Venable",
+       title = "When {GNSS} goes blind. {Integrating} vision measurements for navigation in signal-challenged environment",
+       year = "2010",
+       journal = "Inside GNSS ",
+       volume = "5",
+       number = "7",
+       pages = "18-29" }
+       
+@Electronic{Sony,
+       organization ="Sony",
+       title = "{HXRMC1 Digital HD POV Camera Recorder}",
+       url = "http://www.sonybiz.ca/solutions/ProductDisplay.do?catentryId=1006009",
+       note = "last accessed June 15, 2012"}
+        
+@article{WLANS08,
+       author = "V. Stantchev and T. Schulz and D. H. Trung and I Ratchinski",
+       title = "Optimizing Clinical Processes with Position-Sensing",
+       year = "2008",
+       journal = "IEEE IT Professional",
+       volume = "10",
+       number = "2",
+       pages = "31-37" }
+        
+@inproceedings{Stein07,
+       author = "U. Steinhoff and D. Omer\v{c}evi\'{c} and R. Perko and B. Schiele and A. Leonardis",
+       title = "How computer vision can help in outdoor positioning",
+       year = "2007",
+       booktitle = {Proceedings of the 2007 European conference on Ambient intelligence},
+       series = {AmI'07},
+       pages = "124-141",
+       volume = "4794",
+       month = nov # " 7--10,",
+       address = "Darmstadt, Germany"}
+
+@Phdthesis{Stre04,
+        author = "D. Strelow",
+        title = "Motion estimation from image and inertial measurements",
+        school = "Carnegie Mellon University, Pittsburgh, PA",
+        year = "2004"}
+       
+@inproceedings{Susi11,
+       author = "M. Susi and V. Renaudin and G. Lachapelle",
+       title = "Detection of quasi-static instants from handheld {MEMS} devices",
+       year = "2011",
+       month=sep # " 21--23,",
+       address="Guimaraes, Portugal",
+       pages="9",
+       booktitle = "Proc. IPIN"}
+       
+@book{Titterton,
+       author = "D. Titterton and J. Weston",
+       title = "Strapdown Inertial Navigation Technology",
+       publisher = "IET",
+       edition="Second",
+       address="Stevenage, UK",
+       year = "2004"}
+       
+@article{Torr99,
+         title={The Problem of Degeneracy in Structure and Motion Recovery from Uncalibrated Image Sequences},
+         volume={32},
+         number={1},
+         journal={International Journal of Computer Vision},
+         publisher={Kluwer Academic Publishers},
+         author="P.H.S Torr and A.W. Fitzgibbon and A. Zisserman",
+         year={1999},
+         pages={27--44}}
+       
+@Techreport{Veth07,
+       author = "M. Veth and J. Raquet",
+       title = "Fusion of low-cost imaging and inertial sensors for navigation",
+       institution = "Air Force Institute of Technology, OH",
+       number = "0704-0188",
+       note = "11 pages",
+       year = "2007"}
+       
+@article{Welch_Bishop_2006,
+         title={An Introduction to the {Kalman} Filter},
+         volume={7},
+         number={1},
+         journal={In Practice},
+         publisher={Citeseer},
+         author={Welch, Greg and Bishop, Gary},
+         editor={Acm Press, Addison-WesleyeditorEditor},
+         year={2006},
+         pages={1--16}}
+
+@inproceedings{Yous03,
+       author = "M. Youssef and A. Agrawala and A.U. Shankar",
+       title = "{WLAN} Location Determination via Clustering and Probability Distributions",
+       year = "2003",
+       booktitle = "Proc. First IEEE International Conference on Pervasive Computing and Communications",
+       pages = "143-150",
+       month = mar # " 23--26,",
+       address = "Dallas Fort-Worth, TX, USA"}
+             
+@article{Zhang12,
+       author = "X. Zhang and A.B. Rad and Y-K. Wong",
+       title = "Sensor fusion of monocular cameras and laser rangefinders for line-based simultaneous localization and mapping {(SLAM)} tasks in autonomous mobile robots",
+       year = "2012",
+       journal = "Sensors",
+       volume = "12",
+       pages = "429-452" }
+       
+@inproceedings{Zhang06,
+       author = "W. Zhang and J. Kosecka",
+       title = "Image based localization in urban environments",
+       year = "2006",
+       month=jun # " 14--16,",
+       address="Chapel Hill, NC, USA",
+       booktitle = "Proc. The Third International Symposium on 3D Data Processing, Visualization and Transmission",
+       pages = "33-40" }
+       
+@inproceedings{Zhang08,
+       author = "X. Zhang and P. Mumford and C. Rizos",
+       title = "Allan Variance Analysis on Error Characters of {MEMS} Inertial Sensors for an {FPGA}-based {GPS/INS} System",
+       year = "2008",
+       booktitle = "Proc. International Symposium on GPS/GNSS",
+       month = nov # " 11--14,",
+       pages="127-133",
+       address="Tokyo, Japan" }
+
+       
+
+      
+
+       

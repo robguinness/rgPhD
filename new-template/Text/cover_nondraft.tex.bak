@@ -1,0 +1,29 @@
+\thispagestyle{empty}
+
+\vspace*{-.5cm}\noindent
+
+% If thesis is in English, use the file "tut-logo"
+% instead of "tty-logo" in the following:
+
+\includegraphics[width=8cm]{Text/tut-logo}
+
+\vspace{2.8cm}
+
+\noindent{\normalsize \textsf{Robert E. Guinness}}\\ \\
+{\bf\large \textsf{Context Awareness in Smartphones}}\\ \\
+\textsf{Doctoral thesis}\\ \\
+
+
+\vspace{8.7cm} % jos kaksi otsikkoriviä vaihda -> 6.7cm
+
+%\begin{flushright}
+%
+%\begin{minipage}[c]{6.8cm}
+%\begin{spacing}{1.0}
+%\textsf{Tarkastaja: Tarkastaja 1}\\
+%\textsf{Tarkastaja ja aihe hyväksytty}\\
+%\textsf{xxxxxxx tiedekuntaneuvoston}\\
+%\textsf{kokouksessa xx.xx.xxxx}\\
+%\end{spacing}
+%\end{minipage}
+%\end{flushright}

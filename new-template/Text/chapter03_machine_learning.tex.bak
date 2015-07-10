@@ -1,0 +1,170 @@
+
+This chapter introduces the basics of computer vision. Herein the real life matters that are seen in the field-of-view of the camera are called objects and their two-dimensional images features. Humans inherently possess a good quality "stereo camera", namely eyes, and the human visual perception is capable of filling in missing information. Therefore it is easy for a human to understand perspectives, evaluate distances and occluded parts of the objects in the scene. In the case of the computer vision, objects in the scene are seen as sets of points of digitized brightness value functions. The form of these features, i.e. the point sets, change related to the pose of the camera and the lightness of the environment. Therefore care has to be taken while the features are extracted and matched in images. Deduction of motion information from images is also challenging. The methods used widely in vision-aided navigation research, also in the approaches presented in this thesis, are explained below.
+
+\section{Fundamentals of Machine Learning}
+The principles explained in this section are mainly derived from \cite{HartZiss}. The objects in the 3D world are mapped into 2D image features using projective transformations. These projections do not preserve the properties of shape, length, angle, distance or ratio of distances, but they do preserve the property of straightness. As a result of projective transformation the lines parallel in the scene seem to intersect in an image at a point, called the vanishing point. Therefore, to obtain a projective geometry space, the Euclidean geometry has to be augmented with a point and line in the infinity. Also, two coordinates $(x,y)$ presenting a point in Euclidean space are replaced with a triplet $(x,y,1)$ called homogenous coordinates in projective space.
+
+An object point having coordinates $\mathbf X_N=(X,Y,Z)$ in the world (navigation) frame is transformed into the camera frame $\mathbf X_C$ using the rotation $( \mathbf R)$ of the camera frame with respect to the world frame and translation of the camera origin $(\mathbf t)$ with respect to the world frame origin as
+
+\begin{equation}\label{eq:CameraF}
+  \mathbf X_C  = \mathbf R \mathbf X_N + \mathbf t .
+\end{equation}
+
+The methods presented in this thesis assume a pinhole camera model, in which an object point in the camera frame expressed in homogenous coordinates $\mathbf X_C = (X,Y,Z,1)$ is mapped to the point $\mathbf x = (fX,fY,Z)$ in image plane. $f$ is called the focal length and a line perpendicular to the image plane going from the camera centre, called principal axis, meets the plane at distance $f$ in a point called principal point. World, camera and image frames as well as principal point and focal length are shown in Figure \ref{fig:VFrames}. An important note is that as opposed to the established means of coordinate frame configuration in navigation research presented in the previous chapter, in computer vision the y-axis is pointing up and z-axis along the camera's principal axis. This is an issue that has to be accommodated for while forming the navigation solution. The mapping of the world point $X$ to the homogenous image point $\mathbf x = (x,y,1)$, where $x=fX/Z$ and $y=fY/Z$ is characterized by a 3x4 camera matrix $\mathbf P$ as $\textbf{x} = \textbf{P}\textbf{X}$. When the calibration matrix $\textbf{K}$ is known the world point $\textbf{X}$ is mapped into image point $\textbf{x}$ using camera matrix $\textbf{P}=\textbf{K}[\textbf{R}|\textbf{t}]$.
+% Figure
+\begin{figure}[t]
+\begin{center}
+  \includegraphics[width=4in]{Text/Images/Frames.jpg}\\
+  \caption[Coordinate frames in vision-aiding]{Camera, image and world coordinate frames.}
+  \label{fig:VFrames}
+\end{center}
+\end{figure}
+
+When the object points all lie on a plane, point correspondences $x_i, x_i^{\prime}$ in an image are related by a homography expressed using a 3x3 matrix $\mathbf H$ as $\mathbf Hx_i=x_i^{\prime}$. The matrix has three entries but is defined only up to a scale and therefore four point correspondences (each having two coordinates) are needed to resolve the ambiguous values in $\mathbf H$. If three of these point correspondences are collinear, the homograpy is said to be degenerate and does not have a unique solution. Degeneracy problems are addressed in more detail in Chapter \ref{chapter:V_odo}. Image points must be normalized for the solutions of homography to be correct. The image points $\mathbf x$ are normalized using the camera calibration matrix $\mathbf K$, discussed in detail below, as $\hat{\mathbf{x}} = \mathbf K^{-1} \mathbf x$.
+
+When the object points do not lie on a plane but are tracked from a real 3D scene, a Fundamental matrix $(\textbf{F})$ has to be computed. The Fundamental matrix encompasses the intrinsic projective geometry between two views, meaning that only the rotation and translation of the two camera centers (also one camera between two images) and the internal camera parameters represented by the Calibration matrix $\textbf{K}$, affect the matrix. In other words, Fundamental matrix $(\textbf{F})$ represents the epipolar geometry between the two views, visualized in Figure \ref{fig:Epipolar}. The figure shows the image $\textbf{x},\textbf{x}^{\prime}$ of an object point ${\textbf{X}} $, the epipole is an intersection of the baseline between the optical centres of the cameras and the image plane. If only the position of the first image point $\textbf x$ is known, epipolar geometry restricts the location of the second image point $\textbf{x}^{\prime}$ to lie on the epipolar line, which is the line joining the image point and the epipole, and an epipolar plane is configured by the baseline and epipolar lines. The Fundamental matrix $\textbf{F}$ is a 3x3 matrix and is defined for all corresponding points in two images $(\textbf{x},\textbf{x}^{\prime})$ as
+
+\begin{equation}\label{eq:Fundamental}
+  \textbf{x}^{\prime}\textbf{F}\textbf{x}=0 .
+\end{equation}
+
+At least seven corresponding points have to be matched from two images to compute the Fundamental matrix. For a general motion the rotation $\textbf{R}$, translation $\textbf{t}$ and cameras' internal parameters $\textbf{K}, \textbf{K}^{\prime}$ encompassed in the Fundamental matrix relate the image points in the first and second images $(\textbf{x},\textbf{x}^{\prime})$, respectively, as
+
+\begin{equation}\label{eq:FMrelation}
+ \textbf{x}^{\prime}=\textbf{K}^{\prime}\textbf{R}\textbf{K}^{-1}\textbf{x}+\textbf{K}^{\prime}\textbf{t}/Z
+\end{equation}
+
+where $Z$ is the z-coordinate, i.e. the depth, of the object point.
+
+When the image points are normalized as was explained above, the Essential matrix may be used instead of the Fundamental matrix, as $\hat{\mathbf{x}}^{\prime T} \mathbf E \hat{\mathbf{x}} = 0 $, where $\mathbf E=\mathbf K^{\prime T}\mathbf F\mathbf K$.
+\begin{figure}[t]
+\begin{center}
+  \includegraphics[scale=0.6]{Text/Images/EpipolarLine.jpg}\\
+  \caption[Epipolar geometry]{The epipolar geometry between two images including epipolar plane, epipoles $(e,e^{\prime})$ and epipolar lines $(l,l^{\prime})$ \cite{ForsythPonce}.}
+  \label{fig:Epipolar}
+\end{center}
+\end{figure}
+
+\section{Supervised Machine Learning}
+First, the features have to be extracted for solving the motion and translation of camera between consecutive images. SIFT keys, explained below, are good features to be matched, when the environment contains many distinguishable objects. However, when the environment is poor with features, such as an office corridor, features arising from the constructions, like corners and lines, are more robust to be used. Below, first the procedure called filtering is explained, because of its use in noise reduction from images as well las edge detection. Then the extraction of two types of features used herein, SIFT keys and lines, is explained.
+
+\section{Unsupervised Machine Learning}
+Filtering is used for finding patterns and reducing noise from images.  Filtering replaces the value of an individual pixel $(x,y)$ with a weighted sum of its neighbors. Different weights correspond to different processes \cite{ForsythPonce}. The pattern of weights is denoted as the kernel of the filter. Filtering is usually called convolution and is defined as
+
+\begin{equation}\label{eq:convolution}
+  \textbf{C}_{ij}=\sum_{x,y} \textbf{G}_{i-x,j-y}\textbf{I}_{x,y}
+\end{equation}
+
+where the $i$th and $j$th component of the convolution result is denoted with $\textbf{C}_{ij}$, $\textbf{I}$ is the image and $\textbf{G}_{i-x,j-y}$ is the kernel of the convolution.
+
+A symmetric Gaussian kernel has the form of the probability density for a 2D Gaussian random variable and is a good candidate for a kernel for noise reduction convolution.  Using a large standard deviation $(\sigma)$ in convolution emphasizes the weight of the neighboring pixels and reduces the noise heavily, though causing some blurring.  The Gaussian kernel is presented as
+
+\begin{equation}
+  \mathbf G_{ij}=\frac{1}{2\pi\sigma^2}exp(-\frac{x^2+y^2}{2\sigma^2}) .
+\end{equation}
+
+\subsection{SIFT-Features}
+Scale Invariant Feature Transform (SIFT) \cite{Sift} is an approach based on transforming an image into local feature vectors; SIFT keys, describing the intensities around image points that are found as maxima or minima of a difference-of-Gaussian function. Each vector is invariant to image translation, scaling, and rotation and partially invariant to illumination changes and affine or 3D projections.
+
+The minima and maxima of a difference of Gaussian function are computed in SIFT by building an image pyramid and resampling the data in each level. The 1D Gaussian kernel used is
+
+\begin{equation}
+  g(x) = \frac{1}{\sqrt{2\pi}\sigma}e^{\frac{-x^2}{2\sigma^2}}
+\end{equation}
+
+and $\sigma=\sqrt{2}$. The image is convolved twice, and the difference of Gaussian is obtained by subtracting the two resulting images from each other. Then, the image resulted from the second convolution is resampled using bilinear interpolation and a pixel spacing of 1.5 resulting in an image having each pixel as a constant linear combination of the four adjacent pixels. The maxima and minima are found by comparing each pixel to its neighbours. The image resulting from the first convolution $(I^1)$ in each level is processed for obtaining the image gradient magnitudes $(M_{ij})$ and orientations $(O_{ij})$ as
+
+\begin{equation}
+\begin{array}{lcl}
+  M_{ij}&=&\sqrt{(I^1_{ij}-I^1_{i+1,j})^2+(I^1_{ij}-I^1_{i,j+1})^2} \\ \\
+  O_{ij}&=&\arctan2{(I^1_{ij}-I^1_{i+1,j},I^1_{i,j+1}-I^1_{ij})}. \end{array}
+\end{equation}
+
+The gradient magnitudes $(M_{ij})$ are given a threshold of 0.1 times the maximum possible value to provide robustness to changes in illumination. Its effect on the orientations $(O_{ij})$ is much lower. The orientation invariance is obtained by convolving the image using Gaussian kernel with large $\sigma$-value and by multiplying the weights with the corresponding gradient value. A histogram with 10 degree intervals is built from the convolution results and the correct orientation of the feature is the peak in the histogram. As a result the features in the image are represented with keys having a stable location, scale and orientation also invariant for changes in illumination in consecutive images. Each key is a 128-element vector.
+
+SIFT functions well in environments full of features, such as in outdoors, but suffers from errors if the images are comprised mostly of vegetation or dynamic objects \cite{Stein07}.
+
+\subsection{Line Extraction}
+Indoor and urban environments are constructed in a way that their structures constitute a three dimensional grid defining a orthogonal coordinate frame, also called Manhattan grid \cite{Coug99}, containing straight parallel lines and therefore the methods based on line features are suitable for these environments otherwise poor in features \cite{Kess10}. Lines are also good features for the basis of visual positioning because they are invariant to changes in the lighting, which is crucial especially for indoor positioning, but also because straight lines remain straight in projective transformations and are not disturbed by dynamic objects that are not blocking the view to all lines in the scene. Line extraction begins by identifying edges of all features in an image and then separating the straight lines from other features. These are explained below.
+
+\subsubsection{Edge Detection}
+Fast changes of brightness in the image indicate edges of objects. The brightness of the pixel in an image depends on the characteristics of light sources as well as the traits and orientation of the surface. The orientation of the surface is specified with surface gradients. Canny edge detector \cite{Canny} calculates magnitudes and directions of these gradients. It is an optimal algorithm for detecting the edges requiring low error rate of the calculations, the points to be well localized, meaning that the distance between the calculated location of the edge and the real one has to be minimal, and refusing multiple responses for an edge.
+
+In a two dimensional image the edge has a position and an orientation. The direction of the tangent to the edge contour is called edge direction. The edge is found by convolving the image using a first derivative $G_n$ in direction $n$ of a two-dimensional Gaussian $G$ as a kernel and defined as
+\begin{equation}
+  G_n=\frac{\delta G}{\delta n}=n \cdot \nabla G
+\end{equation}
+where
+\begin{equation}
+  G=exp(-\frac{x^2+y^2}{2 \sigma^2}) .
+\end{equation}
+
+Now an edge point is a local maximum when the image $\mathbf I$ is convolved using $G_n$ as a kernel. The local maximum is found from an image pixel fulfilling
+\begin{equation}\label{eq:cannymax}
+  \frac{\delta ^2}{\delta n^2}G \cdot \mathbf I = 0
+\end{equation}
+
+and the edge strength is calculated as
+\begin{equation}\label{eq:cannystrength}
+  |G_n \cdot \mathbf I| = |\nabla (G \cdot \mathbf I)| .
+\end{equation}
+
+A pixel having a magnitude of local maximum along the gradient direction belongs to the edge and the process of finding the maximums using (\ref{eq:cannymax}) is called non-maximum suppression. The set of possible edge pixels found by looking for local maximums contains too many members. The pixels having weak response to an edge have to be excluded using a procedure called hysteresis. Hysteresis evaluates each pixel in the possible edge set using two thresholds. All pixels having edge strength (\ref{eq:cannystrength})above the upper threshold are classified as part of an edge and all below the lower threshold as not belonging to the edge. Pixels between the two thresholds are evaluated based on their neighbours. If the neighbour belongs to an edge, then the pixel belongs also, otherwise not. After all pixels in the possible pixel set are deemed to belong to an edge or not, the optimal edge set is defined.
+
+Canny edge detection is one of the most used edge detectors, but many others also exist, for example Sobel, Laplace, and Prewitt operators \cite{Shriva12}.
+
+\subsubsection{Separating the Lines from Other Edges}
+Canny edge detection finds all changes of brightness in an image demonstrating an edge of an object. For most computer vision applications there is still a need to find certain shapes among all edges. Hough \cite{Hough} developed a method for identifying lines among all image pixels. His method maps all image points into a two-dimensional parameter space, the parameters being the slope and the intercept of the line. Each point is then examined and given a vote for all features possibly travelling through it. Since both the slope and intercept are unbounded, a modified form of Hough transform was developed and has been widely exploited in computer vision research \cite{Dudahart}. When extended it is suitable for finding  also other curves than lines. The method is based on the parameter space $(\rho,\theta)$, where $\rho$ is the radius of a line passing through the origin and normal to the line being detected and $\theta$ is its angle with the x-axis as shown in Fig. ~\ref{fig:Hough}. A straight line including the pixel \textit {(x,y)} is then defined as a sinusoid
+\begin{equation}
+  \rho=x \cos(\theta)+y \sin(\theta) .
+\end{equation}
+When the possible values of $\theta$ are restricted to the interval $[0,\pi]$ every line in the image plane corresponds to a unique point in the parameter space defined plane. Now the curves going through a common point in the parameter plane correspond to the image points on a specific straight line. Therefore the lines are identified by looking for the points in the $(\rho,\theta)$-parameter space having local maximums of votes.
+\begin{figure}[t]
+\begin{center}
+  \includegraphics[width=4.5in]{Text/Images/PHD_Hough_formation.jpg}\\
+  \caption[Hough transform parameters]{Formulation of parameters $\rho$ and $\theta$ in Hough transform.}
+    \label{fig:Hough}
+\end{center}
+\end{figure}
+The weakness of the otherwise sophisticated algorithm is that it is computationally heavy. As in pedestrian navigation the real-time processing of algorithms is crucial, more efficient line detection algorithm based on probabilistic Hough Transform was developed in this thesis and will be presented in Chapter \ref{chapter:VA_navigation}.
+
+\section{Image Matching}
+Matching is a process of identifying the corresponding features in two images of the same scene taken at different viewpoints, different times, or by different sensors (cameras). As the SIFT keys are invariant to rotation and translation, their matching is restricted to finding the most similar keys in the two images, i.e. the keys with minimum Euclidean distance \cite{Lowe2}.
+
+When more robust matching is needed from the noisy image data RANdom SAmple Consensus (RANSAC) \cite{Ransac} is used. The RANSAC algorithm enlarges the set composed by the minimum set needed for the solution with the points within some error tolerance. This is done by searching for a random sample of points that leads to a fit of the model in question for which many of the points agree. This leaves the outliers out from the data used in calculations. The algorithm is used widely in computer vision applications such as vanishing point detection. A comprehensive explanation of the algorithm with examples is given in \cite{ForsythPonce}. RANSAC is however computationally quite heavy and therefore not used in the methods discussed in this thesis emphasizing the computational efficiency.
+
+\section{Camera Calibration}
+
+As was explained earlier the operations performed for mapping the objects into images are done using projective geometry. However, navigation solutions need the information to be presented in Euclidean reconstruction. This may be done by using a calibrated camera for capturing the images. Calibration provides information about camera's intrinsic parameters and is represented using a calibration matrix $\mathbf K$. The camera intrinsic parameters are focal length $(f_x,f_y)$, principal point $(u,v)$, skew coefficient $(S)$, aspect ratio and distortions. Focal length is defined as the distance between the centre of the camera’s lens and the film while taking a focused image of an object that is infinitely far. Principal point is the intersection point of the camera’s optical axis with the image plane, as was shown in Figure \ref{fig:VFrames}. Distortions blur the image due to the fact that the focal length varies in different points of the lens. The skew comes from manufacturing errors and makes the two image axes non-orthogonal, the skew coefficient defines the angle between these axes. The skew in a normal camera is usually zero, except when taking an image of an image, for example, when enlarging a negative \cite{HartZiss}. A reduced form, with zero skew, of a camera matrix K is normally used for computer vision applications and is
+
+\begin{equation}
+ \mathbf{K} = \begin{bmatrix} f_{x} & 0 & u \\
+                              0 & f_{y} & v \\
+                              0 & 0 & 1 \end{bmatrix} .
+\end{equation}
+
+It is adequate for a pedestrian navigation system to calibrate the camera once and assume the parameters unchanged since. The calibration may be done by photographing a certain model image from different viewpoints and then calculating the parameters using the images and the known geometry of the model. In the methods described in the thesis calibration is done using a Matlab application \cite{Bouguet}.  A camera may be calibrated also with a single image using vanishing point information and the zero assumption of the skew. If the positions of three vanishing points can be recovered, the focal length and centre of projection (the principal point) may be determined \cite{Kosecka02}. When the accuracy of the navigation solution may be compromised for the sake of adaptability, the focal length may be found from the image’s Exchangeable Image File (EXIF) data, and the principal point may be assumed to be the central point of the image.
+
+\subsection{Distortion}
+The best accuracy for vision-aided calculations is obtained when a camera with a wide angle lens offering an extended field-of-view is used, as will be shown in Chapter \ref{chapter:VGY}. However, the wide angle lens results in radial distortion in the images. If the distortion is not corrected, the calculation accuracy suffers. According to \cite{HartZiss}, the rectification of the whole image introduces aliasing effects complicating the feature detection. For optimal result, when a wide angle lens camera is used the radial distortion is corrected only for the features extracted from the images with a model presented in \cite{Ma06} and explained below.
+
+The radial distance $(\textit r_d)$ of the normalized distorted image points $(\textit x_d, \textit y_d)$ from the radial distortion center, which is in most cases the principal point (\textit{u,v}), is
+\begin{equation}
+  r_d=\sqrt{x_d^2+y_d^2} .
+\end{equation}
+
+Using the radial distance of the distorted image points, the radial distance (\textit r) of the corrected image points $(\textit x_u, \textit y_u)$ is obtained as
+
+\begin{equation}
+  r=r_d(1-k_1r_d^2-k_2r_d^4) .
+\end{equation}
+
+The constants $ \textit k_i$ are the distortion values specific to the camera and are obtained from calibration. The corrected and distorted image points are related as
+\begin{equation}
+\begin{split}
+x_d=x_u(1+k_1r+k_2r^2) \\
+y_d=y_u(1+k_1r+k_2r^2). \\
+\end{split}
+\end{equation}
+
+The effect of the distortion correction is shown in the case of the feasibility of the visual gyroscope in Chapter \ref{chapter:VGY}.

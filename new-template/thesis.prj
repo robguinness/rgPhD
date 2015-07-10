@@ -1,0 +1,69 @@
+5 Patch Control
+
+0
+0
+1
+:\Users\rg\Desktop\Rob\PHDbase.tex
+14
+0
+0
+
+:\Users\rg\Desktop\Rob\PHDbase.tex
+TeX
+269496315 0 -1 2684 -1 1439 0 0 1264 680 0 1 264 272 -1 -1 0 0 39 -1 -1 39 1 0 1439 -1  0 -1 0
+:\Users\rg\Desktop\Rob\Text\chapter_CV.tex
+TeX
+269496315 0 -1 0 -1 0 75 75 1539 334 0 1 40 0 -1 -1 0 0 -1 -1 -1 -1 1 0 0 -1  0 -1 0
+:\Users\rg\Desktop\Rob\Text\chapter_pedestrian.tex
+TeX
+1060859 0 -1 0 -1 0 50 50 1514 309 0 1 40 0 -1 -1 0 0 -1 -1 -1 -1 1 0 0 -1  0 -1 0
+:\Users\rg\Desktop\Rob\Text\chapter_introduction.tex
+TeX
+1060859 0 -1 0 -1 0 75 75 1539 334 0 1 40 0 -1 -1 0 0 62 -1 -1 62 1 0 0 -1  0 -1 0
+:\Users\rg\Desktop\Rob\Text\symbols.tex
+TeX
+1060859 0 -1 0 -1 0 0 0 1464 259 0 1 40 0 -1 -1 0 0 -1 -1 -1 -1 1 0 0 -1  0 -1 0
+:\Users\rg\Desktop\Rob\Text\abbreviations.tex
+TeX
+1060859 0 -1 0 -1 0 25 25 1364 598 0 1 40 0 -1 -1 0 0 36 -1 -1 36 1 0 0 -1  0 -1 0
+:\Users\rg\Desktop\Rob\abstract.tex
+TeX
+1060859 0 -1 0 -1 0 50 50 1389 623 0 1 40 0 -1 -1 0 0 180 -1 -1 180 1 0 0 -1  0 0 0
+:\Users\rg\Desktop\Rob\Text\cover_nondraft.tex
+TeX
+1060859 0 -1 244 -1 262 25 25 1489 284 0 1 424 61 -1 -1 0 0 21 -1 -1 21 1 0 262 -1  0 0 0
+PHDbase.tex
+TeX
+1060859 0 -1 147 -1 715 0 0 1464 259 0 1 48 408 -1 -1 0 0 39 -1 -1 39 1 0 715 -1  0 -1 0
+:\Users\rg\Desktop\Rob\Text\chapter_VGY.tex
+TeX
+269496315 0 -1 0 -1 0 100 100 1564 359 0 1 40 0 -1 -1 0 0 -1 -1 -1 -1 1 0 0 -1  0 -1 0
+styles\IEEEtranS.bst
+BST:UNIX
+1147890 0 0 1 0 1 50 50 1514 309 0 0 24 0 -1 -1 0 0 3 0 0 3 1 0 1 0  0 0 0
+:\Users\rg\Desktop\Rob\Text\refs.bib
+BibTeX
+269485042 1 166 16 166 21 100 100 1564 359 0 1 200 187 -1 -1 0 0 18 0 0 18 1 0 21 166  0 -1 0
+:\Users\rg\Desktop\Rob\Text\chapter_conclusion.tex
+TeX
+269496315 0 -1 0 -1 0 75 75 1539 334 0 1 40 0 -1 -1 0 0 187 -1 -1 187 1 0 0 -1  0 -1 0
+:\Users\rg\Desktop\Rob\PHDbase.bbl
+TeX:AUX
+269496306 0 0 1 0 1 125 125 1589 384 0 0 24 0 -1 -1 0 0 -1 -1 -1 -1 1 0 1 0  0 0 0
+
+*:\Users\rg\Desktop\Rob\PHDbase.tex
+>
+*Text/cover_nondraft
+*abstract
+*Text/abbreviations
+*Text/symbols
+*Text/chapter_introduction
+*Text/chapter_pedestrian
+*Text/chapter_CV
+*Text/chapter_VGY
+*Text/chapter_Vodo
+*Text/chapter_implementation
+*Text/chapter_VAcarrier
+*Text/chapter_conclusion
+*Text/refs
+<

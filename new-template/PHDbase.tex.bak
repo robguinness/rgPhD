@@ -1,0 +1,118 @@
+\documentclass[11pt,final]{tutdrthesis}
+\usepackage{graphicx}
+%\usepackage[dvips]{graphicx}
+\usepackage{enumerate}
+\usepackage[USenglish]{babel}
+\usepackage{layout}
+\usepackage{cite}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{multirow}
+
+
+
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+
+\newcommand{\longpage}{\enlargethispage*{100cm} \pagebreak}
+\newcommand{\nohyphens}{\hyphenpenalty=10000\exhyphenpenalty=10000\relax}
+
+\newcommand{\mymod}{\mathop{\rm mod^*}}
+\newcommand{\sgn}{\mathop{\rm sgn}}
+\newcommand{\argmax}{\mathop{\rm arg\,max}}
+\newcommand{\argmin}{\mathop{\rm arg\,min}}
+\newcommand{\hw}{hardware }
+\newcommand{\sw}{software }
+%\newcommand{\cd} {Cholesky decomposition }
+
+\newcommand{\subsubsubsection}[1]{\paragraph{#1:}}
+\newcommand{\bc}[1]{\texttt{\textbf{#1}}}
+\newcommand{\lc}[1]{\texttt{#1}}
+
+\newenvironment{packed_enumerate}{
+\begin{enumerate}
+  \setlength{\partopsep}{1pt}
+  \setlength{\itemsep}{3pt}
+  \setlength{\parskip}{1pt}
+  \setlength{\parsep}{1pt}
+}{\end{enumerate}}
+
+%\hyphenation{ACS}
+%\hyphenation{ACSU}
+%\hyphenation{ACSUs}
+\hyphenation{FFT}
+\hyphenation{MAC}
+\hyphenation{GPP}
+\hyphenation{DPS}
+\hyphenation{ASIC}
+\hyphenation{ASP}
+
+
+\begin{document}
+
+%%%\layout
+
+% Comment out all the front matter stuff
+\include{Text/cover_nondraft}
+\frontmatter
+\setcounter{secnumdepth}{-1}
+
+\chapter{Abstract}
+\input{abstract}
+%%\include{Text/preface}
+
+\chapter{Table of Contents}
+\tableofcontents
+%\chapter{List of Publications}
+%%\input{publications}
+\chapter{List of Figures}
+\listoffigures
+\chapter{List of Tables}
+\listoftables
+\chapter{Abbreviations}
+\input{Text/abbreviations}
+\chapter{Symbols}
+\input{Text/symbols}
+
+\setcounter{secnumdepth}{2}
+\mainmatter
+% Chapters
+\chapter{Introduction}
+\label{chapter:intro}
+\input{Text/chapter01_introduction}
+\chapter{Overview of context awareness}
+\label{chapter:overview}
+\input{Text/chapter02_overview_of_context_awareness}
+\chapter{Machine Learning}
+\label{chapter:machine_learning}
+\input{Text/chapter03_machine_learning}
+\chapter{Smartphone Platform and Sensors}
+\label{chapter:smartphone_platform_and_sensors}
+\input{Text/chapter04_smartphone_sensors}
+\chapter{Other Low-Cost Sensors and Platforms}
+\label{chapter:other_sensors}
+\input{Text/chapter05_other_sensors}
+\chapter{Smartphone User Contexts}
+\label{chapter:smartphone_user_contexts}
+\input{Text/chapter06_smartphone_user_contexts}
+\chapter{Maritime User Contexts}
+\label{chapter:maritime_user_contexts}
+\input{Text/chapter07_maritime_user_contexts}
+\chapter{Conclusions}
+\label{chapter:conclusion}
+\input{Text/chapter08_conclusions}
+\setcounter{secnumdepth}{-1}
+\chapter{Bibliography}
+\bibliography{Text/refs}%,Text/refs_3}
+\bibliographystyle{styles/IEEEtranS}
+
+%%\input{references}
+
+%\appendix
+%\renewcommand{\chaptername}{Liite}
+
+%\chapter{Liitteitä}
+
+\end{document}
+

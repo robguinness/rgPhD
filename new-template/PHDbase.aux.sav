@@ -1,0 +1,524 @@
+\relax
+\@input{Text/cover_nondraft.aux}
+\select@language{USenglish}
+\@writefile{toc}{\select@language{USenglish}}
+\@writefile{lof}{\select@language{USenglish}}
+\@writefile{lot}{\select@language{USenglish}}
+\@writefile{toc}{\contentsline {chapter}{Abstract}{i}}
+\@writefile{toc}{\contentsline {chapter}{Table of Contents}{iii}}
+\@writefile{toc}{\contentsline {chapter}{List of Figures}{vii}}
+\@writefile{toc}{\contentsline {chapter}{List of Tables}{xi}}
+\@writefile{toc}{\contentsline {chapter}{Abbreviations}{xiii}}
+\@writefile{toc}{\contentsline {chapter}{Symbols}{xvii}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1.}Introduction}{1}}
+\newlabel{chapter:Intro}{{1}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Research Objectives}{2}}
+\citation{Dav03}
+\citation{Stre04}
+\citation{Zhang06}
+\citation{Cip04}
+\citation{Hile07}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Related Work}{3}}
+\citation{Hide10}
+\citation{Chek07}
+\citation{Coug99}
+\citation{Veth07}
+\citation{Fletcher07}
+\citation{Prahl11}
+\citation{Kess10}
+\citation{Hut11}
+\citation{Santos09}
+\citation{Hils12}
+\citation{Zhang12}
+\citation{Jiraw02}
+\citation{Holz12}
+\citation{Nour09}
+\citation{Kitt11}
+\citation{Hide11}
+\citation{Campb05}
+\citation{Solov10}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Author's Contribution}{6}}
+\citation{P4}
+\citation{P5}
+\citation{P6}
+\citation{P3}
+\citation{P2}
+\citation{P8}
+\citation{P7}
+\citation{P9}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Thesis Outline}{7}}
+\citation{Titterton}
+\citation{Collin06}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2.}Overview of pedestrian navigation}{9}}
+\newlabel{chapter:Pede}{{2}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Navigation Frames and Attitude}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces User attitude in navigation frame}}{10}}
+\newlabel{fig:rph}{{2.1}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Absolute Positioning}{10}}
+\citation{MisraEnge}
+\citation{Kaplan}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Global Navigation Satellite Systems}{11}}
+\citation{Kaplan}
+\citation{MisraEnge}
+\citation{Lachapelle92}
+\citation{Ge07}
+\citation{Kuusniemi05}
+\citation{Kaplan}
+\citation{Lachapelle04}
+\citation{Hein08}
+\citation{Lachapelle04}
+\newlabel{eq:carrier}{{11}{14}}
+\citation{Roos02}
+\citation{Yous03}
+\citation{WLANS08}
+\citation{Sagias05}
+\citation{Kuusniemi12}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}WLAN Positioning}{15}}
+\citation{Mautz12}
+\citation{Kocur09}
+\citation{Chen12}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Other Technologies}{16}}
+\citation{Mautz12}
+\citation{Collin06}
+\citation{Titterton}
+\citation{Groves07}
+\citation{Groves07}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Relative Positioning}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Inertial Sensors}{17}}
+\citation{BancroftPHD}
+\citation{Titterton}
+\citation{KuipersRot}
+\citation{Susi11}
+\citation{Pei11}
+\citation{Bancroft11}
+\citation{Caruso97}
+\citation{NGDC}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Other Self-Contained Sensors}{19}}
+\citation{Wei10}
+\citation{Parviainen08}
+\citation{IOS75}
+\newlabel{eq:compass}{{16}{20}}
+\citation{Kalman}
+\citation{Welch_Bishop_2006}
+\citation{Ristic}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Absolute heading error of a digital compass indoors}}{21}}
+\newlabel{fig:Compass}{{2.2}{21}}
+\citation{Grewal}
+\citation{Welch_Bishop_2006}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Estimation}{22}}
+\newlabel{eq:state}{{19}{22}}
+\newlabel{eq:meas}{{20}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Kalman Filter}{22}}
+\newlabel{sm}{{21}{22}}
+\newlabel{meas}{{22}{22}}
+\newlabel{err}{{23}{23}}
+\newlabel{upd}{{24}{23}}
+\newlabel{Gain}{{25}{23}}
+\citation{KuusniemiLBS}
+\citation{KuusniemiLBS}
+\citation{Djuric03}
+\citation{Julier97}
+\newlabel{predict}{{26}{24}}
+\newlabel{update}{{27}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Extended Kalman Filter}{24}}
+\citation{HartZiss}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3.}Computer vision methods for navigation}{25}}
+\newlabel{chapter:CV}{{3}{25}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Camera, Fundamental and Essential Matrices and Coordinate Frames}{25}}
+\newlabel{eq:CameraF}{{30}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Coordinate frames in vision-aiding}}{27}}
+\newlabel{fig:VFrames}{{3.1}{27}}
+\newlabel{eq:Fundamental}{{31}{27}}
+\citation{ForsythPonce}
+\citation{ForsythPonce}
+\citation{ForsythPonce}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Epipolar geometry}}{28}}
+\newlabel{fig:Epipolar}{{3.2}{28}}
+\newlabel{eq:FMrelation}{{32}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Feature Extraction}{28}}
+\citation{Sift}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Filtering}{29}}
+\newlabel{eq:convolution}{{33}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}SIFT-Features}{29}}
+\citation{Stein07}
+\citation{Coug99}
+\citation{Kess10}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Line Extraction}{30}}
+\citation{Canny}
+\@writefile{toc}{\contentsline {subsubsection}{Edge Detection}{31}}
+\newlabel{eq:cannymax}{{39}{31}}
+\newlabel{eq:cannystrength}{{40}{31}}
+\citation{Shriva12}
+\citation{Hough}
+\citation{Dudahart}
+\@writefile{toc}{\contentsline {subsubsection}{Separating the Lines from Other Edges}{32}}
+\citation{Lowe2}
+\citation{Ransac}
+\citation{ForsythPonce}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Hough transform parameters}}{33}}
+\newlabel{fig:Hough}{{3.3}{33}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Image Matching}{33}}
+\citation{HartZiss}
+\citation{Bouguet}
+\citation{Kosecka02}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Camera Calibration}{34}}
+\citation{HartZiss}
+\citation{Ma06}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Distortion}{35}}
+\citation{HartZiss}
+\citation{Gallagher}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4.}Visual gyroscope}{37}}
+\newlabel{chapter:VGY}{{4}{37}}
+\citation{ForsythPonce}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Locating the Vanishing Points}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Vanishing point}}{39}}
+\newlabel{fig:VP}{{4.1}{39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Vanishing point in an image with roll}}{40}}
+\newlabel{fig:VProll}{{4.2}{40}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Attitude of the Camera}{40}}
+\newlabel{eq:heading}{{46}{41}}
+\newlabel{eq:heading}{{47}{41}}
+\newlabel{eq:phRot}{{48}{41}}
+\newlabel{eq:vps}{{49}{41}}
+\citation{Prahl11}
+\newlabel{eq:heading}{{51}{42}}
+\newlabel{eq:fullRot}{{52}{42}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Error Detection}{42}}
+\citation{Kaplan}
+\citation{Li11}
+\citation{usDOP}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Vanishing point error detection}}{44}}
+\newlabel{fig:LDOP}{{4.3}{44}}
+\citation{usDOP}
+\citation{Gallagher}
+\newlabel{eq:ldop}{{56}{45}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Performance of the Visual Gyroscope}{46}}
+\citation{Allan}
+\citation{KirkkoJaakkola12}
+\citation{Zhang08}
+\citation{Zhang08}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics for heading change accuracy, all units degrees}}{47}}
+\newlabel{tab:hcacc}{{4.1}{47}}
+\newlabel{eq:allan}{{57}{47}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Allan deviation of the visual gyroscope}}{48}}
+\newlabel{fig:allan}{{4.4}{48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Visual gyroscope`s tolerance on dynamic objects}}{49}}
+\newlabel{fig:DO}{{4.5}{49}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Effect of roll error on other angle observations}}{50}}
+\newlabel{tab:roll}{{4.2}{50}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Effect of Camera and Setup Characteristics on the Accuracy of the Visual Gyroscope}{50}}
+\citation{GoPro}
+\citation{Sony}
+\citation{Nokia}
+\citation{George09}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces An image captured of the same scene with three different cameras}}{52}}
+\newlabel{fig:diffcam}{{4.6}{52}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters for GoPro, Sony and Nokia cameras}}{52}}
+\newlabel{tab:cameraParam}{{4.3}{52}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Experimental Results}{53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Experiment setup for testing camera characteristics}}{54}}
+\newlabel{fig:ceffect}{{4.7}{54}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Heading change error statistics}}{55}}
+\newlabel{tab:ParamExp}{{4.4}{55}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Roll and pitch error statistics}}{55}}
+\newlabel{tab:ParamExproll}{{4.5}{55}}
+\@writefile{toc}{\contentsline {subsubsection}{Image Quality}{55}}
+\@writefile{toc}{\contentsline {subsubsection}{Image Rate}{56}}
+\@writefile{toc}{\contentsline {subsubsection}{Camera Configuration }{56}}
+\citation{QT}
+\citation{OpenCV}
+\citation{Hut11}
+\@writefile{toc}{\contentsline {subsubsection}{Pitch and Roll}{57}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Smartphone Application of Visual Gyroscope}{57}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Processing time for different algorithms in visual gyroscope's smartphone implementation}}{58}}
+\newlabel{tab:QT}{{4.6}{58}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5.}Visual odometer}{59}}
+\newlabel{chapter:V_odo}{{5}{59}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}The Principle of the Visual Odometer}{59}}
+\newlabel{eq:homographyR}{{58}{59}}
+\newlabel{eq:homogNorm}{{59}{59}}
+\citation{Campb05}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Visual odometer configuration}}{60}}
+\newlabel{fig:odo}{{5.1}{60}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Measuring the Distance of an Object from the Camera}{60}}
+\newlabel{vfov}{{60}{60}}
+\citation{SIFTalg}
+\newlabel{beta}{{61}{61}}
+\newlabel{eq:Z}{{62}{61}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Matched SIFT features between consecutive images}}{62}}
+\newlabel{fig:sift}{{5.2}{62}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Error Detection and Ambiguity Resolving for the Visual Odometer}{62}}
+\newlabel{eq:P}{{63}{62}}
+\citation{Hart97}
+\citation{HartZiss}
+\citation{Kitt11}
+\citation{HartZiss}
+\newlabel{eq:objpoints}{{64}{63}}
+\citation{Torr99}
+\newlabel{eq:Discard}{{65}{64}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Degeneracy}{64}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Performance of the Visual Odometer}{65}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Statistics of the effect of camera height for visual odometer's speed accuracy, units are in m/s }}{66}}
+\newlabel{tab:odoheight}{{5.1}{66}}
+\citation{RChen10}
+\citation{Kuusniemi11}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6.}Vision-aided navigation using visual gyroscope and odometer}{67}}
+\newlabel{chapter:VA_navigation}{{6}{67}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Visual Gyroscope and Odometer Aided Multi-Sensor Positioning}{67}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Kalman Filter Used in Multi-Sensor Positioning}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Equipment setup for testing the vision-aided multi-sensor positioning system}}{69}}
+\newlabel{fig:cart}{{6.1}{69}}
+\newlabel{conssped}{{66}{69}}
+\newlabel{mats}{{67}{70}}
+\newlabel{measmats}{{68}{70}}
+\newlabel{mats}{{69}{70}}
+\citation{Quddus07}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Test in an Indoor Office Environment}{71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Office corridor used for experiments}}{72}}
+\newlabel{fig:Corridor}{{6.2}{72}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Visual odometer speed}}{73}}
+\newlabel{fig:Speed}{{6.3}{73}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Positioning error statistics using different systems in an office corridor}}{73}}
+\newlabel{tab:VAfused}{{6.1}{73}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Vision-aided position solution in an office corridor}}{74}}
+\newlabel{fig:VAfused}{{6.4}{74}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}Test in Office Environment Using an Outdated WLAN Radio Map}{74}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Vision-aided position solution in an office corridor with an outdated WLAN radio map}}{75}}
+\newlabel{fig:VAfused}{{6.5}{75}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Positioning error statistics using different positioning systems in an office corridor with an outdated WLAN radio map}}{75}}
+\newlabel{tab:VAfusedW}{{6.2}{75}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Stand-Alone Visual System}{76}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Kalman Filter Used in Stand-Alone Visual Positioning}{76}}
+\newlabel{eq:sKmod}{{71}{76}}
+\newlabel{eq:FHQ}{{72}{77}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Test in a Shopping Mall Environment}{77}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Challenging environment of Iso Omena shopping centre}}{78}}
+\newlabel{fig:OmppuEnv}{{6.6}{78}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Test in an Urban Canyon}{78}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces The two-dimensional position solution in the Iso Omena shopping centre}}{79}}
+\newlabel{fig:Omppu}{{6.7}{79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces Challenging environment of an urban canyon}}{80}}
+\newlabel{fig:OmppuEnvOut}{{6.8}{80}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces Positioning error statistics for visual stand-alone and GPS position solutions}}{80}}
+\newlabel{tab:VisualGPS}{{6.3}{80}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Visual Gyroscope Aided IMU Positioning}{80}}
+\citation{ADIS}
+\citation{Bancroft12}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.9}{\ignorespaces Position solution in an urban canyon}}{81}}
+\newlabel{fig:OmppuEnvOutpos}{{6.9}{81}}
+\citation{Kuusniemi05}
+\newlabel{fault}{{73}{82}}
+\citation{Bancroft12}
+\citation{BancroftPHD}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Kalman Filter Used in Visual Gyroscope Aided IMU Positioning }{83}}
+\newlabel{eq:gyroerr}{{74}{83}}
+\newlabel{eq:EKF}{{75}{84}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Equipment Setup on the Body}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.10}{\ignorespaces Route for experiments on the University of Calgary campus}}{85}}
+\newlabel{fig:UCroute}{{6.10}{85}}
+\@writefile{toc}{\contentsline {subsubsection}{Absolute Visual Attitude Update (AVUPT)}{85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.11}{\ignorespaces Body mounted test equipment}}{86}}
+\newlabel{fig:IMUbody}{{6.11}{86}}
+\newlabel{eq:rms}{{76}{86}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.12}{\ignorespaces Standard deviation for different integration schemes}}{87}}
+\newlabel{fig:stds}{{6.12}{87}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.4}{\ignorespaces Attitude errors obtained for body-mounted IMU with different integration methods}}{87}}
+\newlabel{tab:atterror}{{6.4}{87}}
+\@writefile{toc}{\contentsline {subsubsection}{Temporal Visual Attitude Update (TVUPT)}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.13}{\ignorespaces Attitude error using different integration schemes}}{88}}
+\newlabel{fig:atterror}{{6.13}{88}}
+\newlabel{eq:tempatt}{{77}{88}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Equipment Setup on the Foot}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.14}{\ignorespaces Equipment setup for the foot}}{90}}
+\newlabel{fig:GoProIMU}{{6.14}{90}}
+\citation{Kalv95}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces Images from one step cycle period}}{91}}
+\newlabel{fig:footcycle}{{6.15}{91}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.5}{\ignorespaces RMS position error obtained for foot-mounted IMU with and without vision-aiding}}{91}}
+\newlabel{tab:footrms}{{6.5}{91}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Visual Gyroscope Implementation Using Probabilistic Hough Transform}{91}}
+\citation{Borkowski10}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.16}{\ignorespaces RMS position errors obtained for foot-mounted IMU}}{92}}
+\newlabel{fig:posfoot}{{6.16}{92}}
+\citation{Titterton}
+\citation{Borkowski10}
+\newlabel{eq:estvp}{{78}{93}}
+\newlabel{eq:cosm}{{79}{93}}
+\newlabel{eq:transf}{{80}{93}}
+\newlabel{eq:DCM}{{81}{93}}
+\newlabel{eq:Gaus}{{82}{93}}
+\citation{Borkowski10}
+\citation{Kiriyati91}
+\citation{Matas00}
+\newlabel{eq:Hough}{{83}{94}}
+\citation{Dudahart}
+\newlabel{eq:paramvp}{{84}{95}}
+\citation{Matas00}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.17}{\ignorespaces Line detection and vanishing point calculations using Probabilistic Hough Transform}}{97}}
+\newlabel{fig:vpdet}{{6.17}{97}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.6}{\ignorespaces Ratio of image points used for computing the Probabilistic Hough Transform presented to the image points used by Standard Hough Transform for the images processed in the experiment}}{97}}
+\newlabel{tab:vphough}{{6.6}{97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.18}{\ignorespaces Evaluation of vanishing point detection in an environment suffering from low lighting and non-orthogonal lines}}{98}}
+\newlabel{fig:betvp}{{6.18}{98}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.19}{\ignorespaces Correcting IMU errors using a vanishing point obtained using Probabilistic Hough Transform}}{98}}
+\newlabel{fig:corratt}{{6.19}{98}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.20}{\ignorespaces Conflict between estimated and detected vanishing}}{99}}
+\newlabel{fig:vpturn}{{6.20}{99}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7.}Vision-aided carrier phase navigation}{101}}
+\newlabel{chapter:VA_carrier}{{7}{101}}
+\citation{Solov10}
+\citation{Chu12}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Ambiguity Resolution Using Differenced GNSS Carrier Phase Measurements}{102}}
+\newlabel{eq:carriersf}{{85}{102}}
+\citation{Solov10}
+\citation{Chu12}
+\citation{Solov10}
+\newlabel{diffcarr}{{86}{103}}
+\newlabel{eq:dots}{{87}{103}}
+\newlabel{unitvect}{{88}{103}}
+\newlabel{eq:dcfinal}{{89}{103}}
+\citation{HartZiss}
+\citation{nister}
+\newlabel{eq:corrphase}{{90}{104}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Ambiguous Translation Using the Fundamental Matrix}{104}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Navigation Solution Incorporating the Absolute User Translation}{105}}
+\citation{Kuusniemi12}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Method Verification in a Sub-Urban Environment}{107}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Setup for vision-aided carrier phase navigation}}{108}}
+\newlabel{fig:Setupvac}{{7.1}{108}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Positioning verification error statistics using vision-aided carrier phase (VA)}}{108}}
+\newlabel{tab:carrver}{{7.1}{108}}
+\citation{Aviation}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Position solution verification in a sub-urban environment shown in Google Earth}}{109}}
+\newlabel{fig:Verif2sat}{{7.2}{109}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Vision-Aided GNSS Navigation in an Urban Environment}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Calgary downtown}}{110}}
+\newlabel{fig:Calgary}{{7.3}{110}}
+\newlabel{eq:GPSheading}{{102}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Number of satellites acquired in an urban canyon}}{111}}
+\newlabel{fig:sats}{{7.4}{111}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Position solution in an urban canyon}}{112}}
+\newlabel{fig:posurban}{{7.5}{112}}
+\citation{AfzalPHD}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Horizontal position errors in an urban canyon }}{113}}
+\newlabel{fig:horposerr}{{7.6}{113}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces Positioning error statistics using vision-aided carrier phase (VA) and GPS only (GPS)}}{113}}
+\newlabel{tab:VAcarrier}{{7.2}{113}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Position solution in an urban canyon shown in Google Earth}}{114}}
+\newlabel{fig:PathVA}{{7.7}{114}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Position solution using GPS only in an urban canyon shown in Google Earth}}{114}}
+\newlabel{fig:PathGPS}{{7.8}{114}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8.}Conclusions}{117}}
+\newlabel{chapter:conclusion}{{8}{117}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Main Results}{118}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Future Development}{121}}
+\bibdata{Text/refs}
+\bibcite{GoPro}{1}
+\bibcite{NGDC}{2}
+\bibcite{OpenCV}{3}
+\bibcite{AfzalPHD}{4}
+\bibcite{usDOP}{5}
+\bibcite{Allan}{6}
+\bibcite{ADIS}{7}
+\bibcite{BancroftPHD}{8}
+\bibcite{Bancroft11}{9}
+\bibcite{Bancroft12}{10}
+\bibcite{Borkowski10}{11}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{123}}
+\bibcite{Bouguet}{12}
+\bibcite{Campb05}{13}
+\bibcite{Canny}{14}
+\bibcite{Caruso97}{15}
+\bibcite{Chek07}{16}
+\bibcite{Chen12}{17}
+\bibcite{RChen10}{18}
+\bibcite{Wei10}{19}
+\bibcite{Chu12}{20}
+\bibcite{Collin06}{21}
+\bibcite{Coug99}{22}
+\bibcite{Dav03}{23}
+\bibcite{Djuric03}{24}
+\bibcite{Dudahart}{25}
+\bibcite{Ransac}{26}
+\bibcite{Fletcher07}{27}
+\bibcite{ForsythPonce}{28}
+\bibcite{Gallagher}{29}
+\bibcite{Ge07}{30}
+\bibcite{George09}{31}
+\bibcite{Grewal}{32}
+\bibcite{Groves07}{33}
+\bibcite{HartZiss}{34}
+\bibcite{Hart97}{35}
+\bibcite{Hein08}{36}
+\bibcite{Hide10}{37}
+\bibcite{Hide11}{38}
+\bibcite{Hile07}{39}
+\bibcite{Hils12}{40}
+\bibcite{Holz12}{41}
+\bibcite{Hough}{42}
+\bibcite{Hut11}{43}
+\bibcite{IOS75}{44}
+\bibcite{Jiraw02}{45}
+\bibcite{Julier97}{46}
+\bibcite{Kalman}{47}
+\bibcite{Kalv95}{48}
+\bibcite{Kaplan}{49}
+\bibcite{Kess10}{50}
+\bibcite{Kiriyati91}{51}
+\bibcite{KirkkoJaakkola12}{52}
+\bibcite{Kitt11}{53}
+\bibcite{Kocur09}{54}
+\bibcite{Kosecka02}{55}
+\bibcite{KuipersRot}{56}
+\bibcite{Kuusniemi05}{57}
+\bibcite{Kuusniemi11}{58}
+\bibcite{P9}{59}
+\bibcite{KuusniemiLBS}{60}
+\bibcite{Kuusniemi12}{61}
+\bibcite{Lachapelle92}{62}
+\bibcite{Lachapelle04}{63}
+\bibcite{Li11}{64}
+\bibcite{Sift}{65}
+\bibcite{Lowe2}{66}
+\bibcite{Ma06}{67}
+\bibcite{Matas00}{68}
+\bibcite{Mautz12}{69}
+\bibcite{MisraEnge}{70}
+\bibcite{nister}{71}
+\bibcite{Nokia}{72}
+\bibcite{QT}{73}
+\bibcite{Nour09}{74}
+\bibcite{Parviainen08}{75}
+\bibcite{Pei11}{76}
+\bibcite{Prahl11}{77}
+\bibcite{Quddus07}{78}
+\bibcite{Ristic}{79}
+\bibcite{Cip04}{80}
+\bibcite{Roos02}{81}
+\bibcite{P4}{82}
+\bibcite{P5}{83}
+\bibcite{P3}{84}
+\bibcite{P6}{85}
+\bibcite{P2}{86}
+\bibcite{P8}{87}
+\bibcite{P7}{88}
+\bibcite{Sagias05}{89}
+\bibcite{Santos09}{90}
+\bibcite{Shriva12}{91}
+\bibcite{Solov10}{92}
+\bibcite{Sony}{93}
+\bibcite{WLANS08}{94}
+\bibcite{Stein07}{95}
+\bibcite{Stre04}{96}
+\bibcite{Susi11}{97}
+\bibcite{Titterton}{98}
+\bibcite{Torr99}{99}
+\bibcite{SIFTalg}{100}
+\bibcite{Veth07}{101}
+\bibcite{Welch_Bishop_2006}{102}
+\bibcite{Aviation}{103}
+\bibcite{Yous03}{104}
+\bibcite{Zhang06}{105}
+\bibcite{Zhang08}{106}
+\bibcite{Zhang12}{107}
+\bibstyle{styles/IEEEtranS}

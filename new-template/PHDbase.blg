@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: PHDbase.aux
+A level-1 auxiliary file: Text/cover_nondraft.aux
+The style file: ieeetr.bst
+Database file #1: _rg_refs.bib
+Warning--entry type for "Gartner2009" isn't style-file defined
+--line 271 of file _rg_refs.bib
+Warning--entry type for "KoreaTimes2014" isn't style-file defined
+--line 386 of file _rg_refs.bib
+Warning--entry type for "merriam2015" isn't style-file defined
+--line 961 of file _rg_refs.bib
+Warning--empty publisher in brynjolfsson_2014
+Warning--empty institution in canalys_2007
+Name 1 in "Bazire, M., and Brézillon, P." has a comma at the end for entry Bazire2005
+while executing---line 969 of file ieeetr.bst
+You've used 12 entries,
+            1876 wiz_defined-function locations,
+            553 strings with 5330 characters,
+and the built_in function-call counts, 2432 in all, are:
+= -- 218
+> -- 104
+< -- 0
++ -- 40
+- -- 28
+* -- 160
+:= -- 360
+add.period$ -- 17
+call.type$ -- 12
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 116
+empty$ -- 265
+format.name$ -- 28
+if$ -- 596
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 9
+newline$ -- 44
+num.names$ -- 13
+pop$ -- 61
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 64
+stack$ -- 0
+substring$ -- 84
+swap$ -- 31
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 18
+width$ -- 14
+write$ -- 110
+(There was 1 error message)

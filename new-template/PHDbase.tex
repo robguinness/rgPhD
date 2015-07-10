@@ -1,0 +1,196 @@
+\documentclass[11pt,final]{tutdrthesis}
+\usepackage{graphicx}
+%\usepackage[dvips]{graphicx}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage[USenglish]{babel}
+\usepackage{layout}
+\usepackage{cite}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{array, ragged2e}
+
+% Load the package
+\usepackage[acronym,nomain,nonumberlist,nopostdot,nogroupskip]{glossaries}
+
+\usepackage{mathrsfs}
+
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+
+\usepackage{enumerate}
+\usepackage{enumitem}
+\newenvironment{packed_enumerate}{
+\begin{enumerate}
+  \setlength{\partopsep}{1pt}
+  \setlength{\itemsep}{3pt}
+  \setlength{\parskip}{1pt}
+  \setlength{\parsep}{1pt}
+}{\end{enumerate}}
+
+\newlist{bold_description}{description}{1}
+\setlist[bold_description]{labelindent=8mm,itemindent=2mm,leftmargin=15mm,style=sameline, font=\textbf,parsep=0pt,itemsep=0pt}
+
+\newcommand{\longpage}{\enlargethispage*{100cm} \pagebreak}
+\newcommand{\nohyphens}{\hyphenpenalty=10000\exhyphenpenalty=10000\relax}
+
+\newcommand{\mymod}{\mathop{\rm mod^*}}
+\newcommand{\sgn}{\mathop{\rm sgn}}
+%\newcommand{\argmax}{\mathop{\rm arg\,max}}
+\newcommand{\argmin}{\mathop{\rm arg\,min}}
+\newcommand{\hw}{hardware }
+\newcommand{\sw}{software }
+%\newcommand{\cd} {Cholesky decomposition }
+
+\newcommand{\subsubsubsection}[1]{\paragraph{#1:}}
+\newcommand{\bc}[1]{\texttt{\textbf{#1}}}
+\newcommand{\lc}[1]{\texttt{#1}}
+
+%\setglossarystyle{long}
+
+\setlength{\glsdescwidth}{0.7\linewidth}%
+%\setlength\extrarowheight{12pt}%
+
+\newcolumntype{R}{>{\raggedright\arraybackslash}p{\glsdescwidth}}
+
+\newglossarystyle{clong}{%
+ \renewenvironment{theglossary}%
+     {\begin{longtable}[l]{p{.2\linewidth}R	p{\glsdescwidth}}}%    
+     {\end{longtable}}%
+  %\renewcommand*{\glsclearpage}{\clearpage}   
+  \renewcommand*{\glossaryheader}{}%
+  \renewcommand*{\glsgroupheading}[1]{}%
+  \renewcommand*{\glossaryentryfield}[5]{%
+    \glstarget{##1}{##2} & ##3\glspostdescription\space\\ ##5}%
+  \renewcommand*{\glossarysubentryfield}[6]{%
+     & \glstarget{##2}{\strut}##4\glspostdescription\space ##6\\}%
+  %\renewcommand*{\glsgroupskip}{ & \\}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Custom math symbols
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+%\hyphenation{ACS}
+%\hyphenation{ACSU}
+%\hyphenation{ACSUs}
+\hyphenation{FFT}
+\hyphenation{MAC}
+\hyphenation{GPP}
+\hyphenation{DPS}
+\hyphenation{ASIC}
+\hyphenation{ASP}
+
+% Generate the glossary
+\makeglossaries
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+% CONTENT BEGINS                                                             % 
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\include{Text/cover_nondraft}
+\frontmatter
+\setcounter{secnumdepth}{-1}
+
+\chapter{Abstract}
+\input{abstract}
+\chapter{Preface}
+\input{Text/_preface}
+\chapter{Table of Contents}
+\tableofcontents
+%\chapter{List of Publications}
+%%\input{publications}
+\chapter{List of Figures}
+\listoffigures
+\chapter{List of Tables}
+\listoftables
+
+\chapter{Abbreviations}
+
+\newacronym{ai}{AI}{Artificial Intelligence}
+\newacronym{mems}{MEMS}{microelectromechanical systems}
+\newacronym{plc}{PLC}{Propositional Logic of Context}
+\newacronym{locomo}{LoCoMo}{Location-Motion-Context}
+\newacronym{lsa}{LSA}{latent semantic analysis}
+\newacronym{pca}{PCA}{principal component analysis}
+\newacronym{bc}{BC}{Before Christ}
+\newacronym{fiveWs}{Five Ws}{Who, What, Where, When, and Why}
+\newacronym{wgs84}{WGS84}{World Geodetic System 1984}
+\newacronym{n}{N}{North}
+\newacronym{e}{E}{East}
+\newacronym{os}{OS}{Operating System}
+\newacronym{gps}{GPS}{Global Positioning System}
+\newacronym{rgb}{RGB}{Red, Green, and Blue}
+\newacronym{sql}{SQL}{Structured Query Language}
+\newacronym{ibm}{IBM}{International Business Machines Corporation}
+\newacronym{jmc}{jmc}{John McCarthy}
+\newacronym{fide}{FIDE}{Federation Internationale des Echecs}
+\newacronym{optics}{OPTICS}{ordering points to identify the clustering structure}
+\newacronym{em}{EM}{expectation-maximization}
+\newacronym{gmm}{GMM}{Guassian mixture model}
+\newacronym{mle}{MLE}{maximum likelihood estimate}
+\newacronym{inosense}{INOSENSE}{Indoor Outdoor Seamless Navigation for Sensing Human Behavior}
+\newacronym{aess}{AESS}{Aerospace and Electronics Systems Society}
+\newacronym{ion}{ION}{Institute of Navigation}
+\newacronym{ieee}{IEEE}{Institute of Electrical and Electronics Engineers}
+\newacronym{arcsat}{ARCSAT}{Arctic Real-Time Satellite Services for the Public and Commercial End-Use}
+\newacronym{esabalt}{ESABALT}{Enhanced Situational Awareness to Improve Maritime Safety in the Baltic}
+\newacronym{svm}{SVM}{Support Vector Machines}
+\newacronym{jufo}{JuFo}{Julkaisufoorumi (Finnish for ``Publications forum'')}
+\newacronym{plans}{PLANS}{Position Location and Navigation Symposium}
+\newacronym{wlan}{WLAN}{wireless local area network}
+\newacronym{fgi}{FGI}{Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)}
+
+
+%\input{Text/abbreviations}
+%Print the glossary
+\begingroup
+%\let\newpage\relax
+\setlength\extrarowheight{12pt}
+%\let\glscleardoublepage\relax
+%\let\glsclearpage\relax
+\let\clearpage\relax 
+%\let\glossarypreamble\relax
+\vspace{-8.5em}
+\printglossary[type=\acronymtype,style=clong]
+\endgroup
+
+\chapter{Symbols}
+
+%\input{Text/symbols}
+TBD
+
+\setcounter{secnumdepth}{2}
+\mainmatter
+% Chapters
+\input{Text/chapter01_introduction}
+\input{Text/chapter02_context_awareness}
+\input{Text/chapter03_machine_learning}
+\input{Text/chapter04_overview_of_publications}
+\input{Text/chapter05_conclusions}
+
+\setcounter{secnumdepth}{-1}
+\chapter{Bibliography}
+\bibliography{_rg_refs}%,Text/refs_3}
+%\bibliographystyle{styles/IEEEtranS}
+\bibliographystyle{ieeetr}
+%%\input{references}
+
+%\appendix
+%\renewcommand{\chaptername}{Liite}
+
+%\chapter{Liitteitä}
+
+\end{document}
+

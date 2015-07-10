@@ -1,0 +1,990 @@
+\ifglsentryexists{ai}{}%
+{%
+\gls@defglossaryentry{ai}%
+{%
+name={AI},%
+sort={AI},%
+type={acronym},%
+first={Artificial Intelligence\glsspace (AI)},%
+firstplural={Artificial Intelligences\glsspace (AIs)},%
+text={AI},%
+plural={AIs},%
+description={Artificial Intelligence},%
+descriptionplural={Artificial Intelligence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Artificial Intelligence},%
+longplural={Artificial Intelligences},%
+short={AI},%
+shortplural={AIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mems}{}%
+{%
+\gls@defglossaryentry{mems}%
+{%
+name={MEMS},%
+sort={MEMS},%
+type={acronym},%
+first={microelectromechanical systems (MEMS)},%
+firstplural={microelectromechanical systemss(MEMSs)},%
+text={MEMS},%
+plural={MEMSs},%
+description={microelectromechanical systems},%
+descriptionplural={microelectromechanical systems\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={microelectromechanical systems},%
+longplural={microelectromechanical systemss},%
+short={MEMS},%
+shortplural={MEMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{plc}{}%
+{%
+\gls@defglossaryentry{plc}%
+{%
+name={PLC},%
+sort={PLC},%
+type={acronym},%
+first={Propositional Logic of Context\glsspace (PLC)},%
+firstplural={Propositional Logic of Contexts\glsspace (PLCs)},%
+text={PLC},%
+plural={PLCs},%
+description={Propositional Logic of Context},%
+descriptionplural={Propositional Logic of Context\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Propositional Logic of Context},%
+longplural={Propositional Logic of Contexts},%
+short={PLC},%
+shortplural={PLCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{locomo}{}%
+{%
+\gls@defglossaryentry{locomo}%
+{%
+name={LoCoMo},%
+sort={LoCoMo},%
+type={acronym},%
+first={Location-Motion-Context\glsspace (LoCoMo)},%
+firstplural={Location-Motion-Contexts\glsspace (LoCoMos)},%
+text={LoCoMo},%
+plural={LoCoMos},%
+description={Location-Motion-Context},%
+descriptionplural={Location-Motion-Context\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Location-Motion-Context},%
+longplural={Location-Motion-Contexts},%
+short={LoCoMo},%
+shortplural={LoCoMos},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lsa}{}%
+{%
+\gls@defglossaryentry{lsa}%
+{%
+name={LSA},%
+sort={LSA},%
+type={acronym},%
+first={latent semantic analysis\glsspace (LSA)},%
+firstplural={latent semantic analysiss\glsspace (LSAs)},%
+text={LSA},%
+plural={LSAs},%
+description={latent semantic analysis},%
+descriptionplural={latent semantic analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={latent semantic analysis},%
+longplural={latent semantic analysiss},%
+short={LSA},%
+shortplural={LSAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pca}{}%
+{%
+\gls@defglossaryentry{pca}%
+{%
+name={PCA},%
+sort={PCA},%
+type={acronym},%
+first={principal component analysis\glsspace (PCA)},%
+firstplural={principal component analysiss\glsspace (PCAs)},%
+text={PCA},%
+plural={PCAs},%
+description={principal component analysis},%
+descriptionplural={principal component analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={principal component analysis},%
+longplural={principal component analysiss},%
+short={PCA},%
+shortplural={PCAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bc}{}%
+{%
+\gls@defglossaryentry{bc}%
+{%
+name={BC},%
+sort={BC},%
+type={acronym},%
+first={Before Christ\glsspace (BC)},%
+firstplural={Before Christs\glsspace (BCs)},%
+text={BC},%
+plural={BCs},%
+description={Before Christ},%
+descriptionplural={Before Christ\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Before Christ},%
+longplural={Before Christs},%
+short={BC},%
+shortplural={BCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fiveWs}{}%
+{%
+\gls@defglossaryentry{fiveWs}%
+{%
+name={Five Ws},%
+sort={Five Ws},%
+type={acronym},%
+first={Who, What, Where, When, and Why\glsspace (Five Ws)},%
+firstplural={Who, What, Where, When, and Whys\glsspace (Five Wss)},%
+text={Five Ws},%
+plural={Five Wss},%
+description={Who, What, Where, When, and Why},%
+descriptionplural={Who, What, Where, When, and Why\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Who, What, Where, When, and Why},%
+longplural={Who, What, Where, When, and Whys},%
+short={Five Ws},%
+shortplural={Five Wss},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wgs84}{}%
+{%
+\gls@defglossaryentry{wgs84}%
+{%
+name={WGS84},%
+sort={WGS84},%
+type={acronym},%
+first={World Geodetic System 1984\glsspace (WGS84)},%
+firstplural={World Geodetic System 1984s\glsspace (WGS84s)},%
+text={WGS84},%
+plural={WGS84s},%
+description={World Geodetic System 1984},%
+descriptionplural={World Geodetic System 1984\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={World Geodetic System 1984},%
+longplural={World Geodetic System 1984s},%
+short={WGS84},%
+shortplural={WGS84s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{n}{}%
+{%
+\gls@defglossaryentry{n}%
+{%
+name={N},%
+sort={N},%
+type={acronym},%
+first={North\glsspace (N)},%
+firstplural={Norths\glsspace (Ns)},%
+text={N},%
+plural={Ns},%
+description={North},%
+descriptionplural={North\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={North},%
+longplural={Norths},%
+short={N},%
+shortplural={Ns},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{e}{}%
+{%
+\gls@defglossaryentry{e}%
+{%
+name={E},%
+sort={E},%
+type={acronym},%
+first={East\glsspace (E)},%
+firstplural={Easts\glsspace (Es)},%
+text={E},%
+plural={Es},%
+description={East},%
+descriptionplural={East\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={East},%
+longplural={Easts},%
+short={E},%
+shortplural={Es},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{os}{}%
+{%
+\gls@defglossaryentry{os}%
+{%
+name={OS},%
+sort={OS},%
+type={acronym},%
+first={Operating System\glsspace (OS)},%
+firstplural={Operating Systems\glsspace (OSs)},%
+text={OS},%
+plural={OSs},%
+description={Operating System},%
+descriptionplural={Operating System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Operating System},%
+longplural={Operating Systems},%
+short={OS},%
+shortplural={OSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gps}{}%
+{%
+\gls@defglossaryentry{gps}%
+{%
+name={GPS},%
+sort={GPS},%
+type={acronym},%
+first={Global Positioning System\glsspace (GPS)},%
+firstplural={Global Positioning Systems\glsspace (GPSs)},%
+text={GPS},%
+plural={GPSs},%
+description={Global Positioning System},%
+descriptionplural={Global Positioning System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Global Positioning System},%
+longplural={Global Positioning Systems},%
+short={GPS},%
+shortplural={GPSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rgb}{}%
+{%
+\gls@defglossaryentry{rgb}%
+{%
+name={RGB},%
+sort={RGB},%
+type={acronym},%
+first={Red, Green, and Blue\glsspace (RGB)},%
+firstplural={Red, Green, and Blues\glsspace (RGBs)},%
+text={RGB},%
+plural={RGBs},%
+description={Red, Green, and Blue},%
+descriptionplural={Red, Green, and Blue\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Red, Green, and Blue},%
+longplural={Red, Green, and Blues},%
+short={RGB},%
+shortplural={RGBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sql}{}%
+{%
+\gls@defglossaryentry{sql}%
+{%
+name={SQL},%
+sort={SQL},%
+type={acronym},%
+first={Structured Query Language\glsspace (SQL)},%
+firstplural={Structured Query Languages\glsspace (SQLs)},%
+text={SQL},%
+plural={SQLs},%
+description={Structured Query Language},%
+descriptionplural={Structured Query Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Structured Query Language},%
+longplural={Structured Query Languages},%
+short={SQL},%
+shortplural={SQLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ibm}{}%
+{%
+\gls@defglossaryentry{ibm}%
+{%
+name={IBM},%
+sort={IBM},%
+type={acronym},%
+first={International Business Machines Corporation\glsspace (IBM)},%
+firstplural={International Business Machines Corporations\glsspace (IBMs)},%
+text={IBM},%
+plural={IBMs},%
+description={International Business Machines Corporation},%
+descriptionplural={International Business Machines Corporation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={International Business Machines Corporation},%
+longplural={International Business Machines Corporations},%
+short={IBM},%
+shortplural={IBMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{jmc}{}%
+{%
+\gls@defglossaryentry{jmc}%
+{%
+name={jmc},%
+sort={jmc},%
+type={acronym},%
+first={John McCarthy\glsspace (jmc)},%
+firstplural={John McCarthys\glsspace (jmcs)},%
+text={jmc},%
+plural={jmcs},%
+description={John McCarthy},%
+descriptionplural={John McCarthy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={John McCarthy},%
+longplural={John McCarthys},%
+short={jmc},%
+shortplural={jmcs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fide}{}%
+{%
+\gls@defglossaryentry{fide}%
+{%
+name={FIDE},%
+sort={FIDE},%
+type={acronym},%
+first={Federation Internationale des Echecs\glsspace (FIDE)},%
+firstplural={Federation Internationale des Echecss\glsspace (FIDEs)},%
+text={FIDE},%
+plural={FIDEs},%
+description={Federation Internationale des Echecs},%
+descriptionplural={Federation Internationale des Echecs\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Federation Internationale des Echecs},%
+longplural={Federation Internationale des Echecss},%
+short={FIDE},%
+shortplural={FIDEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{optics}{}%
+{%
+\gls@defglossaryentry{optics}%
+{%
+name={OPTICS},%
+sort={OPTICS},%
+type={acronym},%
+first={ordering points to identify the clustering structure\glsspace (OPTICS)},%
+firstplural={ordering points to identify the clustering structures\glsspace (OPTICSs)},%
+text={OPTICS},%
+plural={OPTICSs},%
+description={ordering points to identify the clustering structure},%
+descriptionplural={ordering points to identify the clustering structure\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={ordering points to identify the clustering structure},%
+longplural={ordering points to identify the clustering structures},%
+short={OPTICS},%
+shortplural={OPTICSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{em}{}%
+{%
+\gls@defglossaryentry{em}%
+{%
+name={EM},%
+sort={EM},%
+type={acronym},%
+first={expectation-maximization\glsspace (EM)},%
+firstplural={expectation-maximizations\glsspace (EMs)},%
+text={EM},%
+plural={EMs},%
+description={expectation-maximization},%
+descriptionplural={expectation-maximization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={expectation-maximization},%
+longplural={expectation-maximizations},%
+short={EM},%
+shortplural={EMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gmm}{}%
+{%
+\gls@defglossaryentry{gmm}%
+{%
+name={GMM},%
+sort={GMM},%
+type={acronym},%
+first={Guassian mixture model\glsspace (GMM)},%
+firstplural={Guassian mixture models\glsspace (GMMs)},%
+text={GMM},%
+plural={GMMs},%
+description={Guassian mixture model},%
+descriptionplural={Guassian mixture model\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Guassian mixture model},%
+longplural={Guassian mixture models},%
+short={GMM},%
+shortplural={GMMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mle}{}%
+{%
+\gls@defglossaryentry{mle}%
+{%
+name={MLE},%
+sort={MLE},%
+type={acronym},%
+first={maximum likelihood estimate\glsspace (MLE)},%
+firstplural={maximum likelihood estimates\glsspace (MLEs)},%
+text={MLE},%
+plural={MLEs},%
+description={maximum likelihood estimate},%
+descriptionplural={maximum likelihood estimate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={maximum likelihood estimate},%
+longplural={maximum likelihood estimates},%
+short={MLE},%
+shortplural={MLEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{inosense}{}%
+{%
+\gls@defglossaryentry{inosense}%
+{%
+name={INOSENSE},%
+sort={INOSENSE},%
+type={acronym},%
+first={Indoor Outdoor Seamless Navigation for Sensing Human Behavior\glsspace (INOSENSE)},%
+firstplural={Indoor Outdoor Seamless Navigation for Sensing Human Behaviors\glsspace (INOSENSEs)},%
+text={INOSENSE},%
+plural={INOSENSEs},%
+description={Indoor Outdoor Seamless Navigation for Sensing Human Behavior},%
+descriptionplural={Indoor Outdoor Seamless Navigation for Sensing Human Behavior\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Indoor Outdoor Seamless Navigation for Sensing Human Behavior},%
+longplural={Indoor Outdoor Seamless Navigation for Sensing Human Behaviors},%
+short={INOSENSE},%
+shortplural={INOSENSEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{aess}{}%
+{%
+\gls@defglossaryentry{aess}%
+{%
+name={AESS},%
+sort={AESS},%
+type={acronym},%
+first={Aerospace and Electronics Systems Society\glsspace (AESS)},%
+firstplural={Aerospace and Electronics Systems Societys\glsspace (AESSs)},%
+text={AESS},%
+plural={AESSs},%
+description={Aerospace and Electronics Systems Society},%
+descriptionplural={Aerospace and Electronics Systems Society\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Aerospace and Electronics Systems Society},%
+longplural={Aerospace and Electronics Systems Societys},%
+short={AESS},%
+shortplural={AESSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ion}{}%
+{%
+\gls@defglossaryentry{ion}%
+{%
+name={ION},%
+sort={ION},%
+type={acronym},%
+first={Institute of Navigation\glsspace (ION)},%
+firstplural={Institute of Navigations\glsspace (IONs)},%
+text={ION},%
+plural={IONs},%
+description={Institute of Navigation},%
+descriptionplural={Institute of Navigation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Institute of Navigation},%
+longplural={Institute of Navigations},%
+short={ION},%
+shortplural={IONs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ieee}{}%
+{%
+\gls@defglossaryentry{ieee}%
+{%
+name={IEEE},%
+sort={IEEE},%
+type={acronym},%
+first={Institute of Electrical and Electronics Engineers\glsspace (IEEE)},%
+firstplural={Institute of Electrical and Electronics Engineerss\glsspace (IEEEs)},%
+text={IEEE},%
+plural={IEEEs},%
+description={Institute of Electrical and Electronics Engineers},%
+descriptionplural={Institute of Electrical and Electronics Engineers\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Institute of Electrical and Electronics Engineers},%
+longplural={Institute of Electrical and Electronics Engineerss},%
+short={IEEE},%
+shortplural={IEEEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{arcsat}{}%
+{%
+\gls@defglossaryentry{arcsat}%
+{%
+name={ARCSAT},%
+sort={ARCSAT},%
+type={acronym},%
+first={Arctic Real-Time Satellite Services for the Public and Commercial End-Use\glsspace (ARCSAT)},%
+firstplural={Arctic Real-Time Satellite Services for the Public and Commercial End-Uses\glsspace (ARCSATs)},%
+text={ARCSAT},%
+plural={ARCSATs},%
+description={Arctic Real-Time Satellite Services for the Public and Commercial End-Use},%
+descriptionplural={Arctic Real-Time Satellite Services for the Public and Commercial End-Use\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Arctic Real-Time Satellite Services for the Public and Commercial End-Use},%
+longplural={Arctic Real-Time Satellite Services for the Public and Commercial End-Uses},%
+short={ARCSAT},%
+shortplural={ARCSATs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{esabalt}{}%
+{%
+\gls@defglossaryentry{esabalt}%
+{%
+name={ESABALT},%
+sort={ESABALT},%
+type={acronym},%
+first={Enhanced Situational Awareness to Improve Maritime Safety in the Baltic\glsspace (ESABALT)},%
+firstplural={Enhanced Situational Awareness to Improve Maritime Safety in the Baltics\glsspace (ESABALTs)},%
+text={ESABALT},%
+plural={ESABALTs},%
+description={Enhanced Situational Awareness to Improve Maritime Safety in the Baltic},%
+descriptionplural={Enhanced Situational Awareness to Improve Maritime Safety in the Baltic\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Enhanced Situational Awareness to Improve Maritime Safety in the Baltic},%
+longplural={Enhanced Situational Awareness to Improve Maritime Safety in the Baltics},%
+short={ESABALT},%
+shortplural={ESABALTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{svm}{}%
+{%
+\gls@defglossaryentry{svm}%
+{%
+name={SVM},%
+sort={SVM},%
+type={acronym},%
+first={Support Vector Machines\glsspace (SVM)},%
+firstplural={Support Vector Machiness\glsspace (SVMs)},%
+text={SVM},%
+plural={SVMs},%
+description={Support Vector Machines},%
+descriptionplural={Support Vector Machines\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Support Vector Machines},%
+longplural={Support Vector Machiness},%
+short={SVM},%
+shortplural={SVMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{jufo}{}%
+{%
+\gls@defglossaryentry{jufo}%
+{%
+name={JuFo},%
+sort={JuFo},%
+type={acronym},%
+first={Julkaisufoorumi (Finnish for ``Publications forum'')\glsspace (JuFo)},%
+firstplural={Julkaisufoorumi (Finnish for ``Publications forum'')s\glsspace (JuFos)},%
+text={JuFo},%
+plural={JuFos},%
+description={Julkaisufoorumi (Finnish for ``Publications forum'')},%
+descriptionplural={Julkaisufoorumi (Finnish for ``Publications forum'')\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Julkaisufoorumi (Finnish for ``Publications forum'')},%
+longplural={Julkaisufoorumi (Finnish for ``Publications forum'')s},%
+short={JuFo},%
+shortplural={JuFos},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{plans}{}%
+{%
+\gls@defglossaryentry{plans}%
+{%
+name={PLANS},%
+sort={PLANS},%
+type={acronym},%
+first={Position Location and Navigation Symposium\glsspace (PLANS)},%
+firstplural={Position Location and Navigation Symposiums\glsspace (PLANSs)},%
+text={PLANS},%
+plural={PLANSs},%
+description={Position Location and Navigation Symposium},%
+descriptionplural={Position Location and Navigation Symposium\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Position Location and Navigation Symposium},%
+longplural={Position Location and Navigation Symposiums},%
+short={PLANS},%
+shortplural={PLANSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wlan}{}%
+{%
+\gls@defglossaryentry{wlan}%
+{%
+name={WLAN},%
+sort={WLAN},%
+type={acronym},%
+first={wireless local area network\glsspace (WLAN)},%
+firstplural={wireless local area networks\glsspace (WLANs)},%
+text={WLAN},%
+plural={WLANs},%
+description={wireless local area network},%
+descriptionplural={wireless local area network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={wireless local area network},%
+longplural={wireless local area networks},%
+short={WLAN},%
+shortplural={WLANs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fgi}{}%
+{%
+\gls@defglossaryentry{fgi}%
+{%
+name={FGI},%
+sort={FGI},%
+type={acronym},%
+first={Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)\glsspace (FGI)},%
+firstplural={Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)s\glsspace (FGIs)},%
+text={FGI},%
+plural={FGIs},%
+description={Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)},%
+descriptionplural={Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)},%
+longplural={Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)s},%
+short={FGI},%
+shortplural={FGIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

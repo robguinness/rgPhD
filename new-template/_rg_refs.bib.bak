@@ -1,0 +1,970 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF8
+
+
+@InProceedings{böhmer2010exploring,
+  Title                    = {Exploring the design space of context-aware recommender systems that suggest mobile applications},
+  Author                   = {B{\"o}hmer, M. and Bauer, G. and Kr{\"u}ger, A.},
+  Booktitle                = {2nd Workshop on Context-Aware Recommender Systems},
+  Year                     = {2010},
+
+  Owner                    = {rg},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0018}
+}
+
+@Article{baldauf2007survey,
+  Title                    = {A survey on context-aware systems},
+  Author                   = {Baldauf, M. and Dustdar, S. and Rosenberg, F.},
+  Journal                  = {International Journal of Ad Hoc and Ubiquitous Computing},
+  Year                     = {2007},
+  Number                   = {4},
+  Pages                    = {263--277},
+  Volume                   = {2},
+
+  Owner                    = {rg},
+  Publisher                = {Inderscience},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0030}
+}
+
+@Article{baltrunas2011context,
+  Title                    = {Context relevance assessment and exploitation in mobile recommender systems},
+  Author                   = {Baltrunas, L. and Ludwig, B. and Peer, S. and Ricci, F.},
+  Journal                  = {Personal and Ubiquitous Computing},
+  Year                     = {2011},
+  Pages                    = {1--20},
+
+  Owner                    = {rg},
+  Publisher                = {Springer},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0026}
+}
+
+@InProceedings{Bancroft2012,
+  Title                    = {Activity and environment classification using foot mounted navigation sensors},
+  Author                   = {Bancroft, J. B. and Garrett, D. and Lachapelle, G.},
+  Booktitle                = {Proceedings of the 2012 Indoor Positioning and Indoor Navigation (IPIN) Conference},
+  Year                     = {2012},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29}
+}
+
+@InCollection{Bazire2005,
+  Title                    = {Understanding context before using it},
+  Author                   = {Bazire, M., and Brézillon, P.},
+  Booktitle                = {Modeling and Using Context: Lecture Notes in Computer Science},
+  Publisher                = {Springer Berlin/Heidelberg},
+  Year                     = {2005},
+  Editor                   = {Dey, A. and Kokinov, B. and Leake, D. and Turner, R.},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@Article{Breiman2001,
+  Title                    = {Random forests},
+  Author                   = {Breiman, L.},
+  Journal                  = {Machine Learning},
+  Year                     = {2001},
+  Number                   = {1},
+  Pages                    = {5-32},
+  Volume                   = {45},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.03}
+}
+
+@Book{brynjolfsson_2014,
+  Title                    = {The second machine age: work, progress, and prosperity in a time of brilliant technologies},
+  Author                   = {Brynjolfsson, Erik and McAfee, Andrew},
+  Year                     = {2014},
+
+  Abstract                 = {A revolution is under way. In recent years, Google's autonomous cars have logged thousands of miles on American highways and IBM's Watson trounced the best human Jeopardy! players. Digital technologies -- with hardware, software, and networks at their core -- will in the near future diagnose diseases more accurately than doctors can, apply enormous data sets to transform retailing, and accomplish many tasks once considered uniquely human. In The Second Machine Age MIT's Erik Brynjolfsson and Andrew McAfee -- two thinkers at the forefront of their field -- reveal the forces driving the reinvention of our lives and our economy. As the full impact of digital technologies is felt, we will realize immense bounty in the form of dazzling personal technology, advanced infrastructure, and near-boundless access to the cultural items that enrich our lives. Amid this bounty will also be wrenching change. Professions of all kinds, from lawyers to truck drivers, will be forever upended. Companies will be forced to transform or die. Recent economic indicators reflect this shift: fewer people are working, and wages are falling even as productivity and profits soar. Drawing on years of research and up-to-the-minute trends, Brynjolfsson and McAfee identify the best strategies for survival and offer a new path to prosperity. These include revamping education so that it prepares people for the next economy instead of the last one, designing new collaborations that pair brute processing power with human ingenuity, and embracing policies that make sense in a radically transformed landscape. A fundamentally optimistic book, The Second Machine Age will alter how we think about issues of technological, societal, and economic progress. - Publisher. This book takes a look into the future of business, work, and the economy in a digital world. In recent years, computers have learned to diagnose diseases, drive cars, and win at Jeopardy!. Advances like these have created unprecedented economic bounty, but in their wake median income has stagnated and the share of the population with jobs has fallen. In this book the authors reveal the technological forces driving this reinvention of the economy and chart a path toward future prosperity. They describe how humans will have to keep pace with machines in order to become prosperous in the future and identify strategies and policies for business and individuals to use to combine digital processing power with human ingenuity. -- From book jacket.},
+  ISBN                     = {978-0-393-23935-5},
+  Language                 = {English},
+  Shorttitle               = {The second machine age}
+}
+
+@Article{Campbell2012,
+  Title                    = {From Smart to Cognitive Phones},
+  Author                   = {Campbell, A. and Choudhury, T.},
+  Journal                  = {Pervasive Computing, IEEE},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {7-11},
+  Volume                   = {11},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29}
+}
+
+@TechReport{canalys_2007,
+  Title                    = {64 million smart phones shipped worldwide in 2006},
+  Author                   = {{Canalys.com, Ltd.}},
+  Year                     = {2007},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@InProceedings{carvalho2009performance,
+  Title                    = {A performance evaluation tool for multi-sensor classification systems},
+  Author                   = {Carvalho, R.N. and Chang, KC},
+  Booktitle                = {Information Fusion, 2009. FUSION'09. 12th International Conference on},
+  Year                     = {2009},
+  Organization             = {IEEE},
+  Pages                    = {1123--1130},
+
+  Owner                    = {rg},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0016}
+}
+
+@InProceedings{chen_information_2011,
+  Title                    = {Information filter with speed detection for indoor Bluetooth positioning},
+  Author                   = {Chen, Liang and Kuusniemi, Heidi and Chen, Yuwei and Pei, Ling and Kroger, Tuomo and Chen, Ruizhi},
+  Year                     = {2011},
+  Month                    = jun,
+  Pages                    = {47--52},
+  Publisher                = {{IEEE}},
+
+  Doi                      = {10.1109/ICL-GNSS.2011.5955258},
+  ISBN                     = {978-1-4577-0186-3},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5955258}
+}
+
+@Article{chen_sensing_2010,
+  Title                    = {Sensing strides using {EMG} signal for pedestrian navigation},
+  Author                   = {Chen, Ruizhi and Chen, Wei and Chen, Xiang and Zhang, Xu and Chen, Yuwei},
+  Journal                  = {{GPS} Solutions},
+  Year                     = {2010},
+
+  Month                    = aug,
+  Pages                    = {161--170},
+  Volume                   = {15},
+
+  Doi                      = {10.1007/s10291-010-0180-x},
+  ISSN                     = {1080-5370, 1521-1886},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10},
+  Url                      = {http://www.springerlink.com/index/10.1007/s10291-010-0180-x}
+}
+
+@Book{chen_geospatial_2014,
+  Title                    = {Geospatial computing in mobile devices},
+  Author                   = {Chen, Ruizhi and Guinness, Robert E},
+  Publisher                = {Artech House},
+  Year                     = {2014},
+
+  Address                  = {Boston},
+
+  Abstract                 = {Geospatial computing includes utilizing computing devices and sensors to acquire, process, analyze, manage, and visualize geospatial data, which users can then interact with via a large variety of smart geospatial applications. Geospatial computing is a computational-demanding task, in terms of computation power, data storage capacity, and memory space. Therefore, it has primarily been performed on non-mobile computers. Recent developments allow smartphones to meet many of the demanded requirements for geospatial computing. This book addresses the topic of geospatial computing in smartphones, including positioning, mobile Geographic Information Systems (GIS) and smart mobile applications. You are provided with aspects related to positioning methods, as well as solutions for geospatial data acquisition, processing, and visualization. This resource also covers various aspects of the application technologies, such as context detection and context intelligence.},
+  ISBN                     = {978-1-60807-565-2 978-1-60807-566-9},
+  Language                 = {English},
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@InBook{Dey2010,
+  Title                    = {Ubiquitous computing fundamentals},
+  Author                   = {Dey, A.},
+  Chapter                  = {Context-aware computing},
+  Editor                   = {Krumm, J.},
+  Pages                    = {321-352},
+  Publisher                = {Chapman and Hall/CRC},
+  Year                     = {2010},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29}
+}
+
+@InProceedings{Dietterich2002,
+  Title                    = {Machine learning for sequential data: A review},
+  Author                   = {Dietterich, T. G.},
+  Booktitle                = {Proceedings of the Joint IAPR International Workshop on Structural, Syntactic, and Statistical Pattern Recognition},
+  Year                     = {2002},
+  Month                    = {August},
+  Pages                    = {15-30},
+  Publisher                = {Springer-Verlag},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.03}
+}
+
+@Article{Duncan2009,
+  Title                    = {Applying GPS to enhance understanding of transport-related physical activity},
+  Author                   = {Duncan, M. J. and Badland, H. M. and Mummery, W. K.},
+  Journal                  = {Journal of Science and Medicine in Sport},
+  Year                     = {2009},
+  Number                   = {5},
+  Pages                    = {549-556},
+  Volume                   = {12},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29}
+}
+
+@InProceedings{Elhoushi2014,
+  Title                    = {Robust Motion Mode Recognition for Portable Navigation Independent on Device Usage},
+  Author                   = {Elhoushi, M. and Georgy, J. and Korenberg, M. and Noureldin, A.},
+  Booktitle                = {Position Location and Navigation Symposium (PLANS), 2014 IEEE/ION},
+  Year                     = {2014},
+
+  Owner                    = {rg},
+  Timestamp                = {2014.05.28}
+}
+
+@Article{Elomaa2001,
+  Title                    = {An analysis of reduced error pruning},
+  Author                   = {Elomaa, T. and K\"{a}\"{a}ri\"{a}inen, M.},
+  Journal                  = {Journal of Artificial Intelligence Research},
+  Year                     = {2001},
+  Pages                    = {163-187},
+  Volume                   = {15},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.03}
+}
+
+@Misc{El-Shiemy2012,
+  Title                    = {The Promise of MEMS to LBS and Navigation Applications},
+
+  Author                   = {El-Shiemy, N.},
+  HowPublished             = {Available online: http://bit.ly/181tkxU},
+  Note                     = {(archived on 26 February 2015)},
+  Year                     = {2012},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.02},
+  Url                      = {http://bit.ly/XImnVV; http://bit.ly/127szhy}
+}
+
+@Article{Foltz1998,
+  Title                    = {The measurement of textual coherence with latent semantic analysis},
+  Author                   = {Foltz, P. W. and Kintsch, W. and Landauer,T. K.},
+  Journal                  = {Discourse Processes},
+  Year                     = {1998},
+  Number                   = {2},
+  Pages                    = {285-307},
+  Volume                   = {25},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@InProceedings{Frank2010,
+  Title                    = {Reliable Real-Time Recognition of Motion Related Human Activities Using MEMS Inertial Sensors},
+  Author                   = {Frank, K. and Nadales, M.J.V. and Robertson, P. and Angermann, M.},
+  Booktitle                = {Proceedings of the 23rd International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS 2010)},
+  Year                     = {2001},
+  Pages                    = {2919--2932},
+
+  Owner                    = {rg},
+  Timestamp                = {2014.05.28},
+  Uid                      = {0003}
+}
+
+@Electronic{Gartner2009,
+  Title                    = {Gartner Says Worldwide Smartphone Sales Reached Its Lowest Growth Rate With 3.7 Per Cent Increase in Fourth Quarter of 2008},
+  Author                   = {Gartner},
+  Month                    = {March},
+  Url                      = {http://www.gartner.com/newsroom/id/910112},
+  Year                     = {2009},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@Misc{Google2015,
+  Title                    = {Google Places API Developer's Guide},
+
+  Author                   = {Google},
+  HowPublished             = {Available online: http://bit.ly/1vBPd20},
+  Note                     = {(archived on 26 February 2015)},
+  Year                     = {2015},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.02},
+  Url                      = {http://bit.ly/VRSO6o}
+}
+
+@InProceedings{Guinness2013,
+  Title                    = {Beyond Where to How: A Machine Learning Approach for Sensing Mobility Contexts Using Smartphone Sensors},
+  Author                   = {Guinness, R. E.},
+  Booktitle                = {Proceedings of the 26th International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS 2013)},
+  Year                     = {2013},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.07}
+}
+
+@Article{hall1997introduction,
+  Title                    = {An introduction to multisensor data fusion},
+  Author                   = {Hall, D.L. and Llinas, J.},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {1997},
+  Number                   = {1},
+  Pages                    = {6--23},
+  Volume                   = {85},
+
+  Owner                    = {rg},
+  Publisher                = {IEEE},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0017}
+}
+
+@Misc{HSL2015,
+  Title                    = {Reittiopas API Developer's Guide},
+
+  Author                   = {{Helsinki Regional Transport Authority}},
+  HowPublished             = {Available online: http://bit.ly/181uycm},
+  Note                     = {(archived on 26 February 2015)},
+  Year                     = {2013},
+
+  Owner                    = {rg},
+  Shortauthor              = {HSL},
+  Timestamp                = {2013.05.02},
+  Url                      = {http://bit.ly/T6ryT9}
+}
+
+@InProceedings{hu2009,
+  Title                    = {Abnormal activity recognition based on hdp-hmm models},
+  Author                   = {Hu, D.H. and Zhang, X.X. and Yin, J. and Zheng, V.W. and Yang, Q.},
+  Booktitle                = {Proceedings of the 21st international jont conference on Artifical intelligence},
+  Year                     = {2009},
+  Organization             = {Morgan Kaufmann Publishers Inc.},
+  Pages                    = {1715--1720},
+
+  Owner                    = {rg},
+  Timestamp                = {2011.12.13},
+  Uid                      = {0008}
+}
+
+@InProceedings{hu_research_2011,
+  Title                    = {Research of a System for Monitoring Body Posture Based on Wireless Sensor Networks},
+  Author                   = {Hu, Tao and Zhang, Yong and Wang, Guozhu and Wang, Lei and Fan, Xin},
+  Booktitle                = {Proc. 7th Int Wireless Communications, Networking and Mobile Computing (WiCOM) Conf},
+  Year                     = {2011},
+  Pages                    = {1--4},
+
+  Doi                      = {10.1109/wicom.2011.6040357},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10}
+}
+
+@Article{jain1997feature,
+  Title                    = {Feature selection: Evaluation, application, and small sample performance},
+  Author                   = {Jain, A. and Zongker, D.},
+  Journal                  = {Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  Year                     = {1997},
+  Number                   = {2},
+  Pages                    = {153--158},
+  Volume                   = {19},
+
+  Owner                    = {rg},
+  Publisher                = {IEEE},
+  Uid                      = {0013}
+}
+
+@Article{Jin2008,
+  Title                    = {Context awareness of human motion states using accelerometer},
+  Author                   = {Jin, G. and Lee, S. B. and Lee, T. S.},
+  Journal                  = {Journal of Medical Systems},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {93-100},
+  Volume                   = {32},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.30}
+}
+
+@Electronic{KoreaTimes2014,
+  Title                    = {Smartphone users expected to hit 2.5 billion next year},
+  Author                   = {{Korea Times}},
+  Month                    = {July},
+  Url                      = {http://www.koreatimes.co.kr/www/news/biz/2014/07/602_161807.html},
+  Year                     = {2014},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@Article{kotsiantis2007supervised,
+  Title                    = {Supervised machine learning: A review of classification techniques},
+  Author                   = {Kotsiantis, SB and Zaharakis, ID and Pintelas, PE},
+  Journal                  = {Emerging artificial intelligence applications in computer engineering: real word AI systems with applications in eHealth, HCI, information retrieval and pervasive technologies},
+  Year                     = {2007},
+  Pages                    = {3},
+  Volume                   = {160},
+
+  Publisher                = {Ios Pr Inc}
+}
+
+@InProceedings{kuusniemi_multi-sensor_2011,
+  Title                    = {Multi-sensor multi-network seamless positioning with visual aiding},
+  Author                   = {Kuusniemi, Heidi and Chen, Liang and Ruotsalainen, Laura and Pei, Ling and Chen, Yuwei and Chen, Ruizhi},
+  Year                     = {2011},
+  Month                    = jun,
+  Pages                    = {146--151},
+  Publisher                = {{IEEE}},
+
+  Doi                      = {10.1109/ICL-GNSS.2011.5955257},
+  ISBN                     = {978-1-4577-0186-3},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5955257}
+}
+
+@InProceedings{landwehr2007relational,
+  Title                    = {Relational transformation-based tagging for human activity recognition},
+  Author                   = {Landwehr, N. and Gutmann, B. and Thon, I. and Philipose, M. and De Raedt, L.},
+  Booktitle                = {Proceedings of the 6th International Workshop on Multi-Relational Data Mining},
+  Year                     = {2007},
+  Pages                    = {81--92},
+
+  Owner                    = {rg},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0015}
+}
+
+@Article{Lee2002,
+  Title                    = {Activity and location recognition using wearable sensors},
+  Author                   = {Seon-Woo Lee and Mase, K.},
+  Journal                  = IEEE_M_PVC,
+  Year                     = {2002},
+  Number                   = {3},
+  Pages                    = {24--32},
+  Volume                   = {1},
+
+  __markedentry            = {[rg:]},
+  Doi                      = {10.1109/MPRV.2002.1037719},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10},
+  Uid                      = {0007}
+}
+
+@InProceedings{lester2005hybrid,
+  Title                    = {A hybrid discriminative/generative approach for modeling human activities},
+  Author                   = {Lester, J. and Choudhury, T. and Kern, N. and Borriello, G. and Hannaford, B.},
+  Booktitle                = {Proc. of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  Year                     = {2005},
+  Pages                    = {766--772},
+
+  Owner                    = {rg},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0022}
+}
+
+@Article{liao2007extracting,
+  Title                    = {Extracting places and activities from gps traces using hierarchical conditional random fields},
+  Author                   = {Liao, L. and Fox, D. and Kautz, H.},
+  Journal                  = {The International Journal of Robotics Research},
+  Year                     = {2007},
+  Number                   = {1},
+  Pages                    = {119--134},
+  Volume                   = {26},
+
+  Owner                    = {rg},
+  Publisher                = {SAGE Publications},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0023}
+}
+
+@Article{ma,
+  Title                    = {Gait Classification Using Wavelet Descriptors in Pedestrian Navigation},
+  Author                   = {Ma, Y. and Hesch, J.A.},
+
+  Owner                    = {rg},
+  Timestamp                = {2011.12.13},
+  Uid                      = {0010}
+}
+
+@Misc{Mawston2012,
+  Title                    = {Worldwide Smartphone Population Tops 1 Billion in Q3 2012},
+
+  Author                   = {Mawston, N.},
+  HowPublished             = {Available online: http://bit.ly/1DZuyYo},
+  Month                    = {October},
+  Note                     = {(archived on 26 February 2015)},
+  Year                     = {2012},
+
+  Organization             = {Strategy Analytics},
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29},
+  Url                      = {http://bit.ly/YntTZ0}
+}
+
+@InProceedings{McCarthy1993,
+  Title                    = {Notes on formalizing context},
+  Author                   = {McCarthy, J.},
+  Booktitle                = {Proceedings of the 13th International Joint Conference on Artificial Intelligence},
+  Year                     = {1993},
+
+  Address                  = {San Mateo, California},
+  Pages                    = {555-562},
+  Publisher                = {Morgan Kaufmann},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10},
+  Url                      = {http://bit.ly/OEHAyO}
+}
+
+@Article{McCarthy1955,
+  Title                    = {A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence},
+  Author                   = {McCarthy, John and Minsky, Marvin and Rochester, Nathan and Shannon, Claude},
+  Journal                  = {AI Magazine},
+  Year                     = {2006},
+  Note                     = {Reprint of proposal originally written in 1955},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@Article{Mitchell1990,
+  Title                    = {Machine learning},
+  Author                   = {Mitchell, T. and Buchanan, B. and DeJong, G. and Dietterich, T. and Rosenbloom, P and Waibel, A.},
+  Journal                  = {Annual Review of Computer Science},
+  Year                     = {1990},
+  Pages                    = {417-433},
+  Volume                   = {4},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29}
+}
+
+@Article{moran2001introduction,
+  Title                    = {Introduction to this special issue on context-aware computing},
+  Author                   = {Moran, T.P. and Dourish, P.},
+  Journal                  = {Human-Computer Interaction},
+  Year                     = {2001},
+  Number                   = {2-4},
+  Pages                    = {87--95},
+  Volume                   = {16},
+
+  Owner                    = {rg},
+  Publisher                = {Taylor \& Francis},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0027}
+}
+
+@Article{Oliver2010,
+  Title                    = {Combining GPS, GIS, and accelerometry: methodological issues in the assessment of location and intensity of travel behaviors},
+  Author                   = {Oliver, M. and Badland, H. M. and Mavoa, S. and Duncan, M. J. and Duncan J. S.},
+  Journal                  = {Journal of Physical Activity and Health},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {102-108},
+  Volume                   = {7},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.30}
+}
+
+@Article{oliver2004layered,
+  Title                    = {Layered representations for learning and inferring office activity from multiple sensory channels},
+  Author                   = {Oliver, N. and Garg, A. and Horvitz, E.},
+  Journal                  = {Computer Vision and Image Understanding},
+  Year                     = {2004},
+  Number                   = {2},
+  Pages                    = {163--180},
+  Volume                   = {96},
+
+  Owner                    = {rg},
+  Publisher                = {Elsevier},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0021}
+}
+
+@InProceedings{oliver2002layered,
+  Title                    = {Layered representations for human activity recognition},
+  Author                   = {Oliver, N. and Horvitz, E. and Garg, A.},
+  Booktitle                = {Multimodal Interfaces, 2002. Proceedings. Fourth IEEE International Conference on},
+  Year                     = {2002},
+  Organization             = {IEEE},
+  Pages                    = {3--8},
+
+  Owner                    = {rg},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0024}
+}
+
+@Misc{OpenStreetMap2015,
+  Title                    = {OpenStreetMap API Documentation},
+
+  Author                   = {{OpenStreetMap}},
+  HowPublished             = {Available online: http://bit.ly/181w1zw},
+  Note                     = {(archived on 26 February 2015)},
+  Year                     = {2015},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.03},
+  Url                      = {http://bit.ly/14sF4UF}
+}
+
+@Article{parkka2006activity,
+  Title                    = {Activity classification using realistic data from wearable sensors},
+  Author                   = {Parkka, J. and Ermes, M. and Korpipaa, P. and Mantyjarvi, J. and Peltola, J. and Korhonen, I.},
+  Journal                  = {Information Technology in Biomedicine, IEEE Transactions on},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {119--128},
+  Volume                   = {10},
+
+  Owner                    = {rg},
+  Publisher                = {IEEE},
+  Timestamp                = {2011.12.13},
+  Uid                      = {0011}
+}
+
+@InProceedings{Pei2010,
+  Title                    = {Motion recognition assisted indoor wireless navigation on a mobile phone},
+  Author                   = {Pei, L. and Chen, R. and Liu, J. and Chen, W. and Kuusniemi, H. and Tenhunen, T. and Kr{\"o}ger, T. and Chen, Y. and Lepp{\"a}koski, H. and Takala, J.},
+  Booktitle                = {Proceedings of the 23rd International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS 2010)},
+  Year                     = {2010},
+  Pages                    = {3366--3375},
+
+  Abstract                 = {The paper presents an indoor navigation solution combining physical motion recognition with WLAN positioning on a smart phone. Orientationindependent features are extracted from vertical and horizontal components of acceleration. The simple features such as the mean of horizontal acceleration, the variance of acceleration magnitude, and the variance of horizontal acceleration are selected as the nodes in a decision tree. Six common motion modes during indoor navigation, e.g., static, standing with hand swinging, normal walking with holding the phone in hand, normal walking with hand swinging, fast walking, and U-turning are detected. A fingerprinting based WLAN positioning approach offers the headings and initial positions for pedestrian dead reckoning with about 10 seconds interval. The velocities for six motion modes are trained by five testers and applied in the dead reckoning during the WLAN positioning gap. Test results indicate that the motion mode is recognized correctly in 95% of test cases. The field test shows 4.6m horizontal mean error for motion recognition assisted indoor wireless positioning.},
+  File                     = {:\\\\EVA-HALLINTA\\Navi\\N-server\\Drive E\\Navi\\ToRob\\F6_P2_PeiEtAl_MotionRecognitionAssistedIndoorWirelessNavigationOnAMobilePhone_final_version.pdf:PDF;:C\:\\Users\\rg\\Desktop\\ToRob\\0001_Motion_Recognition_Assisted_Indoor_Wireless_Navigation_On_A_MobilePhone_final_version.pdf:PDF},
+  Owner                    = {rg},
+  Timestamp                = {2014.05.28},
+  Uid                      = {0001}
+}
+
+@InCollection{chen2011using,
+  Title                    = {Using Motion-Awareness for the 3D Indoor Personal Navigation on a Smartphone},
+  Author                   = {Pei, L. and Chen, R. and Liu, J. and Kuusniemi, H. and Chen, Y. and T. and Tenhunen},
+  Booktitle                = {Proceedings of {ION} {GNSS} 2011 Conference, Portland, Oregon, {USA}, September 20-23},
+  Year                     = {2011},
+
+  File                     = {:C\:\\Users\\rg\\Desktop\\ToRob\\0002_Using Motion-Awareness for the 3D Indoor Personal Navigation on a Smartphone_final.pdf:PDF},
+  Owner                    = {rg},
+  Uid                      = {0002}
+}
+
+@Article{Pei2013,
+  Title                    = {Human Behavior Cognition Using Smartphone Sensors},
+  Author                   = {Pei, L. and Guinness, R. E. and Chen, R. and Lui, J. and Kuusniemi, H. and Chen, Y.},
+  Journal                  = {Sensors},
+  Year                     = {2013},
+  Number                   = {2},
+  Pages                    = {1402-1424},
+  Volume                   = {13},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.02}
+}
+
+@Article{Pei2012,
+  Title                    = {Using LS-SVM Based Motion Recognition for Smartphone Indoor Wireless Positioning},
+  Author                   = {Pei, L. and Lui, J. and Guinness, R. E. and Chen, Y. and Kuusniemi, H. and Chen, R.},
+  Journal                  = {Sensors},
+  Year                     = {2012},
+  Number                   = {5},
+  Pages                    = {6155-6175},
+  Volume                   = {12},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.02}
+}
+
+@Article{Quigg2010,
+  Title                    = {Using accelerometers and GPS units to identify the proportion of daily physical activity located in parks with playgrounds in New Zealand children},
+  Author                   = {Quigg, R. and Gray, A. and Reeder, A. I. and Hold, A. and Waters, D. L.},
+  Journal                  = {Preventive medicine},
+  Year                     = {2010},
+  Number                   = {5},
+  Pages                    = {235-240},
+  Volume                   = {50},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.30}
+}
+
+@Book{Quinlan1993,
+  Title                    = {C4. 5: programs for machine learning},
+  Author                   = {Quinlan, J. R.},
+  Publisher                = {Morgan Kaufmann},
+  Year                     = {1993},
+  Volume                   = {1},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.03}
+}
+
+@InProceedings{Ravi2005,
+  Title                    = {Activity recognition from accelerometer data},
+  Author                   = {Ravi, N. and Dandekar, N. and Mysore, P. and Littman, M. L.},
+  Booktitle                = {Proceedings of the national conference on artificial intelligence},
+  Year                     = {2005},
+  Month                    = {July},
+  Number                   = {3},
+  Pages                    = {1541-1546},
+  Volume                   = {20},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.30}
+}
+
+@Article{Reddy2010,
+  Title                    = {Using mobile phones to determine transportation modes},
+  Author                   = {Reddy, S. and Mun, M. and Burke, J. and Estrin, D. and Hansen, M. and Srivastava, M.},
+  Journal                  = {ACM Transactions on Sensor Networks (TOSN)},
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {13:1-13:23},
+  Volume                   = {6},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29}
+}
+
+@Article{ruizhi_approaching_2011,
+  Title                    = {Approaching an Ubiquitous Positioning Solution for Indoor Navigation and {Location-Based} Service},
+  Author                   = {Ruizhi, Chen},
+  Journal                  = {Journal of Global Positioning Systems},
+  Year                     = {2011},
+
+  Month                    = jun,
+  Pages                    = {1--2},
+  Volume                   = {10},
+
+  Doi                      = {10.5081/jgps.10.1.1},
+  ISSN                     = {14463156, 14463164},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10},
+  Url                      = {http://www.gnss.com.au/JoGPS/v10n1/JoGPS_v10n1p1-2.pdf}
+}
+
+@Article{ruotsalainen_visual-aided_2011,
+  Title                    = {Visual-aided Two-dimensional Pedestrian Indoor Navigation with a Smartphone},
+  Author                   = {Ruotsalainen, Laura and Kuusniemi, Heidi and Chen, Ruizhi},
+  Journal                  = {Journal of Global Positioning Systems},
+  Year                     = {2011},
+
+  Month                    = jun,
+  Pages                    = {11--18},
+  Volume                   = {10},
+
+  Doi                      = {10.5081/jgps.10.1.11},
+  ISSN                     = {14463156, 14463164},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10},
+  Url                      = {http://www.gnss.com.au/JoGPS/v10n1/JoGPS_v10n1p11-18.pdf}
+}
+
+@Article{sarkela2009movement,
+  Title                    = {The movement patterns and the experiential components of virtual environments},
+  Author                   = {S{\"a}rkel{\"a}, H. and Takatalo, J. and May, P. and Laakso, M. and Nyman, G.},
+  Journal                  = {International Journal of Human-Computer Studies},
+  Year                     = {2009},
+  Number                   = {9},
+  Pages                    = {787--799},
+  Volume                   = {67},
+
+  Publisher                = {Elsevier},
+  Uid                      = {0009}
+}
+
+@Article{scherer2005emotions,
+  Title                    = {What are emotions? And how can they be measured?},
+  Author                   = {Scherer, K.R.},
+  Journal                  = {Social science information},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {695--729},
+  Volume                   = {44},
+
+  Owner                    = {rg},
+  Publisher                = {Sage Publications},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0019}
+}
+
+@Article{schilit1994disseminating,
+  Title                    = {Disseminating active map information to mobile hosts},
+  Author                   = {Schilit, B.N. and Theimer, M.M.},
+  Journal                  = {Network, IEEE},
+  Year                     = {1994},
+  Number                   = {5},
+  Pages                    = {22--32},
+  Volume                   = {8},
+
+  Owner                    = {rg},
+  Publisher                = {IEEE},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0029}
+}
+
+@Unpublished{shahabdeenrobust,
+  Title                    = {Robust model for human activity inference using Bayesian Classifier},
+  Author                   = {Shahabdeen, J.A. and Nachman, L. and Huang, J. and Raffa, G. and Shah, R.C.},
+
+  Owner                    = {rg},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0025}
+}
+
+@PhdThesis{Stenneth2013,
+  Title                    = {Human Activity Detection using Smartphones and Maps},
+  Author                   = {Stenneth, L.},
+  School                   = {University of Illinois at Chicago},
+  Year                     = {2013},
+  Month                    = {October},
+
+  Owner                    = {rg},
+  Timestamp                = {2014.05.28}
+}
+
+@InProceedings{Stenneth2011,
+  Title                    = {Transportation mode detection using mobile phones and GIS information},
+  Author                   = {Stenneth, L. and Wolfson, O. and Yu, P. S. and Xu, B.},
+  Booktitle                = {Proceedings of the 19th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems},
+  Year                     = {2011},
+  Month                    = {November},
+  Pages                    = {54-63},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.02}
+}
+
+@InProceedings{susi2001accelerometer,
+  Title                    = {Accelerometer Signal Features and Classification Algorithms for Positioning Applications},
+  Author                   = {Susi, M. and Borio, D. and Lachapelle, G.},
+  Booktitle                = {Proceedings of the 2011 International Technical Meeting of The Institute of Navigation},
+  Year                     = {2001},
+  Pages                    = {158--169},
+
+  Owner                    = {rg},
+  Uid                      = {0004}
+}
+
+@Article{Susi2013,
+  Title                    = {Motion Mode Recognition and Step Detection Algorithms for Mobile Phone Users},
+  Author                   = {Susi, M. and Renaudin, V. and Lachapelle, G.},
+  Journal                  = {Sensors},
+  Year                     = {2013},
+  Number                   = {2},
+  Pages                    = {1539-1562},
+  Volume                   = {13},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.05.02}
+}
+
+@Article{wang_novel_2011,
+  Title                    = {A Novel Pedestrian Dead Reckoning Solution Using Motion Recognition Algorithm with Wearable {EMG} Sensors},
+  Author                   = {Wang, Qian and Chen, Yuwei and Chen, Xiang and Zhang, Xu and Chen, Ruizhi and Chen, Wei},
+  Journal                  = {Journal of Global Positioning Systems},
+  Year                     = {2011},
+
+  Month                    = jun,
+  Pages                    = {39--49},
+  Volume                   = {10},
+
+  Doi                      = {10.5081/jgps.10.1.39},
+  ISSN                     = {14463156, 14463164},
+  Owner                    = {rg},
+  Timestamp                = {2011.11.10},
+  Url                      = {http://www.gnss.com.au/JoGPS/v10n1/JoGPS_v10n1p39-49.pdf}
+}
+
+@Article{weiser1991computer,
+  Title                    = {The computer for the 21st century},
+  Author                   = {Weiser, M.},
+  Journal                  = {Scientific American},
+  Year                     = {1991},
+  Number                   = {3},
+  Pages                    = {94--104},
+  Volume                   = {265},
+
+  Owner                    = {rg},
+  Publisher                = {New York},
+  Timestamp                = {2012.04.20},
+  Uid                      = {0028}
+}
+
+@Misc{Wekaproject2015,
+  Title                    = {Weka Documentation},
+
+  Author                   = {{Weka project}},
+  HowPublished             = {Available online: http://bit.ly/1AaQEQf},
+  Note                     = {(archived on 26 February 2015)},
+  Year                     = {2015},
+
+  Organization             = {Machine Learning Group at University of Waikato (New Zealand)},
+  Owner                    = {rg},
+  Timestamp                = {2013.05.03},
+  Url                      = {http://bit.ly/wekadocs}
+}
+
+@Article{wiggins2008evolving,
+  Title                    = {Evolving a Bayesian classifier for ECG-based age classification in medical applications},
+  Author                   = {Wiggins, M. and Saad, A. and Litt, B. and Vachtsevanos, G.},
+  Journal                  = {Applied soft computing},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {599--608},
+  Volume                   = {8},
+
+  Owner                    = {rg},
+  Publisher                = {Elsevier},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0020}
+}
+
+@InProceedings{yang2009toward,
+  Title                    = {Toward physical activity diary: motion recognition using simple acceleration features with mobile phones},
+  Author                   = {Yang, J.},
+  Booktitle                = {Proceedings of the 1st international workshop on Interactive multimedia for consumer electronics},
+  Year                     = {2009},
+  Organization             = {ACM},
+  Pages                    = {1--10},
+
+  Owner                    = {rg},
+  Timestamp                = {2015.02.18},
+  Uid                      = {0005}
+}
+
+@InProceedings{yang2009activity,
+  Title                    = {Activity recognition: linking low-level sensors to high-level intelligence},
+  Author                   = {Yang, Q.},
+  Booktitle                = {Proceedings of the 21st international jont conference on Artifical intelligence},
+  Year                     = {2009},
+  Organization             = {Morgan Kaufmann Publishers Inc.},
+  Pages                    = {20--25},
+
+  Owner                    = {rg},
+  Timestamp                = {2011.12.14},
+  Uid                      = {0014}
+}
+
+@Article{yin2008sensor,
+  Title                    = {Sensor-based abnormal human-activity detection},
+  Author                   = {Yin, J. and Yang, Q. and Pan, J.J.},
+  Journal                  = {Knowledge and Data Engineering, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {8},
+  Pages                    = {1082--1090},
+  Volume                   = {20},
+
+  Owner                    = {rg},
+  Publisher                = {IEEE},
+  Timestamp                = {2011.12.13},
+  Uid                      = {0012}
+}
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_review:}
+
