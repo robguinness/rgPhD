@@ -56,4 +56,189 @@ R.~Chen and R.~E. Guinness, {\em Geospatial computing in mobile devices}.
 ``Context,'' 2015.
 \newblock In Merriam-Webster.com.
 
+\bibitem{akman1996steps}
+V.~Akman and M.~Surav, ``Steps toward formalizing context,'' {\em AI magazine},
+  vol.~17, no.~3, p.~55, 1996.
+
+\bibitem{wiki2015}
+Wikipedia, ``Five ws --- wikipedia{,} the free encyclopedia,'' 2015.
+\newblock [Online; accessed 11-July-2015].
+
+\bibitem{bennett2005hermagoras}
+B.~S. Bennett, ``Hermagoras of temnos,'' {\em Classical Rhetorics and
+  Rhetoricians: Critical Studies and Sources}, p.~187, 2005.
+
+\bibitem{schilit1994disseminating}
+B.~Schilit and M.~Theimer, ``Disseminating active map information to mobile
+  hosts,'' {\em Network, IEEE}, vol.~8, no.~5, pp.~22--32, 1994.
+
+\bibitem{moran2001introduction}
+T.~Moran and P.~Dourish, ``Introduction to this special issue on context-aware
+  computing,'' {\em Human-Computer Interaction}, vol.~16, no.~2-4, pp.~87--95,
+  2001.
+
+\bibitem{mccarthy1963programs}
+J.~McCarthy, {\em Programs with common sense}.
+\newblock Defense Technical Information Center, 1963.
+
+\bibitem{guha1991contexts}
+R.~V. Guha, {\em Contexts: a formalization and some applications}, vol.~101.
+\newblock Stanford University Stanford, CA, 1991.
+
+\bibitem{mccarthy1997formalizing}
+J.~McCarthy and S.~Buvac, ``Formalizing context (expanded notes),'' 1997.
+
+\bibitem{buvac1993propositional}
+S.~Buva\v{c} and I.~A. Mason, ``Propositional logic of context,'' in {\em
+  Proceedings of the eleventh national conference on artificial intelligence},
+  sn, 1993.
+
+\bibitem{brezillon1999context}
+P.~Br{\'e}zillon, ``Context in artificial intelligence: I. a survey of the
+  literature,'' {\em Computers and artificial intelligence}, vol.~18,
+  pp.~321--340, 1999.
+
+\bibitem{akman2002context}
+V.~Akman, ``Context in artificial intelligence: a fleeting overview,'' 2002.
+
+\bibitem{mccarthy1987generality}
+J.~McCarthy, ``Generality in artificial intelligence,'' {\em Communications of
+  the ACM}, vol.~30, no.~12, pp.~1030--1035, 1987.
+
+\bibitem{Weisstein2014}
+E.~W. Weisstein, ``Term.''
+\newblock From MathWorld--A Wolfram Web Resource.
+
+\bibitem{hirst1997context}
+G.~Hirst, ``Context as a spurious concept,'' {\em arXiv preprint
+  cmp-lg/9712003}, 1997.
+
+\bibitem{wolf2006critical}
+L.~Wolf and S.~Bileschi, ``A critical view of context,'' {\em International
+  Journal of Computer Vision}, vol.~69, no.~2, pp.~251--261, 2006.
+
+\bibitem{mccarthy1969some}
+J.~McCarthy and P.~J. Hayes, ``Some philosophical problems from the standpoint
+  of artificial intelligence,'' {\em Readings in artificial intelligence},
+  pp.~431--450, 1969.
+
+\bibitem{mccarthy1984some}
+J.~McCarthy, ``Some expert systems need common sense,'' {\em Annals of the New
+  York Academy of Sciences}, vol.~426, no.~1, pp.~129--137, 1984.
+
+\bibitem{pei2013human}
+L.~Pei, R.~Guinness, R.~Chen, J.~Liu, H.~Kuusniemi, Y.~Chen, L.~Chen, and
+  J.~Kaistinen, ``Human behavior cognition using smartphone sensors,'' {\em
+  Sensors}, vol.~13, no.~2, pp.~1402--1424, 2013.
+
+\bibitem{samuel1959some}
+A.~L. Samuel, ``Some studies in machine learning using the game of checkers,''
+  {\em IBM Journal of research and development}, vol.~3, no.~3, pp.~210--229,
+  1959.
+
+\bibitem{shannon1950xxii}
+C.~E. Shannon, ``Xxii. programming a computer for playing chess,'' {\em The
+  London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science},
+  vol.~41, no.~314, pp.~256--275, 1950.
+
+\bibitem{Turing1953}
+A.~Turing, {\em Chess}, ch.~The Essential Turing, Seminal Writings in
+  Computing, Logic, Philosophy, Artificial Intelligence, and Artificial Life
+  plus The Secrets of Enigma.
+\newblock Oxford University Press, 2004.
+\newblock Reprint of paper originally printed in 1953.
+
+\bibitem{hsu2002behind}
+F.-H. Hsu, {\em Behind Deep Blue: Building the computer that defeated the world
+  chess champion}.
+\newblock Princeton University Press, 2002.
+
+\bibitem{Spicer2006}
+D.~Spicer and K.~Tashev, ``The quest to build a thinking machine: A history of
+  computer chess,'' {\em CompuComputer: New exhibit showcases game's past and
+  museum's future}, May 2006.
+\newblock A publication of the Computer History Museum.
+
+\bibitem{Russell2010}
+S.~Russell and P.~Norvig, {\em Artificial Intelligence: A Modern Approach}.
+\newblock Upper Saddle River, New Jersey: Prentice Hall, 3rd edition~ed., 2010.
+
+\bibitem{wolpert1996lack}
+D.~H. Wolpert, ``The lack of a priori distinctions between learning
+  algorithms,'' {\em Neural computation}, vol.~8, no.~7, pp.~1341--1390, 1996.
+
+\bibitem{alpaydin2014introduction}
+E.~Alpaydin, {\em Introduction to machine learning}.
+\newblock MIT press, 2014.
+
+\bibitem{Murphy2012}
+K.~Murphy, {\em Machine Learning: A Probabilistic Perspective}.
+\newblock MIT Press, 2012.
+
+\bibitem{hartigan1979algorithm}
+J.~A. Hartigan and M.~A. Wong, ``Algorithm as 136: A k-means clustering
+  algorithm,'' {\em Applied statistics}, pp.~100--108, 1979.
+
+\bibitem{Ankerst:1999:OOP:304181.304187}
+M.~Ankerst, M.~M. Breunig, H.-P. Kriegel, and J.~Sander, ``{OPTICS}: Ordering
+  points to identify the clustering structure,'' {\em SIGMOD Rec.}, vol.~28,
+  pp.~49--60, June 1999.
+
+\bibitem{dempster1977maximum}
+A.~P. Dempster, N.~M. Laird, and D.~B. Rubin, ``Maximum likelihood from
+  incomplete data via the em algorithm,'' {\em Journal of the royal statistical
+  society. Series B (methodological)}, pp.~1--38, 1977.
+
+\bibitem{bilmes1998gentle}
+J.~A. Bilmes {\em et~al.}, ``A gentle tutorial of the em algorithm and its
+  application to parameter estimation for gaussian mixture and hidden markov
+  models,'' {\em International Computer Science Institute}, vol.~4, no.~510,
+  p.~126, 1998.
+
+\bibitem{vlassis2002greedy}
+N.~Vlassis and A.~Likas, ``A greedy {EM} algorithm for gaussian mixture
+  learning,'' {\em Neural processing letters}, vol.~15, no.~1, pp.~77--87,
+  2002.
+
+\bibitem{Smyth2015}
+P.~Smyth, ``Note set 4: Finite mixture models and the {EM} algorithm.'' Lecture
+  notes for course on Probabilistic Learning at University of
+  California--Irvine, 2015.
+
+\bibitem{inosense2015}
+``{Indoor Outdoor Seamless Navigation for Sensing Human Behavior (INOSENSE)}.''
+  Available online: http://bit.ly/inosense, 2015.
+\newblock Website of the Finnish Geospatial Research Institute.
+
+\bibitem{Guinness2013}
+R.~E. Guinness, ``Beyond where to how: A machine learning approach for sensing
+  mobility contexts using smartphone sensors,'' in {\em Proceedings of the 26th
+  International Technical Meeting of The Satellite Division of the Institute of
+  Navigation (ION GNSS+ 2013)}, (Nashville, TN), pp.~2868--2879, September
+  2013.
+
+\bibitem{jufo}
+``Julkaisufoorumi website.'' Available online:
+  https://www.tsv.fi/julkaisufoorumi/english.php, 2015.
+
+\bibitem{Guinness2015}
+R.~E. Guinness, H.~Kuusniemi, J.~Vallet, T.~Sarjakoski, J.~Oksanen, M.~Islam,
+  M.~Syeed, H.-M. Halkosaari, P.~Kettunen, M.~Laakso, and M.~Rönneberg,
+  ``{MyGeoTrust}: {A} platform for trusted crowdsourced geospatial data,'' in
+  {\em Proceedings of the 28th International Technical Meeting of The Satellite
+  Division of the Institute of Navigation (ION GNSS+ 2015)}, (Tampa, Florida),
+  2015.
+\newblock submitted.
+
+\bibitem{elhoushi2014robust}
+M.~Elhoushi, J.~Georgy, M.~Korenberg, and A.~Noureldin, ``Robust motion mode
+  recognition for portable navigation independent on device usage,'' in {\em
+  Position, Location and Navigation Symposium-PLANS 2014, 2014 IEEE/ION},
+  pp.~158--163, IEEE, 2014.
+
+\bibitem{stenneth2013detecting}
+L.~Stenneth, {\em Detecting Human Activities Using Smartphones and Maps}.
+\newblock PhD thesis, University of Illinois at Chicago, October 2013.
+\newblock PhD thesis.
+
 \end{thebibliography}

@@ -4,11 +4,11 @@
 This chapter will provide background on the topic of machine learning, whose role in this thesis was outlined in the introduction chapter. Our preferred definition of ``machine learning research'' was also given in that chapter, but it is worth repeating here:
 %
 \begin{quote}
-Machine learning research seeks to develop computer systems that automatically improve their performance through experience (Mitchell et al., 1990).
+Machine learning research seeks to develop computer systems that automatically improve their performance through experience \cite{Mitchell1990}.
 \end{quote}
 %	
 Stated slightly differently, \emph{machine learning} is concerned with developing and analyzing algorithms used by computer systems that automatically improve their performance through experience. An earlier definition, widely attributed to Arthur Samuel, is that machine learning is ``the field of study that gives computers the ability to learn without being
-explicitly programmed''\footnote{We have been unable to recover the original source of this quote. Some references cite (Samuel, 1959), but the quote is not found in reprints of this article.}. This definition also implies \emph{automatic} learning, but it suffers from the problem that the meaning of ``learn'' is not precisely defined.
+explicitly programmed''\footnote{We have been unable to recover the original source of this quote. Some references cite \cite{samuel1959some}, but the quote is not found in reprints of this article.}. This definition also implies \emph{automatic} learning, but it suffers from the problem that the meaning of ``learn'' is not precisely defined.
 
 As is the case in some fields, the discipline known as ``machine learning'' has drifted somewhat from its original defining aims. This will become more evident later on in this chapter when we describe the major types of machine learning problems that have developed over the past 30+ years.
 
@@ -19,7 +19,7 @@ The chapter is organized as follows. Section~\ref{sec:chess} presents an intuiti
 \section{Computer Chess: An Example Learning Task}
 \label{sec:chess}
 
-First, by way of example, we present a classic programming task that could possibly be achieved using machine learning. The task is to create a computer program that can play chess against a human\footnote{Some of the earliest works in machine learning and artificial intelligence involved computer-playing games, such as chess and checkers. See (Turing, ????, Shannon, 1950; Samuel, 1959)}. If the task requirement were only to ``play'' chess, then the programming task would be rather trivial and would definitely not require machine learning. The programmer would simply have to encode all the rules of chess (namely how the pieces move and what happens as a result of the moves, such as captures) and then implement a random move selection function that obeys these rules. This program, undoubtedly, would be a very terrible chess player, so we add the additional requirement that the program should try to \emph{beat} a human in chess. This is now a formidable programming task, and one that has been considered by computer scientists at least as far back as Claude Shannon's 1950 paper on the subject (Shannon, 1950). Perhaps the most famous chess-playing program was initiated at Carnegie Mellon University in 1985 and later transitioned to IBM, culminating in the computer Deep Blue\textsuperscript{\textregistered} beating the chess master Garry Kasparov in a six-game match-up in 1997\footnote{We note that Kasparov has accused IBM of cheating by letting human players intervene in one of the matches.}. Nowadays, similarly advanced chess programs can run on a personal computer or even a smartphone or tablet. A full literature review of computer chess is beyond the scope of this thesis, but we refer the interested reader to (Hsu, 2002), (Spicer and Tashev, 2006), and (Russell and Norwig, 2010). Our intention in this section is to use this chess example as a way to clarify our understanding of the aim of machine learning.
+First, by way of example, we present a classic programming task that could possibly be achieved using machine learning. The task is to create a computer program that can play chess against a human\footnote{Some of the earliest works in machine learning and artificial intelligence involved computer-playing games, such as chess and checkers. See (\cite{samuel1959some} \cite{shannon1950xxii} \cite{Turing1953}).}. If the task requirement were only to ``play'' chess, then the programming task would be rather trivial and would definitely not require machine learning. The programmer would simply have to encode all the rules of chess (namely how the pieces move and what happens as a result of the moves, such as captures) and then implement a random move selection function that obeys these rules. This program, undoubtedly, would be a very terrible chess player, so we add the additional requirement that the program should try to \emph{beat} a human in chess. This is now a formidable programming task, and one that has been considered by computer scientists at least as far back as Claude Shannon's 1950 paper on the subject \cite{shannon1950xxii}\footnote{For example, according to colleagues of Alan Turing, Turing began considering computer chess during the 1940s.}. Perhaps the most famous chess-playing program was initiated at Carnegie Mellon University in 1985 and later transitioned to IBM, culminating in the computer Deep Blue\textsuperscript{\textregistered} beating the chess master Garry Kasparov in a six-game match-up in 1997\footnote{We note that Kasparov has accused IBM of cheating by letting human players intervene in one of the matches.}. Nowadays, similarly advanced chess programs can run on a personal computer or even a smartphone or tablet. A full literature review of computer chess is beyond the scope of this thesis, but we refer the interested reader to \cite{hsu2002behind} \cite{} (Spicer and Tashev, 2006), and (Russell and Norwig, 2010). Our intention in this section is to use this chess example as a way to clarify our understanding of the aim of machine learning.
 
 \subsection{Rule-Based Methods}
 \label{sec:rule-based}
@@ -106,6 +106,7 @@ A user, Mary, has painstakingly collected a dataset for developing a context-awa
 Based on this figure, several observations can be made. We clearly see three clusters of data, corresponding to the three mobility contexts. The cluster corresponding to the ``static'' context is well separated from the other two, but in the case of the ``walking'' and ``running'' contexts, there is some overlap. Another important observation is that in the ``walking'' data, some of the values for speed are very close to 0 m/s. This could be due to errors in the data (i.e. the data from the GPS receiver might have some error) or labeling errors made by Mary. It is very common with this type of data that some labeling errors are present in the training set. For example, at the transition points between the walking and static contexts, it is difficult to accurately label which data corresponds to ``walking'' and which corresponds to ``static''\footnote{One technique to avoid such labeling errors is to remove these transition points entirely from the training set.}.
 
 \begin{table}
+\centering
 \begin{tabular}{lccc}
 \hline\noalign{\smallskip}
 \textbf{ID} & \textbf{Speed (m/s)} & \textbf{Dyn. accel. (m\textsuperscript{2}/s\textsuperscript{4})} & \textbf{Label}\\
@@ -190,7 +191,7 @@ Unsupervised learning is, in many ways, quite similar to supervised learning, ex
   \begin{center}
     \includegraphics[width=1.0\textwidth]{Images/figChapter3-2}
   \end{center}
-  \caption[Input data for unsupervised learning]{The top plot shows example input data for unsupervised learning. In contrast to Figure~\ref{fig:data-from-phone-supervised} no labels are available. The bottom plot shows one result from the EM-based clustering. The color of the points shows the posterior probability that the points belong to the first component in a GMM. Data labels are shown strictly for demonstration purposes. In a real situation, oo such label would be available to interpret the unsupervised learning result.}
+  \caption[Input data for unsupervised learning and one clustering result]{The top plot shows example input data for unsupervised learning. In contrast to Figure~\ref{fig:data-from-phone-supervised} no labels are available. The bottom plot shows one result from the EM-based clustering. The color of the points shows the posterior probability that the points belong to the first component in a GMM. Data labels are shown strictly for demonstration purposes. In a real situation, no such label would be available to interpret the unsupervised learning result.}
   \label{fig:data-from-phone-unsupervised}
 \end{figure}
 
@@ -244,7 +245,7 @@ Recall that each component of the GMM corresponds to a cluster, and therefore th
   \begin{center}
     \includegraphics[width=1.0\textwidth]{Images/figChapter3-3}
   \end{center}
-  \caption[Results from unsupervised learning]{Th}
+  \caption[Further results from unsupervised learning]{These two plots continue the results presented in Figure~\ref{fig:data-from-phone-unsupervised}. The coloring used in the top plot shows the posterior probabilities that the points belong to the second component in a GMM, whereas the bottom plot shows the same for the third component. As in Figure~\ref{fig:data-from-phone-unsupervised}, the data labels are shown strictly for demonstration purposes.}
   \label{fig:data-from-phone-unsupervised2}
 \end{figure}
 %

@@ -2,6 +2,51 @@
 % Encoding: UTF8
 
 
+@Article{akman2002context,
+  Title                    = {Context in artificial intelligence: a fleeting overview},
+  Author                   = {Akman, Varol},
+  Year                     = {2002}
+}
+
+@Article{akman1996steps,
+  Title                    = {Steps toward formalizing context},
+  Author                   = {Akman, Varol and Surav, Mehmet},
+  Journal                  = {AI magazine},
+  Year                     = {1996},
+  Number                   = {3},
+  Pages                    = {55},
+  Volume                   = {17}
+}
+
+@Book{alpaydin2014introduction,
+  Title                    = {Introduction to machine learning},
+  Author                   = {Alpaydin, Ethem},
+  Publisher                = {MIT press},
+  Year                     = {2014}
+}
+
+@Article{Ankerst:1999:OOP:304181.304187,
+  Title                    = {{OPTICS}: Ordering Points to Identify the Clustering Structure},
+  Author                   = {Ankerst, Mihael and Breunig, Markus M. and Kriegel, Hans-Peter and Sander, J\"{o}rg},
+  Journal                  = {SIGMOD Rec.},
+  Year                     = {1999},
+
+  Month                    = jun,
+  Number                   = {2},
+  Pages                    = {49--60},
+  Volume                   = {28},
+
+  Acmid                    = {304187},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/304181.304187},
+  ISSN                     = {0163-5808},
+  Issue_date               = {June 1999},
+  Keywords                 = {cluster analysis, database mining, visualization},
+  Numpages                 = {12},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/304181.304187}
+}
+
 @InProceedings{böhmer2010exploring,
   Title                    = {Exploring the design space of context-aware recommender systems that suggest mobile applications},
   Author                   = {B{\"o}hmer, M. and Bauer, G. and Kr{\"u}ger, A.},
@@ -63,6 +108,37 @@
   Timestamp                = {2015.07.10}
 }
 
+@Article{bennett2005hermagoras,
+  Title                    = {Hermagoras of Temnos},
+  Author                   = {Bennett, Beth S},
+  Journal                  = {Classical Rhetorics and Rhetoricians: Critical Studies and Sources},
+  Year                     = {2005},
+  Pages                    = {187},
+
+  Publisher                = {Greenwood Publishing Group}
+}
+
+@Article{bilmes1998gentle,
+  Title                    = {A gentle tutorial of the EM algorithm and its application to parameter estimation for Gaussian mixture and hidden Markov models},
+  Author                   = {Bilmes, Jeff A and others},
+  Journal                  = {International Computer Science Institute},
+  Year                     = {1998},
+  Number                   = {510},
+  Pages                    = {126},
+  Volume                   = {4}
+}
+
+@Article{brezillon1999context,
+  Title                    = {Context in Artificial Intelligence: I. A survey of the literature},
+  Author                   = {Br{\'e}zillon, Patrick},
+  Journal                  = {Computers and artificial intelligence},
+  Year                     = {1999},
+  Pages                    = {321--340},
+  Volume                   = {18},
+
+  Publisher                = {TRANSLIBRIS}
+}
+
 @Article{Breiman2001,
   Title                    = {Random forests},
   Author                   = {Breiman, L.},
@@ -85,6 +161,14 @@
   ISBN                     = {978-0-393-23935-5},
   Language                 = {English},
   Shorttitle               = {The second machine age}
+}
+
+@InProceedings{buvac1993propositional,
+  Title                    = {Propositional logic of context},
+  Author                   = {Buva\v{c}, Saga and Mason, Ian A},
+  Booktitle                = {Proceedings of the eleventh national conference on artificial intelligence},
+  Year                     = {1993},
+  Organization             = {sn}
 }
 
 @Article{Campbell2012,
@@ -167,6 +251,16 @@
   Language                 = {English},
   Owner                    = {rob},
   Timestamp                = {2015.07.10}
+}
+
+@Article{dempster1977maximum,
+  Title                    = {Maximum likelihood from incomplete data via the EM algorithm},
+  Author                   = {Dempster, Arthur P and Laird, Nan M and Rubin, Donald B},
+  Journal                  = {Journal of the royal statistical society. Series B (methodological)},
+  Year                     = {1977},
+  Pages                    = {1--38},
+
+  Publisher                = {JSTOR}
 }
 
 @InBook{Dey2010,
@@ -292,14 +386,39 @@
   Url                      = {http://bit.ly/VRSO6o}
 }
 
+@Book{guha1991contexts,
+  Title                    = {Contexts: a formalization and some applications},
+  Author                   = {Guha, Ramanathan V},
+  Publisher                = {Stanford University Stanford, CA},
+  Year                     = {1991},
+  Volume                   = {101}
+}
+
 @InProceedings{Guinness2013,
   Title                    = {Beyond Where to How: A Machine Learning Approach for Sensing Mobility Contexts Using Smartphone Sensors},
   Author                   = {Guinness, R. E.},
-  Booktitle                = {Proceedings of the 26th International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS 2013)},
+  Booktitle                = {Proceedings of the 26th International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS+ 2013)},
   Year                     = {2013},
 
-  Owner                    = {rg},
-  Timestamp                = {2013.05.07}
+  Address                  = {Nashville, TN},
+  Month                    = {September},
+  Pages                    = {2868-2879},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11}
+}
+
+@InProceedings{Guinness2015,
+  Title                    = {{MyGeoTrust}: {A} Platform for Trusted Crowdsourced Geospatial Data},
+  Author                   = {Guinness, R. E. and Kuusniemi, H. and Vallet, J. and Sarjakoski, T. and Oksanen, J. and Islam, M. and Syeed, M. and Halkosaari, H-M. and Kettunen, P. and Laakso, M and Rönneberg, M.},
+  Booktitle                = {Proceedings of the 28th International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS+ 2015)},
+  Year                     = {2015},
+
+  Address                  = {Tampa, Florida},
+  Note                     = {submitted},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11}
 }
 
 @Article{hall1997introduction,
@@ -317,6 +436,16 @@
   Uid                      = {0017}
 }
 
+@Article{hartigan1979algorithm,
+  Title                    = {Algorithm AS 136: A k-means clustering algorithm},
+  Author                   = {Hartigan, John A and Wong, Manchek A},
+  Journal                  = {Applied statistics},
+  Year                     = {1979},
+  Pages                    = {100--108},
+
+  Publisher                = {JSTOR}
+}
+
 @Misc{HSL2015,
   Title                    = {Reittiopas API Developer's Guide},
 
@@ -329,6 +458,20 @@
   Shortauthor              = {HSL},
   Timestamp                = {2013.05.02},
   Url                      = {http://bit.ly/T6ryT9}
+}
+
+@Article{hirst1997context,
+  Title                    = {Context as a spurious concept},
+  Author                   = {Hirst, Graeme},
+  Journal                  = {arXiv preprint cmp-lg/9712003},
+  Year                     = {1997}
+}
+
+@Book{hsu2002behind,
+  Title                    = {Behind Deep Blue: Building the computer that defeated the world chess champion},
+  Author                   = {Hsu, Feng-Hsiung},
+  Publisher                = {Princeton University Press},
+  Year                     = {2002}
 }
 
 @InProceedings{hu2009,
@@ -514,6 +657,53 @@
   Url                      = {http://bit.ly/OEHAyO}
 }
 
+@Article{mccarthy1987generality,
+  Title                    = {Generality in artificial intelligence},
+  Author                   = {McCarthy, John},
+  Journal                  = {Communications of the ACM},
+  Year                     = {1987},
+  Number                   = {12},
+  Pages                    = {1030--1035},
+  Volume                   = {30},
+
+  Publisher                = {ACM}
+}
+
+@Article{mccarthy1984some,
+  Title                    = {Some expert systems need common sense},
+  Author                   = {McCarthy, John},
+  Journal                  = {Annals of the New York Academy of Sciences},
+  Year                     = {1984},
+  Number                   = {1},
+  Pages                    = {129--137},
+  Volume                   = {426},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Book{mccarthy1963programs,
+  Title                    = {Programs with common sense},
+  Author                   = {McCarthy, John},
+  Publisher                = {Defense Technical Information Center},
+  Year                     = {1963}
+}
+
+@Article{mccarthy1997formalizing,
+  Title                    = {Formalizing context (expanded notes)},
+  Author                   = {McCarthy, John and Buvac, Sasa},
+  Year                     = {1997}
+}
+
+@Article{mccarthy1969some,
+  Title                    = {Some philosophical problems from the standpoint of artificial intelligence},
+  Author                   = {McCarthy, John and Hayes, Patrick J},
+  Journal                  = {Readings in artificial intelligence},
+  Year                     = {1969},
+  Pages                    = {431--450},
+
+  Publisher                = {Los Altos, CA: Morgan Kaufmann}
+}
+
 @Article{McCarthy1955,
   Title                    = {A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence},
   Author                   = {McCarthy, John and Minsky, Marvin and Rochester, Nathan and Shannon, Claude},
@@ -550,6 +740,16 @@
   Publisher                = {Taylor \& Francis},
   Timestamp                = {2012.04.20},
   Uid                      = {0027}
+}
+
+@Book{Murphy2012,
+  Title                    = {Machine Learning: A Probabilistic Perspective},
+  Author                   = {Murphy, Kevin},
+  Publisher                = {MIT Press},
+  Year                     = {2012},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11}
 }
 
 @Article{Oliver2010,
@@ -644,6 +844,18 @@
   File                     = {:C\:\\Users\\rg\\Desktop\\ToRob\\0002_Using Motion-Awareness for the 3D Indoor Personal Navigation on a Smartphone_final.pdf:PDF},
   Owner                    = {rg},
   Uid                      = {0002}
+}
+
+@Article{pei2013human,
+  Title                    = {Human behavior cognition using smartphone sensors},
+  Author                   = {Pei, Ling and Guinness, Robert and Chen, Ruizhi and Liu, Jingbin and Kuusniemi, Heidi and Chen, Yuwei and Chen, Liang and Kaistinen, Jyrki},
+  Journal                  = {Sensors},
+  Year                     = {2013},
+  Number                   = {2},
+  Pages                    = {1402--1424},
+  Volume                   = {13},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
 }
 
 @Article{Pei2013,
@@ -757,6 +969,16 @@
   Url                      = {http://www.gnss.com.au/JoGPS/v10n1/JoGPS_v10n1p11-18.pdf}
 }
 
+@Book{Russell2010,
+  Title                    = {Artificial Intelligence: A Modern Approach},
+  Author                   = {Russell, Stuart and Norvig, Peter},
+  Publisher                = {Prentice Hall},
+  Year                     = {2010},
+
+  Address                  = {Upper Saddle River, New Jersey},
+  Edition                  = {3rd Edition}
+}
+
 @Article{sarkela2009movement,
   Title                    = {The movement patterns and the experiential components of virtual environments},
   Author                   = {S{\"a}rkel{\"a}, H. and Takatalo, J. and May, P. and Laakso, M. and Nyman, G.},
@@ -768,6 +990,18 @@
 
   Publisher                = {Elsevier},
   Uid                      = {0009}
+}
+
+@Article{samuel1959some,
+  Title                    = {Some studies in machine learning using the game of checkers},
+  Author                   = {Samuel, Arthur L},
+  Journal                  = {IBM Journal of research and development},
+  Year                     = {1959},
+  Number                   = {3},
+  Pages                    = {210--229},
+  Volume                   = {3},
+
+  Publisher                = {IBM}
 }
 
 @Article{scherer2005emotions,
@@ -809,6 +1043,45 @@
   Uid                      = {0025}
 }
 
+@Article{shannon1950xxii,
+  Title                    = {XXII. Programming a computer for playing chess},
+  Author                   = {Shannon, Claude E},
+  Journal                  = {The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science},
+  Year                     = {1950},
+  Number                   = {314},
+  Pages                    = {256--275},
+  Volume                   = {41},
+
+  Publisher                = {Taylor \& Francis}
+}
+
+@Unpublished{Smyth2015,
+  Title                    = {Note Set 4: Finite Mixture Models and the {EM} Algorithm},
+  Author                   = {Smyth, Padhraic},
+  Note                     = {Lecture notes for course on Probabilistic Learning at University of California--Irvine},
+  Year                     = {2015},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11},
+  Url                      = {http://www.ics.uci.edu/~smyth/courses/cs274/notes/notes4.pdf}
+}
+
+@Article{Spicer2006,
+  Title                    = {The quest to build a thinking machine: A history of computer chess},
+  Author                   = {Spicer, D. and Tashev, K.},
+  Journal                  = {CompuComputer: New exhibit showcases game's past and museum's future},
+  Year                     = {2006},
+
+  Month                    = {May},
+  Note                     = {A publication of the Computer History Museum},
+
+  Editor                   = {Lynn, K. W.},
+  Owner                    = {rob},
+  Series                   = {Core 5.1},
+  Timestamp                = {2015.07.11},
+  Url                      = {http://www.computerhistory.org/core/media/pdf/core-2006.pdf}
+}
+
 @PhdThesis{Stenneth2013,
   Title                    = {Human Activity Detection using Smartphones and Maps},
   Author                   = {Stenneth, L.},
@@ -818,6 +1091,15 @@
 
   Owner                    = {rg},
   Timestamp                = {2014.05.28}
+}
+
+@PhdThesis{stenneth2013detecting,
+  Title                    = {Detecting Human Activities Using Smartphones and Maps},
+  Author                   = {STENNETH, LEON},
+  School                   = {University of Illinois at Chicago},
+  Year                     = {2013},
+  Month                    = {October},
+  Note                     = {PhD thesis}
 }
 
 @InProceedings{Stenneth2011,
@@ -856,6 +1138,31 @@
   Timestamp                = {2013.05.02}
 }
 
+@InBook{Turing1953,
+  Title                    = {Chess},
+  Author                   = {Turing, A.},
+  Chapter                  = {The Essential Turing, Seminal Writings in Computing, Logic, Philosophy, Artificial Intelligence, and Artificial Life plus The Secrets of Enigma},
+  Editor                   = {Copeland, B. J.},
+  Publisher                = {Oxford University Press},
+  Year                     = {2004},
+  Note                     = {Reprint of paper originally printed in 1953},
+
+  Owner                    = {rg},
+  Timestamp                = {2013.04.29}
+}
+
+@Article{vlassis2002greedy,
+  Title                    = {A greedy {EM} algorithm for Gaussian mixture learning},
+  Author                   = {Vlassis, Nikos and Likas, Aristidis},
+  Journal                  = {Neural processing letters},
+  Year                     = {2002},
+  Number                   = {1},
+  Pages                    = {77--87},
+  Volume                   = {15},
+
+  Publisher                = {Springer}
+}
+
 @Article{wang_novel_2011,
   Title                    = {A Novel Pedestrian Dead Reckoning Solution Using Motion Recognition Algorithm with Wearable {EMG} Sensors},
   Author                   = {Wang, Qian and Chen, Yuwei and Chen, Xiang and Zhang, Xu and Chen, Ruizhi and Chen, Wei},
@@ -888,6 +1195,16 @@
   Uid                      = {0028}
 }
 
+@Electronic{Weisstein2014,
+  Title                    = {Term},
+  Author                   = {Weisstein, Eric W.},
+  Note                     = {From MathWorld--A Wolfram Web Resource},
+  Url                      = {http://mathworld.wolfram.com/Term.html},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11}
+}
+
 @Misc{Wekaproject2015,
   Title                    = {Weka Documentation},
 
@@ -915,6 +1232,40 @@
   Publisher                = {Elsevier},
   Timestamp                = {2011.12.14},
   Uid                      = {0020}
+}
+
+@Misc{wiki2015,
+  Title                    = {Five Ws --- Wikipedia{,} The Free Encyclopedia},
+
+  Author                   = {Wikipedia},
+  Note                     = {[Online; accessed 11-July-2015]},
+  Year                     = {2015},
+
+  Url                      = {\url{https://en.wikipedia.org/w/index.php?title=Five_Ws&oldid=664184370}}
+}
+
+@Article{wolf2006critical,
+  Title                    = {A critical view of context},
+  Author                   = {Wolf, Lior and Bileschi, Stanley},
+  Journal                  = {International Journal of Computer Vision},
+  Year                     = {2006},
+  Number                   = {2},
+  Pages                    = {251--261},
+  Volume                   = {69},
+
+  Publisher                = {Springer}
+}
+
+@Article{wolpert1996lack,
+  Title                    = {The lack of a priori distinctions between learning algorithms},
+  Author                   = {Wolpert, David H},
+  Journal                  = {Neural computation},
+  Year                     = {1996},
+  Number                   = {7},
+  Pages                    = {1341--1390},
+  Volume                   = {8},
+
+  Publisher                = {MIT Press}
 }
 
 @InProceedings{yang2009toward,
@@ -957,6 +1308,50 @@
   Timestamp                = {2011.12.13},
   Uid                      = {0012}
 }
+
+@Booklet{,
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11}
+}
+
+@Misc{inosense2015,
+  Title                    = {{Indoor Outdoor Seamless Navigation for Sensing Human Behavior (INOSENSE)}},
+  HowPublished             = {Available online: http://bit.ly/inosense},
+  Note                     = {Website of the Finnish Geospatial Research Institute},
+  Year                     = {2015},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11}
+}
+
+@Misc{jufo,
+  Title                    = {Julkaisufoorumi website},
+  HowPublished             = {Available online: https://www.tsv.fi/julkaisufoorumi/english.php},
+  Year                     = {2015},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.11}
+}
+
+@Electronic{merriam2015,
+  Title                    = {Context},
+  Note                     = {In Merriam-Webster.com},
+  Url                      = {http://www.merriam-webster.com/dictionary/context},
+  Year                     = {2015},
+
+  Owner                    = {rob},
+  Timestamp                = {2015.07.10}
+}
+
+@inproceedings{elhoushi2014robust,
+  title={Robust motion mode recognition for portable navigation independent on device usage},
+  author={Elhoushi, Mostafa and Georgy, Jacques and Korenberg, Michael and Noureldin, Aboelmagd},
+  booktitle={Position, Location and Navigation Symposium-PLANS 2014, 2014 IEEE/ION},
+  pages={158--163},
+  year={2014},
+  organization={IEEE}
+}
+
 
 @comment{jabref-meta: selector_keywords:}
 
