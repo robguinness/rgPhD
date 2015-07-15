@@ -7,11 +7,16 @@ Database file #1: _rg_refs.bib
 Warning--entry type for "Gartner2009" isn't style-file defined
 --line 374 of file _rg_refs.bib
 Warning--entry type for "KoreaTimes2014" isn't style-file defined
---line 538 of file _rg_refs.bib
+--line 537 of file _rg_refs.bib
 Warning--entry type for "Weisstein2014" isn't style-file defined
---line 1196 of file _rg_refs.bib
+--line 1195 of file _rg_refs.bib
 Warning--entry type for "merriam2015" isn't style-file defined
---line 1334 of file _rg_refs.bib
+--line 1333 of file _rg_refs.bib
+I was expecting a `,' or a `}'---line 1417 of file _rg_refs.bib
+ :   
+ :   publisher={McGraw-Hill}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty publisher in brynjolfsson_2014
 Warning--empty institution in canalys_2007
 Name 1 in "Bazire, M., and Brézillon, P." has a comma at the end for entry Bazire2005
@@ -19,45 +24,46 @@ while executing---line 969 of file ieeetr.bst
 Warning--empty journal in mccarthy1997formalizing
 Warning--empty journal in akman2002context
 Warning--can't use both author and editor fields in Turing1953
-You've used 51 entries,
+Warning--empty publisher in Mitchell1997
+You've used 61 entries,
             1876 wiz_defined-function locations,
-            793 strings with 11606 characters,
-and the built_in function-call counts, 11509 in all, are:
-= -- 1158
-> -- 382
+            851 strings with 13089 characters,
+and the built_in function-call counts, 14136 in all, are:
+= -- 1420
+> -- 472
 < -- 0
-+ -- 153
-- -- 102
-* -- 734
-:= -- 1614
-add.period$ -- 70
-call.type$ -- 51
-change.case$ -- 43
++ -- 187
+- -- 126
+* -- 916
+:= -- 1976
+add.period$ -- 82
+call.type$ -- 61
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 602
-empty$ -- 1193
-format.name$ -- 102
-if$ -- 2852
+cite$ -- 67
+duplicate$ -- 740
+empty$ -- 1463
+format.name$ -- 126
+if$ -- 3503
 int.to.chr$ -- 0
-int.to.str$ -- 51
-missing$ -- 49
-newline$ -- 176
-num.names$ -- 50
-pop$ -- 202
+int.to.str$ -- 61
+missing$ -- 62
+newline$ -- 208
+num.names$ -- 62
+pop$ -- 239
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 372
+skip$ -- 456
 stack$ -- 0
-substring$ -- 627
-swap$ -- 212
+substring$ -- 800
+swap$ -- 265
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 108
-width$ -- 53
-write$ -- 491
-(There was 1 error message)
+warning$ -- 6
+while$ -- 136
+width$ -- 63
+write$ -- 588
+(There were 2 error messages)

@@ -988,3 +988,93 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{lms}{}%
+{%
+\gls@defglossaryentry{lms}%
+{%
+name={LMS},%
+sort={LMS},%
+type={acronym},%
+first={local models semantics\glsspace (LMS)},%
+firstplural={local models semanticss\glsspace (LMSs)},%
+text={LMS},%
+plural={LMSs},%
+description={local models semantics},%
+descriptionplural={local models semantics\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={local models semantics},%
+longplural={local models semanticss},%
+short={LMS},%
+shortplural={LMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cil}{}%
+{%
+\gls@defglossaryentry{cil}%
+{%
+name={CIL},%
+sort={CIL},%
+type={acronym},%
+first={Contextual Intensional Logic\glsspace (CIL)},%
+firstplural={Contextual Intensional Logics\glsspace (CILs)},%
+text={CIL},%
+plural={CILs},%
+description={Contextual Intensional Logic},%
+descriptionplural={Contextual Intensional Logic\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Contextual Intensional Logic},%
+longplural={Contextual Intensional Logics},%
+short={CIL},%
+shortplural={CILs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uci}{}%
+{%
+\gls@defglossaryentry{uci}%
+{%
+name={UCI},%
+sort={UCI},%
+type={acronym},%
+first={University of California, Irvine\glsspace (UCI)},%
+firstplural={University of California, Irvines\glsspace (UCIs)},%
+text={UCI},%
+plural={UCIs},%
+description={University of California, Irvine},%
+descriptionplural={University of California, Irvine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={University of California, Irvine},%
+longplural={University of California, Irvines},%
+short={UCI},%
+shortplural={UCIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

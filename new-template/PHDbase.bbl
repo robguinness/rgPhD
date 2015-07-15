@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Mitchell1990}
+T.~Mitchell, B.~Buchanan, G.~DeJong, T.~Dietterich, P.~Rosenbloom, and
+  A.~Waibel, ``Machine learning,'' {\em Annual Review of Computer Science},
+  vol.~4, pp.~417--433, 1990.
+
 \bibitem{brynjolfsson_2014}
 E.~Brynjolfsson and A.~McAfee, {\em The second machine age: work, progress, and
   prosperity in a time of brilliant technologies}.
@@ -21,11 +26,6 @@ N.~Mawston, ``Worldwide smartphone population tops 1 billion in q3 2012.''
 \bibitem{KoreaTimes2014}
 {Korea Times}, ``Smartphone users expected to hit 2.5 billion next year,'' July
   2014.
-
-\bibitem{Mitchell1990}
-T.~Mitchell, B.~Buchanan, G.~DeJong, T.~Dietterich, P.~Rosenbloom, and
-  A.~Waibel, ``Machine learning,'' {\em Annual Review of Computer Science},
-  vol.~4, pp.~417--433, 1990.
 
 \bibitem{McCarthy1955}
 J.~McCarthy, M.~Minsky, N.~Rochester, and C.~Shannon, ``A proposal for the
@@ -72,6 +72,15 @@ B.~S. Bennett, ``Hermagoras of temnos,'' {\em Classical Rhetorics and
 B.~Schilit and M.~Theimer, ``Disseminating active map information to mobile
   hosts,'' {\em Network, IEEE}, vol.~8, no.~5, pp.~22--32, 1994.
 
+\bibitem{weiser1991computer}
+M.~Weiser, ``The computer for the 21st century,'' {\em Scientific American},
+  vol.~265, no.~3, pp.~94--104, 1991.
+
+\bibitem{want1992active}
+R.~Want, A.~Hopper, V.~Falcao, and J.~Gibbons, ``The active badge location
+  system,'' {\em ACM Transactions on Information Systems (TOIS)}, vol.~10,
+  no.~1, pp.~91--102, 1992.
+
 \bibitem{moran2001introduction}
 T.~Moran and P.~Dourish, ``Introduction to this special issue on context-aware
   computing,'' {\em Human-Computer Interaction}, vol.~16, no.~2-4, pp.~87--95,
@@ -108,6 +117,30 @@ J.~McCarthy, ``Generality in artificial intelligence,'' {\em Communications of
 \bibitem{Weisstein2014}
 E.~W. Weisstein, ``Term.''
 \newblock From MathWorld--A Wolfram Web Resource.
+
+\bibitem{ghidini2001local}
+C.~Ghidini and F.~Giunchiglia, ``Local models semantics, or contextual
+  reasoning= locality+ compatibility,'' {\em Artificial intelligence},
+  vol.~127, no.~2, pp.~221--259, 2001.
+
+\bibitem{thomason2006contextual}
+R.~H. Thomason, ``Contextual intensional logic: Type-theoretic and dynamic
+  considerations,'' {\em Perspectives on contexts}, 2006.
+
+\bibitem{gabbay2000structured}
+D.~M. Gabbay and R.~T. Nossum, ``Structured contexts with fibred semantics,''
+  in {\em Formal Aspects of Context}, pp.~193--209, Springer, 2000.
+
+\bibitem{bouquet2003theories}
+P.~Bouquet, C.~Ghidini, F.~Giunchiglia, and E.~Blanzieri, ``Theories and uses
+  of context in knowledge representation and reasoning,'' {\em Journal of
+  Pragmatics}, vol.~35, no.~3, pp.~455--484, 2003.
+
+\bibitem{boquet2001}
+P.~Bouquet and L.~Serafini, ``Two formalizations of context: A comparison,'' in
+  {\em Modeling and Using Context} (V.~Akman, P.~Bouquet, R.~Thomason, and
+  R.~Young, eds.), vol.~2116 of {\em Lecture Notes in Computer Science},
+  pp.~87--101, Springer Berlin Heidelberg, 2001.
 
 \bibitem{hirst1997context}
 G.~Hirst, ``Context as a spurious concept,'' {\em arXiv preprint
@@ -175,6 +208,19 @@ E.~Alpaydin, {\em Introduction to machine learning}.
 K.~Murphy, {\em Machine Learning: A Probabilistic Perspective}.
 \newblock MIT Press, 2012.
 
+\bibitem{bishop2006pattern}
+C.~M. Bishop, {\em Pattern recognition and machine learning}.
+\newblock Springer, 2006.
+
+\bibitem{witten2005data}
+I.~H. Witten and E.~Frank, {\em Data Mining: Practical machine learning tools
+  and techniques}.
+\newblock Morgan Kaufmann, 2005.
+
+\bibitem{Mitchell1997}
+T.~M. Mitchell, {\em Machine Learning}.
+\newblock 1997.
+
 \bibitem{hartigan1979algorithm}
 J.~A. Hartigan and M.~A. Wong, ``Algorithm as 136: A k-means clustering
   algorithm,'' {\em Applied statistics}, pp.~100--108, 1979.
@@ -228,7 +274,6 @@ R.~E. Guinness, H.~Kuusniemi, J.~Vallet, T.~Sarjakoski, J.~Oksanen, M.~Islam,
   {\em Proceedings of the 28th International Technical Meeting of The Satellite
   Division of the Institute of Navigation (ION GNSS+ 2015)}, (Tampa, Florida),
   2015.
-\newblock submitted.
 
 \bibitem{elhoushi2014robust}
 M.~Elhoushi, J.~Georgy, M.~Korenberg, and A.~Noureldin, ``Robust motion mode

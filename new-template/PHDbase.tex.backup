@@ -36,6 +36,7 @@
 
 \newcommand{\longpage}{\enlargethispage*{100cm} \pagebreak}
 \newcommand{\nohyphens}{\hyphenpenalty=10000\exhyphenpenalty=10000\relax}
+\newcommand{\ci}[1]{\cite{#1}}
 
 \newcommand{\mymod}{\mathop{\rm mod^*}}
 \newcommand{\sgn}{\mathop{\rm sgn}}
@@ -104,7 +105,7 @@
 \setcounter{secnumdepth}{-1}
 
 \chapter{Abstract}
-\input{abstract}
+\input{Text/abstract}
 \chapter{Preface}
 \input{Text/_preface}
 \chapter{Table of Contents}
@@ -151,7 +152,8 @@
 \newacronym{plans}{PLANS}{Position Location and Navigation Symposium}
 \newacronym{wlan}{WLAN}{wireless local area network}
 \newacronym{fgi}{FGI}{Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)}
-
+\newacronym{lms}{LMS}{local models semantics}
+\newacronym{cil}{CIL}{Contextual Intensional Logic}
 
 %\input{Text/abbreviations}
 %Print the glossary

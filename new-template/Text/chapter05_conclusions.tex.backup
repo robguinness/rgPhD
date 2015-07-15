@@ -1,0 +1,73 @@
+\chapter{Conclusions}
+\label{ch:conclusions}
+
+This chapter offers some conclusions based on this thesis, together with the included publications. It is organized as follows: Section~\ref{sec:summary} briefly summarizes the thesis. Section~\ref{sec:main_findings} outlines our main findings. Finally, Section~\ref{sec:future_work} describes our future work planned in the areas addressed by this thesis.
+
+\section{Summary}
+\label{sec:summary}
+
+The overall goal of this thesis was `to improve our understanding of how computing devices can better understand us and our needs. As argued in this thesis, such understanding if often embodied, at least partly, in a concept known as context awareness. The primary method used to endow computers with context awareness has been---and we argue it will continue to be---machine learning. 
+
+In examining these topics, we have narrowed the focus to application areas related to navigation. Despite this narrowing of application areas, there are still many diverse needs in navigation, and this thesis focused on three particular use cases within navigation where context awareness is deemed beneficial: (1) detecting of different human activities inside a typical office environment to improve indoor location tracking, (2) detecting different ``mobility contexts'' of a smartphone user to improve outdoor location tracking, and (3) enabling ``ice aware'' route optimization for ships sailing in ice-covered waters to improve and automate the route planning needs of such ships. These use cases demonstrate the breadth of potential application areas of context aware technology. Three of the included publications ([P3]--[P5]) aim to improve the state-of-the-art in these application areas by introducing either novel methods, novel combinations of existing methods, or in-depth analysis of the performance of existing methods.
+
+In addition to examining these application areas, this thesis has extensively reviewed the literature concerning context awareness and machine learning. In presenting and summarizing these topics, we have attempted to provide clear, tutorial-like examples, in order to aid readers unfamiliar with these subjects.
+
+We have reviewed the early theoretical work in ``context'', led by artificial intelligence pioneer John McCarthy and others, while pointing out that generalizations of context have not led to significant breakthroughs in context-aware systems. In presenting the conceptual underpinnings of context awareness, we have introduced two conceptual frameworks for understanding context awareness and contextual reasoning. The first was adapted from the writings of an ancient Greek orator seven Hermagoras, known as the ``seven circumstances''. The second, which we have dubbed the ``context pyramid'' presents a division of the various steps in contextual reasoning into six levels ranging from raw data to ``rich context''. These two frameworks, general in nature, can assist the researcher and developer aiming to build context-aware systems by dividing the problem up into different categories of contextual information and steps in contextual processing.
+
+On the topic of machine learning, this thesis has traced the history of the subject from its early beginnings with Arthur Samuel up to the modern notion. We have presented two major types of machine learning, supervised and unsupervised, using a toy problem, computer chess, as an example. We have emphasized the importance and benefits of automatic learning, despite the fact that supervised learning usually requires manual labeling of training data. Unsupervised learning, on the other hand, can largely meet the desire for automated learning, although it often requires some human interpretation of the results. The included publications provide further details on machine learning, and in particular [P3] and [P4] demonstrate the use of machine learning. The methods used in [P5] can be nominally considered machine learning, although most machine learning literature does not include search algorithms under this umbrella.
+
+\section{Main Findings}
+\label{sec:main_findings}
+
+Below summarizes our main research findings:
+%
+\begin{itemize}
+\item Context awareness is a broad and challenging topic, but one can find many beneficial applications of context awareness in the field of navigation.
+\item Machine learning constitutes a powerful set of methods for endowing computers with context awareness.
+\item A systematic evaluation of different available machine learning algorithms should be undertaken when applying machine learning to the problem of context awareness, especially if the aim is to maximize performance. The important fact is often overlooked by navigation researchers working on context awareness.
+\item Context-aware smartphone applications are a present reality. Limited experiments have shown that a smartphone application could detect, e.g. various activities in an office setting and different outdoor mobility contexts, with high accuracy (\textgreater90\% for the former; \textgreater97\% for the latter).
+\item As an example of a maritime application, awareness about ice conditions (as a function of space and time) can be exploited to perform automated route optimization. Such capability could augment or even replace the currently human-intensive task of route planning performed by crews of ships sailing in ice covered waters.
+\item Many other applications of context awareness are evident in emerging technologies, and context awareness will play an even stronger role in the future, especially in so-called ``smart devices''.
+
+\end{itemize}
+
+\section{Future Work}
+\label{sec:future_work}
+
+In many ways, this thesis has only scratched the surface in exploring context awareness for navigation applications. In tackling the broader goal ``to improve our understanding of how computing devices can better understand us and our needs,'' we feel even less compelled to declare our work complete. This section outlines some of the planned future work in developing context-aware navigation applications.
+
+Our future work can be divided into three broad categories: (1) future work in the three application areas covered by the included publications, (2) future work in new application areas, and (3) future work that can benefit context awareness broadly. The first category of future work will not be discussed further in this section because it is described in the included publications [P3]-[P5]. The other two categories will be discussed in separate sub-sections below.
+
+\subsection{Future Applications}
+\label{sec:future_applications}
+
+In Figure~\ref{fig:publication-chart} we hinted at future application areas or ``use case scenarios''. Several of the highlighted use case scenarios are part of near future work. For example, in one recently initiated project, we aim to develop a ``tactical situation awareness system'' for soldiers.
+
+Military applications of context awareness are particularly promising because the cost limitations are not as strict as in other application areas and specially-designed sensors can be installed, e.g. attached to various body parts of a soldier (helmet, boots, chest, etc.) or to other military equipment, providing a rich set of raw sensor data from which to generate context awareness. On the other hand, in military applications, reliability requirements are very high and typically there is a strong requirement for real-time functionality. For example, if a system is designed to detect when a soldier is in danger or injured, then false negatives, as well as false positives could prove very costly.
+
+Another application area that has strong potential is healthcare and fitness monitoring. With the growing popularity of ``wearable devices,'' such as smartwatches and small heart-rate monitors, such applications have greater widespread consumer appeal. Many devices already exist that can, e.g. monitor calorie usage by tracking steps, but it remains a challenge to reliably and automatically detect different activities such as walking, running, cycling, hiking, etc. This is, of course, strongly overlapping with the topic of [P4], but we believe healthcare and fitness monitoring can go much beyond mere ``mobility context'' and incorporate other aspects, such as recognizing social interactions, detecting abnormal health or changes to a person's routine that might affect health and fitness, and warning users of dangerous or unhealthy situations. The concept of a ``personal health assistant'' is not really a matter of science-fiction but could be realized in the coming years. Context awareness and machine learning are the technologies that are likely to make this concept a reality.
+
+\subsection{General Issues and Potential Solutions}
+\label{sec:general_issues}
+
+Lastly, we have noticed in our research several general issues that are relevant to context awareness in a broad sense. These issues are summarized as follows:
+%
+\begin{enumerate}
+ \item Supervised learning requires labeled data, and labeled data is expensive.
+ \item There is a lack of standardization in context awareness research.
+ \item Many context awareness experiments are not easy to repeat or independently verify.
+\end{enumerate}
+
+
+The first general issue above is related to the use of supervised learning, which is often the adopted approach in many research works (such as in [P3] and [P4]). As mentioned in Section~\ref{sec:supervised-learning}, it can be very costly and time-consuming to generate the labeled data required to perform supervised learning. Furthermore, it is generally the case that the more data that can be collected, the more performant and reliable the resulting model will be. For example, if we are aiming to develop a context-aware smartphone application that works well across a large population of users, then we will need to collect training data from a large, diverse population of test users. This is very costly, especially in a research setting.
+
+There are two potential solutions to this issue. The first is that researchers and developers would publish and share their training data. This would benefit the overall research community. We have practiced this approach in publication [P4], but generally this is not a common practice. The second approach would be to collect a sizable amount of labeled training data and then to supplement it with unlabeled data (which is less costly to collect). Performing machine learning using a combination of labeled and unlabeled data is known as \emph{semi-supervised learning}. This topic is outside the scope of this thesis but will be explored in our future work. As an example of this approach, a research and development team could collect a limited amount of labeled data using its own staff and volunteers and then supplement it with a large amount of crowdsourced unlabeled data. This is exactly the approach we are taking in a recently initiated project called MyGeoTrust (see \cite{Guinness2015}).
+
+The second general issue has to do with standardization. To put it precisely, there is a lack of standardization in context awareness research, and this issue makes it difficult to compare results among different studies. As described in Chapter~\ref{ch:context_awareness}, context is understood in many different ways, and there is no one ``correct'' way to categorize and organize the context space.To provide an example, in publication [P4] we defined seven mobility contexts: walking, running, static, moving slowly, riding a train, riding bus, and driving. In a related study, four mobility contexts were defined: walking, running, bicycle, and land-based vehicle (including trains, metros, and cars) \cite{elhoushi2014robust}. A third study investigated another set of mobility contexts \cite{stenneth2013detecting}. The lack of standardization is so prevelent that there are nearly as many such definitions are there are studies of mobility context.
+
+This lack of standardization is understandable, due to the fact that different researchers have different applications in mind and different ideas about how to segregate the context space, but it would be more beneficial for the overall research community if some level of standardization were applied. For example, one could propose one or more standard ontologies of context for various applications. Then, when presenting results researchers could reference these standards, i.e. ``the following classification results are according to standard X.Y...''. Also, there is no reason to limit results to one particular standard; data could be processed according to several different standards and presented in the same publication. We note that some work on contextual ontologies can be found in the literature, %TODO proide references
+ but it is, in our view, an underdeveloped area. In our future work, we aim to contribute to and advance the notion of standard contextual ontologies.
+
+The last general issue we would like to discuss is somewhat related to the second issue, and the solution is ironically similar to the first solution described above. One of the long-standing tenets of scientific research is reproducibility. Experiments should be described in enough detail so that other researchers can independently verify the results. In the case of context awareness research, this means that an independent researcher should be able repeat another researcher's data collection, apply the same algorithms, and achieve similar if not identical results. In reality, there are so many factors related to the environment, devices, and test subjects that collecting comparable data that produces comparable results is not realistic.
+
+The solution is straight-forward. As an alternative, context researchers should publish the data upon which their results are based, along with sufficient documentation so that the data is usable by independent researchers. As already stated, this is rarely done in context awareness research. We aim to follow this practice in our future work and also to actively promote this practice by setting up a dedicated portal for this type of data exchange.
