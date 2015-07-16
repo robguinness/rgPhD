@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.5.20)  16 JUL 2015 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.5.20)  16 JUL 2015 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,6 +317,9 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip66
 \JustifyingParindent=\skip67
 )
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
 (/usr/local/share/texmf/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2015/07/08 v4.16 (NLCT)
 
@@ -513,32 +516,218 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 \glo@acronym@file=\write4
 \openout4 = `PHDbase.acn'.
 
-Package glossaries Info: Writing glossary file PHDbase.acn on input line 94.
+Package glossaries Info: Writing glossary file PHDbase.acn on input line 101.
  (./PHDbase.aux
-(./Text/cover_nondraft.aux))
+(./Text/cover_nondraft.aux)
+
+LaTeX Warning: Label `Mitchell1990' multiply defined.
+
+
+LaTeX Warning: Label `guinness2014method' multiply defined.
+
+
+LaTeX Warning: Label `brynjolfsson_2014' multiply defined.
+
+
+LaTeX Warning: Label `canalys_2007' multiply defined.
+
+
+LaTeX Warning: Label `Gartner2009' multiply defined.
+
+
+LaTeX Warning: Label `Mawston2012' multiply defined.
+
+
+LaTeX Warning: Label `KoreaTimes2014' multiply defined.
+
+
+LaTeX Warning: Label `McCarthy1955' multiply defined.
+
+
+LaTeX Warning: Label `Foltz1998' multiply defined.
+
+
+LaTeX Warning: Label `Bazire2005' multiply defined.
+
+
+LaTeX Warning: Label `McCarthy1993' multiply defined.
+
+
+LaTeX Warning: Label `chen_geospatial_2014' multiply defined.
+
+
+LaTeX Warning: Label `merriam2015' multiply defined.
+
+
+LaTeX Warning: Label `akman1996steps' multiply defined.
+
+
+LaTeX Warning: Label `wiki2015' multiply defined.
+
+
+LaTeX Warning: Label `bennett2005hermagoras' multiply defined.
+
+
+LaTeX Warning: Label `schilit1994disseminating' multiply defined.
+
+
+LaTeX Warning: Label `weiser1991computer' multiply defined.
+
+
+LaTeX Warning: Label `want1992active' multiply defined.
+
+
+LaTeX Warning: Label `moran2001introduction' multiply defined.
+
+
+LaTeX Warning: Label `mccarthy1963programs' multiply defined.
+
+
+LaTeX Warning: Label `guha1991contexts' multiply defined.
+
+
+LaTeX Warning: Label `mccarthy1997formalizing' multiply defined.
+
+
+LaTeX Warning: Label `buvac1993propositional' multiply defined.
+
+
+LaTeX Warning: Label `brezillon1999context' multiply defined.
+
+
+LaTeX Warning: Label `akman2002context' multiply defined.
+
+
+LaTeX Warning: Label `mccarthy1987generality' multiply defined.
+
+
+LaTeX Warning: Label `Weisstein2014' multiply defined.
+
+
+LaTeX Warning: Label `ghidini2001local' multiply defined.
+
+
+LaTeX Warning: Label `thomason2006contextual' multiply defined.
+
+
+LaTeX Warning: Label `gabbay2000structured' multiply defined.
+
+
+LaTeX Warning: Label `bouquet2003theories' multiply defined.
+
+
+LaTeX Warning: Label `boquet2001' multiply defined.
+
+
+LaTeX Warning: Label `hirst1997context' multiply defined.
+
+
+LaTeX Warning: Label `wolf2006critical' multiply defined.
+
+
+LaTeX Warning: Label `mccarthy1969some' multiply defined.
+
+
+LaTeX Warning: Label `mccarthy1984some' multiply defined.
+
+
+LaTeX Warning: Label `pei2013human' multiply defined.
+
+
+LaTeX Warning: Label `samuel1959some' multiply defined.
+
+
+LaTeX Warning: Label `shannon1950xxii' multiply defined.
+
+
+LaTeX Warning: Label `Turing1953' multiply defined.
+
+
+LaTeX Warning: Label `hsu2002behind' multiply defined.
+
+
+LaTeX Warning: Label `Spicer2006' multiply defined.
+
+
+LaTeX Warning: Label `Russell2010' multiply defined.
+
+
+LaTeX Warning: Label `wolpert1996lack' multiply defined.
+
+
+LaTeX Warning: Label `alpaydin2014introduction' multiply defined.
+
+
+LaTeX Warning: Label `Murphy2012' multiply defined.
+
+
+LaTeX Warning: Label `bishop2006pattern' multiply defined.
+
+
+LaTeX Warning: Label `witten2005data' multiply defined.
+
+
+LaTeX Warning: Label `Mitchell1997' multiply defined.
+
+
+LaTeX Warning: Label `hartigan1979algorithm' multiply defined.
+
+
+LaTeX Warning: Label `Ankerst:1999:OOP:304181.304187' multiply defined.
+
+
+LaTeX Warning: Label `dempster1977maximum' multiply defined.
+
+
+LaTeX Warning: Label `bilmes1998gentle' multiply defined.
+
+
+LaTeX Warning: Label `vlassis2002greedy' multiply defined.
+
+
+LaTeX Warning: Label `Smyth2015' multiply defined.
+
+
+LaTeX Warning: Label `inosense2015' multiply defined.
+
+
+LaTeX Warning: Label `Guinness2013' multiply defined.
+
+
+LaTeX Warning: Label `jufo' multiply defined.
+
+
+LaTeX Warning: Label `Guinness2015' multiply defined.
+
+
+LaTeX Warning: Label `elhoushi2014robust' multiply defined.
+
+
+LaTeX Warning: Label `stenneth2013detecting' multiply defined.
+
+)
 \openout1 = `PHDbase.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 108.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 101.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 108.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -606,7 +795,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 101.
+LaTeX Info: Redefining \selectfont on input line 108.
  (./PHDbase.glsdefs)
 \openout2 = `Text/cover_nondraft.aux'.
 
@@ -634,12 +823,17 @@ Non-PDF special ignored!
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Text/tut-logo.pdf>] [2])
- (./Text/abstract.tex [1
+ (./Text/abstract.tex
+Underfull \hbox (badness 2564) in paragraph at lines 3--5
+\OT1/ptm/m/n/10.95 im-prove their per-for-mance through ex-pe-ri-ence'' [1]. Th
+is the-sis ex-am-ines
+ []
+
+[1
 
 
 
-]) [2] (./Text/_preface.tex
-[3
+]) [2] (./Text/_preface.tex [3
 
 ]) [4] (./PHDbase.toc [5
 
@@ -651,7 +845,8 @@ Non-PDF special ignored!
 \tf@lof=\write6
 \openout6 = `PHDbase.lof'.
 
- [7
+
+[7
 
 ] [8
 
@@ -659,8 +854,7 @@ Non-PDF special ignored!
 \tf@lot=\write7
 \openout7 = `PHDbase.lot'.
 
-
-[9] [10
+ [9] [10
 
 ]
 \@gls@deffile=\write8
@@ -670,39 +864,77 @@ Non-PDF special ignored!
 
 ] [14
 
-] (./Text/publications.tex) [15]
-[16
+]
+(./Text/publications.tex (./PHDbase.bbl)
+Underfull \hbox (badness 2495) in paragraph at lines 6--7
+[]\OT1/ptm/m/n/10.95 R. Chen, \OT1/ptm/b/n/10.95 R. E. Guin-ness\OT1/ptm/m/n/10
+.95 , ``Con-text Aware-ness'' in \OT1/ptm/m/it/10.95 Geospa-tial
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+) [15] [16
 
 ] (./Text/chapter01_introduction.tex
 Chapter 1.
 [1
 
-] [2] [3] [4] [5] [6]) (./Text/chapter02_context_awareness.tex [7] [8
+] [2] [3] [4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[]\OT1/ptm/m/n/10.95 1. Con-tribut-ing to the de-vel-op-ment of a com-bined pro
+b-a-bilis-tic
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 52--53
+[]\OT1/ptm/m/n/10.95 2. A sys-tem-atic eval-u-a-tion of var-i-ous ma-chine lear
+n-ing al-go-rithms ap-plied
+ []
+
+) (./Text/chapter02_context_awareness.tex [7] [8
 
 ]
 Chapter 2.
+
+Underfull \hbox (badness 1199) in paragraph at lines 6--7
+\OT1/ptm/m/n/10.95 re-flect-ing dif-fer-ent discipline-specific per-spec-tives.
+ The word con-text fig-ures
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 12--13
+[]\OT1/ptm/m/n/10.95 the in-ter-re-lated con-di-tions in which some-thing ex-is
+ts or oc-curs :
+ []
+
 [9] [10]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [11]
-[12] [13] [14]
+)
+Underfull \hbox (badness 2591) in paragraph at lines 34--35
+    \OT1/ptm/b/n/10.95 In What Man-ner: \OT1/ptm/m/n/10.95 Mary's smart-phone i
+s ex-pe-ri-enc-ing small, spo-radic
+ []
+
+[11] [12] [13] [14]
+Underfull \hbox (badness 1960) in paragraph at lines 85--87
+[]\OT1/ptm/m/n/10.95 Finally, (Park et al., 2014) stud-ied con-text recog-ni-ti
+on in a meet-ing room
+ []
+
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 100.
 
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5939) has occurred while \output is active []
 
  [15]
-Overfull \hbox (1.04129pt too wide) in paragraph at lines 104--105
-[]\OT1/ptm/m/n/10.95 McCarthy pro-poses a for-mal-iza-tion of con-text, com-bin
-ed with cir-cum-scrip-tion, where
- []
-
 [16]
 Overfull \vbox (0.6644pt too high) has occurred while \output is active []
 
@@ -717,12 +949,35 @@ File: Images/ContextPyramid4.pdf Graphic file (type pdf)
 <use Images/ContextPyramid4.pdf>
 Package pdftex.def Info: Images/ContextPyramid4.pdf used on input line 184.
 (pdftex.def)             Requested size: 369.88582pt x 232.00403pt.
-) (./Text/chapter03_machine_learning.tex
-[20] [21 <./Images/ContextPyramid4.pdf>] [22]
+
+Underfull \hbox (badness 3333) in paragraph at lines 186--186
+[]\OT1/ptm/m/it/10 The ``con-text pyra-mid'' shows the dif-fer-ent lev-els of p
+ro-cess-ing to build
+ []
+
+) (./Text/chapter03_machine_learning.tex [20] [21 <./Images/ContextPyramid4.pdf
+>] [22]
 Chapter 3.
+
+Underfull \hbox (badness 5771) in paragraph at lines 22--22
+ [][]\OT1/ptm/m/n/9 Some of the ear-li-est works in ma-chine learn-ing and ar-t
+i-fi-cial in-tel-li-gence in-volved
+ []
+
 [23
 
-] [24] [25] [26] [27] [28] [29]
+] [24] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\OT1/ptm/m/n/10.95 ma-chine learn-ing with-out re-ally pre-sup-pos-ing any par-
+tic-u-lar
+ []
+
+[27] [28] [29]
+Underfull \hbox (badness 2065) in paragraph at lines 122--123
+[]\OT1/ptm/m/n/10.95 A re-searcher, Mary, has painstak-ingly col-lected a datas
+et for de-vel-op-ing a
+ []
+
 <Images/figChapter3-1.pdf, id=188, 647.41875pt x 540.0175pt>
 File: Images/figChapter3-1.pdf Graphic file (type pdf)
 
@@ -778,6 +1033,18 @@ Package pdftex.def Info: Images/figChapter3-3.pdf used on input line 266.
 
 ]
 Chapter 4.
+
+Underfull \hbox (badness 1112) in paragraph at lines 13--14
+[]\OT1/ptm/m/n/10.95 Firstly, a sig-nif-i-cant fo-cus of our over-all re-search
+ port-fo-lio dur-ing the years
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 13--14
+\OT1/ptm/m/n/10.95 2011--2013 was mak-ing the tran-si-tion from grow-ing ubiq-u
+i-tous po-si-tion-ing
+ []
+
 [41] [42] <Images/figChapter4.pdf, id=247, 542.025pt x 722.7pt>
 File: Images/figChapter4.pdf Graphic file (type pdf)
 
@@ -785,7 +1052,7 @@ File: Images/figChapter4.pdf Graphic file (type pdf)
 Package pdftex.def Info: Images/figChapter4.pdf used on input line 30.
 (pdftex.def)             Requested size: 369.88582pt x 493.1939pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6141) has occurred while \output is active []
 
  [43]
 [44 <./Images/figChapter4.pdf>] [45] [46]) (./Text/chapter05_conclusions.tex
@@ -794,20 +1061,57 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Chapter 5.
 [49] [50]
+Underfull \hbox (badness 1783) in paragraph at lines 26--27
+[]\OT1/ptm/m/n/10.95 Machine learn-ing con-sti-tutes a pow-er-ful set of meth-o
+ds for en-dow-ing
+ []
+
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 28.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 28.
- [51]
-Underfull \vbox (badness 2717) has occurred while \output is active []
 
- [52]
-[53]
-Overfull \hbox (2.38753pt too wide) in paragraph at lines 68--70
+Underfull \hbox (badness 1997) in paragraph at lines 28--29
+[]\OT1/ptm/m/n/10.95 Context-aware smart-phone ap-pli-ca-tions are a present re
+-al-ity. Lim-ited
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 30--31
+[]\OT1/ptm/m/n/10.95 Many other ap-pli-ca-tions of con-text aware-ness are ev-i
+-dent in emerg-ing
+ []
+
+[51]
+Underfull \hbox (badness 2326) in paragraph at lines 48--49
+[]\OT1/ptm/m/n/10.95 Another ap-pli-ca-tion area that has strong po-ten-tial is
+ health-care and fit-ness
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 48--49
+\OT1/ptm/m/n/10.95 mon-i-tor-ing. With the grow-ing pop-u-lar-ity of ``wear-abl
+e de-vices,'' such as
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 48--49
+\OT1/ptm/m/n/10.95 smart-watches and small heart-rate mon-i-tors, such ap-pli-c
+a-tions have greater
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 48--49
+\OT1/ptm/m/n/10.95 calo-rie us-age by track-ing steps, but it re-mains a chal-l
+enge to re-li-ably and
+ []
+
+[52] [53]
+Underfull \hbox (badness 1158) in paragraph at lines 68--70
 []\OT1/ptm/m/n/10.95 This lack of stan-dard-iza-tion is un-der-stand-able, due 
-to the fact that dif-fer-ent re-searchers
+to the fact that dif-fer-ent
  []
 
 [54]) [55] [56
@@ -815,41 +1119,62 @@ to the fact that dif-fer-ent re-searchers
 ] (./PHDbase.bbl
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
- [57] [58] [59] [60]
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+ [57]
+Underfull \hbox (badness 3724) in paragraph at lines 53--56
+[]\OT1/ptm/m/n/10.95 J. Mc-Carthy, ``Notes on for-mal-iz-ing con-text,'' in \OT
+1/ptm/m/it/10.95 Pro-ceed-ings of the
+ []
+
+[58]
+Underfull \hbox (badness 1430) in paragraph at lines 128--131
+[]\OT1/ptm/m/n/10.95 C. Ghi-dini and F. Giunchiglia, ``Lo-cal mod-els se-man-ti
+cs, or con-tex-tual
+ []
+
+[59] [60]
+Underfull \hbox (badness 7133) in paragraph at lines 261--264
+[]\OT1/ptm/m/n/10.95 ``Indoor Out-door Seam-less Nav-i-ga-tion for Sens-ing Hu-
+man Be-hav-ior
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 []\OT1/ptm/m/n/10.95 ``Julkaisufoorumi web-site.'' Avail-able on-line:
  []
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-[61]) [62] (./PHDbase.aux (./Text/cover_nondraft.aux)) ) 
+[61]) [62] (./PHDbase.aux (./Text/cover_nondraft.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9739 strings out of 495021
- 144200 string characters out of 6181344
- 272426 words of memory out of 5000000
- 12628 multiletter control sequences out of 15000+600000
+ 9832 strings out of 495021
+ 146061 string characters out of 6181344
+ 272979 words of memory out of 5000000
+ 12721 multiletter control sequences out of 15000+600000
  50055 words of font info for 97 fonts, out of 8000000 for 9000
- 20 hyphenation exceptions out of 8191
- 46i,12n,35p,2430b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/tex
-mf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
-i8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on PHDbase.pdf (80 pages, 895701 bytes).
+ 14 hyphenation exceptions out of 8191
+ 46i,12n,35p,2430b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on PHDbase.pdf (80 pages, 896929 bytes).
 PDF statistics:
  384 PDF objects out of 1000 (max. 8388607)
  269 compressed objects within 3 object streams

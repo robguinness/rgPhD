@@ -1,5 +1,9 @@
 TODO:
 
-- Send articles to Jarmo
+x Send articles to Jarmo
 - Add citation to Groves' "Four key issues in navigation paper"
-- Fix numbering of articles in the introduction section
+x Fix numbering of articles in the introduction section
+- Add list of supervised learning techniques.
+- Add references for EM initialization
+- Check if there are any other books in "mobile geospatial computing" that cover context awareness
+- Add references related to context ontologies

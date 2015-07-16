@@ -231,14 +231,14 @@ M.~Ankerst, M.~M. Breunig, H.-P. Kriegel, and J.~Sander, ``{OPTICS}: Ordering
   pp.~49--60, June 1999.
 
 \bibitem{dempster1977maximum}
-A.~P. Dempster, N.~M. Laird, and D.~B. Rubin, ``Maximum likelihood from
-  incomplete data via the em algorithm,'' {\em Journal of the royal statistical
-  society. Series B (methodological)}, pp.~1--38, 1977.
+A.~P. Dempster, N.~M. Laird, and D.~B. Rubin, ``{Maximum likelihood from
+  incomplete data via the EM algorithm},'' {\em Journal of the royal
+  statistical society. Series B (methodological)}, pp.~1--38, 1977.
 
 \bibitem{bilmes1998gentle}
-J.~A. Bilmes {\em et~al.}, ``A gentle tutorial of the em algorithm and its
-  application to parameter estimation for gaussian mixture and hidden markov
-  models,'' {\em International Computer Science Institute}, vol.~4, no.~510,
+J.~A. Bilmes {\em et~al.}, ``{A gentle tutorial of the EM algorithm and its
+  application to parameter estimation for Gaussian mixture and hidden Markov
+  models},'' {\em International Computer Science Institute}, vol.~4, no.~510,
   p.~126, 1998.
 
 \bibitem{vlassis2002greedy}

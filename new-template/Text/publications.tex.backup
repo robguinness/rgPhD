@@ -1,0 +1,11 @@
+\nobibliography{_rg_refs}
+This thesis contains a compilation of five previously published papers, referred to as [P\#] throughout the text. The following publications are included:
+
+\begin{itemize}[leftmargin=2cm,labelsep=0.5cm]
+
+\item [{[P1]}] R. Chen, \textbf{R. E. Guinness}, ``Context Awareness'' in \emph{Geospatial computing in mobile devices}. Boston: Artech House, 2014, ch. 8, pp. 150-170.
+\item [{[P2]}] R. Chen, \textbf{R. E. Guinness}, ``Contextual Reasoning'' in \emph{Geospatial computing in mobile devices}. Boston: Artech House, 2014, ch. 9, pp. 171-197.
+\item [{[P3]}] \bibentry{pei2013human}
+\item [{[P4]}] Guinness
+\item [{[P5]}] Guinness
+\end{itemize}

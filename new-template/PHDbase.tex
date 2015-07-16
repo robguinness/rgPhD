@@ -11,6 +11,8 @@
 \usepackage{multirow}
 \usepackage{textcomp}
 \usepackage{array, ragged2e}
+\usepackage{bibentry}
+%\usepackage[none]{hyphenat}
 
 % Load the package
 \usepackage[acronym,nomain,nonumberlist,nopostdot,nogroupskip]{glossaries}
@@ -30,6 +32,9 @@
   \setlength{\parskip}{1pt}
   \setlength{\parsep}{1pt}
 }{\end{enumerate}}
+
+
+\newenvironment{ritemize}{\begin{itemize}\raggedright}{\end{itemize}}
 
 \newlist{bold_description}{description}{1}
 \setlist[bold_description]{labelindent=8mm,itemindent=2mm,leftmargin=15mm,style=sameline, font=\textbf,parsep=0pt,itemsep=0pt}
@@ -83,12 +88,14 @@
 %\hyphenation{ACS}
 %\hyphenation{ACSU}
 %\hyphenation{ACSUs}
-\hyphenation{FFT}
-\hyphenation{MAC}
-\hyphenation{GPP}
-\hyphenation{DPS}
-\hyphenation{ASIC}
-\hyphenation{ASP}
+% \hyphenation{FFT}
+% \hyphenation{MAC}
+% \hyphenation{GPP}
+% \hyphenation{DPS}
+% \hyphenation{ASIC}
+% \hyphenation{ASP}
+
+\hyphenchar\font=-1 % suppress hyphenation
 
 % Generate the glossary
 \makeglossaries
@@ -99,6 +106,8 @@
 %                                                                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+\nohyphens
+\sloppy
 
 \include{Text/cover_nondraft}
 \frontmatter
