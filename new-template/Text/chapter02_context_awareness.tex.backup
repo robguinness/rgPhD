@@ -66,7 +66,26 @@ Going further back, however, the concept of context has been studied in computer
 
 A detailed review of recent context awareness literature is not provided in this chapter because the literature has been extensively covered in the revelant sections of the included publications. Nonetheless, for summary purposes we conclude this section with a brief overview of recent literature. In particular, we will focus on literature relevant to the three context awareness tasks described in Section~\ref{sec:objectives}.
 
+In terms of the first task, recognizing the activity of a smartphone user in an indoor office environment, there few studies dealing specifically with smartphone-based activity recognition in an office environment, however, if we include studies using different types of sensors to detect office-related activities, we encounter several relevant studies.
 
+(Huang et al., 2004) %OFFICE PRESENCE DETECTION USING MULTIMODAL CONTEXT INFORMATION
+used a microphone and a USB %acronym
+camera to detect different office activities and motion patterns, including ``rest,'' ``moving near door,'' ``conversation,'' ``nobody around,'' etc. They used two machine learning techniques to detect motion and activity: Incremental Hierarchical Discriminant Regression (IHDR) trees and Hidden Markov Models (HMM).
+
+(Manabe et al., 2010) % Perceptual Functions for Context-Awareness of An Office Worker
+used a richer set of sensors, including two USB cameras and a pressure sensor and acceleration sensor (a Wii remote controller) built into an office chair, but they focused on detecting location and posture context, such as leaning back in the chair, leaning on the desk, or upright sitting posture. They primarily used k-means and k nearest neighbor %acronym
+clustering to perform context recognition.
+
+(Kiyokawa et al., 2012) % Owens Luis - A Context-aware Multi-modal Smart Office Chair in an Ambient Environment
+presented a so-called ``smart office chair'' designed to measure an office worker's mental and physiological states, such as sleepiness and concentration. The details of the recognition algorithm, however, are not given in the paper.
+
+(Schmidt et al., 2003) used accelerometers attached to various parts of a person's body, and they attempted to detect different activities. Although they did specifically focus on an office environment, some of the activities they addressed are very relevant to an office environment. These include sitting, standing, walking, writing on a whiteboard, typing on a keyboard, and shaking hands. The authors used a na\"{i}ve Bayes classifier for activity recognition.
+
+Finally, (Park et al., 2014) % ReLiSCE: Utilizing Resource-Limited Sensors for Office Activity Context Extraction
+studied context recognition in a meeting room environment, using a suite of sensors including: a microphone array, passive infrared sensors, and an illumination (light) sensor. They detect different states of the activity in the meeting room, such as: presentation, monologue, discussion, room idle, people entering room, and room in use. They do not describe their context recognition algorithm in any great detail, but it appears to be a heuristically-defined rule-based alogorithm.
+
+
+expand the scope to include other types of smartphone-based activity recognition, then we can find many relevant publications.
 
 
 \section{Theory}

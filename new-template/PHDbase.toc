@@ -6,6 +6,7 @@
 \contentsline {chapter}{List of Tables}{ix}
 \contentsline {chapter}{Abbreviations}{xi}
 \contentsline {chapter}{Symbols}{xiii}
+\contentsline {chapter}{List of Publications}{xv}
 \contentsline {chapter}{\numberline {1.}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Background and Motivation}{1}
 \contentsline {section}{\numberline {1.2}Research objectives and Scope}{4}
@@ -14,8 +15,8 @@
 \contentsline {chapter}{\numberline {2.}Context Awareness}{9}
 \contentsline {section}{\numberline {2.1}A Framework for Contextual Information}{10}
 \contentsline {section}{\numberline {2.2}History}{13}
-\contentsline {section}{\numberline {2.3}Theory}{14}
-\contentsline {section}{\numberline {2.4}How to Sense Context}{19}
+\contentsline {section}{\numberline {2.3}Theory}{16}
+\contentsline {section}{\numberline {2.4}How to Sense Context}{20}
 \contentsline {chapter}{\numberline {3.}Machine Learning}{23}
 \contentsline {section}{\numberline {3.1}Computer Chess: An Example Learning Task}{24}
 \contentsline {subsection}{\numberline {3.1.1}Rule-Based Methods}{24}
