@@ -1078,3 +1078,153 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{ais}{}%
+{%
+\gls@defglossaryentry{ais}%
+{%
+name={AIS},%
+sort={AIS},%
+type={acronym},%
+first={Automatic Identification System\glsspace (AIS)},%
+firstplural={Automatic Identification Systems\glsspace (AISs)},%
+text={AIS},%
+plural={AISs},%
+description={Automatic Identification System},%
+descriptionplural={Automatic Identification System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Automatic Identification System},%
+longplural={Automatic Identification Systems},%
+short={AIS},%
+shortplural={AISs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hmm}{}%
+{%
+\gls@defglossaryentry{hmm}%
+{%
+name={HMM},%
+sort={HMM},%
+type={acronym},%
+first={Hidden Markov Models\glsspace (HMM)},%
+firstplural={Hidden Markov Modelss\glsspace (HMMs)},%
+text={HMM},%
+plural={HMMs},%
+description={Hidden Markov Models},%
+descriptionplural={Hidden Markov Models\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hidden Markov Models},%
+longplural={Hidden Markov Modelss},%
+short={HMM},%
+shortplural={HMMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lda}{}%
+{%
+\gls@defglossaryentry{lda}%
+{%
+name={LDA},%
+sort={LDA},%
+type={acronym},%
+first={Linear Discriminant Analysis\glsspace (LDA)},%
+firstplural={Linear Discriminant Analysiss\glsspace (LDAs)},%
+text={LDA},%
+plural={LDAs},%
+description={Linear Discriminant Analysis},%
+descriptionplural={Linear Discriminant Analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Linear Discriminant Analysis},%
+longplural={Linear Discriminant Analysiss},%
+short={LDA},%
+shortplural={LDAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lssvm}{}%
+{%
+\gls@defglossaryentry{lssvm}%
+{%
+name={LS-SVM},%
+sort={LS-SVM},%
+type={acronym},%
+first={Least Squares-Support Vector Machine\glsspace (LS-SVM)},%
+firstplural={Least Squares-Support Vector Machines\glsspace (LS-SVMs)},%
+text={LS-SVM},%
+plural={LS-SVMs},%
+description={Least Squares-Support Vector Machine},%
+descriptionplural={Least Squares-Support Vector Machine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Least Squares-Support Vector Machine},%
+longplural={Least Squares-Support Vector Machines},%
+short={LS-SVM},%
+shortplural={LS-SVMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pda}{}%
+{%
+\gls@defglossaryentry{pda}%
+{%
+name={PDA},%
+sort={PDA},%
+type={acronym},%
+first={Personal Digital Assistant\glsspace (PDA)},%
+firstplural={Personal Digital Assistants\glsspace (PDAs)},%
+text={PDA},%
+plural={PDAs},%
+description={Personal Digital Assistant},%
+descriptionplural={Personal Digital Assistant\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Personal Digital Assistant},%
+longplural={Personal Digital Assistants},%
+short={PDA},%
+shortplural={PDAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

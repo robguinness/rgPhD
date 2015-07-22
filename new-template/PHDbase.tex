@@ -12,6 +12,13 @@
 \usepackage{textcomp}
 \usepackage{array, ragged2e}
 \usepackage{bibentry}
+\usepackage{tabularx}
+
+\usepackage{soul,color} % used for highlighting
+\soulregister\cite7
+\soulregister\ref7
+\soulregister\pageref7
+
 %\usepackage[none]{hyphenat}
 
 % Load the package
@@ -47,8 +54,8 @@
 \newcommand{\sgn}{\mathop{\rm sgn}}
 %\newcommand{\argmax}{\mathop{\rm arg\,max}}
 \newcommand{\argmin}{\mathop{\rm arg\,min}}
-\newcommand{\hw}{hardware }
-\newcommand{\sw}{software }
+\newcommand{\hw}{hardware}
+\newcommand{\sw}{software}
 %\newcommand{\cd} {Cholesky decomposition }
 
 \newcommand{\subsubsubsection}[1]{\paragraph{#1:}}
@@ -164,7 +171,11 @@
 \newacronym{lms}{LMS}{local models semantics}
 \newacronym{cil}{CIL}{Contextual Intensional Logic}
 \newacronym{uci}{UCI}{University of California, Irvine} 
-
+\newacronym{ais}{AIS}{Automatic Identification System}
+\newacronym{hmm}{HMM}{Hidden Markov Models}
+\newacronym{lda}{LDA}{Linear Discriminant Analysis}
+\newacronym{lssvm}{LS-SVM}{Least Squares-Support Vector Machine}
+\newacronym{pda}{PDA}{Personal Digital Assistant}
 %\input{Text/abbreviations}
 %Print the glossary
 \begingroup

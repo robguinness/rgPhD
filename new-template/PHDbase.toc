@@ -11,29 +11,35 @@
 \contentsline {section}{\numberline {1.1}Background and Motivation}{1}
 \contentsline {section}{\numberline {1.2}Research objectives and Scope}{4}
 \contentsline {section}{\numberline {1.3}Main Contributions}{6}
-\contentsline {section}{\numberline {1.4}Thesis Outline}{7}
-\contentsline {chapter}{\numberline {2.}Context Awareness}{9}
-\contentsline {section}{\numberline {2.1}A Framework for Contextual Information}{10}
-\contentsline {section}{\numberline {2.2}History}{13}
-\contentsline {section}{\numberline {2.3}Theory}{16}
-\contentsline {section}{\numberline {2.4}How to Sense Context}{20}
-\contentsline {chapter}{\numberline {3.}Machine Learning}{23}
-\contentsline {section}{\numberline {3.1}Computer Chess: An Example Learning Task}{24}
-\contentsline {subsection}{\numberline {3.1.1}Rule-Based Methods}{24}
-\contentsline {subsection}{\numberline {3.1.2}A Trivial Chess Learning Program}{25}
-\contentsline {section}{\numberline {3.2}Modern Machine Learning}{26}
-\contentsline {section}{\numberline {3.3}Supervised Learning}{29}
-\contentsline {section}{\numberline {3.4}Unsupervised Learning}{34}
-\contentsline {chapter}{\numberline {4.}Overview of Publications}{41}
-\contentsline {section}{\numberline {4.1}Research Context for Publications}{41}
-\contentsline {section}{\numberline {4.2}Mapping of Publications to Research Areas}{43}
-\contentsline {section}{\numberline {4.3}Author's Contributions to the Publications}{45}
-\contentsline {section}{\numberline {4.4}Scientific Impact of the Publications}{46}
-\contentsline {chapter}{\numberline {5.}Conclusions}{49}
-\contentsline {section}{\numberline {5.1}Summary}{49}
-\contentsline {section}{\numberline {5.2}Main Findings}{50}
-\contentsline {section}{\numberline {5.3}Future Work}{51}
-\contentsline {subsection}{\numberline {5.3.1}Future Applications}{52}
-\contentsline {subsection}{\numberline {5.3.2}General Issues and Potential Solutions}{53}
-\contentsline {section}{\numberline {5.4}Concluding Remarks}{55}
-\contentsline {chapter}{Bibliography}{57}
+\contentsline {section}{\numberline {1.4}Thesis Outline}{9}
+\contentsline {chapter}{\numberline {2.}Context Awareness}{11}
+\contentsline {section}{\numberline {2.1}A Framework for Contextual Information}{12}
+\contentsline {section}{\numberline {2.2}History}{15}
+\contentsline {section}{\numberline {2.3}Related Studies}{16}
+\contentsline {subsection}{\numberline {2.3.1}Context Awareness for Office Environments}{17}
+\contentsline {subsection}{\numberline {2.3.2}Context Awareness for Mobility}{19}
+\contentsline {subsection}{\numberline {2.3.3}Ice Awareness for Maritime Navigation}{21}
+\contentsline {section}{\numberline {2.4}Theory}{21}
+\contentsline {section}{\numberline {2.5}How to Sense Context}{25}
+\contentsline {chapter}{\numberline {3.}Machine Learning}{29}
+\contentsline {section}{\numberline {3.1}Computer Chess: An Example Learning Task}{30}
+\contentsline {subsection}{\numberline {3.1.1}Rule-Based Methods}{30}
+\contentsline {subsection}{\numberline {3.1.2}A Trivial Chess Learning Program}{31}
+\contentsline {section}{\numberline {3.2}Modern Machine Learning}{32}
+\contentsline {section}{\numberline {3.3}Supervised Learning}{35}
+\contentsline {section}{\numberline {3.4}Unsupervised Learning}{40}
+\contentsline {chapter}{\numberline {4.}Overview of Publications}{47}
+\contentsline {section}{\numberline {4.1}Summary of Publications}{47}
+\contentsline {section}{\numberline {4.2}Mapping of Publications to Research Areas}{49}
+\contentsline {section}{\numberline {4.3}Author's Contributions to the Publications}{51}
+\contentsline {section}{\numberline {4.4}Scientific Impact of the Publications}{52}
+\contentsline {chapter}{\numberline {5.}Conclusions}{55}
+\contentsline {section}{\numberline {5.1}Summary}{55}
+\contentsline {section}{\numberline {5.2}Main Findings}{56}
+\contentsline {section}{\numberline {5.3}Significance of the Results}{58}
+\contentsline {section}{\numberline {5.4}Future Work}{59}
+\contentsline {subsection}{\numberline {5.4.1}Future Work in Investigated Applications}{59}
+\contentsline {subsection}{\numberline {5.4.2}Future Applications}{61}
+\contentsline {subsection}{\numberline {5.4.3}General Issues and Potential Solutions}{62}
+\contentsline {section}{\numberline {5.5}Concluding Remarks}{64}
+\contentsline {chapter}{Bibliography}{65}

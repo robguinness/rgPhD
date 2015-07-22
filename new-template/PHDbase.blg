@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PHDbase.aux
 A level-1 auxiliary file: Text/cover_nondraft.aux
-Illegal, another \bibdata command---line 258 of file PHDbase.aux
+Illegal, another \bibdata command---line 295 of file PHDbase.aux
  : \bibdata
  :         {_rg_refs}
 I'm skipping whatever remains of this command
@@ -13,14 +13,18 @@ Warning--entry type for "Gartner2009" isn't style-file defined
 Warning--entry type for "KoreaTimes2014" isn't style-file defined
 --line 537 of file _rg_refs.bib
 Warning--entry type for "Weisstein2014" isn't style-file defined
---line 1195 of file _rg_refs.bib
+--line 1194 of file _rg_refs.bib
 Warning--entry type for "merriam2015" isn't style-file defined
---line 1333 of file _rg_refs.bib
-I was expecting a `,' or a `}'---line 1417 of file _rg_refs.bib
+--line 1332 of file _rg_refs.bib
+I was expecting a `,' or a `}'---line 1416 of file _rg_refs.bib
  :   
  :   publisher={McGraw-Hill}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Groves2014"
+Warning--I didn't find a database entry for "Abolfazli2014"
+Warning--I didn't find a database entry for "Hong2009"
+Warning--I didn't find a database entry for "Heiskala2014"
 Warning--empty publisher in brynjolfsson_2014
 Warning--empty institution in canalys_2007
 Name 1 in "Bazire, M., and Brézillon, P." has a comma at the end for entry Bazire2005
@@ -29,45 +33,45 @@ Warning--empty journal in mccarthy1997formalizing
 Warning--empty journal in akman2002context
 Warning--can't use both author and editor fields in Turing1953
 Warning--empty publisher in Mitchell1997
-You've used 61 entries,
+You've used 68 entries,
             1876 wiz_defined-function locations,
-            851 strings with 13093 characters,
-and the built_in function-call counts, 14136 in all, are:
-= -- 1420
-> -- 472
+            904 strings with 14880 characters,
+and the built_in function-call counts, 16796 in all, are:
+= -- 1673
+> -- 590
 < -- 0
-+ -- 187
-- -- 126
-* -- 916
-:= -- 1976
-add.period$ -- 82
-call.type$ -- 61
-change.case$ -- 50
++ -- 228
+- -- 160
+* -- 1122
+:= -- 2346
+add.period$ -- 87
+call.type$ -- 68
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 740
-empty$ -- 1463
-format.name$ -- 126
-if$ -- 3503
+cite$ -- 74
+duplicate$ -- 886
+empty$ -- 1704
+format.name$ -- 160
+if$ -- 4146
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 62
-newline$ -- 208
-num.names$ -- 62
-pop$ -- 239
+int.to.str$ -- 68
+missing$ -- 71
+newline$ -- 227
+num.names$ -- 71
+pop$ -- 262
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 456
+skip$ -- 554
 stack$ -- 0
-substring$ -- 800
-swap$ -- 265
+substring$ -- 1011
+swap$ -- 328
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 136
-width$ -- 63
-write$ -- 588
+while$ -- 164
+width$ -- 70
+write$ -- 662
 (There were 3 error messages)

@@ -33,6 +33,29 @@ J.~McCarthy, M.~Minsky, N.~Rochester, and C.~Shannon, ``A proposal for the
   Magazine}, 2006.
 \newblock Reprint of proposal originally written in 1955.
 
+\bibitem{Manabe2010}
+Y.~Manabe, H.~Saito, K.~Akiyama, R.~Ikeda, S.~Kanda, and K.~Sugawara,
+  ``Perceptual functions for context-awareness of an office worker,'' in {\em
+  Cognitive Informatics (ICCI), 2010 9th IEEE International Conference on},
+  pp.~583--589, IEEE, 2010.
+
+\bibitem{Guinness2013}
+R.~E. Guinness, ``Beyond where to how: A machine learning approach for sensing
+  mobility contexts using smartphone sensors,'' in {\em Proceedings of the 26th
+  International Technical Meeting of The Satellite Division of the Institute of
+  Navigation (ION GNSS+ 2013)}, (Nashville, TN), pp.~2868--2879, September
+  2013.
+
+\bibitem{kotovirta2009system}
+V.~Kotovirta, R.~Jalonen, L.~Axell, K.~Riska, and R.~Berglund, ``A system for
+  route optimization in ice-covered waters,'' {\em Cold Regions Science and
+  Technology}, vol.~55, no.~1, pp.~52--62, 2009.
+
+\bibitem{cummings2010supporting}
+M.~L. Cummings, M.~Buchin, G.~Carrigan, and B.~Donmez, ``Supporting intelligent
+  and trustworthy maritime path planning decisions,'' {\em International
+  journal of human-computer studies}, vol.~68, no.~10, pp.~616--626, 2010.
+
 \bibitem{Foltz1998}
 P.~W. Foltz, W.~Kintsch, and T.~K. Landauer, ``The measurement of textual
   coherence with latent semantic analysis,'' {\em Discourse Processes},
@@ -109,6 +132,37 @@ P.~Br{\'e}zillon, ``Context in artificial intelligence: I. a survey of the
 
 \bibitem{akman2002context}
 V.~Akman, ``Context in artificial intelligence: a fleeting overview,'' 2002.
+
+\bibitem{Tahti2004}
+M.~T{\"a}hti, V.-M. Rautio, and L.~Arhippainen, ``Utilizing context-awareness
+  in office-type working life,'' in {\em Proceedings of the 3rd international
+  conference on Mobile and ubiquitous multimedia}, pp.~79--84, ACM, 2004.
+
+\bibitem{danninger2008context}
+M.~Danninger and R.~Stiefelhagen, ``A context-aware virtual secretary in a
+  smart office environment,'' in {\em Proceedings of the 16th ACM international
+  conference on Multimedia}, pp.~529--538, ACM, 2008.
+
+\bibitem{stauffer1999adaptive}
+C.~Stauffer and W.~E.~L. Grimson, ``Adaptive background mixture models for
+  real-time tracking,'' in {\em Computer Vision and Pattern Recognition, 1999.
+  IEEE Computer Society Conference on.}, vol.~2, IEEE, 1999.
+
+\bibitem{Duncan2009}
+M.~J. Duncan, H.~M. Badland, and W.~K. Mummery, ``Applying gps to enhance
+  understanding of transport-related physical activity,'' {\em Journal of
+  Science and Medicine in Sport}, vol.~12, no.~5, pp.~549--556, 2009.
+
+\bibitem{Reddy2010}
+S.~Reddy, M.~Mun, J.~Burke, D.~Estrin, M.~Hansen, and M.~Srivastava, ``Using
+  mobile phones to determine transportation modes,'' {\em ACM Transactions on
+  Sensor Networks (TOSN)}, vol.~6, no.~2, pp.~13:1--13:23, 2010.
+
+\bibitem{Bancroft2012}
+J.~B. Bancroft, D.~Garrett, and G.~Lachapelle, ``Activity and environment
+  classification using foot mounted navigation sensors,'' in {\em Proceedings
+  of the 2012 Indoor Positioning and Indoor Navigation (IPIN) Conference},
+  2012.
 
 \bibitem{mccarthy1987generality}
 J.~McCarthy, ``Generality in artificial intelligence,'' {\em Communications of
@@ -251,22 +305,6 @@ P.~Smyth, ``Note set 4: Finite mixture models and the {EM} algorithm.'' Lecture
   notes for course on Probabilistic Learning at University of
   California--Irvine, 2015.
 
-\bibitem{inosense2015}
-``{Indoor Outdoor Seamless Navigation for Sensing Human Behavior (INOSENSE)}.''
-  Available online: http://bit.ly/inosense, 2015.
-\newblock Website of the Finnish Geospatial Research Institute.
-
-\bibitem{Guinness2013}
-R.~E. Guinness, ``Beyond where to how: A machine learning approach for sensing
-  mobility contexts using smartphone sensors,'' in {\em Proceedings of the 26th
-  International Technical Meeting of The Satellite Division of the Institute of
-  Navigation (ION GNSS+ 2013)}, (Nashville, TN), pp.~2868--2879, September
-  2013.
-
-\bibitem{jufo}
-``Julkaisufoorumi website.'' Available online:
-  https://www.tsv.fi/julkaisufoorumi/english.php, 2015.
-
 \bibitem{Guinness2015}
 R.~E. Guinness, H.~Kuusniemi, J.~Vallet, T.~Sarjakoski, J.~Oksanen, M.~Islam,
   M.~Syeed, H.-M. Halkosaari, P.~Kettunen, M.~Laakso, and M.~Rönneberg,
@@ -283,7 +321,6 @@ M.~Elhoushi, J.~Georgy, M.~Korenberg, and A.~Noureldin, ``Robust motion mode
 
 \bibitem{stenneth2013detecting}
 L.~Stenneth, {\em Detecting Human Activities Using Smartphones and Maps}.
-\newblock PhD thesis, University of Illinois at Chicago, October 2013.
-\newblock PhD thesis.
+\newblock PhD thesis, University of Illinois at Chicago, February 2014.
 
 \end{thebibliography}
