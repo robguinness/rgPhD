@@ -1228,3 +1228,93 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{knn}{}%
+{%
+\gls@defglossaryentry{knn}%
+{%
+name={kNN},%
+sort={kNN},%
+type={acronym},%
+first={k-Nearest Neighbor\glsspace (kNN)},%
+firstplural={k-Nearest Neighbors\glsspace (kNNs)},%
+text={kNN},%
+plural={kNNs},%
+description={k-Nearest Neighbor},%
+descriptionplural={k-Nearest Neighbor\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={k-Nearest Neighbor},%
+longplural={k-Nearest Neighbors},%
+short={kNN},%
+shortplural={kNNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{adl}{}%
+{%
+\gls@defglossaryentry{adl}%
+{%
+name={ADL},%
+sort={ADL},%
+type={acronym},%
+first={Activities of Daily Life\glsspace (ADL)},%
+firstplural={Activities of Daily Lifes\glsspace (ADLs)},%
+text={ADL},%
+plural={ADLs},%
+description={Activities of Daily Life},%
+descriptionplural={Activities of Daily Life\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Activities of Daily Life},%
+longplural={Activities of Daily Lifes},%
+short={ADL},%
+shortplural={ADLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{iro2}{}%
+{%
+\gls@defglossaryentry{iro2}%
+{%
+name={IRO-2},%
+sort={IRO-2},%
+type={acronym},%
+first={Ice Forecast and Route Optimization\glsspace (IRO-2)},%
+firstplural={Ice Forecast and Route Optimizations\glsspace (IRO-2s)},%
+text={IRO-2},%
+plural={IRO-2s},%
+description={Ice Forecast and Route Optimization},%
+descriptionplural={Ice Forecast and Route Optimization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ice Forecast and Route Optimization},%
+longplural={Ice Forecast and Route Optimizations},%
+short={IRO-2},%
+shortplural={IRO-2s},%
+counter={page},%
+parent={},%
+%
+}%
+}%

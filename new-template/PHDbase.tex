@@ -13,6 +13,12 @@
 \usepackage{array, ragged2e}
 \usepackage{bibentry}
 \usepackage{tabularx}
+%\usepackage[natbib,                                % To use natbib commands
+%        style=authoryear,                          % Style of cites and bib entries
+%        backend=bibtex8]                           % To use bibtex instead biber
+%        {biblatex}
+%\usepackage{biblatex}
+%\usepackage{filecontents}
 
 \usepackage{soul,color} % used for highlighting
 \soulregister\cite7
@@ -176,6 +182,10 @@
 \newacronym{lda}{LDA}{Linear Discriminant Analysis}
 \newacronym{lssvm}{LS-SVM}{Least Squares-Support Vector Machine}
 \newacronym{pda}{PDA}{Personal Digital Assistant}
+\newacronym{knn}{kNN}{k-Nearest Neighbor}
+\newacronym{adl}{ADL}{Activities of Daily Life}
+\newacronym{iro2}{IRO-2}{Ice Forecast and Route Optimization}
+
 %\input{Text/abbreviations}
 %Print the glossary
 \begingroup
@@ -212,6 +222,10 @@ TBD
 %\bibliographystyle{styles/IEEEtranS}
 \bibliographystyle{ieeetr}
 %%\input{references}
+
+%\DefineBibliographyStrings{english}{%
+%  mathesis = {Master of Science Thesis},
+%}
 
 %\appendix
 %\renewcommand{\chaptername}{Liite}

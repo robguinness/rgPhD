@@ -119,7 +119,7 @@
 }
 
 @Article{bilmes1998gentle,
-  Title                    = {A gentle tutorial of the EM algorithm and its application to parameter estimation for Gaussian mixture and hidden Markov models},
+  Title                    = {{A gentle tutorial of the EM algorithm and its application to parameter estimation for Gaussian mixture and hidden Markov models}},
   Author                   = {Bilmes, Jeff A and others},
   Journal                  = {International Computer Science Institute},
   Year                     = {1998},
@@ -254,7 +254,7 @@
 }
 
 @Article{dempster1977maximum,
-  Title                    = {Maximum likelihood from incomplete data via the EM algorithm},
+  Title                    = {{Maximum likelihood from incomplete data via the EM algorithm}},
   Author                   = {Dempster, Arthur P and Laird, Nan M and Rubin, Donald B},
   Journal                  = {Journal of the royal statistical society. Series B (methodological)},
   Year                     = {1977},
@@ -424,7 +424,6 @@
   Year                     = {2015},
 
   Address                  = {Tampa, Florida},
-  Note                     = {submitted},
 
   Owner                    = {rob},
   Timestamp                = {2015.07.11}
@@ -817,7 +816,7 @@
 
 @Article{parkka2006activity,
   Title                    = {Activity classification using realistic data from wearable sensors},
-  Author                   = {Parkka, J. and Ermes, M. and Korpipaa, P. and Mantyjarvi, J. and Peltola, J. and Korhonen, I.},
+  Author                   = {P\"{a}rkk\"{a}, J. and Ermes, M. and Korpip\"{a}\"{a}, P. and M\"{a}ntyj\"{a}rvi, J. and Peltola, J. and Korhonen, I.},
   Journal                  = {Information Technology in Biomedicine, IEEE Transactions on},
   Year                     = {2006},
   Number                   = {1},
@@ -844,7 +843,7 @@
   Uid                      = {0001}
 }
 
-@InCollection{chen2011using,
+@InCollection{pei2011using,
   Title                    = {Using Motion-Awareness for the 3D Indoor Personal Navigation on a Smartphone},
   Author                   = {Pei, L. and Chen, R. and Liu, J. and Kuusniemi, H. and Chen, Y. and T. and Tenhunen},
   Booktitle                = {Proceedings of {ION} {GNSS} 2011 Conference, Portland, Oregon, {USA}, September 20-23},
@@ -1044,7 +1043,7 @@
 }
 
 @Unpublished{shahabdeenrobust,
-  Title                    = {Robust model for human activity inference using Bayesian Classifier},
+  Title                    = {Robust model for human activity inference using {Bayesian} Classifier},
   Author                   = {Shahabdeen, J.A. and Nachman, L. and Huang, J. and Raffa, G. and Shah, R.C.},
 
   Owner                    = {rg},
@@ -1091,13 +1090,12 @@
   Url                      = {http://www.computerhistory.org/core/media/pdf/core-2006.pdf}
 }
 
-@PhdThesis{stenneth2013detecting,
+@PhdThesis{stenneth2014detecting,
   Title                    = {Detecting Human Activities Using Smartphones and Maps},
   Author                   = {Stenneth, Leon},
   School                   = {University of Illinois at Chicago},
-  Year                     = {2013},
-  Month                    = {October},
-  Note                     = {PhD thesis}
+  Year                     = {2014},
+  Month                    = {February},
 }
 
 @InProceedings{Stenneth2011,
@@ -1112,11 +1110,11 @@
   Timestamp                = {2013.05.02}
 }
 
-@InProceedings{susi2001accelerometer,
+@InProceedings{susi2011accelerometer,
   Title                    = {Accelerometer Signal Features and Classification Algorithms for Positioning Applications},
   Author                   = {Susi, M. and Borio, D. and Lachapelle, G.},
   Booktitle                = {Proceedings of the 2011 International Technical Meeting of The Institute of Navigation},
-  Year                     = {2001},
+  Year                     = {2011},
   Pages                    = {158--169},
 
   Owner                    = {rg},
@@ -1218,7 +1216,7 @@
 }
 
 @Article{wiggins2008evolving,
-  Title                    = {Evolving a Bayesian classifier for ECG-based age classification in medical applications},
+  Title                    = {{Evolving a Bayesian classifier for ECG-based age classification in medical applications}},
   Author                   = {Wiggins, M. and Saad, A. and Litt, B. and Vachtsevanos, G.},
   Journal                  = {Applied soft computing},
   Year                     = {2008},
@@ -1367,6 +1365,498 @@ language={English}
   year={2001},
   publisher={Elsevier}
 }
+
+@incollection{gabbay2000structured,
+  title={Structured contexts with fibred semantics},
+  author={Gabbay, Dov M and Nossum, Rolf T},
+  booktitle={Formal Aspects of Context},
+  pages={193--209},
+  year={2000},
+  publisher={Springer}
+}
+
+@article{thomason2006contextual,
+  title={Contextual intensional logic: Type-theoretic and dynamic considerations},
+  author={Thomason, Richmond H},
+  journal={Perspectives on contexts},
+  year={2006},
+  editor={Boquet, and Serafini, L. and Thomason, Richmond H},
+  publisher={Center for the Study of Language and Information}
+}
+
+@article{bouquet2003theories,
+  title={Theories and uses of context in knowledge representation and reasoning},
+  author={Bouquet, Paolo and Ghidini, Chiara and Giunchiglia, Fausto and Blanzieri, Enrico},
+  journal={Journal of Pragmatics},
+  volume={35},
+  number={3},
+  pages={455--484},
+  year={2003},
+  publisher={Elsevier}
+}
+
+@book{bishop2006pattern,
+  title={Pattern recognition and machine learning},
+  author={Bishop, Christopher M},
+  year={2006},
+  publisher={Springer}
+}
+
+@book{witten2005data,
+  title={Data Mining: Practical machine learning tools and techniques},
+  author={Witten, Ian H and Frank, Eibe},
+  year={2005},
+  publisher={Morgan Kaufmann}
+}
+
+@book{Mitchell1997,
+  title={Machine Learning},
+  author={Mitchell, T. M.},
+  year={1997}
+  publisher={McGraw-Hill}
+}
+
+@article{want1992active,
+  title={The active badge location system},
+  author={Want, Roy and Hopper, Andy and Falcao, Veronica and Gibbons, Jonathan},
+  journal={ACM Transactions on Information Systems (TOIS)},
+  volume={10},
+  number={1},
+  pages={91--102},
+  year={1992},
+  publisher={ACM}
+}
+
+@article{guinness2015beyond,
+  title={Beyond Where to How: A Machine Learning Approach for Sensing Mobility Contexts Using Smartphone Sensors},
+  author={Guinness, Robert E},
+  journal={Sensors},
+  volume={15},
+  number={5},
+  pages={9962--9985},
+  year={2015},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@inproceedings{Groves2014,
+  title={The four key challenges of advanced multisensor navigation and positioning},
+  author={Groves, Paul D and Wang, Lei and Walter, Dennis and Martin, Harold and Voutsis, Kimon and Jiang, Ziyi},
+  booktitle={Position, Location and Navigation Symposium-PLANS 2014, 2014 IEEE/ION},
+  pages={773--792},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{guinness2014method,
+  title={A method for ice-aware maritime route optimization},
+  author={Guinness, Robert E and Saarimaki, Jarno and Ruotsalainen, Laura and Kuusniemi, Heidi and Goerlandt, Floris and Montewka, Jakub and Berglund, Robin and Kotovirta, Ville},
+  booktitle={Position, Location and Navigation Symposium-PLANS 2014, 2014 IEEE/ION},
+  pages={1371--1378},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{Manabe2010,
+  title={Perceptual functions for context-awareness of an office worker},
+  author={Manabe, Yusuke and Saito, Hiromichi and Akiyama, Keisuke and Ikeda, Ryotaro and Kanda, Satoshi and Sugawara, Kenji},
+  booktitle={Cognitive Informatics (ICCI), 2010 9th IEEE International Conference on},
+  pages={583--589},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{kotovirta2009system,
+  title={A system for route optimization in ice-covered waters},
+  author={Kotovirta, Ville and Jalonen, Risto and Axell, Lars and Riska, Kaj and Berglund, Robin},
+  journal={Cold Regions Science and Technology},
+  volume={55},
+  number={1},
+  pages={52--62},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@article{cummings2010supporting,
+  title={Supporting intelligent and trustworthy maritime path planning decisions},
+  author={Cummings, Mary L and Buchin, Mariela and Carrigan, Geoffrey and Donmez, Birsen},
+  journal={International journal of human-computer studies},
+  volume={68},
+  number={10},
+  pages={616--626},
+  year={2010},
+  publisher={Elsevier}
+}
+
+@inproceedings{Tahti2004,
+  title={Utilizing context-awareness in office-type working life},
+  author={T{\"a}hti, Marika and Rautio, Ville-Mikko and Arhippainen, Leena},
+  booktitle={Proceedings of the 3rd international conference on Mobile and ubiquitous multimedia},
+  pages={79--84},
+  year={2004},
+  organization={ACM}
+}
+
+@inproceedings{danninger2008context,
+  title={A context-aware virtual secretary in a smart office environment},
+  author={Danninger, Maria and Stiefelhagen, Rainer},
+  booktitle={Proceedings of the 16th ACM international conference on Multimedia},
+  pages={529--538},
+  year={2008},
+  organization={ACM}
+}
+
+@inproceedings{stauffer1999adaptive,
+  title={Adaptive background mixture models for real-time tracking},
+  author={Stauffer, Chris and Grimson, W Eric L},
+  booktitle={Computer Vision and Pattern Recognition, 1999. IEEE Computer Society Conference on.},
+  volume={2},
+  year={1999},
+  organization={IEEE}
+}
+
+@incollection{heiskala2014research,
+  title={A Research Framework for the Smartphone-Based Contextual Study of Mobile Knowledge Work},
+  author={Heiskala, Mikko and Palom{\"a}ki, Eero and Vartiainen, Matti and Hakkarainen, Kai and Muukkonen, Hanni},
+  booktitle={Design, User Experience, and Usability. User Experience Design for Diverse Interaction Platforms and Environments},
+  pages={246--257},
+  year={2014},
+  publisher={Springer}
+}
+
+@inproceedings{huang2004office,
+  title={Office presence detection using multimodal context information},
+  author={Huang, Xiao and Weng, Juyang and Zhang, Zhengyou},
+  booktitle={Acoustics, Speech, and Signal Processing, 2004. Proceedings.(ICASSP'04). IEEE International Conference on},
+  volume={3},
+  pages={iii--773},
+  year={2004},
+  organization={IEEE}
+}
+
+@article{Hong2009,
+  title={Context-aware systems: A literature review and classification},
+  author={Hong, Jong-yi and Suh, Eui-ho and Kim, Sung-Jin},
+  journal={Expert Systems with Applications},
+  volume={36},
+  number={4},
+  pages={8509--8522},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@inproceedings{manabe2010perceptual,
+  title={Perceptual functions for context-awareness of an office worker},
+  author={Manabe, Yusuke and Saito, Hiromichi and Akiyama, Keisuke and Ikeda, Ryotaro and Kanda, Satoshi and Sugawara, Kenji},
+  booktitle={Cognitive Informatics (ICCI), 2010 9th IEEE International Conference on},
+  pages={583--589},
+  year={2010},
+  organization={IEEE}
+}
+
+@inproceedings{kiyokawa2012owens,
+  title={Owens Luis—A context-aware multi-modal smart office chair in an ambient environment},
+  author={Kiyokawa, Kiyoshi and Hatanaka, Masahide and Hosoda, Kazufumi and Okada, Masashi and Shigeta, Hironori and Ishihara, Yasunori and Ooshita, Fukuhito and Kakugawa, Hirotsugu and Kurihara, Satoshi and Moriyama, Koichi},
+  booktitle={Virtual Reality Short Papers and Posters (VRW), 2012 IEEE},
+  pages={1--4},
+  year={2012},
+  organization={IEEE}
+}
+
+@incollection{kern2003multi,
+  title={Multi-sensor activity context detection for wearable computing},
+  author={Kern, Nicky and Schiele, Bernt and Schmidt, Albrecht},
+  booktitle={Ambient Intelligence},
+  pages={220--232},
+  year={2003},
+  publisher={Springer}
+}
+
+@incollection{pirttikangas2006feature,
+  title={Feature selection and activity recognition from wearable sensors},
+  author={Pirttikangas, Susanna and Fujinami, Kaori and Nakajima, Tatsuo},
+  booktitle={Ubiquitous Computing Systems},
+  pages={516--527},
+  year={2006},
+  publisher={Springer}
+}
+
+@ARTICLE{Park2015,
+author={Park, H. and Park, J. and Kim, H. and Jun, J. and Hyuk Son, S. and Park, T. and Ko, J.},
+journal={Systems, Man, and Cybernetics: Systems, IEEE Transactions on},
+title={ReLiSCE: Utilizing Resource-Limited Sensors for Office Activity Context Extraction},
+year={2015},
+month={Aug},
+volume={45},
+number={8},
+pages={1151-1164},
+keywords={Acoustics;Context;Lighting;Microphones;Sensor arrays;Computers and information processing software;context extraction;embedded software;low-power signal processing;smart environments},
+doi={10.1109/TSMC.2014.2364560},
+ISSN={2168-2216},
+}
+
+@article{foerster2000motion,
+  title={Motion pattern and posture: correctly assessed by calibrated accelerometers},
+  author={Foerster, Friedrich and Fahrenberg, Jochen},
+  journal={Behavior research methods, instruments, \& computers},
+  volume={32},
+  number={3},
+  pages={450--457},
+  year={2000},
+  publisher={Springer}
+}
+
+@article{lee2002activity,
+  title={Activity and location recognition using wearable sensors},
+  author={Lee, Seon-Woo and Mase, Kenji},
+  journal={IEEE pervasive computing},
+  volume={1},
+  number={3},
+  pages={24--32},
+  year={2002}
+}
+
+@inproceedings{kunze2008dealing,
+  title={Dealing with sensor displacement in motion-based onbody activity recognition systems},
+  author={Kunze, Kai and Lukowicz, Paul},
+  booktitle={Proceedings of the 10th international conference on Ubiquitous computing},
+  pages={20--29},
+  year={2008},
+  organization={ACM}
+}
+
+@article{susi2013motion,
+  title={Motion mode recognition and step detection algorithms for mobile phone users},
+  author={Susi, Melania and Renaudin, Val{\'e}rie and Lachapelle, G{\'e}rard},
+  journal={Sensors},
+  volume={13},
+  number={2},
+  pages={1539--1562},
+  year={2013},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{feng2013transportation,
+  title={Transportation mode recognition using GPS and accelerometer data},
+  author={Feng, Tao and Timmermans, Harry JP},
+  journal={Transportation Research Part C: Emerging Technologies},
+  volume={37},
+  pages={118--130},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{xia2014using,
+  title={Using smart phone sensors to detect transportation modes},
+  author={Xia, Hao and Qiao, Yanyou and Jian, Jun and Chang, Yuanfei},
+  journal={Sensors},
+  volume={14},
+  number={11},
+  pages={20843--20865},
+  year={2014},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@inproceedings{hemminki2013accelerometer,
+  title={Accelerometer-based transportation mode detection on smartphones},
+  author={Hemminki, Samuli and Nurmi, Petteri and Tarkoma, Sasu},
+  booktitle={Proceedings of the 11th ACM Conference on Embedded Networked Sensor Systems},
+  pages={13},
+  year={2013},
+  organization={ACM}
+}
+
+@article{parviainen2014adaptive,
+  title={Adaptive Activity and Environment Recognition for Mobile Phones},
+  author={Parviainen, Jussi and Bojja, Jayaprasad and Collin, Jussi and Lepp{\"a}nen, Jussi and Eronen, Antti},
+  journal={Sensors},
+  volume={14},
+  number={11},
+  pages={20753--20778},
+  year={2014},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@incollection{Suutula2007,
+year={2007},
+isbn={978-3-540-76771-8},
+booktitle={Ubiquitous Computing Systems},
+volume={4836},
+series={Lecture Notes in Computer Science},
+editor={Ichikawa, Haruhisa and Cho, We-Duke and Satoh, Ichiro and Youn, HeeYong},
+doi={10.1007/978-3-540-76772-5_15},
+title={Discriminative Temporal Smoothing for Activity Recognition from Wearable Sensors},
+url={http://dx.doi.org/10.1007/978-3-540-76772-5_15},
+publisher={Springer Berlin Heidelberg},
+author={Suutala, Jaakko and Pirttikangas, Susanna and Röning, Juha},
+pages={182-195},
+language={English}
+}
+
+@incollection{anguita2012human,
+  title={Human activity recognition on smartphones using a multiclass hardware-friendly support vector machine},
+  author={Anguita, Davide and Ghio, Alessandro and Oneto, Luca and Parra, Xavier and Reyes-Ortiz, Jorge L},
+  booktitle={Ambient assisted living and home care},
+  pages={216--223},
+  year={2012},
+  publisher={Springer}
+}
+
+@incollection{yu2015low,
+  title={A Low-Power Context-Aware System for Smartphone Using Hierarchical Modular {Bayesian} Networks},
+  author={Yu, Jae-Min and Cho, Sung-Bae},
+  booktitle={Hybrid Artificial Intelligent Systems},
+  pages={543--554},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{kwon2014unsupervised,
+  title={Unsupervised learning for human activity recognition using smartphone sensors},
+  author={Kwon, Yongjin and Kang, Kyuchang and Bae, Changseok},
+  journal={Expert Systems with Applications},
+  volume={41},
+  number={14},
+  pages={6067--6074},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@article{yu2014big,
+  title={Big data small footprint: The design of a low-power classifier for detecting transportation modes},
+  author={Yu, Meng-Chieh and Yu, Tong and Wang, Shao-Chen and Lin, Chih-Jen and Chang, Edward Y},
+  journal={Proceedings of the VLDB Endowment},
+  volume={7},
+  number={13},
+  pages={1429--1440},
+  year={2014},
+  publisher={VLDB Endowment}
+}
+
+@article{hoseini2013survey,
+  title={A survey on smartphone-based systems for opportunistic user context recognition},
+  author={Hoseini-Tabatabaei, Seyed Amir and Gluhak, Alexander and Tafazolli, Rahim},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={45},
+  number={3},
+  pages={27},
+  year={2013},
+  publisher={ACM}
+}
+
+@article{abolfazli2014rich,
+  title={Rich mobile applications: genesis, taxonomy, and open issues},
+  author={Abolfazli, Saeid and Sanaei, Zohreh and Gani, Abdullah and Xia, Feng and Yang, Laurence T},
+  journal={Journal of Network and Computer Applications},
+  volume={40},
+  pages={345--362},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@article{pejovic2015anticipatory,
+  title={Anticipatory mobile computing: A survey of the state of the art and research challenges},
+  author={Pejovic, Veljko and Musolesi, Mirco},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={47},
+  number={3},
+  pages={47},
+  year={2015},
+  publisher={ACM}
+}
+
+@article{chiang2014pattern,
+  title={Pattern analysis in daily physical activity data for personal health management},
+  author={Chiang, Jung-Hsien and Yang, Pei-Ching and Tu, Hsuan},
+  journal={Pervasive and Mobile Computing},
+  volume={13},
+  pages={13--25},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@inproceedings{sankaran2014using,
+  title={Using mobile phone barometer for low-power transportation context detection},
+  author={Sankaran, Kartik and Zhu, Minhui and Guo, Xiang Fa and Ananda, Akkihebbal L and Chan, Mun Choon and Peh, Li-Shiuan},
+  booktitle={Proceedings of the 12th ACM Conference on Embedded Network Sensor Systems},
+  pages={191--205},
+  year={2014},
+  organization={ACM}
+}
+
+@mastersthesis{esa2015fuel,
+  type = {{Master of Science thesis}},
+  title={Fuel and economic efficiency of an ice-going vessel on the Northern Sea Route},
+  author={Esa, Janne},
+  year={2015},
+  month={June},
+  school={Aalto University},
+}
+
+@article{montewka2015towards,
+  title={Towards probabilistic models for the prediction of a ship performance in dynamic ice},
+  author={Montewka, Jakub and Goerlandt, Floris and Kujala, Pentti and Lensu, Mikko},
+  journal={Cold Regions Science and Technology},
+  volume={112},
+  pages={14--28},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@misc{fock2012,
+  title={Ice forecast and route optimization},
+  author={Fock, B. H. and Beitsch, A. and Broehan, D. and Dobynin, M. and Gierisch, A. and Kaleschke, L. and Pohlmann, T. and Schl\"{u}nzen, K. H.},
+  year={2012},
+  note = {Poster presented at the SMOSIce User Workshop, Hamburg, Germany}
+}
+
+@inproceedings{dobrynin2015prediction,
+  title={Prediction of Arctic Sea Ice for Ship Routing: Forecast Experiment and Ship Cruise},
+  author={Dobrynin, Mikhail and Fock, Bj{\"o}rn Hendrik and Gierisch, Andrea MU and Pohlmann, Thomas and Kaleschke, Lars and Schl{\"u}nzen, Heinke and others},
+  booktitle={OTC Arctic Technology Conference},
+  year={2015},
+  organization={Offshore Technology Conference}
+}
+
+@inproceedings{choi2013application,
+  title={Application of Genetic Algorithm to Ship Route Optimization in Ice Navigation},
+  author={Choi, Minjoo and Chung, Hyun and Yamaguchi, Hajime and De Silva, Liyanarachchi Waruna Arampath},
+  booktitle={Proceedings of the International Conference on Port and Ocean Engineering Under Arctic Conditions},
+  year={2013}
+}
+
+@article{choi2015arctic,
+  title={Arctic sea route path planning based on an uncertain ice prediction model},
+  author={Choi, Minjoo and Chung, Hyun and Yamaguchi, Hajime and Nagakawa, Keisuke},
+  journal={Cold Regions Science and Technology},
+  volume={109},
+  pages={61--69},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{nam2013simulation,
+  title={Simulation of optimal arctic routes using a numerical sea ice model based on an ice-coupled ocean circulation method},
+  author={Nam, Jong-Ho and Park, Inha and Lee, Ho Jin and Kwon, Mi Ok and Choi, Kyungsik and Seo, Young-Kyo},
+  journal={International Journal of Naval Architecture and Ocean Engineering},
+  volume={5},
+  number={2},
+  pages={210--226},
+  year={2013}
+}
+
+@inproceedings{Park2011,
+  author={Park, I. H. and Nam, J. H. and Choi, K. S.},
+  title={A graphical approach to determine the optimal sea route of icebreakers in arctic region},
+  booktitle={Proceedings of the Korean Association of ocean science and technology societies join conference},
+  year={2011},
+  location={Busan},
+  month={June},
+  note={Published in Korean}
+}
+
+
+
+
 
 
 @comment{jabref-meta: selector_keywords:}

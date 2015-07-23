@@ -60,7 +60,7 @@ Further details about this framework are covered in [P1]. As context-aware syste
 \section{History}
 \label{sec:history}
 
-According to our review of the literature, the first explicit reference to context awareness was in a 1994 paper by Schilit and Theimer, where they use the term \emph{context-aware computing} to describe software that can ``adapt according to its location of use, the collection of nearby people and objects, as well as the changes to those objects over time.'' \cite{schilit1994disseminating}. Earlier, however, we can find strong but implicit references to the concept of context awareness. For example, in the 1991 article, titled ``The Computer for the 21st Century,'' Weiser provides a fictional account of a number of different automated or computer-assisted functions made possible by ``ubiquitous computing'' \cite{weiser1991computer}. Although not specifically highlighted by Weiser, the necessity of these computers to understand context is clearly evident. Another article published in 1992 by Want et al. may be the first implementation of a context-aware device described in the literature, even though the authors did not use the term ``context-aware'' \cite{want1992active}. By the mid-1990s, many different implementations of context-aware devices can be found, including the ParcTab, stick-e notes, CyberGuide, and CyberDesk. By 2001, the research field was active enough to support a special issue of the journal Human-Computer Interaction, which provides an excellent review of the state-of-the-art in context awareness for that time period \cite{moran2001introduction}. A more recent review of context awareness literature can be found in \cite{Hong2009}.
+According to our review of the literature, the first explicit reference to context awareness was in a 1994 paper by Schilit and Theimer, where they use the term \emph{context-aware computing} to describe software that can ``adapt according to its location of use, the collection of nearby people and objects, as well as the changes to those objects over time.'' \cite{schilit1994disseminating}. Earlier, however, we can find strong but implicit references to the concept of context awareness. For example, in the 1991 article, titled ``The Computer for the 21st Century,'' Weiser provides a fictional account of a number of different automated or computer-assisted functions made possible by ``ubiquitous computing'' \cite{weiser1991computer}. Although not specifically highlighted by Weiser, the necessity of these computers to understand context is clearly evident. Another article published in 1992 by Want et al. may be the first implementation of a context-aware device described in the literature, even though the authors did not use the term ``context-aware'' \cite{want1992active}. By the mid-1990s, many different implementations of context-aware devices can be found, including the ParcTab, stick-e notes, CyberGuide, and CyberDesk. By 2001, the research field was active enough to support a special issue of the journal Human-Computer Interaction, which provides an excellent review of the state-of-the-art in context awareness for that time period \cite{moran2001introduction}.
 
 Going further back, however, the concept of context has been studied in computer science research for many years. As early as 1963, John McCarthy, one of the ``fathers of AI'', began developing \emph{situation calculus} as a ``formal system in which facts about situations, goals and actions can be expressed'' \cite{mccarthy1963programs}. A situation is defined as ``the complete state of affairs at some instant of time'', thus, it is roughly equivalent to our definition of context. Beginning in 1987, McCarthy began to consider the concept of context explicitly and attempted to formalize it. This work on context and related theory will be presented in Section~\ref{sec:theory} below.
 
@@ -77,23 +77,45 @@ A comprehensive review of recent context awareness literature would require cove
 %\hl{
 In terms of the first task, recognizing the activity of a smartphone user in an indoor office environment, there are only a few studies basing their results on smartphone sensors, and they mainly rely on location awareness. For example, one early study described user tests of a context-aware \gls{pda} application, which can be considered a proto-smartphone-like mobile device, designed to be used in an office enviroment \cite{Tahti2004}. The main source of contextual information was location, but the application also used contextual information from calendar events that the user had previously recorded in the application. For example, if a user scheduled an event at a particular time and marked it as a meeting, then the system would automatically suggest meeting-related services when the meeting time approached and the user had entered the meeting room. The described system, however, was not capable of automatically inferring office activities indepdently from user-supplied information.
 
-More recently, \cite{Heiskala2014} describes a pilot study related to smartphone-based context awareness of ``mobile knowledge work',' which may partly take place in office environments. The article, however, mainly discusses the research problem in general, as well as describing the pilot data collection campaign. The article does not go into any detail on the results of analyzing the collected data, nor the planned analysis methods.
+More recently, \cite{heiskala2014research} describes a pilot study related to smartphone-based context awareness of ``mobile knowledge work'', which may partly take place in office environments. The article, however, mainly discusses the research problem in general, as well as describing the pilot data collection campaign. The article does not go into any detail on the results of analyzing the collected data, nor the planned analysis methods.
 
-If we include studies using non-smartphone sensors to detect office-related activities, we encounter several other relevant studies. For example, (Huang et al., 2004) %OFFICE PRESENCE DETECTION USING MULTIMODAL CONTEXT INFORMATION
+If we include studies using non-smartphone sensors to detect office-related activities, we encounter several other relevant studies. For example, \cite{huang2004office} %OFFICE PRESENCE DETECTION USING MULTIMODAL CONTEXT INFORMATION
 used a microphone and a USB %acronym
 camera to detect different office activities and motion patterns, including ``rest,'' ``moving near door,'' ``conversation,'' ``nobody around,'' etc. They used two machine learning techniques to detect motion and activity: Incremental Hierarchical Discriminant Regression (IHDR) trees and Hidden Markov Models (HMM). \cite{danninger2008context} similarly used a set of cameras to detect whether an office worker is working alone or in a meeting, or whether the office is empty. For activity detection, they use adaptive background modeling, which makes use of Gaussian mixture densities \cite{stauffer1999adaptive}.
 
-(Manabe et al., 2010) % Perceptual Functions for Context-Awareness of An Office Worker
-used a richer set of sensors, including two USB cameras and a pressure sensor and acceleration sensor (a Wii remote controller) built into an office chair, but they focused on detecting location and posture context, such as leaning back in the chair, leaning on the desk, or upright sitting posture. They primarily used k-means and k nearest neighbor %acronym
-clustering to perform context recognition.
-
-(Kiyokawa et al., 2012) % Owens Luis - A Context-aware Multi-modal Smart Office Chair in an Ambient Environment
+Another example is \cite{manabe2010perceptual}, which used a richer set of sensors, including two USB cameras and a pressure sensor and acceleration sensor (a Wii remote controller) built into an office chair. This study focused on detecting location and posture context, such as leaning back in the chair, leaning on the desk, or upright sitting posture. They primarily used k-means and \gls{knn} %acronym
+clustering to perform context recognition. Similarly, \cite{kiyokawa2012owens} % Owens Luis - A Context-aware Multi-modal Smart Office Chair in an Ambient Environment
 presented a so-called ``smart office chair'' designed to measure an office worker's mental and physiological states, such as sleepiness and concentration. The details of the recognition algorithm, however, are not given in the paper.
 
-(Schmidt et al., 2003) % Multi-sensor Activity Context Detection for Wearable Computing.
-used accelerometers attached to various parts of a person's body, and they attempted to detect different activities. Although they did not specifically focus on an office environment, some of the activities they addressed are very relevant to an office environment. These include sitting, standing, walking, writing on a whiteboard, typing on a keyboard, and shaking hands. The authors used a na\"{i}ve Bayes classifier for activity recognition.
+Other relevant studies have focused on using wearable sensors to detect different activities, some of which are common in office environments. For example, \cite{kern2003multi} % Multi-sensor Activity Context Detection for Wearable Computing.
+used accelerometers attached to various parts of a person's body. Although they did not specifically focus on an office environment, some of the activities they addressed are very relevant. These include sitting, standing, walking, writing on a whiteboard, typing on a keyboard, and shaking hands. The authors used a na\"{i}ve Bayes classifier for activity recognition. Similarly, \cite{pirttikangas2006feature} used wearable sensors to detect several different office-related activities (typing, cleaning a whiteboard, using an elevator, etc.). The authors evaluated the use of kNN and MLP classifiers for activity recognition\footnote{MLP is a type of artificial neural network.}.
 
-Finally, (Park et al., 2014) % ReLiSCE: Utilizing Resource-Limited Sensors for Office Activity Context Extraction
+(Rachuri et al., 2014)
+%Smartphone sensing offloading for efficiently supporting social sensing applications
+
+% Mobile phones play a pivotal role in supporting ubiquitous and unobtrusive sensing of
+% human activities. However, maintaining a highly accurate record of a user’s behavior
+% throughout the day imposes significant energy demands on the phone’s battery. In this
+% work, we investigate a new approach that can lead to significant energy savings for
+% mobile applications that require continuous sensing of social activities. This is achieved by
+% opportunistically offloading sensing to sensors embedded in the environment, leveraging
+% sensing that may be available in typical modern buildings (e.g., room occupancy sensors,
+% RFID access control systems).
+% In this article, we present the design, implementation, and evaluation of METIS: an
+% adaptive mobile sensing platform that efficiently supports social sensing applications. The
+% platform implements a novel sensor task distribution scheme that dynamically decides
+% whether to perform sensing on the phone or in the infrastructure, considering the energy
+% consumption, accuracy, and mobility patterns of the user. By comparing the sensing
+% distribution scheme with sensing performed solely on the phone or exclusively on the fixed
+% remote sensors, we show, through benchmarks using real traces, that the opportunistic
+% sensing distribution achieves over 60% and 40% energy savings, respectively. This is
+% confirmed through a real world deployment in an office environment for over a month: we
+% developed a social application over our frameworks, that is able to infer the collaborations
+% and meetings of the users. In this setting the system preserves over 35% more battery life
+% over pure phone sensing.
+
+
+Finally, \cite{Park2015} % ReLiSCE: Utilizing Resource-Limited Sensors for Office Activity Context Extraction
 studied context recognition in a meeting room environment, using a suite of sensors including: a microphone array, passive infrared sensors, and an illumination (light) sensor. They detected different states of activity in the meeting room, such as: presentation, monologue, discussion, room idle, people entering room, and room in use. They do not describe their context recognition algorithm in any great detail, but it appears to be a heuristically-defined rule-based algorithm.
 
 The relatively few number of studies related to context awareness in an office environment suggests this is a fairly immature research topic. Especially with regards to smartphone-based context awareness for office environments, we can conclude from our literature review that the research in this thesis is rather novel.
@@ -101,118 +123,111 @@ The relatively few number of studies related to context awareness in an office e
 \subsection{Context Awareness for Mobility}
 \label{sec:mobility-context-literature}
 
-With regards to the second task, recognizing modes of motion that a smartphone user is undergoing outdoors, there are comparatively many relevant studies. To our knowledge, no systematic review of this research area has been published, but a few related reviews are available. For example, \cite{Duncan2009} reviews literature on the use of GPS to study health-related physical activity. The focus of this review, however, has mostly on how GPS can be used to assess health behavior, rather than on methods to detect different mobility contexts.
+With regards to the second task, recognizing modes of motion that a smartphone user is undergoing outdoors, there are comparatively many relevant studies. To our knowledge, no systematic review of this research area has been published, but a few related reviews are available. For example, \cite{Duncan2009} reviews literature on the use of GPS to study health-related physical activity. The focus of this review, however, is mostly on how GPS can be used to assess health behavior, rather than on methods to detect different mobility contexts.  \cite{hoseini2013survey} reviews smartphone-based ``opportunistic user context recognition'', which includes some literature on mobility context recognition, and similarly \cite{pejovic2015anticipatory} reviews ``anticipatory mobile computing''. While useful in our review of the literature none of these reviews focus specifically on mobility context awareness, and they exhibit significant gaps in this regard.
 
-Due to the large number of relevant studies, we will not describe them individually in any great detail, but pertinent facts from these studies can be found in Table X.
+Due to the large number of relevant studies, we will not describe them individually, but pertinent facts from these studies can be found in Table~\ref{tab:literature}. We make no claim that this compilation of publications on the subject is exhaustive, but it is, according to our knowledge, the most comprehensive compared to existing literature. We decided to include also studies that utilized wearable sensor modules, since this research is closely linked to smartphone-based research. All of the listed studies used supervised machine learning techniques, except for \cite{kwon2014unsupervised}, which evaluated several different unsupervised learning techniques.
+
+Note also that many of the studies investigate not solely mobility contexts but also other activity contexts, such as \gls{adl} or various posture contexts (sitting, lying down, etc.). In Table~\ref{tab:literature}, we have only identified motion-related modes under study and only those modes which are common to a significant number of studies. Some other motion-related contexts were investigated by a few studies, such as using an elevator or walking upstairs/downstairs. For those studies incorporating additional contexts, we have identified these contexts collectively using the symbol ``+''. Lastly, we point out that some of the included studies investigated indoor motion modes, even though the research task related to this section of the thesis focused on outdoor motion modes. 
 
 \begin{center}
+\label{tab:literature}
 \begin{longtable} {|l|>{\raggedright}p{3cm}|p{2.4cm}|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.2cm}|}
+
 \hline 
-\multicolumn{1}{|c}{\textbf{Year}} & \multicolumn{1}{|l|}{\textbf{Author(s)}} & \multicolumn{1}{c|}{\textbf{Device(s) Used}} & 
-  \multicolumn{1}{>{\centering\arraybackslash}p{2.5cm}|}{\textbf{Algorithm(s) Evaluated}} & \multicolumn{1}{>{\centering\arraybackslash}p{2.2cm}|}{\textbf{Motion Modes Studied}} \\ \hline 
+\multicolumn{1}{|c}{\textbf{Year}} & \multicolumn{1}{|l|}{\textbf{Author(s) \& Citation}} & \multicolumn{1}{c|}{\textbf{Device(s) Used}} & 
+  \multicolumn{1}{>{\centering\arraybackslash}p{2.5cm}|}{\textbf{Algorithm(s) / Technique(s) Evaluated}} & \multicolumn{1}{>{\centering\arraybackslash}p{2.2cm}|}{\textbf{Motion Modes Studied}} \\ \hline 
 \endfirsthead
 %\begin{tabular}{@{}|l|>{\raggedright}m{3cm}|>{\raggedright}m{2.5cm}|m{2cm}|m{3cm}|>{\raggedright}m{1.5cm}@{}} 
 
 \multicolumn{3}{c}%
 {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
 \hline
-\multicolumn{1}{|c}{\textbf{Year}} & \multicolumn{1}{|l|}{\textbf{Author(s)}} & \multicolumn{1}{c|}{\textbf{Device(s) Used}} & 
-  \multicolumn{1}{>{\centering\arraybackslash}p{2.5cm}|}{\textbf{Algorithm(s) Evaluated}} & \multicolumn{1}{>{\centering\arraybackslash}p{2.2cm}|}{\textbf{Motion Modes Studied}} \\ \hline 
+\multicolumn{1}{|c}{\textbf{Year}} & \multicolumn{1}{|l|}{\textbf{Author(s) \& Citation}} & \multicolumn{1}{c|}{\textbf{Device(s) Used}} & 
+  \multicolumn{1}{>{\centering\arraybackslash}p{2.5cm}|}{\textbf{Algorithm(s) / Technique(s) Evaluated}} & \multicolumn{1}{>{\centering\arraybackslash}p{2.2cm}|}{\textbf{Motion Modes Studied}} \\ \hline 
 \endhead
 
 %\textbf{Year} & \textbf{Author(s)} & \textbf{Device(s) Used} & \textbf{Algorithms Evaluated} & \textbf{Motion Modes Studied}\\ \hline
-1999 & Foerster, Smeja \& Fahrenberg & accelerometers & rule-based & S, W, B \\ \hline
-2002 & Lee and Mase & sensor module & fuzzy-rule-based & S, W \\ \hline
-2005 & Lester et al. & sensor module & AdaBoost, NB & S, W, R, B \\ \hline
-2005 & Ravi et al. & sensor module & DT, kNN, SVM, NB, meta-classifiers& S, W, R\\ \hline
-2006 & P\"{a}rkk\"{a} et al. & various sensors & rule-based, DT, ANN & S, W, R, B, RB \\ \hline
-2008 & Kunze \& Lukowicz & sensor modules & DT, kNN, BN & S, W, R, B \\ \hline
-2008 & Jin et al. & sensor modules & fuzzy-rule-based & S, W, R \\ \hline
-2009 & Yang & mobile phone & DT, NB, kNN, SVM, HMM & S, W, R, B, D \\ \hline
-2010 & Reddy et al. & mobile phone & DT, KMC, NB, ANN, SVM, CHMM, DT+DHMM & S, W, R, B, MT \\ \hline 
-2010 & Pei et al. & mobile phone & rule-based &  S, W \\ \hline
-2010 & Frank et al. & sensor module & & \\ \hline
-2013 & Stenneth et al. & mobile phone  & & \\ \hline
-2011 & Pei et al. & smartphone & DT, BN, SVM & S, W \\ \hline
-2011 & Susi, Borio, and Lachapelle & sensor module & & \\ \hline
-2012 & Bancroft et al. & sensor module & & \\ \hline
-2013 & Guinness & smartphone & 20 different algorithms& \\ \hline
-2013 & Susi, Renaudin, and Lachapelle & sensor module & & \\ \hline
-2013 & Feng \& Timmermans & sensor module  & & \\ \hline
-2014 & Stenneth & mobile phone & & \\ \hline
-2014 & Xia et al. & mobile phone & & \\ \hline
-2014 & Elhoushi et al. & mobile phone & DT, HMM, LDA, SVM, & \\ \hline
-
+2000 & Foerster, Smeja \& Fahrenberg \cite{foerster2000motion} & accelerometers & rule-based & S, W, B \\ \hline
+2002 & Lee \& Mase \cite{lee2002activity} & sensor module & fuzzy-rule-based & S, W \\ \hline
+2005 & Lester et al. \cite{lester2005hybrid} & sensor module & AdaBoost, NB & S, W, R, B \\ \hline
+2005 & Ravi et al. \cite{Ravi2005} & sensor module & DT, kNN, SVM, NB, meta-classifiers& S, W, R\\ \hline
+2006 & P\"{a}rkk\"{a} et al. \cite{parkka2006activity} & various sensors & rule-based, DT, ANN & S, W, R, B, RB \\ \hline
+2006 & Pirttikangas, Fujinami, \& Nakajima \cite{pirttikangas2006feature} & sensor modules & ANN, kNN & S, W, R, B \\ \hline
+2007 & Suutala, Pirttikangas \& R\"{o}ning \cite{Suutula2007} & sensor modules & SVM, HMM, SVM-HMM, DTS & S, W, R, B \\ \hline
+2008 & Kunze \& Lukowicz \cite{kunze2008dealing} & sensor modules & DT, kNN, BN & S, W, R, B \\ \hline
+2008 & Jin et al. \cite{yin2008sensor} & sensor modules & fuzzy-rule-based & S, W, R \\ \hline
+2009 & Yang \cite{yang2009toward} & mobile phone & DT, NB, kNN, SVM, HMM & S, W, R, B, D \\ \hline
+2010 & Reddy et al. \cite{Reddy2010} & mobile phone & DT, KMC, NB, ANN, SVM, CHMM, DT+DHMM & S, W, R, B, MT \\ \hline 
+2010 & Pei et al. \cite{Pei2010} & mobile phone & rule-based &  S, W \\ \hline
+2010 & Frank et al. \cite{Frank2010}& sensor module & NB, BN, HMM & S, W, R \\ \hline
+2011 & Stenneth et al. \cite{Stenneth2011}& mobile phone  & DT, NB, BN, RF, ANN & S, W, B, D, RB, RT \\ \hline
+2011 & Pei et al. \cite{pei2011using} & mobile phone & DT, BN, SVM & S, W \\ \hline
+2011 & Susi, Borio, \& Lachapelle \cite{susi2011accelerometer} & sensor module & DT, NB, kNN & S, W, R\\ \hline
+2012 & Bancroft et al. \cite{Bancroft2012}& sensor modules & NB, rule-based & S, W, R, B, MT\\ \hline
+2012 & Anguita et al. \cite{anguita2012human} & mobile phone & SVM, HF-SVM & S, W \\ \hline
+2013 & Guinness \cite{Guinness2013}& mobile phone & 20 different algorithms & S, W, R, D, RB, RT\\ \hline
+2013 & Susi, Renaudin, \& Lachapelle \cite{susi2013motion}& sensor modules & DT & S, W \\ \hline
+2013 & Feng \& Timmermans \cite{feng2013transportation}& sensor module  & BN & W, R, B, D, RB, RT \\ \hline
+2013 & Hemminki, Nurmi \& Tarkoma \cite{hemminki2013accelerometer}& mobile phone & HMM, Adaboost, meta classifier & S, W, RB, RT, RS \\ \hline
+2014 & Stenneth \cite{stenneth2014detecting} & mobile phone & NB, BN, DT, RF, ANN, meta-classifiers & S, W, B, D, RB, RT\\ \hline
+2014 & Xia et al. \cite{xia2014using}& mobile phone & SVM & S, W, B, D\\ \hline
+2014 & Elhoushi et al. \cite{elhoushi2014robust}& mobile phone & DT & W, R, B, MT \\ \hline
+2014 & Parvainen et al. \cite{parviainen2014adaptive} & mobile phone & DT, SVM, MAP & S, W, R, B, MT \\ \hline
+2014 & Yu et al. \cite{yu2014big} & sensor module + mobile phone & DT, AdaBoost, SVM & S, W, R, B, MT \\ \hline
+2014 & Kwon, Kang, \& Bae \cite{kwon2014unsupervised} & mobile phone & GMM, kMC, HIER, DBSCAN & S, W, R \\ \hline
+2014 & Sankaran et al. \cite{sankaran2014using} & mobile phone & rule-based, GPSAR, FMS & S, W, MT \\ \hline
+2014 & Chiang, Yang \& Tu \cite{chiang2014pattern} & mobile phone & DT, NN, NB, SVM & S, W, R, B, D, RM \\ \hline 
+2015 & Yu and Cho \cite{yu2015low} & mobile phone & DT, SVM, ANN & S, W, R, D, RB, RT, RS \\ \hline
 \end{longtable}
 \end{center}
 
-\cite{Reddy2010}
-\cite{Bancroft2012}
 
-(Rachuri et al., 2014)
-%Smartphone sensing offloading for efficiently supporting social sensing applications
 
-(Suutula et al., 2007): Activities of daily living
+%(Suutula et al., 2007): Activities of daily living
 % Discriminative Temporal Smoothing for Activity Recognition from Wearable Sensors
 
-(Heiskala et al., 2014) % Doesn't describe actual context recognition, just data collection system
+%(Heiskala et al., 2014) % Doesn't describe actual context recognition, just data collection system
 % A Research Framework for the Smartphone-Based Contextual Study of Mobile Knowledge Work 
 
-If we expand the scope to include other types of smartphone-based activity recognition, then we can find many relevant publications.
-%}
-
-(Rasekh et al., 2011) % Maybe use...
+% (Rasekh et al., 2011) % Maybe use...
 %Human Activity Recognition using Smartphone
 
-(Adams et al., 2008)
+%(Adams et al., 2008)  % PRINT THIS
 % Sensing and Using Social Context
 
-(Hoseini-Tabatabaei et al., 2013)
-% A Survey on Smartphone-Based Systems for Opportunistic User Context Recognition
-
-(Schuster et al., 2013) % Taxonomy of social context
+%(Schuster et al., 2013) % Taxonomy of social context
 % Pervasive Social Context: Taxonomy and Survey
 
-(Pejovic and Musolesi, 2015) % Survey article
-% Anticipatory Mobile Computing: A Survey of the State of the Art and Research Challenges
-
-(Do and Gatica-Perez, 2013) % Bluetooth-based social context detection
+%(Do and Gatica-Perez, 2013) % Bluetooth-based social context detection
 % Human interaction discovery in smartphone proximity networks
 
 % Where and what: Using smartphones to predict next locations and applications in daily life
 
 
-(Onieva et al., 2015) %Mobility context
-% A Low-Power Context-Aware System for Smartphone Using Hierarchical Modular Bayesian Networks
-
-(Yu and Cho, 2015)
-% A Low-Power Context-Aware System for Smartphone Using Hierarchical Modular Bayesian Networks
-
-(Sankaran et al., 2014)
-% Using Mobile Phone Barometer for Low-Power Transportation Context Detection
-
-
-(Anguita et al., 2012)
-% Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine
-
 (Soikkeli et al., 2014) % Framework/ontology
 %Context Classification Framework for Handset-based End User Studies
 
-(Chiang et al., 2014)% Mobility context
-% Pattern analysis in daily physical activity data for personal health management
-
 \subsection{Ice Awareness for Maritime Navigation}
 \label{sec:ice-awareness-literature}
+
+Regarding the third task, determining the optimal path of a ship traveling through ice-covered waters, only a few highly relevant studies are available in the literature. The earliest is \cite{kotovirta2009system}. As discussed in Section~\ref{sec:contributions}, this work expressed the route optimization problem as a differential equation and used numerical methods to solve it, namely Powell's method. As a result, their system cannot guarantee that the computed route corresponds to a global optimimum. Similarly, \cite{choi2013application} uses a genetic algorithm for route optimization in ice-covered waters. Genetic algorithms have better capabilities to escape from local minima, but they still do not guarantee a global optimimum. 
+
+The first study to adopt a graph-based approach is \cite{nam2013simulation}\footnote{As reported in \cite{choi2013application}, \cite{Park2011} also used a graph-based approach, but it is only available in Korean. \cite{nam2013simulation} appears to be an extension to \cite{Park2011}.}. The authors present a method for ice-aware route optimization that uses Dijkstra's algorithm to find the optimal route. In the examples given in the paper, only a few tens of nodes were shown for the sea area under consideration. For such small graphs, Dijkstra's algorithm is tractable, but for larger graphs with many edges, Dijkstra's algorithm does not scale well. To overcome this challenge, \cite{choi2015arctic} uses the A* algorithm, which uses a heuristic to guide the search process. Our method, published prior to \cite{choi2015arctic}, also uses the A* algorithm. One difference between [P5] and \cite{choi2015arctic} is that the cost function we developed takes into account possible ice breaker assistance. \cite{choi2015arctic} does not consider this case.
+
+Another related study is \cite{esa2015fuel}. While it does not consider route optimization explicitly, the author investigates ship performance in varying ship conditions. The results are thus applicable to route optimization. Other examples of research in this area include \cite{montewka2015towards}, \cite{laprairie1995transit}, and \cite{valanto2001resistance}.
+
+Lastly, the project \gls{iro2}, discussed in \cite{fock2012}, is investigating this topic, but scientific results are not yet available publically. A preliminary publication, \cite{dobrynin2015prediction}, reports on the tests of the project's prototype ice-aware ship routing system, but the authors only describe performance of the ice forecast model, not the routing system itself.
+
 
 
 \section{Theory}
 \label{sec:theory}
 
-As mentioned above, some computer science researchers have attempted to formalize the concept of context in a mathematical sense, most notably John McCarthy \cite{McCarthy1993} \cite{mccarthy1997formalizing} . A formalization of context could be useful because computers are better at handling formal mathematical constructs compared to more loosely defined concepts. For example, a computer is quite capable of working with the set of integers \{1, 2 , 3,...\} or even the primary colors {red, blue, yellow} (e.g. defined by \acrshort{rgb} values). On the other hand, an abstract concept like ``at the store'', while easily understood by a human, is not very useful on its own to a computer. This is not to say that it is \emph{not} useful at all, but considerable effort must be made to define what is meant by such a construct and how to distinguish it from, e.g. ``at the office'', so that this construct can be utilized in a consistent manner. One powerful way to formalize context would be in the language of logic, e.g. predicate logic or propositional logic. Because logic has formed the basis for various programming languages (e.g. \acrshort{sql}, Prolog, etc.) it is reasonable to assume that, if context can be formalized in the mathematical language of logic, then computers programs can be written to process and ``understand'' context.
+As mentioned above, some computer science researchers have attempted to formalize the concept of context in a mathematical sense, most notably John McCarthy \cite{McCarthy1993} \cite{mccarthy1997formalizing}. A formalization of context could be useful because computers are better at handling formal mathematical constructs compared to more loosely defined concepts. For example, a computer is quite capable of working with the set of integers \{1, 2 , 3,...\} or even the primary colors {red, blue, yellow} (e.g. defined by \acrshort{rgb} values). On the other hand, an abstract concept like ``at the store'', while easily understood by a human, is not very useful on its own to a computer. This is not to say that it is \emph{not} useful at all, but considerable effort must be made to define what is meant by such a construct and how to distinguish it from, e.g. ``at the office'', so that this construct can be utilized in a consistent manner. One powerful way to formalize context would be in the language of logic, e.g. predicate logic or propositional logic. Because logic has formed the basis for various programming languages (e.g. \acrshort{sql}, Prolog, etc.) it is reasonable to assume that, if context can be formalized in the mathematical language of logic, then computers programs can be written to process and ``understand'' context.
 
-Computer scientist John McCarthy was one of the pioneers in developing a formalism of context. In a famous paper, published in 1987, McCarthy relates the concept of context to the problem of generality in artificial intelligence, which is to say that artificial intelligence programs suffer from a lack of generality. He notes that ``[w]henever we write an axiom, a critic can say the axiom is true only in a certain context.'' He gives the example of the sentence ``the book is on the table.'' and notes that a critic can ``haggle about the precise meaning of `on'\thinspace'' (e.g. if a sheet of paper is between the book and the table) \cite{mccarthy1987generality}. 
+McCarthy was one of the pioneers in developing a formalism of context. In a famous paper, published in 1987, McCarthy relates the concept of context to the problem of generality in artificial intelligence, which is to say that artificial intelligence programs suffer from a lack of generality. He notes that ``[w]henever we write an axiom, a critic can say the axiom is true only in a certain context.'' He gives the example of the sentence ``the book is on the table,'' and notes that a critic can ``haggle about the precise meaning of `on'\thinspace'' (e.g. if a sheet of paper is between the book and the table) \cite{mccarthy1987generality}. 
 
-McCarthy proposes a formalization of context, combined with circumscription, where $holds(p, C)$ is an abbreviation for the sentence $p$ being true in the context $C$. For example, ``Watson is a doctor'' is true in the context of Sherlock Holmes stories, but ``Watson is a computer'' is true in the context of \acrshort{ibm}'s artificial intelligence research. He incorporates generality through the relation $c1 \le c2$, meaning that context $c2$ is more general than context $c1$. Alternatively, this can be understood as $c1$ is a specialization of $c2$ \cite{akman1996steps}. McCarthy points out that there is no such thing as a ``most general context''.
+To deal with this issue he proposes a formalization of context, combined with circumscription, where $holds(p, C)$ is an abbreviation for the sentence $p$ being true in the context $C$. For example, ``Watson is a doctor'' is true in the context of Sherlock Holmes stories, but ``Watson is a computer'' is true in the context of \acrshort{ibm}'s artificial intelligence research. He incorporates generality through the relation $c1 \le c2$, meaning that context $c2$ is more general than context $c1$. Alternatively, this can be understood as $c1$ is a specialization of $c2$ \cite{akman1996steps}. McCarthy points out that there is no such thing as a ``most general context''.
 
 In a paper published in 1993, McCarthy developed his formalization of context further \cite{McCarthy1993}. He changes the notation slightly (adopting the notation from \cite{guha1991contexts}), where formulas are sentences of the form:
 \begin{equation}

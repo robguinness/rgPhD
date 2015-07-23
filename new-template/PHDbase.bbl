@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Mitchell1990}
 T.~Mitchell, B.~Buchanan, G.~DeJong, T.~Dietterich, P.~Rosenbloom, and
@@ -33,6 +33,17 @@ J.~McCarthy, M.~Minsky, N.~Rochester, and C.~Shannon, ``A proposal for the
   Magazine}, 2006.
 \newblock Reprint of proposal originally written in 1955.
 
+\bibitem{Groves2014}
+P.~D. Groves, L.~Wang, D.~Walter, H.~Martin, K.~Voutsis, and Z.~Jiang, ``The
+  four key challenges of advanced multisensor navigation and positioning,'' in
+  {\em Position, Location and Navigation Symposium-PLANS 2014, 2014 IEEE/ION},
+  pp.~773--792, IEEE, 2014.
+
+\bibitem{abolfazli2014rich}
+S.~Abolfazli, Z.~Sanaei, A.~Gani, F.~Xia, and L.~T. Yang, ``Rich mobile
+  applications: genesis, taxonomy, and open issues,'' {\em Journal of Network
+  and Computer Applications}, vol.~40, pp.~345--362, 2014.
+
 \bibitem{Manabe2010}
 Y.~Manabe, H.~Saito, K.~Akiyama, R.~Ikeda, S.~Kanda, and K.~Sugawara,
   ``Perceptual functions for context-awareness of an office worker,'' in {\em
@@ -46,15 +57,21 @@ R.~E. Guinness, ``Beyond where to how: A machine learning approach for sensing
   Navigation (ION GNSS+ 2013)}, (Nashville, TN), pp.~2868--2879, September
   2013.
 
+\bibitem{nam2013simulation}
+J.-H. Nam, I.~Park, H.~J. Lee, M.~O. Kwon, K.~Choi, and Y.-K. Seo, ``Simulation
+  of optimal arctic routes using a numerical sea ice model based on an
+  ice-coupled ocean circulation method,'' {\em International Journal of Naval
+  Architecture and Ocean Engineering}, vol.~5, no.~2, pp.~210--226, 2013.
+
+\bibitem{choi2015arctic}
+M.~Choi, H.~Chung, H.~Yamaguchi, and K.~Nagakawa, ``Arctic sea route path
+  planning based on an uncertain ice prediction model,'' {\em Cold Regions
+  Science and Technology}, vol.~109, pp.~61--69, 2015.
+
 \bibitem{kotovirta2009system}
 V.~Kotovirta, R.~Jalonen, L.~Axell, K.~Riska, and R.~Berglund, ``A system for
   route optimization in ice-covered waters,'' {\em Cold Regions Science and
   Technology}, vol.~55, no.~1, pp.~52--62, 2009.
-
-\bibitem{cummings2010supporting}
-M.~L. Cummings, M.~Buchin, G.~Carrigan, and B.~Donmez, ``Supporting intelligent
-  and trustworthy maritime path planning decisions,'' {\em International
-  journal of human-computer studies}, vol.~68, no.~10, pp.~616--626, 2010.
 
 \bibitem{Foltz1998}
 P.~W. Foltz, W.~Kintsch, and T.~K. Landauer, ``The measurement of textual
@@ -133,10 +150,28 @@ P.~Br{\'e}zillon, ``Context in artificial intelligence: I. a survey of the
 \bibitem{akman2002context}
 V.~Akman, ``Context in artificial intelligence: a fleeting overview,'' 2002.
 
+\bibitem{Hong2009}
+J.-y. Hong, E.-h. Suh, and S.-J. Kim, ``Context-aware systems: A literature
+  review and classification,'' {\em Expert Systems with Applications}, vol.~36,
+  no.~4, pp.~8509--8522, 2009.
+
 \bibitem{Tahti2004}
 M.~T{\"a}hti, V.-M. Rautio, and L.~Arhippainen, ``Utilizing context-awareness
   in office-type working life,'' in {\em Proceedings of the 3rd international
   conference on Mobile and ubiquitous multimedia}, pp.~79--84, ACM, 2004.
+
+\bibitem{heiskala2014research}
+M.~Heiskala, E.~Palom{\"a}ki, M.~Vartiainen, K.~Hakkarainen, and H.~Muukkonen,
+  ``A research framework for the smartphone-based contextual study of mobile
+  knowledge work,'' in {\em Design, User Experience, and Usability. User
+  Experience Design for Diverse Interaction Platforms and Environments},
+  pp.~246--257, Springer, 2014.
+
+\bibitem{huang2004office}
+X.~Huang, J.~Weng, and Z.~Zhang, ``Office presence detection using multimodal
+  context information,'' in {\em Acoustics, Speech, and Signal Processing,
+  2004. Proceedings.(ICASSP'04). IEEE International Conference on}, vol.~3,
+  pp.~iii--773, IEEE, 2004.
 
 \bibitem{danninger2008context}
 M.~Danninger and R.~Stiefelhagen, ``A context-aware virtual secretary in a
@@ -148,21 +183,259 @@ C.~Stauffer and W.~E.~L. Grimson, ``Adaptive background mixture models for
   real-time tracking,'' in {\em Computer Vision and Pattern Recognition, 1999.
   IEEE Computer Society Conference on.}, vol.~2, IEEE, 1999.
 
+\bibitem{manabe2010perceptual}
+Y.~Manabe, H.~Saito, K.~Akiyama, R.~Ikeda, S.~Kanda, and K.~Sugawara,
+  ``Perceptual functions for context-awareness of an office worker,'' in {\em
+  Cognitive Informatics (ICCI), 2010 9th IEEE International Conference on},
+  pp.~583--589, IEEE, 2010.
+
+\bibitem{kiyokawa2012owens}
+K.~Kiyokawa, M.~Hatanaka, K.~Hosoda, M.~Okada, H.~Shigeta, Y.~Ishihara,
+  F.~Ooshita, H.~Kakugawa, S.~Kurihara, and K.~Moriyama, ``Owens luis—a
+  context-aware multi-modal smart office chair in an ambient environment,'' in
+  {\em Virtual Reality Short Papers and Posters (VRW), 2012 IEEE}, pp.~1--4,
+  IEEE, 2012.
+
+\bibitem{rachuri2014smartphone}
+K.~K. Rachuri, C.~Efstratiou, I.~Leontiadis, C.~Mascolo, and P.~J. Rentfrow,
+  ``Smartphone sensing offloading for efficiently supporting social sensing
+  applications,'' {\em Pervasive and Mobile Computing}, vol.~10, pp.~3--21,
+  2014.
+
+\bibitem{kern2003multi}
+N.~Kern, B.~Schiele, and A.~Schmidt, ``Multi-sensor activity context detection
+  for wearable computing,'' in {\em Ambient Intelligence}, pp.~220--232,
+  Springer, 2003.
+
+\bibitem{pirttikangas2006feature}
+S.~Pirttikangas, K.~Fujinami, and T.~Nakajima, ``Feature selection and activity
+  recognition from wearable sensors,'' in {\em Ubiquitous Computing Systems},
+  pp.~516--527, Springer, 2006.
+
+\bibitem{Park2015}
+H.~Park, J.~Park, H.~Kim, J.~Jun, S.~Hyuk~Son, T.~Park, and J.~Ko, ``Relisce:
+  Utilizing resource-limited sensors for office activity context extraction,''
+  {\em Systems, Man, and Cybernetics: Systems, IEEE Transactions on}, vol.~45,
+  pp.~1151--1164, Aug 2015.
+
 \bibitem{Duncan2009}
 M.~J. Duncan, H.~M. Badland, and W.~K. Mummery, ``Applying gps to enhance
   understanding of transport-related physical activity,'' {\em Journal of
   Science and Medicine in Sport}, vol.~12, no.~5, pp.~549--556, 2009.
+
+\bibitem{hoseini2013survey}
+S.~A. Hoseini-Tabatabaei, A.~Gluhak, and R.~Tafazolli, ``A survey on
+  smartphone-based systems for opportunistic user context recognition,'' {\em
+  ACM Computing Surveys (CSUR)}, vol.~45, no.~3, p.~27, 2013.
+
+\bibitem{pejovic2015anticipatory}
+V.~Pejovic and M.~Musolesi, ``Anticipatory mobile computing: A survey of the
+  state of the art and research challenges,'' {\em ACM Computing Surveys
+  (CSUR)}, vol.~47, no.~3, p.~47, 2015.
+
+\bibitem{kwon2014unsupervised}
+Y.~Kwon, K.~Kang, and C.~Bae, ``Unsupervised learning for human activity
+  recognition using smartphone sensors,'' {\em Expert Systems with
+  Applications}, vol.~41, no.~14, pp.~6067--6074, 2014.
+
+\bibitem{foerster2000motion}
+F.~Foerster and J.~Fahrenberg, ``Motion pattern and posture: correctly assessed
+  by calibrated accelerometers,'' {\em Behavior research methods, instruments,
+  \& computers}, vol.~32, no.~3, pp.~450--457, 2000.
+
+\bibitem{lee2002activity}
+S.-W. Lee and K.~Mase, ``Activity and location recognition using wearable
+  sensors,'' {\em IEEE pervasive computing}, vol.~1, no.~3, pp.~24--32, 2002.
+
+\bibitem{lester2005hybrid}
+J.~Lester, T.~Choudhury, N.~Kern, G.~Borriello, and B.~Hannaford, ``A hybrid
+  discriminative/generative approach for modeling human activities,'' in {\em
+  Proc. of the International Joint Conference on Artificial Intelligence
+  (IJCAI)}, pp.~766--772, 2005.
+
+\bibitem{Ravi2005}
+N.~Ravi, N.~Dandekar, P.~Mysore, and M.~L. Littman, ``Activity recognition from
+  accelerometer data,'' in {\em Proceedings of the national conference on
+  artificial intelligence}, vol.~20, pp.~1541--1546, July 2005.
+
+\bibitem{parkka2006activity}
+J.~P\"{a}rkk\"{a}, M.~Ermes, P.~Korpip\"{a}\"{a}, J.~M\"{a}ntyj\"{a}rvi,
+  J.~Peltola, and I.~Korhonen, ``Activity classification using realistic data
+  from wearable sensors,'' {\em Information Technology in Biomedicine, IEEE
+  Transactions on}, vol.~10, no.~1, pp.~119--128, 2006.
+
+\bibitem{Suutula2007}
+J.~Suutala, S.~Pirttikangas, and J.~Röning, ``Discriminative temporal
+  smoothing for activity recognition from wearable sensors,'' in {\em
+  Ubiquitous Computing Systems} (H.~Ichikawa, W.-D. Cho, I.~Satoh, and H.~Youn,
+  eds.), vol.~4836 of {\em Lecture Notes in Computer Science}, pp.~182--195,
+  Springer Berlin Heidelberg, 2007.
+
+\bibitem{kunze2008dealing}
+K.~Kunze and P.~Lukowicz, ``Dealing with sensor displacement in motion-based
+  onbody activity recognition systems,'' in {\em Proceedings of the 10th
+  international conference on Ubiquitous computing}, pp.~20--29, ACM, 2008.
+
+\bibitem{yin2008sensor}
+J.~Yin, Q.~Yang, and J.~Pan, ``Sensor-based abnormal human-activity
+  detection,'' {\em Knowledge and Data Engineering, IEEE Transactions on},
+  vol.~20, no.~8, pp.~1082--1090, 2008.
+
+\bibitem{yang2009toward}
+J.~Yang, ``Toward physical activity diary: motion recognition using simple
+  acceleration features with mobile phones,'' in {\em Proceedings of the 1st
+  international workshop on Interactive multimedia for consumer electronics},
+  pp.~1--10, ACM, 2009.
 
 \bibitem{Reddy2010}
 S.~Reddy, M.~Mun, J.~Burke, D.~Estrin, M.~Hansen, and M.~Srivastava, ``Using
   mobile phones to determine transportation modes,'' {\em ACM Transactions on
   Sensor Networks (TOSN)}, vol.~6, no.~2, pp.~13:1--13:23, 2010.
 
+\bibitem{Pei2010}
+L.~Pei, R.~Chen, J.~Liu, W.~Chen, H.~Kuusniemi, T.~Tenhunen, T.~Kr{\"o}ger,
+  Y.~Chen, H.~Lepp{\"a}koski, and J.~Takala, ``Motion recognition assisted
+  indoor wireless navigation on a mobile phone,'' in {\em Proceedings of the
+  23rd International Technical Meeting of The Satellite Division of the
+  Institute of Navigation (ION GNSS 2010)}, pp.~3366--3375, 2010.
+
+\bibitem{Frank2010}
+K.~Frank, M.~Nadales, P.~Robertson, and M.~Angermann, ``Reliable real-time
+  recognition of motion related human activities using mems inertial sensors,''
+  in {\em Proceedings of the 23rd International Technical Meeting of The
+  Satellite Division of the Institute of Navigation (ION GNSS 2010)},
+  pp.~2919--2932, 2001.
+
+\bibitem{Stenneth2011}
+L.~Stenneth, O.~Wolfson, P.~S. Yu, and B.~Xu, ``Transportation mode detection
+  using mobile phones and gis information,'' in {\em Proceedings of the 19th
+  ACM SIGSPATIAL International Conference on Advances in Geographic Information
+  Systems}, pp.~54--63, November 2011.
+
+\bibitem{pei2011using}
+L.~Pei, R.~Chen, J.~Liu, H.~Kuusniemi, Y.~Chen, T., and Tenhunen, ``Using
+  motion-awareness for the 3d indoor personal navigation on a smartphone,'' in
+  {\em Proceedings of {ION} {GNSS} 2011 Conference, Portland, Oregon, {USA},
+  September 20-23}, 2011.
+
+\bibitem{susi2011accelerometer}
+M.~Susi, D.~Borio, and G.~Lachapelle, ``Accelerometer signal features and
+  classification algorithms for positioning applications,'' in {\em Proceedings
+  of the 2011 International Technical Meeting of The Institute of Navigation},
+  pp.~158--169, 2011.
+
 \bibitem{Bancroft2012}
 J.~B. Bancroft, D.~Garrett, and G.~Lachapelle, ``Activity and environment
   classification using foot mounted navigation sensors,'' in {\em Proceedings
   of the 2012 Indoor Positioning and Indoor Navigation (IPIN) Conference},
   2012.
+
+\bibitem{anguita2012human}
+D.~Anguita, A.~Ghio, L.~Oneto, X.~Parra, and J.~L. Reyes-Ortiz, ``Human
+  activity recognition on smartphones using a multiclass hardware-friendly
+  support vector machine,'' in {\em Ambient assisted living and home care},
+  pp.~216--223, Springer, 2012.
+
+\bibitem{susi2013motion}
+M.~Susi, V.~Renaudin, and G.~Lachapelle, ``Motion mode recognition and step
+  detection algorithms for mobile phone users,'' {\em Sensors}, vol.~13, no.~2,
+  pp.~1539--1562, 2013.
+
+\bibitem{feng2013transportation}
+T.~Feng and H.~J. Timmermans, ``Transportation mode recognition using gps and
+  accelerometer data,'' {\em Transportation Research Part C: Emerging
+  Technologies}, vol.~37, pp.~118--130, 2013.
+
+\bibitem{hemminki2013accelerometer}
+S.~Hemminki, P.~Nurmi, and S.~Tarkoma, ``Accelerometer-based transportation
+  mode detection on smartphones,'' in {\em Proceedings of the 11th ACM
+  Conference on Embedded Networked Sensor Systems}, p.~13, ACM, 2013.
+
+\bibitem{stenneth2014detecting}
+L.~Stenneth, {\em Detecting Human Activities Using Smartphones and Maps}.
+\newblock PhD thesis, University of Illinois at Chicago, February 2014.
+
+\bibitem{xia2014using}
+H.~Xia, Y.~Qiao, J.~Jian, and Y.~Chang, ``Using smart phone sensors to detect
+  transportation modes,'' {\em Sensors}, vol.~14, no.~11, pp.~20843--20865,
+  2014.
+
+\bibitem{elhoushi2014robust}
+M.~Elhoushi, J.~Georgy, M.~Korenberg, and A.~Noureldin, ``Robust motion mode
+  recognition for portable navigation independent on device usage,'' in {\em
+  Position, Location and Navigation Symposium-PLANS 2014, 2014 IEEE/ION},
+  pp.~158--163, IEEE, 2014.
+
+\bibitem{parviainen2014adaptive}
+J.~Parviainen, J.~Bojja, J.~Collin, J.~Lepp{\"a}nen, and A.~Eronen, ``Adaptive
+  activity and environment recognition for mobile phones,'' {\em Sensors},
+  vol.~14, no.~11, pp.~20753--20778, 2014.
+
+\bibitem{yu2014big}
+M.-C. Yu, T.~Yu, S.-C. Wang, C.-J. Lin, and E.~Y. Chang, ``Big data small
+  footprint: The design of a low-power classifier for detecting transportation
+  modes,'' {\em Proceedings of the VLDB Endowment}, vol.~7, no.~13,
+  pp.~1429--1440, 2014.
+
+\bibitem{sankaran2014using}
+K.~Sankaran, M.~Zhu, X.~F. Guo, A.~L. Ananda, M.~C. Chan, and L.-S. Peh,
+  ``Using mobile phone barometer for low-power transportation context
+  detection,'' in {\em Proceedings of the 12th ACM Conference on Embedded
+  Network Sensor Systems}, pp.~191--205, ACM, 2014.
+
+\bibitem{chiang2014pattern}
+J.-H. Chiang, P.-C. Yang, and H.~Tu, ``Pattern analysis in daily physical
+  activity data for personal health management,'' {\em Pervasive and Mobile
+  Computing}, vol.~13, pp.~13--25, 2014.
+
+\bibitem{yu2015low}
+J.-M. Yu and S.-B. Cho, ``A low-power context-aware system for smartphone using
+  hierarchical modular {Bayesian} networks,'' in {\em Hybrid Artificial
+  Intelligent Systems}, pp.~543--554, Springer, 2015.
+
+\bibitem{choi2013application}
+M.~Choi, H.~Chung, H.~Yamaguchi, and L.~W.~A. De~Silva, ``Application of
+  genetic algorithm to ship route optimization in ice navigation,'' in {\em
+  Proceedings of the International Conference on Port and Ocean Engineering
+  Under Arctic Conditions}, 2013.
+
+\bibitem{Park2011}
+I.~H. Park, J.~H. Nam, and K.~S. Choi, ``A graphical approach to determine the
+  optimal sea route of icebreakers in arctic region,'' in {\em Proceedings of
+  the Korean Association of ocean science and technology societies join
+  conference}, June 2011.
+\newblock Published in Korean.
+
+\bibitem{esa2015fuel}
+J.~Esa, ``Fuel and economic efficiency of an ice-going vessel on the northern
+  sea route,'' {Master of Science thesis}, Aalto University, June 2015.
+
+\bibitem{montewka2015towards}
+J.~Montewka, F.~Goerlandt, P.~Kujala, and M.~Lensu, ``Towards probabilistic
+  models for the prediction of a ship performance in dynamic ice,'' {\em Cold
+  Regions Science and Technology}, vol.~112, pp.~14--28, 2015.
+
+\bibitem{laprairie1995transit}
+D.~LaPrairie, M.~Wilhelmson, and K.~Riska, {\em A transit simulation model for
+  ships in Baltic ice conditions : Documentation of the calculation routine}.
+\newblock Helsinki University of Technology, 1995.
+
+\bibitem{valanto2001resistance}
+P.~Valanto, S.~J. Jones, E.~Enkvist, and K.~Izumiyama, ``The resistance of
+  ships in level ice,'' {\em Transactions of the Society of Naval Architects
+  and Marine Engineers}, vol.~109, pp.~53--83, 2001.
+
+\bibitem{fock2012}
+B.~H. Fock, A.~Beitsch, D.~Broehan, M.~Dobynin, A.~Gierisch, L.~Kaleschke,
+  T.~Pohlmann, and K.~H. Schl\"{u}nzen, ``Ice forecast and route
+  optimization,'' 2012.
+\newblock Poster presented at the SMOSIce User Workshop, Hamburg, Germany.
+
+\bibitem{dobrynin2015prediction}
+M.~Dobrynin, B.~H. Fock, A.~M. Gierisch, T.~Pohlmann, L.~Kaleschke,
+  H.~Schl{\"u}nzen, {\em et~al.}, ``Prediction of arctic sea ice for ship
+  routing: Forecast experiment and ship cruise,'' in {\em OTC Arctic Technology
+  Conference}, Offshore Technology Conference, 2015.
 
 \bibitem{mccarthy1987generality}
 J.~McCarthy, ``Generality in artificial intelligence,'' {\em Communications of
@@ -312,15 +585,5 @@ R.~E. Guinness, H.~Kuusniemi, J.~Vallet, T.~Sarjakoski, J.~Oksanen, M.~Islam,
   {\em Proceedings of the 28th International Technical Meeting of The Satellite
   Division of the Institute of Navigation (ION GNSS+ 2015)}, (Tampa, Florida),
   2015.
-
-\bibitem{elhoushi2014robust}
-M.~Elhoushi, J.~Georgy, M.~Korenberg, and A.~Noureldin, ``Robust motion mode
-  recognition for portable navigation independent on device usage,'' in {\em
-  Position, Location and Navigation Symposium-PLANS 2014, 2014 IEEE/ION},
-  pp.~158--163, IEEE, 2014.
-
-\bibitem{stenneth2013detecting}
-L.~Stenneth, {\em Detecting Human Activities Using Smartphones and Maps}.
-\newblock PhD thesis, University of Illinois at Chicago, February 2014.
 
 \end{thebibliography}

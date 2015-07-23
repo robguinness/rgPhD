@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.5.20)  22 JUL 2015 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.5.20)  23 JUL 2015 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,7 +546,7 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 \glo@acronym@file=\write4
 \openout4 = `PHDbase.acn'.
 
-Package glossaries Info: Writing glossary file PHDbase.acn on input line 108.
+Package glossaries Info: Writing glossary file PHDbase.acn on input line 114.
  (./PHDbase.aux
 (./Text/cover_nondraft.aux)
 
@@ -577,16 +577,25 @@ LaTeX Warning: Label `KoreaTimes2014' multiply defined.
 LaTeX Warning: Label `McCarthy1955' multiply defined.
 
 
+LaTeX Warning: Label `Groves2014' multiply defined.
+
+
+LaTeX Warning: Label `abolfazli2014rich' multiply defined.
+
+
 LaTeX Warning: Label `Manabe2010' multiply defined.
 
 
 LaTeX Warning: Label `Guinness2013' multiply defined.
 
 
+LaTeX Warning: Label `nam2013simulation' multiply defined.
+
+
+LaTeX Warning: Label `choi2015arctic' multiply defined.
+
+
 LaTeX Warning: Label `kotovirta2009system' multiply defined.
-
-
-LaTeX Warning: Label `cummings2010supporting' multiply defined.
 
 
 LaTeX Warning: Label `Foltz1998' multiply defined.
@@ -643,7 +652,16 @@ LaTeX Warning: Label `brezillon1999context' multiply defined.
 LaTeX Warning: Label `akman2002context' multiply defined.
 
 
+LaTeX Warning: Label `Hong2009' multiply defined.
+
+
 LaTeX Warning: Label `Tahti2004' multiply defined.
+
+
+LaTeX Warning: Label `heiskala2014research' multiply defined.
+
+
+LaTeX Warning: Label `huang2004office' multiply defined.
 
 
 LaTeX Warning: Label `danninger2008context' multiply defined.
@@ -652,13 +670,142 @@ LaTeX Warning: Label `danninger2008context' multiply defined.
 LaTeX Warning: Label `stauffer1999adaptive' multiply defined.
 
 
+LaTeX Warning: Label `manabe2010perceptual' multiply defined.
+
+
+LaTeX Warning: Label `kiyokawa2012owens' multiply defined.
+
+
+LaTeX Warning: Label `rachuri2014smartphone' multiply defined.
+
+
+LaTeX Warning: Label `kern2003multi' multiply defined.
+
+
+LaTeX Warning: Label `pirttikangas2006feature' multiply defined.
+
+
+LaTeX Warning: Label `Park2015' multiply defined.
+
+
 LaTeX Warning: Label `Duncan2009' multiply defined.
+
+
+LaTeX Warning: Label `hoseini2013survey' multiply defined.
+
+
+LaTeX Warning: Label `pejovic2015anticipatory' multiply defined.
+
+
+LaTeX Warning: Label `kwon2014unsupervised' multiply defined.
+
+
+LaTeX Warning: Label `foerster2000motion' multiply defined.
+
+
+LaTeX Warning: Label `lee2002activity' multiply defined.
+
+
+LaTeX Warning: Label `lester2005hybrid' multiply defined.
+
+
+LaTeX Warning: Label `Ravi2005' multiply defined.
+
+
+LaTeX Warning: Label `parkka2006activity' multiply defined.
+
+
+LaTeX Warning: Label `Suutula2007' multiply defined.
+
+
+LaTeX Warning: Label `kunze2008dealing' multiply defined.
+
+
+LaTeX Warning: Label `yin2008sensor' multiply defined.
+
+
+LaTeX Warning: Label `yang2009toward' multiply defined.
 
 
 LaTeX Warning: Label `Reddy2010' multiply defined.
 
 
+LaTeX Warning: Label `Pei2010' multiply defined.
+
+
+LaTeX Warning: Label `Frank2010' multiply defined.
+
+
+LaTeX Warning: Label `Stenneth2011' multiply defined.
+
+
+LaTeX Warning: Label `pei2011using' multiply defined.
+
+
+LaTeX Warning: Label `susi2011accelerometer' multiply defined.
+
+
 LaTeX Warning: Label `Bancroft2012' multiply defined.
+
+
+LaTeX Warning: Label `anguita2012human' multiply defined.
+
+
+LaTeX Warning: Label `susi2013motion' multiply defined.
+
+
+LaTeX Warning: Label `feng2013transportation' multiply defined.
+
+
+LaTeX Warning: Label `hemminki2013accelerometer' multiply defined.
+
+
+LaTeX Warning: Label `stenneth2014detecting' multiply defined.
+
+
+LaTeX Warning: Label `xia2014using' multiply defined.
+
+
+LaTeX Warning: Label `elhoushi2014robust' multiply defined.
+
+
+LaTeX Warning: Label `parviainen2014adaptive' multiply defined.
+
+
+LaTeX Warning: Label `yu2014big' multiply defined.
+
+
+LaTeX Warning: Label `sankaran2014using' multiply defined.
+
+
+LaTeX Warning: Label `chiang2014pattern' multiply defined.
+
+
+LaTeX Warning: Label `yu2015low' multiply defined.
+
+
+LaTeX Warning: Label `choi2013application' multiply defined.
+
+
+LaTeX Warning: Label `Park2011' multiply defined.
+
+
+LaTeX Warning: Label `esa2015fuel' multiply defined.
+
+
+LaTeX Warning: Label `montewka2015towards' multiply defined.
+
+
+LaTeX Warning: Label `laprairie1995transit' multiply defined.
+
+
+LaTeX Warning: Label `valanto2001resistance' multiply defined.
+
+
+LaTeX Warning: Label `fock2012' multiply defined.
+
+
+LaTeX Warning: Label `dobrynin2015prediction' multiply defined.
 
 
 LaTeX Warning: Label `mccarthy1987generality' multiply defined.
@@ -753,35 +900,29 @@ LaTeX Warning: Label `Smyth2015' multiply defined.
 
 LaTeX Warning: Label `Guinness2015' multiply defined.
 
-
-LaTeX Warning: Label `elhoushi2014robust' multiply defined.
-
-
-LaTeX Warning: Label `stenneth2013detecting' multiply defined.
-
 )
 \openout1 = `PHDbase.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 121.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 121.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -849,7 +990,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 115.
+LaTeX Info: Redefining \selectfont on input line 121.
  (./PHDbase.glsdefs)
 \openout2 = `Text/cover_nondraft.aux'.
 
@@ -934,15 +1075,7 @@ Missing character: There is no “ in font ptmr7t!
 Chapter 1.
 [1
 
-] [2] [3]
-
-LaTeX Warning: Citation `Groves2014' on page 4 undefined on input line 31.
-
-[4]
-
-LaTeX Warning: Citation `Abolfazli2014' on page 5 undefined on input line 33.
-
-[5] [6]
+] [2] [3] [4] [5] [6]
 Underfull \hbox (badness 1019) in paragraph at lines 54--55
 []\OT1/ptm/m/n/10.95 Firstly, the the-sis presents a prob-a-bilis-tic []Locatio
 n-Motion-Context (Lo-CoMo)
@@ -993,80 +1126,66 @@ Underfull \hbox (badness 2591) in paragraph at lines 34--35
 ne is ex-pe-ri-enc-ing small, spo-radic
  []
 
-[13] [14]
-
-LaTeX Warning: Citation `Hong2009' on page 15 undefined on input line 63.
-
-[15]
-
-LaTeX Warning: Citation `Hong2009' on page 16 undefined on input line 72.
-
-[16]
-
-LaTeX Warning: Citation `Heiskala2014' on page 17 undefined on input line 80.
-
-[17]
-Underfull \hbox (badness 1960) in paragraph at lines 96--98
-[]\OT1/ptm/m/n/10.95 Finally, (Park et al., 2014) stud-ied con-text recog-ni-ti
-on in a meet-ing room
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-Overfull \hbox (1.78667pt too wide) in alignment at lines 109--113
+[13] [14] [15] [16] [17] [18] [19]
+Overfull \hbox (14.81886pt too wide) in alignment at lines 134--139
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.78667pt too wide) in alignment at lines 113--121
+Overfull \hbox (14.81886pt too wide) in alignment at lines 139--147
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.44032pt too wide) in paragraph at lines 125--125
+Overfull \hbox (2.44032pt too wide) in paragraph at lines 151--151
  []|\OT1/ptm/m/n/10.95 fuzzy-rule-based| 
  []
 
 
-Overfull \hbox (2.44032pt too wide) in paragraph at lines 130--130
+Overfull \hbox (2.44032pt too wide) in paragraph at lines 158--158
  []|\OT1/ptm/m/n/10.95 fuzzy-rule-based| 
  []
 
 
-Overfull \hbox (1.78667pt too wide) in alignment at lines 121--143
+Overfull \hbox (14.81886pt too wide) in alignment at lines 147--169
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.78667pt too wide) in alignment at lines 143--146
- [] [] [] [] [] 
+Underfull \hbox (badness 2368) in paragraph at lines 176--176
+[]|\OT1/ptm/m/n/10.95 sensor mod-ule
  []
 
-[19]
-Underfull \hbox (badness 1270) in paragraph at lines 161--163
-[]\OT1/ptm/m/n/10.95 If we ex-pand the scope to in-clude other types of smartph
-one-based ac-tiv-ity
+
+Overfull \hbox (14.81886pt too wide) in alignment at lines 169--181
+ [] [] [] [] [] 
  []
 
 [20]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 211.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+[22]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 226.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
- [21] [22]
-[23] [24] [25] <Images/ContextPyramid4.pdf, id=153, 568.1225pt x 356.33125pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 226.
+ [23] [24]
+[25]
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [26]
+[27] <Images/ContextPyramid4.pdf, id=159, 568.1225pt x 356.33125pt>
 File: Images/ContextPyramid4.pdf Graphic file (type pdf)
 
 <use Images/ContextPyramid4.pdf>
-Package pdftex.def Info: Images/ContextPyramid4.pdf used on input line 295.
+Package pdftex.def Info: Images/ContextPyramid4.pdf used on input line 310.
 (pdftex.def)             Requested size: 369.88582pt x 232.00403pt.
 
-Underfull \hbox (badness 3333) in paragraph at lines 297--297
+Underfull \hbox (badness 3333) in paragraph at lines 312--312
 []\OT1/ptm/m/it/10 The ``con-text pyra-mid'' shows the dif-fer-ent lev-els of p
 ro-cess-ing to build
  []
@@ -1074,8 +1193,10 @@ ro-cess-ing to build
 ) (./Text/chapter03_machine_learning.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27 <./Images/ContextPyramid4.pdf>] [28]
+ [28]
+[29 <./Images/ContextPyramid4.pdf>] [30
+
+]
 Chapter 3.
 
 Underfull \hbox (badness 5771) in paragraph at lines 22--22
@@ -1083,27 +1204,25 @@ Underfull \hbox (badness 5771) in paragraph at lines 22--22
 i-fi-cial in-tel-li-gence in-volved
  []
 
-[29
-
-] [30] [31] [32]
+[31] [32] [33] [34]
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 \OT1/ptm/m/n/10.95 ma-chine learn-ing with-out re-ally pre-sup-pos-ing any par-
 tic-u-lar
  []
 
-[33] [34] [35]
+[35] [36] [37]
 Underfull \hbox (badness 2065) in paragraph at lines 122--123
 []\OT1/ptm/m/n/10.95 A re-searcher, Mary, has painstak-ingly col-lected a datas
 et for de-vel-op-ing a
  []
 
-<Images/figChapter3-1.pdf, id=207, 647.41875pt x 540.0175pt>
+<Images/figChapter3-1.pdf, id=214, 647.41875pt x 540.0175pt>
 File: Images/figChapter3-1.pdf Graphic file (type pdf)
 
 <use Images/figChapter3-1.pdf>
 Package pdftex.def Info: Images/figChapter3-1.pdf used on input line 178.
 (pdftex.def)             Requested size: 369.88582pt x 308.53004pt.
- [36] [37] [38 <./Images/figChapter3-1.pdf>]
+ [38] [39] [40 <./Images/figChapter3-1.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+pzc on input line 195.
 
 
@@ -1119,7 +1238,7 @@ LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <6> not available
 (Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 195.
 
- [39]
+ [41]
 LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <9> not available
 (Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 208.
 
@@ -1127,7 +1246,7 @@ LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <5> not available
 (Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 208.
 
 
-<Images/figChapter3-2.pdf, id=227, 614.295pt x 794.97pt>
+<Images/figChapter3-2.pdf, id=233, 614.295pt x 794.97pt>
 File: Images/figChapter3-2.pdf Graphic file (type pdf)
 
 <use Images/figChapter3-2.pdf>
@@ -1137,58 +1256,58 @@ Package pdftex.def Info: Images/figChapter3-2.pdf used on input line 212.
 
 LaTeX Warning: Float too large for page by 11.09352pt on input line 216.
 
-[40] [41 <./Images/figChapter3-2.pdf>]
+[42] [43 <./Images/figChapter3-2.pdf>]
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
- [42]
-[43] <Images/figChapter3-3.pdf, id=247, 614.295pt x 794.97pt>
+ [44]
+[45] <Images/figChapter3-3.pdf, id=253, 614.295pt x 794.97pt>
 File: Images/figChapter3-3.pdf Graphic file (type pdf)
 
 <use Images/figChapter3-3.pdf>
 Package pdftex.def Info: Images/figChapter3-3.pdf used on input line 266.
 (pdftex.def)             Requested size: 369.88582pt x 478.68391pt.
 ) (./Text/chapter04_overview_of_publications.tex
-[44] [45 <./Images/figChapter3-3.pdf>] [46
+[46] [47 <./Images/figChapter3-3.pdf>] [48
 
 ]
 Chapter 4.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[47]
+[49]
 Underfull \vbox (badness 1014) has occurred while \output is active []
 
- [48]
-<Images/figChapter4.pdf, id=266, 542.025pt x 722.7pt>
+ [50]
+<Images/figChapter4.pdf, id=273, 542.025pt x 722.7pt>
 File: Images/figChapter4.pdf Graphic file (type pdf)
 
 <use Images/figChapter4.pdf>
 Package pdftex.def Info: Images/figChapter4.pdf used on input line 32.
 (pdftex.def)             Requested size: 369.88582pt x 493.1939pt.
- [49] [50 <./Images/figChapter4.pdf>] [51] [52])
-(./Text/chapter05_conclusions.tex [53] [54
+ [51] [52 <./Images/figChapter4.pdf>] [53] [54])
+(./Text/chapter05_conclusions.tex [55] [56
 
 ]
 Chapter 5.
-[55] [56]
+[57] [58]
 Underfull \hbox (badness 1478) in paragraph at lines 27--29
 \OT1/ptm/m/n/10.95 com-put-ers with con-text aware-ness, a sys-tem-atic eval-u-
 a-tion of dif-fer-ent
  []
 
-[57]
+[59]
 Underfull \hbox (badness 1292) in paragraph at lines 44--45
 []\OT1/ptm/m/n/10.95 Lastly, our re-search demon-strated the fea-si-bil-ity of 
 de-vel-op-ing an ice aware
  []
 
-[58] [59]
+[60] [61]
 Underfull \hbox (badness 1077) in paragraph at lines 64--65
 \OT1/ptm/m/n/10.95 leisure ac-tiv-i-ties, such as hik-ing, berry or mush-room p
 ick-ing[], play-ing golf,
  []
 
-[60]
+[62]
 Underfull \hbox (badness 2326) in paragraph at lines 79--80
 []\OT1/ptm/m/n/10.95 Another ap-pli-ca-tion area that has strong po-ten-tial is
  health-care and fit-ness
@@ -1212,45 +1331,131 @@ Underfull \hbox (badness 1694) in paragraph at lines 79--80
 enge to re-li-ably and
  []
 
-[61] [62]
+[63] [64]
 Underfull \hbox (badness 1158) in paragraph at lines 99--105
 []\OT1/ptm/m/n/10.95 This lack of stan-dard-iza-tion is un-der-stand-able, due 
 to the fact that dif-fer-ent
  []
 
-[63]) [64] (./PHDbase.bbl [65
+[65]) [66] (./PHDbase.bbl [67
 
 ]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
-Underfull \hbox (badness 3724) in paragraph at lines 70--73
+Underfull \hbox (badness 2671) in paragraph at lines 87--90
 []\OT1/ptm/m/n/10.95 J. Mc-Carthy, ``Notes on for-mal-iz-ing con-text,'' in \OT
 1/ptm/m/it/10.95 Pro-ceed-ings of the
  []
 
-[66] [67]
-Underfull \hbox (badness 1430) in paragraph at lines 176--179
-[]\OT1/ptm/m/n/10.95 C. Ghi-dini and F. Giunchiglia, ``Lo-cal mod-els se-man-ti
-cs, or con-tex-tual
+[68] [69]
+Underfull \hbox (badness 2538) in paragraph at lines 164--169
+\OT1/ptm/m/n/10.95 ``A re-search frame-work for the smartphone-based con-tex-tu
+al study of
  []
 
-[68] [69]
+
+Underfull \hbox (badness 1728) in paragraph at lines 171--175
+[]\OT1/ptm/m/n/10.95 X. Huang, J. Weng, and Z. Zhang, ``Of-fice pres-ence de-te
+c-tion us-ing
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+[70]
+Underfull \hbox (badness 1371) in paragraph at lines 211--214
+\OT1/ptm/m/n/10.95 recog-ni-tion from wear-able sen-sors,'' in \OT1/ptm/m/it/10
+.95 Ubiq-ui-tous Com-put-ing Sys-tems\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 216--220
+\OT1/ptm/m/n/10.95 Uti-liz-ing resource-limited sen-sors for of-fice ac-tiv-ity
+ con-text ex-trac-tion,''
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 227--230
+[]\OT1/ptm/m/n/10.95 S. A. Hoseini-Tabatabaei, A. Gluhak, and R. Tafa-zolli, ``
+A sur-vey on
+ []
+
+[71]
+Underfull \hbox (badness 4328) in paragraph at lines 262--266
+[]\OT1/ptm/m/n/10.95 J. P[]arkk[]a, M. Er-mes, P. Ko-r-pip[]a[]a, J. M[]antyj[]
+arvi, J. Pel-tola, and
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 262--266
+\OT1/ptm/m/n/10.95 I. Ko-rho-nen, ``Ac-tiv-ity clas-si-fi-ca-tion us-ing re-al-
+is-tic data from wear-able
+ []
+
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-) [70] (./PHDbase.aux (./Text/cover_nondraft.aux))
 
-LaTeX Warning: There were undefined references.
+Underfull \hbox (badness 4518) in paragraph at lines 275--278
+[]\OT1/ptm/m/n/10.95 K. Kunze and P. Lukow-icz, ``Deal-ing with sen-sor dis-pla
+ce-ment in
+ []
 
+
+Underfull \hbox (badness 1838) in paragraph at lines 280--283
+[]\OT1/ptm/m/n/10.95 J. Yin, Q. Yang, and J. Pan, ``Sensor-based ab-nor-mal hum
+an-activity
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 285--289
+\OT1/ptm/m/n/10.95 ac-cel-er-a-tion fea-tures with mo-bile phones,'' in \OT1/pt
+m/m/it/10.95 Pro-ceed-ings of the 1st
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 296--301
+\OT1/ptm/m/n/10.95 Y. Chen, H. Lepp[]akoski, and J. Takala, ``Mo-tion recog-ni-
+tion as-sisted
+ []
+
+[72]
+Underfull \hbox (badness 1057) in paragraph at lines 310--314
+[]\OT1/ptm/m/n/10.95 L. Sten-neth, O. Wolf-son, P. S. Yu, and B. Xu, ``Trans-po
+rta-tion mode
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 334--338
+\OT1/ptm/m/n/10.95 sup-port vec-tor ma-chine,'' in \OT1/ptm/m/it/10.95 Am-bi-en
+t as-sisted liv-ing and home care\OT1/ptm/m/n/10.95 ,
+ []
+
+[73] [74] [75]
+Underfull \hbox (badness 1077) in paragraph at lines 481--484
+[]\OT1/ptm/m/n/10.95 J. Mc-Carthy and P. J. Hayes, ``Some philo-soph-i-cal prob
+-lems from the
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 481--484
+\OT1/ptm/m/n/10.95 stand-point of ar-ti-fi-cial in-tel-li-gence,'' \OT1/ptm/m/i
+t/10.95 Read-ings in ar-ti-fi-cial in-tel-li-gence\OT1/ptm/m/n/10.95 ,
+ []
+
+[76] [77]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+) [78] (./PHDbase.aux (./Text/cover_nondraft.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10265 strings out of 495021
- 152037 string characters out of 6181344
- 297698 words of memory out of 5000000
- 13141 multiletter control sequences out of 15000+600000
+ 10446 strings out of 495021
+ 155089 string characters out of 6181344
+ 303851 words of memory out of 5000000
+ 13322 multiletter control sequences out of 15000+600000
  50368 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,12n,35p,2430b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1271,10 +1476,10 @@ onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on PHDbase.pdf (88 pages, 920205 bytes).
+Output written on PHDbase.pdf (96 pages, 939016 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
+ 435 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

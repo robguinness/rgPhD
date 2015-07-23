@@ -18,28 +18,28 @@
 \contentsline {section}{\numberline {2.3}Related Studies}{16}
 \contentsline {subsection}{\numberline {2.3.1}Context Awareness for Office Environments}{17}
 \contentsline {subsection}{\numberline {2.3.2}Context Awareness for Mobility}{19}
-\contentsline {subsection}{\numberline {2.3.3}Ice Awareness for Maritime Navigation}{21}
-\contentsline {section}{\numberline {2.4}Theory}{21}
-\contentsline {section}{\numberline {2.5}How to Sense Context}{25}
-\contentsline {chapter}{\numberline {3.}Machine Learning}{29}
-\contentsline {section}{\numberline {3.1}Computer Chess: An Example Learning Task}{30}
-\contentsline {subsection}{\numberline {3.1.1}Rule-Based Methods}{30}
-\contentsline {subsection}{\numberline {3.1.2}A Trivial Chess Learning Program}{31}
-\contentsline {section}{\numberline {3.2}Modern Machine Learning}{32}
-\contentsline {section}{\numberline {3.3}Supervised Learning}{35}
-\contentsline {section}{\numberline {3.4}Unsupervised Learning}{40}
-\contentsline {chapter}{\numberline {4.}Overview of Publications}{47}
-\contentsline {section}{\numberline {4.1}Summary of Publications}{47}
-\contentsline {section}{\numberline {4.2}Mapping of Publications to Research Areas}{49}
-\contentsline {section}{\numberline {4.3}Author's Contributions to the Publications}{51}
-\contentsline {section}{\numberline {4.4}Scientific Impact of the Publications}{52}
-\contentsline {chapter}{\numberline {5.}Conclusions}{55}
-\contentsline {section}{\numberline {5.1}Summary}{55}
-\contentsline {section}{\numberline {5.2}Main Findings}{56}
-\contentsline {section}{\numberline {5.3}Significance of the Results}{58}
-\contentsline {section}{\numberline {5.4}Future Work}{59}
-\contentsline {subsection}{\numberline {5.4.1}Future Work in Investigated Applications}{59}
-\contentsline {subsection}{\numberline {5.4.2}Future Applications}{61}
-\contentsline {subsection}{\numberline {5.4.3}General Issues and Potential Solutions}{62}
-\contentsline {section}{\numberline {5.5}Concluding Remarks}{64}
-\contentsline {chapter}{Bibliography}{65}
+\contentsline {subsection}{\numberline {2.3.3}Ice Awareness for Maritime Navigation}{22}
+\contentsline {section}{\numberline {2.4}Theory}{23}
+\contentsline {section}{\numberline {2.5}How to Sense Context}{27}
+\contentsline {chapter}{\numberline {3.}Machine Learning}{31}
+\contentsline {section}{\numberline {3.1}Computer Chess: An Example Learning Task}{32}
+\contentsline {subsection}{\numberline {3.1.1}Rule-Based Methods}{32}
+\contentsline {subsection}{\numberline {3.1.2}A Trivial Chess Learning Program}{33}
+\contentsline {section}{\numberline {3.2}Modern Machine Learning}{34}
+\contentsline {section}{\numberline {3.3}Supervised Learning}{37}
+\contentsline {section}{\numberline {3.4}Unsupervised Learning}{42}
+\contentsline {chapter}{\numberline {4.}Overview of Publications}{49}
+\contentsline {section}{\numberline {4.1}Summary of Publications}{49}
+\contentsline {section}{\numberline {4.2}Mapping of Publications to Research Areas}{51}
+\contentsline {section}{\numberline {4.3}Author's Contributions to the Publications}{53}
+\contentsline {section}{\numberline {4.4}Scientific Impact of the Publications}{54}
+\contentsline {chapter}{\numberline {5.}Conclusions}{57}
+\contentsline {section}{\numberline {5.1}Summary}{57}
+\contentsline {section}{\numberline {5.2}Main Findings}{58}
+\contentsline {section}{\numberline {5.3}Significance of the Results}{60}
+\contentsline {section}{\numberline {5.4}Future Work}{61}
+\contentsline {subsection}{\numberline {5.4.1}Future Work in Investigated Applications}{61}
+\contentsline {subsection}{\numberline {5.4.2}Future Applications}{63}
+\contentsline {subsection}{\numberline {5.4.3}General Issues and Potential Solutions}{64}
+\contentsline {section}{\numberline {5.5}Concluding Remarks}{66}
+\contentsline {chapter}{Bibliography}{67}
