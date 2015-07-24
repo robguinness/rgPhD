@@ -5,8 +5,7 @@
 \contentsline {chapter}{List of Figures}{vii}
 \contentsline {chapter}{List of Tables}{ix}
 \contentsline {chapter}{Abbreviations}{xi}
-\contentsline {chapter}{Symbols}{xiii}
-\contentsline {chapter}{List of Publications}{xv}
+\contentsline {chapter}{List of Publications}{xiii}
 \contentsline {chapter}{\numberline {1.}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Background and Motivation}{1}
 \contentsline {section}{\numberline {1.2}Research objectives and Scope}{4}
@@ -26,20 +25,20 @@
 \contentsline {subsection}{\numberline {3.1.1}Rule-Based Methods}{32}
 \contentsline {subsection}{\numberline {3.1.2}A Trivial Chess Learning Program}{33}
 \contentsline {section}{\numberline {3.2}Modern Machine Learning}{34}
-\contentsline {section}{\numberline {3.3}Supervised Learning}{37}
-\contentsline {section}{\numberline {3.4}Unsupervised Learning}{42}
+\contentsline {section}{\numberline {3.3}Supervised Learning}{38}
+\contentsline {section}{\numberline {3.4}Unsupervised Learning}{43}
+\contentsline {section}{\numberline {3.5}Concluding Remarks}{47}
 \contentsline {chapter}{\numberline {4.}Overview of Publications}{49}
 \contentsline {section}{\numberline {4.1}Summary of Publications}{49}
 \contentsline {section}{\numberline {4.2}Mapping of Publications to Research Areas}{51}
 \contentsline {section}{\numberline {4.3}Author's Contributions to the Publications}{53}
-\contentsline {section}{\numberline {4.4}Scientific Impact of the Publications}{54}
-\contentsline {chapter}{\numberline {5.}Conclusions}{57}
-\contentsline {section}{\numberline {5.1}Summary}{57}
-\contentsline {section}{\numberline {5.2}Main Findings}{58}
-\contentsline {section}{\numberline {5.3}Significance of the Results}{60}
-\contentsline {section}{\numberline {5.4}Future Work}{61}
-\contentsline {subsection}{\numberline {5.4.1}Future Work in Investigated Applications}{61}
-\contentsline {subsection}{\numberline {5.4.2}Future Applications}{63}
-\contentsline {subsection}{\numberline {5.4.3}General Issues and Potential Solutions}{64}
-\contentsline {section}{\numberline {5.5}Concluding Remarks}{66}
+\contentsline {chapter}{\numberline {5.}Conclusions}{55}
+\contentsline {section}{\numberline {5.1}Summary}{55}
+\contentsline {section}{\numberline {5.2}Main Findings}{57}
+\contentsline {section}{\numberline {5.3}Significance of the Results}{58}
+\contentsline {section}{\numberline {5.4}Future Work}{59}
+\contentsline {subsection}{\numberline {5.4.1}Future Work in Investigated Applications}{60}
+\contentsline {subsection}{\numberline {5.4.2}Future Applications}{61}
+\contentsline {subsection}{\numberline {5.4.3}General Issues and Potential Solutions}{62}
+\contentsline {section}{\numberline {5.5}Concluding Remarks}{64}
 \contentsline {chapter}{Bibliography}{67}

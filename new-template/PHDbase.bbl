@@ -33,6 +33,11 @@ J.~McCarthy, M.~Minsky, N.~Rochester, and C.~Shannon, ``A proposal for the
   Magazine}, 2006.
 \newblock Reprint of proposal originally written in 1955.
 
+\bibitem{crevier1993ai}
+D.~Crevier, {\em AI: The tumultuous history of the search for artificial
+  intelligence}.
+\newblock Basic Books, Inc., 1993.
+
 \bibitem{Groves2014}
 P.~D. Groves, L.~Wang, D.~Walter, H.~Martin, K.~Voutsis, and Z.~Jiang, ``The
   four key challenges of advanced multisensor navigation and positioning,'' in
@@ -486,11 +491,6 @@ J.~McCarthy and P.~J. Hayes, ``Some philosophical problems from the standpoint
 J.~McCarthy, ``Some expert systems need common sense,'' {\em Annals of the New
   York Academy of Sciences}, vol.~426, no.~1, pp.~129--137, 1984.
 
-\bibitem{pei2013human}
-L.~Pei, R.~Guinness, R.~Chen, J.~Liu, H.~Kuusniemi, Y.~Chen, L.~Chen, and
-  J.~Kaistinen, ``Human behavior cognition using smartphone sensors,'' {\em
-  Sensors}, vol.~13, no.~2, pp.~1402--1424, 2013.
-
 \bibitem{samuel1959some}
 A.~L. Samuel, ``Some studies in machine learning using the game of checkers,''
   {\em IBM Journal of research and development}, vol.~3, no.~3, pp.~210--229,
@@ -578,6 +578,11 @@ P.~Smyth, ``Note set 4: Finite mixture models and the {EM} algorithm.'' Lecture
   notes for course on Probabilistic Learning at University of
   California--Irvine, 2015.
 
+\bibitem{ordonez2013activity}
+F.~J. Ord{\'o}nez, P.~de~Toledo, and A.~Sanchis, ``Activity recognition using
+  hybrid generative/discriminative models on home environments using binary
+  sensors,'' {\em Sensors}, vol.~13, no.~5, pp.~5460--5477, 2013.
+
 \bibitem{Guinness2015}
 R.~E. Guinness, H.~Kuusniemi, J.~Vallet, T.~Sarjakoski, J.~Oksanen, M.~Islam,
   M.~Syeed, H.-M. Halkosaari, P.~Kettunen, M.~Laakso, and M.~Rönneberg,
@@ -585,5 +590,46 @@ R.~E. Guinness, H.~Kuusniemi, J.~Vallet, T.~Sarjakoski, J.~Oksanen, M.~Islam,
   {\em Proceedings of the 28th International Technical Meeting of The Satellite
   Division of the Institute of Navigation (ION GNSS+ 2015)}, (Tampa, Florida),
   2015.
+
+\bibitem{guermah2014ontology}
+H.~Guermah, T.~Fissaa, H.~Hafiddi, M.~Nassar, and A.~Kriouile, ``An ontology
+  oriented architecture for context aware services adaptation,'' {\em arXiv
+  preprint arXiv:1404.3280}, 2014.
+
+\bibitem{chen2003ontology}
+H.~Chen, T.~Finin, and A.~Joshi, ``An ontology for context-aware pervasive
+  computing environments,'' {\em The Knowledge Engineering Review}, vol.~18,
+  no.~03, pp.~197--207, 2003.
+
+\bibitem{wang2004ontology}
+X.~H. Wang, D.~Q. Zhang, T.~Gu, and H.~K. Pung, ``Ontology based context
+  modeling and reasoning using owl,'' in {\em Pervasive Computing and
+  Communications Workshops, 2004. Proceedings of the Second IEEE Annual
+  Conference on}, pp.~18--22, Ieee, 2004.
+
+\bibitem{gu2004ontology}
+T.~Gu, X.~H. Wang, H.~K. Pung, and D.~Q. Zhang, ``An ontology-based context
+  model in intelligent environments,'' in {\em Proceedings of communication
+  networks and distributed systems modeling and simulation conference},
+  vol.~2004, pp.~270--275, 2004.
+
+\bibitem{strang2003cool}
+T.~Strang, C.~Linnhoff-Popien, and K.~Frank, ``Cool: A context ontology
+  language to enable contextual interoperability,'' in {\em Distributed
+  applications and interoperable systems}, pp.~236--247, Springer, 2003.
+
+\bibitem{Lichman2015}
+M.~Lichman, ``{UCI} machine learning repository,'' 2013.
+
+\bibitem{laurila2012mobile}
+J.~K. Laurila, D.~Gatica-Perez, I.~Aad, O.~Bornet, T.-M.-T. Do, O.~Dousse,
+  J.~Eberle, M.~Miettinen, {\em et~al.}, ``The mobile data challenge: Big data
+  for mobile computing research,'' in {\em Pervasive Computing},
+  no.~EPFL-CONF-192489, 2012.
+
+\bibitem{Raento2005}
+M.~Raento, A.~Oulasvirta, R.~Petit, and H.~Toivonen, ``Contextphone: a
+  prototyping platform for context-aware mobile applications,'' {\em Pervasive
+  Computing, IEEE}, vol.~4, pp.~51--59, Jan 2005.
 
 \end{thebibliography}

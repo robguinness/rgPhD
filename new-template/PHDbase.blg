@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PHDbase.aux
 A level-1 auxiliary file: Text/cover_nondraft.aux
-Illegal, another \bibdata command---line 402 of file PHDbase.aux
+Illegal, another \bibdata command---line 414 of file PHDbase.aux
  : \bibdata
  :         {_rg_refs}
 I'm skipping whatever remains of this command
@@ -31,45 +31,46 @@ Warning--can't use both volume and number fields in Ravi2005
 Warning--empty publisher in pei2011using
 Warning--can't use both author and editor fields in Turing1953
 Warning--empty publisher in Mitchell1997
-You've used 115 entries,
+Warning--there's a number but no series in laurila2012mobile
+You've used 124 entries,
             1876 wiz_defined-function locations,
-            1137 strings with 25066 characters,
-and the built_in function-call counts, 32623 in all, are:
-= -- 3195
-> -- 1290
+            1185 strings with 26891 characters,
+and the built_in function-call counts, 35009 in all, are:
+= -- 3418
+> -- 1393
 < -- 0
-+ -- 477
-- -- 362
-* -- 2305
-:= -- 4512
-add.period$ -- 137
-call.type$ -- 115
-change.case$ -- 104
++ -- 515
+- -- 391
+* -- 2473
+:= -- 4844
+add.period$ -- 147
+call.type$ -- 124
+change.case$ -- 112
 chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 1695
-empty$ -- 3174
-format.name$ -- 362
-if$ -- 8001
+cite$ -- 133
+duplicate$ -- 1820
+empty$ -- 3416
+format.name$ -- 391
+if$ -- 8585
 int.to.chr$ -- 0
-int.to.str$ -- 115
-missing$ -- 117
-newline$ -- 371
-num.names$ -- 120
-pop$ -- 453
+int.to.str$ -- 124
+missing$ -- 126
+newline$ -- 399
+num.names$ -- 129
+pop$ -- 496
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1133
+skip$ -- 1210
 stack$ -- 0
-substring$ -- 2197
-swap$ -- 683
+substring$ -- 2337
+swap$ -- 727
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 322
-width$ -- 118
-write$ -- 1133
+warning$ -- 9
+while$ -- 345
+width$ -- 127
+write$ -- 1217
 (There were 3 error messages)

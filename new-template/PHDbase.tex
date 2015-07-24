@@ -1,4 +1,5 @@
 \documentclass[11pt,final]{tutdrthesis}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 %\usepackage[dvips]{graphicx}
 \usepackage{enumerate}
@@ -13,6 +14,10 @@
 \usepackage{array, ragged2e}
 \usepackage{bibentry}
 \usepackage{tabularx}
+\usepackage{chngcntr}
+\usepackage[labelfont=bf,font=it]{caption}
+\counterwithin{table}{chapter}
+
 %\usepackage[natbib,                                % To use natbib commands
 %        style=authoryear,                          % Style of cites and bib entries
 %        backend=bibtex8]                           % To use bibtex instead biber
@@ -113,6 +118,8 @@
 % Generate the glossary
 \makeglossaries
 
+%\frenchspacing   %removes double-spacing after sentences.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                            %
 % CONTENT BEGINS                                                             % 
@@ -185,6 +192,11 @@
 \newacronym{knn}{kNN}{k-Nearest Neighbor}
 \newacronym{adl}{ADL}{Activities of Daily Life}
 \newacronym{iro2}{IRO-2}{Ice Forecast and Route Optimization}
+\newacronym{gnss}{GNSS}{Global Navigation Satellite System}
+\newacronym{hci}{HCI}{Human-Computer Interaction}
+\newacronym{ann}{ANN}{Artificial Neural Network}
+\newacronym{mlp}{MLP}{Multilayer Perceptron}
+\newacronym{map}{MAP}{maximum a posteriori}
 
 %\input{Text/abbreviations}
 %Print the glossary
@@ -199,13 +211,13 @@
 \printglossary[type=\acronymtype,style=clong]
 \endgroup
 
-\chapter{Symbols}
+%\chapter{Symbols}
 
 %\input{Text/symbols}
-TBD
+%TBD
 
 \chapter{List of Publications}
-\input{Text/publications}
+\input{Text/_publications}
 
 \setcounter{secnumdepth}{2}
 \mainmatter

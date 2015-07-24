@@ -1318,3 +1318,153 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{gnss}{}%
+{%
+\gls@defglossaryentry{gnss}%
+{%
+name={GNSS},%
+sort={GNSS},%
+type={acronym},%
+first={Global Navigation Satellite System\glsspace (GNSS)},%
+firstplural={Global Navigation Satellite Systems\glsspace (GNSSs)},%
+text={GNSS},%
+plural={GNSSs},%
+description={Global Navigation Satellite System},%
+descriptionplural={Global Navigation Satellite System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Global Navigation Satellite System},%
+longplural={Global Navigation Satellite Systems},%
+short={GNSS},%
+shortplural={GNSSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hci}{}%
+{%
+\gls@defglossaryentry{hci}%
+{%
+name={HCI},%
+sort={HCI},%
+type={acronym},%
+first={Human-Computer Interaction\glsspace (HCI)},%
+firstplural={Human-Computer Interactions\glsspace (HCIs)},%
+text={HCI},%
+plural={HCIs},%
+description={Human-Computer Interaction},%
+descriptionplural={Human-Computer Interaction\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Human-Computer Interaction},%
+longplural={Human-Computer Interactions},%
+short={HCI},%
+shortplural={HCIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ann}{}%
+{%
+\gls@defglossaryentry{ann}%
+{%
+name={ANN},%
+sort={ANN},%
+type={acronym},%
+first={Artificial Neural Network\glsspace (ANN)},%
+firstplural={Artificial Neural Networks\glsspace (ANNs)},%
+text={ANN},%
+plural={ANNs},%
+description={Artificial Neural Network},%
+descriptionplural={Artificial Neural Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Artificial Neural Network},%
+longplural={Artificial Neural Networks},%
+short={ANN},%
+shortplural={ANNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mlp}{}%
+{%
+\gls@defglossaryentry{mlp}%
+{%
+name={MLP},%
+sort={MLP},%
+type={acronym},%
+first={Multilayer Perceptron\glsspace (MLP)},%
+firstplural={Multilayer Perceptrons\glsspace (MLPs)},%
+text={MLP},%
+plural={MLPs},%
+description={Multilayer Perceptron},%
+descriptionplural={Multilayer Perceptron\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Multilayer Perceptron},%
+longplural={Multilayer Perceptrons},%
+short={MLP},%
+shortplural={MLPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{map}{}%
+{%
+\gls@defglossaryentry{map}%
+{%
+name={MAP},%
+sort={MAP},%
+type={acronym},%
+first={maximum a posteriori\glsspace (MAP)},%
+firstplural={maximum a posterioris\glsspace (MAPs)},%
+text={MAP},%
+plural={MAPs},%
+description={maximum a posteriori},%
+descriptionplural={maximum a posteriori\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={maximum a posteriori},%
+longplural={maximum a posterioris},%
+short={MAP},%
+shortplural={MAPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

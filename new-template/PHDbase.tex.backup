@@ -11,6 +11,21 @@
 \usepackage{multirow}
 \usepackage{textcomp}
 \usepackage{array, ragged2e}
+\usepackage{bibentry}
+\usepackage{tabularx}
+%\usepackage[natbib,                                % To use natbib commands
+%        style=authoryear,                          % Style of cites and bib entries
+%        backend=bibtex8]                           % To use bibtex instead biber
+%        {biblatex}
+%\usepackage{biblatex}
+%\usepackage{filecontents}
+
+\usepackage{soul,color} % used for highlighting
+\soulregister\cite7
+\soulregister\ref7
+\soulregister\pageref7
+
+%\usepackage[none]{hyphenat}
 
 % Load the package
 \usepackage[acronym,nomain,nonumberlist,nopostdot,nogroupskip]{glossaries}
@@ -31,6 +46,9 @@
   \setlength{\parsep}{1pt}
 }{\end{enumerate}}
 
+
+\newenvironment{ritemize}{\begin{itemize}\raggedright}{\end{itemize}}
+
 \newlist{bold_description}{description}{1}
 \setlist[bold_description]{labelindent=8mm,itemindent=2mm,leftmargin=15mm,style=sameline, font=\textbf,parsep=0pt,itemsep=0pt}
 
@@ -42,8 +60,8 @@
 \newcommand{\sgn}{\mathop{\rm sgn}}
 %\newcommand{\argmax}{\mathop{\rm arg\,max}}
 \newcommand{\argmin}{\mathop{\rm arg\,min}}
-\newcommand{\hw}{hardware }
-\newcommand{\sw}{software }
+\newcommand{\hw}{hardware}
+\newcommand{\sw}{software}
 %\newcommand{\cd} {Cholesky decomposition }
 
 \newcommand{\subsubsubsection}[1]{\paragraph{#1:}}
@@ -83,12 +101,14 @@
 %\hyphenation{ACS}
 %\hyphenation{ACSU}
 %\hyphenation{ACSUs}
-\hyphenation{FFT}
-\hyphenation{MAC}
-\hyphenation{GPP}
-\hyphenation{DPS}
-\hyphenation{ASIC}
-\hyphenation{ASP}
+% \hyphenation{FFT}
+% \hyphenation{MAC}
+% \hyphenation{GPP}
+% \hyphenation{DPS}
+% \hyphenation{ASIC}
+% \hyphenation{ASP}
+
+\hyphenchar\font=-1 % suppress hyphenation
 
 % Generate the glossary
 \makeglossaries
@@ -99,6 +119,8 @@
 %                                                                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+\nohyphens
+\sloppy
 
 \include{Text/cover_nondraft}
 \frontmatter
@@ -154,6 +176,15 @@
 \newacronym{fgi}{FGI}{Finnish Geospatial Research Institute (prior to 2015: Finnish Geodetic Institute)}
 \newacronym{lms}{LMS}{local models semantics}
 \newacronym{cil}{CIL}{Contextual Intensional Logic}
+\newacronym{uci}{UCI}{University of California, Irvine} 
+\newacronym{ais}{AIS}{Automatic Identification System}
+\newacronym{hmm}{HMM}{Hidden Markov Models}
+\newacronym{lda}{LDA}{Linear Discriminant Analysis}
+\newacronym{lssvm}{LS-SVM}{Least Squares-Support Vector Machine}
+\newacronym{pda}{PDA}{Personal Digital Assistant}
+\newacronym{knn}{kNN}{k-Nearest Neighbor}
+\newacronym{adl}{ADL}{Activities of Daily Life}
+\newacronym{iro2}{IRO-2}{Ice Forecast and Route Optimization}
 
 %\input{Text/abbreviations}
 %Print the glossary
@@ -168,10 +199,13 @@
 \printglossary[type=\acronymtype,style=clong]
 \endgroup
 
-\chapter{Symbols}
+%\chapter{Symbols}
 
 %\input{Text/symbols}
-TBD
+%TBD
+
+\chapter{List of Publications}
+\input{Text/_publications}
 
 \setcounter{secnumdepth}{2}
 \mainmatter
@@ -188,6 +222,10 @@ TBD
 %\bibliographystyle{styles/IEEEtranS}
 \bibliographystyle{ieeetr}
 %%\input{references}
+
+%\DefineBibliographyStrings{english}{%
+%  mathesis = {Master of Science Thesis},
+%}
 
 %\appendix
 %\renewcommand{\chaptername}{Liite}
