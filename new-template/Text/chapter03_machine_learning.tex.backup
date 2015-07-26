@@ -12,7 +12,7 @@ explicitly programmed''\footnote{We have been unable to recover the original sou
 
 As is the case in some fields, the discipline known as ``machine learning'' has drifted somewhat from its original defining aims. This will become more evident later on in this chapter when we describe the major types of machine learning problems that have developed over the past 30+ years.
 
-The chapter is organized as follows. Section~\ref{sec:chess} presents an intuitive example of machine learning in terms of a programming task. Section~\ref{sec:modern-machine-learning} provides an overview of the modern notion of machine learning. Section~\ref{sec:supervised-learning} describes supervised learning, and finally Section~\ref{sec:unsupervised-learning} describes unsupervised learning. 
+The chapter is organized as follows. Section~\ref{sec:chess} presents an intuitive example of machine learning in terms of a programming task. Section~\ref{sec:modern-machine-learning} provides an overview of the modern notion of machine learning. Section~\ref{sec:supervised-learning} describes supervised learning, and Section~\ref{sec:unsupervised-learning} describes unsupervised learning. Finally, Section~\ref{sec:ml_concluding_remarks} provides a few concluding remarks on the topic of machine learning.
 
 %Section~\ref{sec:semi-supervised-learning} describes semi-supervised learning, and finally Section~\ref{sec:conclusions-ml} provides concluding remarks.
 
@@ -31,7 +31,7 @@ This approach, however, hardly fits the above definition of machine learning. In
 \subsection{A Trivial Chess Learning Program}
 \label{sec:trivial-learning}
 
-A trivial \emph{machine learning chess program} could work as follows: The program would simply play against itself and then, at the end of the game, record which side won (or whether there was a draw), as well as the set of moves in the game. Let us call one side \emph{ComputerWhite} and the other \emph{ComputerBlack}, according to convention. As the games are played, \emph{ComputerWhite} would first look-up whether the current position exists in any of the records in the database, and if the record corresponds to a win for \emph{ComputerWhite}, then it would play the next move listed in the record. If multiple winning records exist containing the same position, ComputerWhite should select one of those winning records at random.  Otherwise, it would choose any valid move at random. \emph{ComputerBlack} would do exactly the same, and the program would continue until the game's conclusion. In essense, this program would play many possible chess games, and try to avoid repeating any games that result in a loss or draw\footnote{Under this algorithm, repitition of non-winning games is possible but rather unlikely. Also, it is not guaranteed to play every possible game, though a somewhat simple modification to the algorithm could ensure every game is eventually played.}.
+A trivial \emph{machine learning chess program} could work as follows: The program would simply play against itself and then, at the end of the game, record which side won (or whether there was a draw), as well as the set of moves in the game. Let us call one side \emph{ComputerWhite} and the other \emph{ComputerBlack}, according to convention. As the games are played, \emph{ComputerWhite} would first look-up whether the current position exists in any of the records in the database, and if the record corresponds to a win for \emph{ComputerWhite}, then it would play the next move listed in the record. If multiple winning records exist containing the same position, ComputerWhite should select one of those winning records at random.  Otherwise, it would choose any valid move at random. \emph{ComputerBlack} would do exactly the same, and the program would continue until the game's conclusion. In essence, this program would play many possible chess games, and try to avoid repeating any games that result in a loss or draw\footnote{Under this algorithm, repetition of non-winning games is possible but rather unlikely. Also, it is not guaranteed to play every possible game, though a somewhat simple modification to the algorithm could ensure every game is eventually played.}.
 
 Another very similar version of the program would operate in the same way but allow for the other side to be played by a human. This program would not be very good when the size of the database is small, and furthermore it would learn very slowly because the records in the database would be generated almost completely at random. Nonetheless, it would fit our definition of machine learning, provided that it does not require a human programmer to update the program during or after the learning process.
 
@@ -281,8 +281,10 @@ Recall that each component of the GMM corresponds to a cluster, and therefore th
 %\section{Semi-supervised Learning}
 %\label{sec:semi-supervised-learning}
 
-%\section{Conclusions}
-%\label{sec:conclusions-ml}
+\section{Concluding Remarks}
+\label{sec:ml_concluding_remarks}
+
+Machine learning is clearly a wide topic covering many different concepts and techniques. Our purpose in this chapter was to introduce the most important concepts and to elucidate how machine learning can be used to endow computing systems with context awareness. Further examples and details will be given in the included publications. We have emphasized the role of training data in supervised learning, but we have also demonstrated how a similar result can be achieved through the use of unsupervised learning.
 
 %If the task is formulated in a slightly different way, however, it could be truly considered a machine learning task. We formulate this task as follows:
 %
