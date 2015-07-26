@@ -98,7 +98,7 @@
 
 @InCollection{Bazire2005,
   Title                    = {Understanding context before using it},
-  Author                   = {Bazire, M., and Brézillon, P.},
+  Author                   = {Bazire, M., and Br\'{e}zillon, P.},
   Booktitle                = {Modeling and Using Context: Lecture Notes in Computer Science},
   Publisher                = {Springer Berlin/Heidelberg},
   Year                     = {2005},
@@ -160,7 +160,9 @@
   Abstract                 = {A revolution is under way. In recent years, Google's autonomous cars have logged thousands of miles on American highways and IBM's Watson trounced the best human Jeopardy! players. Digital technologies -- with hardware, software, and networks at their core -- will in the near future diagnose diseases more accurately than doctors can, apply enormous data sets to transform retailing, and accomplish many tasks once considered uniquely human. In The Second Machine Age MIT's Erik Brynjolfsson and Andrew McAfee -- two thinkers at the forefront of their field -- reveal the forces driving the reinvention of our lives and our economy. As the full impact of digital technologies is felt, we will realize immense bounty in the form of dazzling personal technology, advanced infrastructure, and near-boundless access to the cultural items that enrich our lives. Amid this bounty will also be wrenching change. Professions of all kinds, from lawyers to truck drivers, will be forever upended. Companies will be forced to transform or die. Recent economic indicators reflect this shift: fewer people are working, and wages are falling even as productivity and profits soar. Drawing on years of research and up-to-the-minute trends, Brynjolfsson and McAfee identify the best strategies for survival and offer a new path to prosperity. These include revamping education so that it prepares people for the next economy instead of the last one, designing new collaborations that pair brute processing power with human ingenuity, and embracing policies that make sense in a radically transformed landscape. A fundamentally optimistic book, The Second Machine Age will alter how we think about issues of technological, societal, and economic progress. - Publisher. This book takes a look into the future of business, work, and the economy in a digital world. In recent years, computers have learned to diagnose diseases, drive cars, and win at Jeopardy!. Advances like these have created unprecedented economic bounty, but in their wake median income has stagnated and the share of the population with jobs has fallen. In this book the authors reveal the technological forces driving this reinvention of the economy and chart a path toward future prosperity. They describe how humans will have to keep pace with machines in order to become prosperous in the future and identify strategies and policies for business and individuals to use to combine digital processing power with human ingenuity. -- From book jacket.},
   ISBN                     = {978-0-393-23935-5},
   Language                 = {English},
-  Shorttitle               = {The second machine age}
+  Shorttitle               = {The second machine age},
+  publisher		   = {W. W. Norton \& Company},
+  address	           = {New York},
 }
 
 @InProceedings{buvac1993propositional,
@@ -184,11 +186,11 @@
   Timestamp                = {2013.04.29}
 }
 
-@TechReport{canalys_2007,
+@Misc{canalys_2007,
   Title                    = {64 million smart phones shipped worldwide in 2006},
   Author                   = {{Canalys.com, Ltd.}},
   Year                     = {2007},
-
+  HowPublished		   = {Available online: http://bit.ly/1HSNZBZ},
   Owner                    = {rob},
   Timestamp                = {2015.07.10}
 }
@@ -227,7 +229,7 @@
   Journal                  = {{GPS} Solutions},
   Year                     = {2010},
 
-  Month                    = aug,
+  Month                    = {August},
   Pages                    = {161--170},
   Volume                   = {15},
 
@@ -537,6 +539,7 @@
 @Electronic{KoreaTimes2014,
   Title                    = {Smartphone users expected to hit 2.5 billion next year},
   Author                   = {{Korea Times}},
+  HowPublished		   = {{Available online: http://bit.ly/1HSO5cQ}}
   Month                    = {July},
   Url                      = {http://www.koreatimes.co.kr/www/news/biz/2014/07/602_161807.html},
   Year                     = {2014},
@@ -713,7 +716,7 @@
 }
 
 @Article{McCarthy1955,
-  Title                    = {A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence},
+  Title                    = {A Proposal for the {D}artmouth Summer Research Project on Artificial Intelligence},
   Author                   = {McCarthy, John and Minsky, Marvin and Rochester, Nathan and Shannon, Claude},
   Journal                  = {AI Magazine},
   Year                     = {2006},
@@ -846,7 +849,7 @@
 @InCollection{pei2011using,
   Title                    = {Using Motion-Awareness for the 3D Indoor Personal Navigation on a Smartphone},
   Author                   = {Pei, L. and Chen, R. and Liu, J. and Kuusniemi, H. and Chen, Y. and T. and Tenhunen},
-  Booktitle                = {Proceedings of {ION} {GNSS} 2011 Conference, Portland, Oregon, {USA}, September 20-23},
+  Booktitle                = {Proceedings of the 24th International Technical Meeting of The {Institute of Navigation} (ION GNSS 2011), Portland, Oregon, {USA}, September 20-23},
   Year                     = {2011},
 
   File                     = {:C\:\\Users\\rg\\Desktop\\ToRob\\0002_Using Motion-Awareness for the 3D Indoor Personal Navigation on a Smartphone_final.pdf:PDF},
@@ -1234,10 +1237,8 @@
   Title                    = {Five Ws --- Wikipedia{,} The Free Encyclopedia},
 
   Author                   = {Wikipedia},
-  Note                     = {[Online; accessed 11-July-2015]},
   Year                     = {2015},
-
-  Url                      = {\url{https://en.wikipedia.org/w/index.php?title=Five_Ws&oldid=664184370}}
+  HowPublished             = {{Available online: http://bit.ly/1SIXRkI}}
 }
 
 @Article{wolf2006critical,
@@ -1329,12 +1330,12 @@
   Timestamp                = {2015.07.11}
 }
 
-@Electronic{merriam2015,
+@Misc{merriam2015,
   Title                    = {Context},
-  Note                     = {In Merriam-Webster.com},
   Url                      = {http://www.merriam-webster.com/dictionary/context},
   Year                     = {2015},
-
+  Journal	         = {Merriam-Webster Dictionary},
+  HowPublished		  ={\emph{Merriam-Webster Dictionary}, Available online: http://bit.ly/1LK7K2O},
   Owner                    = {rob},
   Timestamp                = {2015.07.10}
 }
@@ -1853,6 +1854,127 @@ language={English}
   month={June},
   note={Published in Korean}
 }
+
+@book{laprairie1995transit,
+  title={A transit simulation model for ships in Baltic ice conditions : Documentation of the calculation routine},
+  author={LaPrairie, Douglas and Wilhelmson, Max and Riska, Kaj},
+  year={1995},
+  publisher={Helsinki University of Technology},
+  location={Helsinki}
+}
+
+@article{valanto2001resistance,
+  title={The resistance of ships in level ice},
+  author={Valanto, Petri and Jones, Stephen J and Enkvist, Ernst and Izumiyama, Koh},
+  journal={Transactions of the Society of Naval Architects and Marine Engineers},
+  volume={109},
+  pages={53--83},
+  year={2001},
+  publisher={Society of Naval Architects and Marine Engineers}
+}
+
+@article{rachuri2014smartphone,
+  title={Smartphone sensing offloading for efficiently supporting social sensing applications},
+  author={Rachuri, Kiran K and Efstratiou, Christos and Leontiadis, Ilias and Mascolo, Cecilia and Rentfrow, Peter J},
+  journal={Pervasive and Mobile Computing},
+  volume={10},
+  pages={3--21},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@book{crevier1993ai,
+  title={AI: The tumultuous history of the search for artificial intelligence},
+  author={Crevier, Daniel},
+  year={1993},
+  publisher={Basic Books, Inc.}
+}
+
+@article{ordonez2013activity,
+  title={Activity recognition using hybrid generative/discriminative models on home environments using binary sensors},
+  author={Ord{\'o}nez, Fco Javier and de Toledo, Paula and Sanchis, Araceli},
+  journal={Sensors},
+  volume={13},
+  number={5},
+  pages={5460--5477},
+  year={2013},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{guermah2014ontology,
+  title={An Ontology Oriented Architecture for Context Aware Services Adaptation},
+  author={Guermah, Hatim and Fissaa, Tarik and Hafiddi, Hatim and Nassar, Mahmoud and Kriouile, Abdelaziz},
+  journal={arXiv preprint arXiv:1404.3280},
+  year={2014}
+}
+
+@article{chen2003ontology,
+  title={An ontology for context-aware pervasive computing environments},
+  author={Chen, Harry and Finin, Tim and Joshi, Anupam},
+  journal={The Knowledge Engineering Review},
+  volume={18},
+  number={03},
+  pages={197--207},
+  year={2003},
+  publisher={Cambridge Univ Press}
+}
+
+@inproceedings{wang2004ontology,
+  title={Ontology based context modeling and reasoning using OWL},
+  author={Wang, Xiao Hang and Zhang, Da Qing and Gu, Tao and Pung, Hung Keng},
+  booktitle={Pervasive Computing and Communications Workshops, 2004. Proceedings of the Second IEEE Annual Conference on},
+  pages={18--22},
+  year={2004},
+  organization={Ieee}
+}
+
+@inproceedings{gu2004ontology,
+  title={An ontology-based context model in intelligent environments},
+  author={Gu, Tao and Wang, Xiao Hang and Pung, Hung Keng and Zhang, Da Qing},
+  booktitle={Proceedings of communication networks and distributed systems modeling and simulation conference},
+  volume={2004},
+  pages={270--275},
+  year={2004}
+}
+
+@inproceedings{strang2003cool,
+  title={CoOL: A context ontology language to enable contextual interoperability},
+  author={Strang, Thomas and Linnhoff-Popien, Claudia and Frank, Korbinian},
+  booktitle={Distributed applications and interoperable systems},
+  pages={236--247},
+  year={2003},
+  organization={Springer}
+}
+
+@inproceedings{laurila2012mobile,
+  title={The mobile data challenge: Big data for mobile computing research},
+  author={Laurila, Juha K and Gatica-Perez, Daniel and Aad, Imad and Bornet, Olivier and Do, Trinh-Minh-Tri and Dousse, Olivier and Eberle, Julien and Miettinen, Markus and others},
+  booktitle={Pervasive Computing},
+  number={EPFL-CONF-192489},
+  year={2012}
+}
+
+@ARTICLE{Raento2005,
+author={Raento, M. and Oulasvirta, A. and Petit, R. and Toivonen, H.},
+journal={Pervasive Computing, IEEE},
+title={ContextPhone: a prototyping platform for context-aware mobile applications},
+year={2005},
+month={Jan},
+volume={4},
+number={2},
+pages={51-59},
+keywords={C++ language;cellular radio;mobile computing;operating systems (computers);public domain software;software libraries;software prototyping;user centred design;ContextPhone prototyping software platform;Nokia Series 60 Smartphone platform;Symbian OS;context-aware mobile applications;human-centered design;off-the-shelf mobile phones;open source C++ libraries;operating systems;source code components;Application software;Automatic control;Communication system control;Context awareness;Context-aware services;Global Positioning System;Humans;Mobile handsets;Prototypes;Smart phones;location-dependent;mobile environments;pervasive computing;ubiquitous computing;user-centered design},
+doi={10.1109/MPRV.2005.29},
+ISSN={1536-1268},}
+
+@misc{Lichman2015 ,
+author = {M. Lichman},
+year = {2013},
+title = {{UCI} Machine Learning Repository},
+url = {http://archive.ics.uci.edu/m},
+institution = {University of California, Irvine, School of Information and Computer Sciences" }
+}
+
 
 
 

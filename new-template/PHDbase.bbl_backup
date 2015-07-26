@@ -8,11 +8,10 @@ T.~Mitchell, B.~Buchanan, G.~DeJong, T.~Dietterich, P.~Rosenbloom, and
 \bibitem{brynjolfsson_2014}
 E.~Brynjolfsson and A.~McAfee, {\em The second machine age: work, progress, and
   prosperity in a time of brilliant technologies}.
-\newblock New York: W. W. Norton \& Company, 2014.
 
 \bibitem{canalys_2007}
-{Canalys.com, Ltd.}, ``64 million smart phones shipped worldwide in 2006.''
-  Available online: http://bit.ly/1HSNZBZ, 2007.
+{Canalys.com, Ltd.}, ``64 million smart phones shipped worldwide in 2006,''
+  tech. rep., 2007.
 
 \bibitem{Gartner2009}
 Gartner, ``Gartner says worldwide smartphone sales reached its lowest growth
@@ -24,12 +23,12 @@ N.~Mawston, ``Worldwide smartphone population tops 1 billion in q3 2012.''
 \newblock (archived on 26 February 2015).
 
 \bibitem{KoreaTimes2014}
-{Korea Times}, ``Smartphone users expected to hit 2.5 billion next year.''
-  {Available online: http://bit.ly/1HSO5cQ}.
+{Korea Times}, ``Smartphone users expected to hit 2.5 billion next year,'' July
+  2014.
 
 \bibitem{McCarthy1955}
 J.~McCarthy, M.~Minsky, N.~Rochester, and C.~Shannon, ``A proposal for the
-  {D}artmouth summer research project on artificial intelligence,'' {\em AI
+  dartmouth summer research project on artificial intelligence,'' {\em AI
   Magazine}, 2006.
 \newblock Reprint of proposal originally written in 1955.
 
@@ -84,8 +83,8 @@ P.~W. Foltz, W.~Kintsch, and T.~K. Landauer, ``The measurement of textual
   vol.~25, no.~2, pp.~285--307, 1998.
 
 \bibitem{Bazire2005}
-M.~Bazire and P.~Br\'{e}zillon, ``Understanding context before using it,'' in
-  {\em Modeling and Using Context: Lecture Notes in Computer Science} (A.~Dey,
+M.~Bazire and P.~Brézillon, ``Understanding context before using it,'' in {\em
+  Modeling and Using Context: Lecture Notes in Computer Science} (A.~Dey,
   B.~Kokinov, D.~Leake, and R.~Turner, eds.), Springer Berlin/Heidelberg, 2005.
 
 \bibitem{McCarthy1993}
@@ -98,16 +97,16 @@ R.~Chen and R.~E. Guinness, {\em Geospatial computing in mobile devices}.
 \newblock Boston: Artech House, 2014.
 
 \bibitem{merriam2015}
-``Context.'' \emph{Merriam-Webster Dictionary}, Available online:
-  http://bit.ly/1LK7K2O, 2015.
+``Context,'' 2015.
+\newblock In Merriam-Webster.com.
 
 \bibitem{akman1996steps}
 V.~Akman and M.~Surav, ``Steps toward formalizing context,'' {\em AI magazine},
   vol.~17, no.~3, p.~55, 1996.
 
 \bibitem{wiki2015}
-Wikipedia, ``Five ws --- wikipedia{,} the free encyclopedia.'' {Available
-  online: http://bit.ly/1SIXRkI}, 2015.
+Wikipedia, ``Five ws --- wikipedia{,} the free encyclopedia,'' 2015.
+\newblock [Online; accessed 11-July-2015].
 
 \bibitem{bennett2005hermagoras}
 B.~S. Bennett, ``Hermagoras of temnos,'' {\em Classical Rhetorics and
@@ -140,10 +139,7 @@ R.~V. Guha, {\em Contexts: a formalization and some applications}, vol.~101.
 \newblock Stanford University Stanford, CA, 1991.
 
 \bibitem{mccarthy1997formalizing}
-J.~McCarthy and S.~Buvac, ``Formalizing context (expanded notes),'' in {\em
-  Computing Natural Language, CSLI, Lecture Notes} (A.~Aliseda, R.~J. van
-  Glabbeek, and W.~D., eds.), pp.~13--50, Center for the Study of Language and
-  Information, Stanford University, 1998.
+J.~McCarthy and S.~Buvac, ``Formalizing context (expanded notes),'' 1997.
 
 \bibitem{buvac1993propositional}
 S.~Buva\v{c} and I.~A. Mason, ``Propositional logic of context,'' in {\em
@@ -156,9 +152,7 @@ P.~Br{\'e}zillon, ``Context in artificial intelligence: I. a survey of the
   pp.~321--340, 1999.
 
 \bibitem{akman2002context}
-V.~Akman, ``Context in artificial intelligence: a fleeting overview,'' in {\em
-  La svolta contestuale} (C.~Penco and V.~Akman, eds.), Milano: McGraw-Hill,
-  2002.
+V.~Akman, ``Context in artificial intelligence: a fleeting overview,'' 2002.
 
 \bibitem{Hong2009}
 J.-y. Hong, E.-h. Suh, and S.-J. Kim, ``Context-aware systems: A literature
@@ -325,9 +319,8 @@ L.~Stenneth, O.~Wolfson, P.~S. Yu, and B.~Xu, ``Transportation mode detection
 \bibitem{pei2011using}
 L.~Pei, R.~Chen, J.~Liu, H.~Kuusniemi, Y.~Chen, T., and Tenhunen, ``Using
   motion-awareness for the 3d indoor personal navigation on a smartphone,'' in
-  {\em Proceedings of the 24th International Technical Meeting of The
-  {Institute of Navigation} (ION GNSS 2011), Portland, Oregon, {USA}, September
-  20-23}, 2011.
+  {\em Proceedings of {ION} {GNSS} 2011 Conference, Portland, Oregon, {USA},
+  September 20-23}, 2011.
 
 \bibitem{susi2011accelerometer}
 M.~Susi, D.~Borio, and G.~Lachapelle, ``Accelerometer signal features and
@@ -364,7 +357,7 @@ S.~Hemminki, P.~Nurmi, and S.~Tarkoma, ``Accelerometer-based transportation
 
 \bibitem{stenneth2014detecting}
 L.~Stenneth, {\em Detecting Human Activities Using Smartphones and Maps}.
-\newblock {Ph.D. thesis}, University of Illinois at Chicago, February 2014.
+\newblock PhD thesis, University of Illinois at Chicago, February 2014.
 
 \bibitem{xia2014using}
 H.~Xia, Y.~Qiao, J.~Jian, and Y.~Chang, ``Using smart phone sensors to detect
@@ -453,8 +446,8 @@ J.~McCarthy, ``Generality in artificial intelligence,'' {\em Communications of
   the ACM}, vol.~30, no.~12, pp.~1030--1035, 1987.
 
 \bibitem{Weisstein2014}
-E.~W. Weisstein, ``Term.'' \emph{MathWorld---A Wolfram Web Resource}, Available
-  online: http://mathworld.wolfram.com/Term.html.
+E.~W. Weisstein, ``Term.''
+\newblock From MathWorld--A Wolfram Web Resource.
 
 \bibitem{ghidini2001local}
 C.~Ghidini and F.~Giunchiglia, ``Local models semantics, or contextual
@@ -552,7 +545,7 @@ I.~H. Witten and E.~Frank, {\em Data Mining: Practical machine learning tools
 
 \bibitem{Mitchell1997}
 T.~M. Mitchell, {\em Machine Learning}.
-\newblock McGraw-Hill, 1997.
+\newblock 1997.
 
 \bibitem{hartigan1979algorithm}
 J.~A. Hartigan and M.~A. Wong, ``Algorithm as 136: A k-means clustering
@@ -582,8 +575,7 @@ N.~Vlassis and A.~Likas, ``A greedy {EM} algorithm for gaussian mixture
 \bibitem{Smyth2015}
 P.~Smyth, ``Note set 4: Finite mixture models and the {EM} algorithm.'' Lecture
   notes for course on Probabilistic Learning at University of
-  California--Irvine, Available online:
-  http://www.ics.uci.edu/~smyth/courses/cs274/notes/notes4.pdf, 2015.
+  California--Irvine, 2015.
 
 \bibitem{ordonez2013activity}
 F.~J. Ord{\'o}nez, P.~de~Toledo, and A.~Sanchis, ``Activity recognition using
@@ -626,8 +618,7 @@ T.~Strang, C.~Linnhoff-Popien, and K.~Frank, ``Cool: A context ontology
   applications and interoperable systems}, pp.~236--247, Springer, 2003.
 
 \bibitem{Lichman2015}
-M.~Lichman, ``{UCI} machine learning repository.'' Available online:
-  http://archive.ics.uci.edu/ml/, 2015.
+M.~Lichman, ``{UCI} machine learning repository,'' 2013.
 
 \bibitem{laurila2012mobile}
 J.~K. Laurila, D.~Gatica-Perez, I.~Aad, O.~Bornet, T.-M.-T. Do, O.~Dousse,

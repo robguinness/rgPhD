@@ -8,7 +8,7 @@
 \contentsline {chapter}{List of Publications}{xv}
 \contentsline {chapter}{\numberline {1.}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Background and Motivation}{1}
-\contentsline {section}{\numberline {1.2}Research objectives and Scope}{4}
+\contentsline {section}{\numberline {1.2}Research Objectives and Scope}{4}
 \contentsline {section}{\numberline {1.3}Main Contributions}{7}
 \contentsline {section}{\numberline {1.4}Thesis Outline}{9}
 \contentsline {chapter}{\numberline {2.}Context Awareness}{11}

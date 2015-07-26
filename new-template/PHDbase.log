@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.5.20)  26 JUL 2015 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.5.20)  26 JUL 2015 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1389,110 +1389,139 @@ Underfull \hbox (badness 2671) in paragraph at lines 92--95
 ptm/m/it/10.95 Pro-ceed-ings of the
  []
 
-[68] [69]
-Underfull \hbox (badness 2538) in paragraph at lines 169--174
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+[]\T1/ptm/m/n/10.95 ``Context.'' \T1/ptm/m/it/10.95 Merriam-Webster Dic-tio-nar
+y\T1/ptm/m/n/10.95 , Avail-able on-line:
+ []
+
+[69]
+Underfull \hbox (badness 2538) in paragraph at lines 174--179
 \T1/ptm/m/n/10.95 ``A re-search frame-work for the smartphone-based con-tex-tua
 l study of
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 176--180
+Underfull \hbox (badness 1728) in paragraph at lines 181--185
 []\T1/ptm/m/n/10.95 X. Huang, J. Weng, and Z. Zhang, ``Of-fice pres-ence de-tec
 -tion us-ing
  []
 
 [70]
-Underfull \hbox (badness 1371) in paragraph at lines 216--219
+Underfull \hbox (badness 1371) in paragraph at lines 221--224
 \T1/ptm/m/n/10.95 recog-ni-tion from wear-able sen-sors,'' in \T1/ptm/m/it/10.9
 5 Ubiq-ui-tous Com-put-ing Sys-tems\T1/ptm/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 221--225
+Underfull \hbox (badness 1163) in paragraph at lines 226--230
 \T1/ptm/m/n/10.95 Uti-liz-ing resource-limited sen-sors for of-fice ac-tiv-ity 
 con-text ex-trac-tion,''
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 232--235
+Underfull \hbox (badness 1320) in paragraph at lines 237--240
 []\T1/ptm/m/n/10.95 S. A. Hoseini-Tabatabaei, A. Gluhak, and R. Tafa-zolli, ``A
  sur-vey on
  []
 
 [71]
-Underfull \hbox (badness 4328) in paragraph at lines 267--271
+Underfull \hbox (badness 4328) in paragraph at lines 272--276
 []\T1/ptm/m/n/10.95 J. Pärkkä, M. Er-mes, P. Ko-r-pipää, J. Män-tyjärvi, J. Pel
 -tola, and
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 267--271
+Underfull \hbox (badness 1320) in paragraph at lines 272--276
 \T1/ptm/m/n/10.95 I. Ko-rho-nen, ``Ac-tiv-ity clas-si-fi-ca-tion us-ing re-al-i
 s-tic data from wear-able
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 273--278
+Underfull \hbox (badness 1881) in paragraph at lines 278--283
 []\T1/ptm/m/n/10.95 J. Su-u-tala, S. Pirt-tikan-gas, and J. RÃ¶n-ing, ``Dis-cri
 m-i-na-tive tem-po-ral
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 280--283
+Underfull \hbox (badness 4518) in paragraph at lines 285--288
 []\T1/ptm/m/n/10.95 K. Kunze and P. Lukow-icz, ``Deal-ing with sen-sor dis-plac
 e-ment in
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 285--288
+Underfull \hbox (badness 1838) in paragraph at lines 290--293
 []\T1/ptm/m/n/10.95 J. Yin, Q. Yang, and J. Pan, ``Sensor-based ab-nor-mal huma
 n-activity
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 290--294
+Underfull \hbox (badness 2310) in paragraph at lines 295--299
 \T1/ptm/m/n/10.95 ac-cel-er-a-tion fea-tures with mo-bile phones,'' in \T1/ptm/
 m/it/10.95 Pro-ceed-ings of the 1st
  []
 
-
-Underfull \hbox (badness 1688) in paragraph at lines 301--306
+[72]
+Underfull \hbox (badness 1688) in paragraph at lines 306--311
 \T1/ptm/m/n/10.95 Y. Chen, H. Lep-päkoski, and J. Takala, ``Mo-tion recog-ni-ti
 on as-sisted
  []
 
-[72]
-Underfull \hbox (badness 1057) in paragraph at lines 315--319
+
+Underfull \hbox (badness 1057) in paragraph at lines 320--324
 []\T1/ptm/m/n/10.95 L. Sten-neth, O. Wolf-son, P. S. Yu, and B. Xu, ``Trans-por
 ta-tion mode
  []
 
-
-Underfull \hbox (badness 2680) in paragraph at lines 339--343
+[73]
+Underfull \hbox (badness 2680) in paragraph at lines 345--349
 \T1/ptm/m/n/10.95 sup-port vec-tor ma-chine,'' in \T1/ptm/m/it/10.95 Am-bi-ent 
 as-sisted liv-ing and home care\T1/ptm/m/n/10.95 ,
  []
 
-[73] [74] [75]
-Underfull \hbox (badness 1077) in paragraph at lines 486--489
+[74] [75]
+Underfull \hbox (badness 1077) in paragraph at lines 492--495
 []\T1/ptm/m/n/10.95 J. Mc-Carthy and P. J. Hayes, ``Some philo-soph-i-cal prob-
 lems from the
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 486--489
+Underfull \hbox (badness 1874) in paragraph at lines 492--495
 \T1/ptm/m/n/10.95 stand-point of ar-ti-fi-cial in-tel-li-gence,'' \T1/ptm/m/it/
 10.95 Read-ings in ar-ti-fi-cial in-tel-li-gence\T1/ptm/m/n/10.95 ,
  []
 
 [76] [77]
-Underfull \hbox (badness 1975) in paragraph at lines 611--615
+Underfull \hbox (badness 10000) in paragraph at lines 583--587
+[]\T1/ptm/m/n/10.95 P. Smyth, ``Note set 4: Fi-nite mix-ture mod-els and the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--587
+\T1/ptm/m/n/10.95 EM al-go-rithm.'' Lec-ture notes for course on Prob-a-bilis-t
+ic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--587
+\T1/ptm/m/n/10.95 Learn-ing at Uni-ver-sity of California--Irvine, Avail-able o
+n-line:
+ []
+
+[78]
+Underfull \hbox (badness 1975) in paragraph at lines 618--622
 \T1/ptm/m/it/10.95 net-works and dis-tributed sys-tems mod-el-ing and sim-u-la-
 tion con-fer-ence\T1/ptm/m/n/10.95 ,
  []
 
-[78]
-Underfull \hbox (badness 1337) in paragraph at lines 631--634
+
+Underfull \hbox (badness 6641) in paragraph at lines 629--631
+[]\T1/ptm/m/n/10.95 M. Lich-man, ``UCI ma-chine learn-ing repos-i-tory.'' Avail
+-able on-line:
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 639--642
 []\T1/ptm/m/n/10.95 M. Raento, A. Oulasvirta, R. Pe-tit, and H. Toivo-nen, ``Co
 n-text-phone:
  []
@@ -1505,7 +1534,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  11835 strings out of 495021
  177775 string characters out of 6181344
- 330454 words of memory out of 5000000
+ 331141 words of memory out of 5000000
  14703 multiletter control sequences out of 15000+600000
  75871 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1527,7 +1556,7 @@ onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on PHDbase.pdf (97 pages, 947788 bytes).
+Output written on PHDbase.pdf (97 pages, 948660 bytes).
 PDF statistics:
  439 PDF objects out of 1000 (max. 8388607)
  306 compressed objects within 4 object streams
