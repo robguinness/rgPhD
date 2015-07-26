@@ -88,17 +88,17 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{locomo}{}%
+\ifglsentryexists{lomoco}{}%
 {%
-\gls@defglossaryentry{locomo}%
+\gls@defglossaryentry{lomoco}%
 {%
-name={LoCoMo},%
-sort={LoCoMo},%
+name={LoMoCo},%
+sort={LoMoCo},%
 type={acronym},%
-first={Location-Motion-Context\glsspace (LoCoMo)},%
-firstplural={Location-Motion-Contexts\glsspace (LoCoMos)},%
-text={LoCoMo},%
-plural={LoCoMos},%
+first={Location-Motion-Context\glsspace (LoMoCo)},%
+firstplural={Location-Motion-Context\acrpluralsuffix \glsspace (LoMoCo\acrpluralsuffix )},%
+text={LoMoCo},%
+plural={LoMoCo\acrpluralsuffix },%
 description={Location-Motion-Context},%
 descriptionplural={Location-Motion-Context\acrpluralsuffix },%
 symbol={\relax },%
@@ -111,8 +111,8 @@ user5={},%
 user6={},%
 long={Location-Motion-Context},%
 longplural={Location-Motion-Contexts},%
-short={LoCoMo},%
-shortplural={LoCoMos},%
+short={LoMoCo},%
+shortplural={LoMoCos},%
 counter={page},%
 parent={},%
 %
