@@ -1,4 +1,5 @@
 \documentclass[11pt,final]{tutdrthesis}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 %\usepackage[dvips]{graphicx}
 \usepackage{enumerate}
@@ -13,6 +14,10 @@
 \usepackage{array, ragged2e}
 \usepackage{bibentry}
 \usepackage{tabularx}
+\usepackage{chngcntr}
+\usepackage[labelfont=bf,font=it]{caption}
+\counterwithin{table}{chapter}
+
 %\usepackage[natbib,                                % To use natbib commands
 %        style=authoryear,                          % Style of cites and bib entries
 %        backend=bibtex8]                           % To use bibtex instead biber
@@ -113,6 +118,8 @@
 % Generate the glossary
 \makeglossaries
 
+%\frenchspacing   %removes double-spacing after sentences.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                            %
 % CONTENT BEGINS                                                             % 
@@ -144,7 +151,7 @@
 \newacronym{ai}{AI}{Artificial Intelligence}
 \newacronym{mems}{MEMS}{microelectromechanical systems}
 \newacronym{plc}{PLC}{Propositional Logic of Context}
-\newacronym{locomo}{LoCoMo}{Location-Motion-Context}
+\newacronym{lomoco}{LoMoCo}{Location-Motion-Context}
 \newacronym{lsa}{LSA}{latent semantic analysis}
 \newacronym{pca}{PCA}{principal component analysis}
 \newacronym{bc}{BC}{Before Christ}
@@ -185,6 +192,28 @@
 \newacronym{knn}{kNN}{k-Nearest Neighbor}
 \newacronym{adl}{ADL}{Activities of Daily Life}
 \newacronym{iro2}{IRO-2}{Ice Forecast and Route Optimization}
+\newacronym{gnss}{GNSS}{Global Navigation Satellite System}
+\newacronym{hci}{HCI}{Human-Computer Interaction}
+\newacronym{ann}{ANN}{Artificial Neural Network}
+\newacronym{mlp}{MLP}{Multilayer Perceptron}
+\newacronym{map}{MAP}{maximum a posteriori}
+\newacronym{adaboost}{AdaBoost}{Adaptive Boosting}
+\newacronym{nb}{}{}
+\newacronym{dt}{}{}
+\newacronym{dts}{DTS}{discriminative temporal smoothing}
+\newacronym{bn}{}{}
+\newacronym{kmc}{}{}
+\newacronym{chmm}{}{}
+\newacronym{rf}{}{}
+\newacronym{hfsvm}{}{}
+\newacronym{hier}{}{}
+\newacronym{dbscan}{}{}
+\newacronym{gspar}{}{}
+\newacronym{fms}{}{}
+\newacronym{cots}{}{}
+\newacronym{gis}{}{}
+\newacronym{}{}{}
+
 
 %\input{Text/abbreviations}
 %Print the glossary

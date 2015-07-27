@@ -1468,3 +1468,753 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{adaboost}{}%
+{%
+\gls@defglossaryentry{adaboost}%
+{%
+name={AdaBoost},%
+sort={AdaBoost},%
+type={acronym},%
+first={Adaptive Boosting\glsspace (AdaBoost)},%
+firstplural={Adaptive Boostings\glsspace (AdaBoosts)},%
+text={AdaBoost},%
+plural={AdaBoosts},%
+description={Adaptive Boosting},%
+descriptionplural={Adaptive Boosting\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Adaptive Boosting},%
+longplural={Adaptive Boostings},%
+short={AdaBoost},%
+shortplural={AdaBoosts},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nb}{}%
+{%
+\gls@defglossaryentry{nb}%
+{%
+name={NB},%
+sort={NB},%
+type={acronym},%
+first={Na\"{i}ve Bayes\glsspace (NB)},%
+firstplural={Na\"{i}ve Bayess\glsspace (NBs)},%
+text={NB},%
+plural={NBs},%
+description={Na\"{i}ve Bayes},%
+descriptionplural={Na\"{i}ve Bayes\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Na\"{i}ve Bayes},%
+longplural={Na\"{i}ve Bayess},%
+short={NB},%
+shortplural={NBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dt}{}%
+{%
+\gls@defglossaryentry{dt}%
+{%
+name={DT},%
+sort={DT},%
+type={acronym},%
+first={Decision Tree\glsspace (DT)},%
+firstplural={Decision Trees\glsspace (DTs)},%
+text={DT},%
+plural={DTs},%
+description={Decision Tree},%
+descriptionplural={Decision Tree\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Decision Tree},%
+longplural={Decision Trees},%
+short={DT},%
+shortplural={DTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dts}{}%
+{%
+\gls@defglossaryentry{dts}%
+{%
+name={DTS},%
+sort={DTS},%
+type={acronym},%
+first={discriminative temporal smoothing\glsspace (DTS)},%
+firstplural={discriminative temporal smoothings\glsspace (DTSs)},%
+text={DTS},%
+plural={DTSs},%
+description={discriminative temporal smoothing},%
+descriptionplural={discriminative temporal smoothing\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={discriminative temporal smoothing},%
+longplural={discriminative temporal smoothings},%
+short={DTS},%
+shortplural={DTSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bn}{}%
+{%
+\gls@defglossaryentry{bn}%
+{%
+name={BN},%
+sort={BN},%
+type={acronym},%
+first={Bayesian Network\glsspace (BN)},%
+firstplural={Bayesian Networks\glsspace (BNs)},%
+text={BN},%
+plural={BNs},%
+description={Bayesian Network},%
+descriptionplural={Bayesian Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Bayesian Network},%
+longplural={Bayesian Networks},%
+short={BN},%
+shortplural={BNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{kmc}{}%
+{%
+\gls@defglossaryentry{kmc}%
+{%
+name={kMC},%
+sort={kMC},%
+type={acronym},%
+first={k-means clustering\glsspace (kMC)},%
+firstplural={k-means clusterings\glsspace (kMCs)},%
+text={kMC},%
+plural={kMCs},%
+description={k-means clustering},%
+descriptionplural={k-means clustering\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={k-means clustering},%
+longplural={k-means clusterings},%
+short={kMC},%
+shortplural={kMCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{chmm}{}%
+{%
+\gls@defglossaryentry{chmm}%
+{%
+name={CHMM},%
+sort={CHMM},%
+type={acronym},%
+first={Couple Hidden Markov Model\glsspace (CHMM)},%
+firstplural={Couple Hidden Markov Models\glsspace (CHMMs)},%
+text={CHMM},%
+plural={CHMMs},%
+description={Couple Hidden Markov Model},%
+descriptionplural={Couple Hidden Markov Model\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Couple Hidden Markov Model},%
+longplural={Couple Hidden Markov Models},%
+short={CHMM},%
+shortplural={CHMMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rf}{}%
+{%
+\gls@defglossaryentry{rf}%
+{%
+name={RF},%
+sort={RF},%
+type={acronym},%
+first={RandomForest\glsspace (RF)},%
+firstplural={RandomForests\glsspace (RFs)},%
+text={RF},%
+plural={RFs},%
+description={RandomForest},%
+descriptionplural={RandomForest\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={RandomForest},%
+longplural={RandomForests},%
+short={RF},%
+shortplural={RFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hfsvm}{}%
+{%
+\gls@defglossaryentry{hfsvm}%
+{%
+name={HF-SVM},%
+sort={HF-SVM},%
+type={acronym},%
+first={Hardware-friendly Support Vector Machines\glsspace (HF-SVM)},%
+firstplural={Hardware-friendly Support Vector Machiness\glsspace (HF-SVMs)},%
+text={HF-SVM},%
+plural={HF-SVMs},%
+description={Hardware-friendly Support Vector Machines},%
+descriptionplural={Hardware-friendly Support Vector Machines\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hardware-friendly Support Vector Machines},%
+longplural={Hardware-friendly Support Vector Machiness},%
+short={HF-SVM},%
+shortplural={HF-SVMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hier}{}%
+{%
+\gls@defglossaryentry{hier}%
+{%
+name={HIER},%
+sort={HIER},%
+type={acronym},%
+first={hierarchical agglomerative clustering\glsspace (HIER)},%
+firstplural={hierarchical agglomerative clusterings\glsspace (HIERs)},%
+text={HIER},%
+plural={HIERs},%
+description={hierarchical agglomerative clustering},%
+descriptionplural={hierarchical agglomerative clustering\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={hierarchical agglomerative clustering},%
+longplural={hierarchical agglomerative clusterings},%
+short={HIER},%
+shortplural={HIERs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dbscan}{}%
+{%
+\gls@defglossaryentry{dbscan}%
+{%
+name={DBSCAN},%
+sort={DBSCAN},%
+type={acronym},%
+first={density-based spatial clustering of applications with noise\glsspace (DBSCAN)},%
+firstplural={density-based spatial clustering of applications with noises\glsspace (DBSCANs)},%
+text={DBSCAN},%
+plural={DBSCANs},%
+description={density-based spatial clustering of applications with noise},%
+descriptionplural={density-based spatial clustering of applications with noise\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={density-based spatial clustering of applications with noise},%
+longplural={density-based spatial clustering of applications with noises},%
+short={DBSCAN},%
+shortplural={DBSCANs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gpsar}{}%
+{%
+\gls@defglossaryentry{gpsar}%
+{%
+name={GPSAR},%
+sort={GPSAR},%
+type={acronym},%
+first={Google Play Services Activity Recognition\glsspace (GPSAR)},%
+firstplural={Google Play Services Activity Recognitions\glsspace (GPSARs)},%
+text={GPSAR},%
+plural={GPSARs},%
+description={Google Play Services Activity Recognition},%
+descriptionplural={Google Play Services Activity Recognition\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Google Play Services Activity Recognition},%
+longplural={Google Play Services Activity Recognitions},%
+short={GPSAR},%
+shortplural={GPSARs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fms}{}%
+{%
+\gls@defglossaryentry{fms}%
+{%
+name={FMS},%
+sort={FMS},%
+type={acronym},%
+first={Future Urban Mobility Survey\glsspace (FMS)},%
+firstplural={Future Urban Mobility Surveys\glsspace (FMSs)},%
+text={FMS},%
+plural={FMSs},%
+description={Future Urban Mobility Survey},%
+descriptionplural={Future Urban Mobility Survey\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Future Urban Mobility Survey},%
+longplural={Future Urban Mobility Surveys},%
+short={FMS},%
+shortplural={FMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cots}{}%
+{%
+\gls@defglossaryentry{cots}%
+{%
+name={COTS},%
+sort={COTS},%
+type={acronym},%
+first={commercial-off-the-shelf\glsspace (COTS)},%
+firstplural={commercial-off-the-shelfs\glsspace (COTSs)},%
+text={COTS},%
+plural={COTSs},%
+description={commercial-off-the-shelf},%
+descriptionplural={commercial-off-the-shelf\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={commercial-off-the-shelf},%
+longplural={commercial-off-the-shelfs},%
+short={COTS},%
+shortplural={COTSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gis}{}%
+{%
+\gls@defglossaryentry{gis}%
+{%
+name={GIS},%
+sort={GIS},%
+type={acronym},%
+first={Geographic Information Systems\glsspace (GIS)},%
+firstplural={Geographic Information Systemss\glsspace (GISs)},%
+text={GIS},%
+plural={GISs},%
+description={Geographic Information Systems},%
+descriptionplural={Geographic Information Systems\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Geographic Information Systems},%
+longplural={Geographic Information Systemss},%
+short={GIS},%
+shortplural={GISs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{acm}{}%
+{%
+\gls@defglossaryentry{acm}%
+{%
+name={ACM},%
+sort={ACM},%
+type={acronym},%
+first={Association for Computing Machinery\glsspace (ACM)},%
+firstplural={Association for Computing Machinerys\glsspace (ACMs)},%
+text={ACM},%
+plural={ACMs},%
+description={Association for Computing Machinery},%
+descriptionplural={Association for Computing Machinery\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Association for Computing Machinery},%
+longplural={Association for Computing Machinerys},%
+short={ACM},%
+shortplural={ACMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lat}{}%
+{%
+\gls@defglossaryentry{lat}%
+{%
+name={lat},%
+sort={lat},%
+type={acronym},%
+first={latitude\glsspace (lat)},%
+firstplural={latitudes\glsspace (lats)},%
+text={lat},%
+plural={lats},%
+description={latitude},%
+descriptionplural={latitude\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={latitude},%
+longplural={latitudes},%
+short={lat},%
+shortplural={lats},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{long}{}%
+{%
+\gls@defglossaryentry{long}%
+{%
+name={long},%
+sort={long},%
+type={acronym},%
+first={longitude\glsspace (long)},%
+firstplural={longitudes\glsspace (longs)},%
+text={long},%
+plural={longs},%
+description={longitude},%
+descriptionplural={longitude\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={longitude},%
+longplural={longitudes},%
+short={long},%
+shortplural={longs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sar}{}%
+{%
+\gls@defglossaryentry{sar}%
+{%
+name={SAR},%
+sort={SAR},%
+type={acronym},%
+first={Synthetic Aperture Radar\glsspace (SAR)},%
+firstplural={Synthetic Aperture Radars\glsspace (SARs)},%
+text={SAR},%
+plural={SARs},%
+description={Synthetic Aperture Radar},%
+descriptionplural={Synthetic Aperture Radar\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Synthetic Aperture Radar},%
+longplural={Synthetic Aperture Radars},%
+short={SAR},%
+shortplural={SARs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{kstar}{}%
+{%
+\gls@defglossaryentry{kstar}%
+{%
+name={KStar},%
+sort={KStar},%
+type={acronym},%
+first={K* algorithm\glsspace (KStar)},%
+firstplural={K* algorithms\glsspace (KStars)},%
+text={KStar},%
+plural={KStars},%
+description={K* algorithm},%
+descriptionplural={K* algorithm\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={K* algorithm},%
+longplural={K* algorithms},%
+short={KStar},%
+shortplural={KStars},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lwl}{}%
+{%
+\gls@defglossaryentry{lwl}%
+{%
+name={LWL},%
+sort={LWL},%
+type={acronym},%
+first={Locally weighted learning\glsspace (LWL)},%
+firstplural={Locally weighted learnings\glsspace (LWLs)},%
+text={LWL},%
+plural={LWLs},%
+description={Locally weighted learning},%
+descriptionplural={Locally weighted learning\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Locally weighted learning},%
+longplural={Locally weighted learnings},%
+short={LWL},%
+shortplural={LWLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ibk}{}%
+{%
+\gls@defglossaryentry{ibk}%
+{%
+name={IBk},%
+sort={IBk},%
+type={acronym},%
+first={instance-based k-nearest neighbor algorithm\glsspace (IBk)},%
+firstplural={instance-based k-nearest neighbor algorithms\glsspace (IBks)},%
+text={IBk},%
+plural={IBks},%
+description={instance-based k-nearest neighbor algorithm},%
+descriptionplural={instance-based k-nearest neighbor algorithm\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={instance-based k-nearest neighbor algorithm},%
+longplural={instance-based k-nearest neighbor algorithms},%
+short={IBk},%
+shortplural={IBks},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lr}{}%
+{%
+\gls@defglossaryentry{lr}%
+{%
+name={LR},%
+sort={LR},%
+type={acronym},%
+first={logistic regression\glsspace (LR)},%
+firstplural={logistic regressions\glsspace (LRs)},%
+text={LR},%
+plural={LRs},%
+description={logistic regression},%
+descriptionplural={logistic regression\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={logistic regression},%
+longplural={logistic regressions},%
+short={LR},%
+shortplural={LRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{api}{}%
+{%
+\gls@defglossaryentry{api}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application Programming Interface\glsspace (API)},%
+firstplural={Application Programming Interfaces\glsspace (APIs)},%
+text={API},%
+plural={APIs},%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cpu}{}%
+{%
+\gls@defglossaryentry{cpu}%
+{%
+name={CPU},%
+sort={CPU},%
+type={acronym},%
+first={Central Processing Unit\glsspace (CPU)},%
+firstplural={Central Processing Units\glsspace (CPUs)},%
+text={CPU},%
+plural={CPUs},%
+description={Central Processing Unit},%
+descriptionplural={Central Processing Unit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Central Processing Unit},%
+longplural={Central Processing Units},%
+short={CPU},%
+shortplural={CPUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
